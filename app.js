@@ -9,7 +9,26 @@ function render(data) {
   const app = document.getElementById('app');
   const template = document.getElementById('section-template');
 
-  // Decision-first panel
+  // Decision panels
+  for (const panel of (data.decisionPanels || [])) {
+    const node = template.content.cloneNode(true);
+    node.querySelector('h2').textContent = `${panel.priority === 'high' ? '🔴' : '🟡'} ${panel.title}`;
+    const ul = node.querySelector('ul');
+
+    const summary = document.createElement('li');
+    summary.innerHTML = `<strong>${panel.summary}</strong>`;
+    ul.appendChild(summary);
+
+    for (const action of (panel.actions || [])) {
+      const li = document.createElement('li');
+      li.textContent = `→ ${action}`;
+      ul.appendChild(li);
+    }
+
+    app.appendChild(node);
+  }
+
+  // Change log panel
   if (data.changes) {
     const node = template.content.cloneNode(true);
     node.querySelector('h2').textContent = 'What changed since yesterday';
