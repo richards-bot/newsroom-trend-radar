@@ -1,0 +1,197 @@
+{
+  "updated": "2026-03-03T22:12:24Z",
+  "meta": {
+    "totalSources": 12,
+    "totalItems": 28
+  },
+  "sections": [
+    {
+      "title": "Vendor Watch: iconik / LucidLink / Backlight",
+      "items": [
+        {
+          "title": "Open source page: iconik changelog",
+          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
+          "published": "",
+          "source": "iconik changelog"
+        },
+        {
+          "title": "Open source page: LucidLink release notes",
+          "url": "https://support.lucidlink.com/hc/en-us/sections/31125638256269-Release-notes",
+          "published": "",
+          "source": "LucidLink release notes"
+        },
+        {
+          "title": "Open source page: Backlight news",
+          "url": "https://www.backlight.co/feed",
+          "published": "",
+          "source": "Backlight news"
+        }
+      ]
+    },
+    {
+      "title": "Multimedia + Video Strategy",
+      "items": [
+        {
+          "title": "Open source page: Nieman Lab",
+          "url": "https://www.niemanlab.org/feed/",
+          "published": "",
+          "source": "Nieman Lab"
+        },
+        {
+          "title": "WTF is Meta’s Manus tool?",
+          "url": "https://digiday.com/marketing/wtf-is-metas-manus-tool/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+          "published": "Tue, 03 Mar 2026 05:01:00 +0000",
+          "source": "Digiday"
+        },
+        {
+          "title": "Agencies grapple with economics of a new marketing currency: the AI token",
+          "url": "https://digiday.com/marketing/agencies-grapple-with-economics-of-a-new-marketing-currency-the-ai-token/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+          "published": "Tue, 03 Mar 2026 05:01:00 +0000",
+          "source": "Digiday"
+        },
+        {
+          "title": "From Boll & Branch to Bogg, brands battle a surge of AI-driven return fraud",
+          "url": "https://digiday.com/marketing/from-boll-branch-to-bogg-brands-battle-a-surge-of-ai-driven-return-fraud/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+          "published": "Tue, 03 Mar 2026 05:01:00 +0000",
+          "source": "Digiday"
+        },
+        {
+          "title": "OpenAI’s ad push begins, and The Knot is co-piloting",
+          "url": "https://digiday.com/podcasts/openais-ad-push-begins-and-the-knot-is-co-piloting/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+          "published": "Tue, 03 Mar 2026 05:01:00 +0000",
+          "source": "Digiday"
+        },
+        {
+          "title": "Ad Tech Briefing: Criteo named first ad tech partner to OpenAI’s ChatGPT ad pilot",
+          "url": "https://digiday.com/media-buying/ad-tech-briefing-criteo-named-first-ad-tech-partner-to-openais-chatgpt-ad-pilot/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+          "published": "Tue, 03 Mar 2026 05:01:00 +0000",
+          "source": "Digiday"
+        },
+        {
+          "title": "Open source page: YouTube Official Blog",
+          "url": "https://blog.youtube/feed/",
+          "published": "",
+          "source": "YouTube Official Blog"
+        }
+      ]
+    },
+    {
+      "title": "AI for Newsrooms & Production",
+      "items": [
+        {
+          "title": "GPT-5.3 Instant System Card",
+          "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+          "published": "Tue, 03 Mar 2026 10:00:00 GMT",
+          "source": "OpenAI news"
+        },
+        {
+          "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+          "url": "https://openai.com/index/gpt-5-3-instant",
+          "published": "Tue, 03 Mar 2026 10:00:00 GMT",
+          "source": "OpenAI news"
+        },
+        {
+          "title": "Our agreement with the Department of War",
+          "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+          "published": "Sat, 28 Feb 2026 12:30:00 GMT",
+          "source": "OpenAI news"
+        },
+        {
+          "title": "Joint Statement from OpenAI and Microsoft",
+          "url": "https://openai.com/index/continuing-microsoft-partnership",
+          "published": "Fri, 27 Feb 2026 05:30:00 GMT",
+          "source": "OpenAI news"
+        },
+        {
+          "title": "OpenAI and Amazon announce strategic partnership",
+          "url": "https://openai.com/index/amazon-partnership",
+          "published": "Fri, 27 Feb 2026 05:30:00 GMT",
+          "source": "OpenAI news"
+        },
+        {
+          "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+          "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+          "published": "Tue, 03 Mar 2026 16:35:55 +0000",
+          "source": "Google DeepMind blog"
+        },
+        {
+          "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+          "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+          "published": "Thu, 26 Feb 2026 16:01:50 +0000",
+          "source": "Google DeepMind blog"
+        },
+        {
+          "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+          "published": "Thu, 19 Feb 2026 16:06:14 +0000",
+          "source": "Google DeepMind blog"
+        },
+        {
+          "title": "A new way to express yourself: Gemini can now create music",
+          "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+          "published": "Wed, 18 Feb 2026 16:01:38 +0000",
+          "source": "Google DeepMind blog"
+        },
+        {
+          "title": "Accelerating discovery in India through AI-powered science and education",
+          "url": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
+          "published": "Tue, 17 Feb 2026 13:42:20 +0000",
+          "source": "Google DeepMind blog"
+        },
+        {
+          "title": "Open source page: Anthropic news",
+          "url": "https://www.anthropic.com/news/rss.xml",
+          "published": "",
+          "source": "Anthropic news"
+        }
+      ]
+    },
+    {
+      "title": "Social Distribution Platforms",
+      "items": [
+        {
+          "title": "Open source page: TikTok newsroom",
+          "url": "https://newsroom.tiktok.com/en-us/rss",
+          "published": "",
+          "source": "TikTok newsroom"
+        },
+        {
+          "title": "Meta Grants Are Fueling Innovation in Local Data Center Communities",
+          "url": "https://about.fb.com/news/2026/03/metas-data-center-grants-fueling-innovation-in-local-communities/",
+          "published": "Tue, 03 Mar 2026 15:00:19 +0000",
+          "source": "Meta newsroom"
+        },
+        {
+          "title": "Meta Takes Legal Action Against Scam Advertisers",
+          "url": "https://about.fb.com/news/2026/02/meta-takes-legal-action-against-scam-advertisers/",
+          "published": "Thu, 26 Feb 2026 17:00:03 +0000",
+          "source": "Meta newsroom"
+        },
+        {
+          "title": "New Alerts to Let Parents Know if Their Teen May Need Support",
+          "url": "https://about.fb.com/news/2026/02/new-meta-alerts-let-parents-know-if-teen-may-need-support/",
+          "published": "Thu, 26 Feb 2026 12:00:31 +0000",
+          "source": "Meta newsroom"
+        },
+        {
+          "title": "AI Fuels India’s Omnichannel Shopping Surge: Meta & Retailers Association of India",
+          "url": "https://about.fb.com/news/2026/02/ai-fuels-indias-omnichannel-shopping-surge-meta-retailers-association-of-india/",
+          "published": "Wed, 25 Feb 2026 07:01:08 +0000",
+          "source": "Meta newsroom"
+        },
+        {
+          "title": "Meta and AMD Partner for Longterm AI Infrastructure Agreement",
+          "url": "https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/",
+          "published": "Tue, 24 Feb 2026 12:00:33 +0000",
+          "source": "Meta newsroom"
+        },
+        {
+          "title": "Open source page: Instagram creators",
+          "url": "https://creators.instagram.com/blog/rss/",
+          "published": "",
+          "source": "Instagram creators"
+        }
+      ]
+    }
+  ]
+}
