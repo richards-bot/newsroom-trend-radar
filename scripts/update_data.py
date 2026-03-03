@@ -79,7 +79,70 @@ def fallback_page(label, url):
     return [{"title": f"Open source page: {label}", "url": url, "published": ""}]
 
 
+def flatten_urls(payload):
+    urls = set()
+    for sec in payload.get("sections", []):
+        for item in sec.get("items", []):
+            u = item.get("url")
+            if u:
+                urls.add(u)
+    return urls
+
+
+def flatten_items(payload):
+    out = []
+    for sec in payload.get("sections", []):
+        for item in sec.get("items", []):
+            out.append({
+                "section": sec.get("title", ""),
+                "title": item.get("title", "Untitled"),
+                "url": item.get("url", ""),
+                "source": item.get("source", ""),
+                "published": item.get("published", ""),
+            })
+    return out
+
+
+def load_previous_payload():
+    try:
+        with open("data/latest.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def build_changes(previous, current):
+    if not previous:
+        return {
+            "previousUpdated": None,
+            "newCount": 0,
+            "removedCount": 0,
+            "newItems": [],
+            "summary": "First run: baseline captured. Changes will appear from tomorrow.",
+        }
+
+    prev_urls = flatten_urls(previous)
+    curr_items = flatten_items(current)
+    curr_urls = {i["url"] for i in curr_items if i.get("url")}
+
+    new_items = [i for i in curr_items if i.get("url") and i["url"] not in prev_urls]
+    removed_count = len([u for u in prev_urls if u not in curr_urls])
+
+    return {
+        "previousUpdated": previous.get("updated"),
+        "newCount": len(new_items),
+        "removedCount": removed_count,
+        "newItems": new_items[:12],
+        "summary": (
+            "No material change since yesterday."
+            if len(new_items) == 0 and removed_count == 0
+            else f"{len(new_items)} new item(s), {removed_count} removed item(s) since last update."
+        ),
+    }
+
+
 def main():
+    previous = load_previous_payload()
     sections = []
     total = 0
     src_count = 0
@@ -109,6 +172,7 @@ def main():
         "meta": {"totalSources": src_count, "totalItems": total},
         "sections": sections,
     }
+    payload["changes"] = build_changes(previous, payload)
 
     with open("data/latest.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)

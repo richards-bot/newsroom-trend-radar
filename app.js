@@ -9,6 +9,32 @@ function render(data) {
   const app = document.getElementById('app');
   const template = document.getElementById('section-template');
 
+  // Decision-first panel
+  if (data.changes) {
+    const node = template.content.cloneNode(true);
+    node.querySelector('h2').textContent = 'What changed since yesterday';
+    const ul = node.querySelector('ul');
+
+    const summary = document.createElement('li');
+    summary.innerHTML = `<strong>${data.changes.summary}</strong>`;
+    ul.appendChild(summary);
+
+    if (data.changes.previousUpdated) {
+      const prev = document.createElement('li');
+      prev.innerHTML = `<small>Compared against snapshot: ${data.changes.previousUpdated}</small>`;
+      ul.appendChild(prev);
+    }
+
+    for (const item of (data.changes.newItems || [])) {
+      const li = document.createElement('li');
+      const date = item.published ? ` (${item.published})` : '';
+      li.innerHTML = `🆕 <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>${date}<br><small>${item.source} · ${item.section}</small>`;
+      ul.appendChild(li);
+    }
+
+    app.appendChild(node);
+  }
+
   for (const section of data.sections) {
     const node = template.content.cloneNode(true);
     node.querySelector('h2').textContent = section.title;
