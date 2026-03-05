@@ -1,38 +1,38 @@
 {
-  "updated": "2026-03-04T21:10:00Z",
+  "updated": "2026-03-05T21:00:00Z",
   "meta": {
-    "totalSources": 8,
-    "totalItems": 9
+    "totalSources": 9,
+    "totalItems": 10
   },
   "decisionPanels": [
     {
       "title": "Tonight's decision",
       "priority": "high",
-      "summary": "Prioritise frictionless review-to-publish and vertical packaging this week; vendor and platform signals both point to speed + mobile-native output as growth levers.",
+      "summary": "Bias execution toward vertical-first output and search-native packaging; discovery surfaces are rewarding timely, utility-first video with strong early hooks.",
       "actions": [
-        "Adopt a 'review in place' workflow pilot: keep assets in LucidLink/iconik, eliminate side-channel transfers for at least one desk.",
-        "Ship a daily vertical package per major story (30-60s + 90-150s) with explicit retention hook in first 2s.",
-        "Add localisation experiment: subtitle-first variant + one dubbed variant for a high-probability explainer."
+        "Ship one daily two-cut package per major story: 30-60s social cut + 90-150s context cut, both 9:16-first.",
+        "Add a 'search intent' metadata step in Launcher: plain-language audience query + entity tags + place tags before publish.",
+        "Set a 24h rapid postmortem loop for top 3 clips: first-2s hook, completion, shares/saves, and comment intent signals."
       ]
     },
     {
       "title": "Ops stack watch (iconik/LucidLink/Backlight)",
       "priority": "high",
-      "summary": "LucidLink shipped Guest Access + Directory Management API; Backlight is reinforcing vertical/live automation. iconik release pages are anti-bot protected tonight, but indexed snippets indicate panel/plugin and ISG fixes worth direct verification in daylight.",
+      "summary": "Backlight/iconik macro signal is clear (scale + automation + vertical growth). iconik and LucidLink help centers remain anti-bot gated overnight, so exact changelog deltas must be manually verified in daylight.",
       "actions": [
-        "Validate LucidLink Guest Access against Guardian security policy (external reviewer flow, expiry, revoke paths).",
-        "Map Directory Management API to Launcher automation backlog (folder templates + permissions as code).",
-        "Run morning manual check of iconik panel/agent/ISG changelogs and log exact versions in MMR risk register."
+        "Morning verification pass: capture exact iconik panel/agent/ISG versions and LucidLink build notes into MMR risk log.",
+        "Translate automation signal into backlog: prioritize metadata automation and low-friction approvals over net-new tooling.",
+        "Prototype one external-review workflow with strict expiry/revoke controls to reduce review-cycle latency."
       ]
     },
     {
       "title": "Audience growth signal",
       "priority": "high",
-      "summary": "Official YouTube creator updates and Backlight/Wildmoka data converge on vertical-first discovery and faster social iteration loops.",
+      "summary": "YouTube and TikTok both reinforce active discovery behavior. Winning formats are trend-aware, quickly contextualized, and built for utility or emotional payoff within seconds.",
       "actions": [
-        "Use YouTube Shorts Trends page as daily ideation input for newsroom social producers.",
-        "Standardise auto-rezone/vertical framing checklist so each clip has 9:16-first variant.",
-        "Track completion rate + shares + saves as primary social health metrics, with CTR as secondary."
+        "Use YouTube Shorts Trends + TikTok search cues as daily assignment inputs (not just post-publication analytics).",
+        "Design intros to answer 'why watch now?' in <2s with visible stakes and explicit context.",
+        "Create one weekly cross-desk experiment around non-core audience entry points (new communities/search pathways)."
       ]
     }
   ],
@@ -41,27 +41,27 @@
       "title": "Vendor Watch: iconik / LucidLink / Backlight",
       "items": [
         {
-          "title": "iconik release notes hub (manual verification required; anti-bot blocking observed)",
-          "url": "https://app.iconik.io/help/pages/release_notes/",
-          "published": "checked 2026-03-04",
+          "title": "iconik changelog hub (manual verification required; anti-bot blocking observed overnight)",
+          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Changelog",
+          "published": "checked 2026-03-05",
           "source": "iconik changelog"
         },
         {
-          "title": "iconik Panel snippet: Photoshop/Illustrator 2026 support + Premiere subclip support (from indexed release snippet)",
-          "url": "https://app.iconik.io/help/pages/release_notes/panel",
-          "published": "recent",
-          "source": "iconik changelog"
-        },
-        {
-          "title": "LucidLink January 2026 release: Guest Access + Directory Management API + FQDN proxy support",
-          "url": "https://www.lucidlink.com/blog/january-2026-release",
-          "published": "2026-01",
+          "title": "LucidLink release-notes section (manual verification required; anti-bot blocking observed overnight)",
+          "url": "https://support.lucidlink.com/hc/en-us/sections/31125638256269-Release-notes",
+          "published": "checked 2026-03-05",
           "source": "LucidLink release notes"
         },
         {
-          "title": "Backlight resources/news: 2026 Media Stats + NAB 2026 + product update stream",
+          "title": "2026 Media Stats report: 324PB indexed, 534M jobs automated, 117% growth in 9:16 publishing",
+          "url": "https://www.iconik.io/media-stats-report-2026",
+          "published": "2026",
+          "source": "Backlight/iconik"
+        },
+        {
+          "title": "Backlight resource stream (reports/case studies/events) for ongoing vendor signal monitoring",
           "url": "https://www.backlight.co/resources",
-          "published": "checked 2026-03-04",
+          "published": "checked 2026-03-05",
           "source": "Backlight news"
         }
       ]
@@ -70,22 +70,22 @@
       "title": "Platform Distribution + Growth",
       "items": [
         {
-          "title": "YouTube Creator updates: Shorts Trends page global + new Shorts AI photo motion tool",
+          "title": "YouTube creator updates: Shorts Trends page global rollout + new AI 'Make me move' tool",
           "url": "https://support.google.com/youtube/answer/9072033?hl=en",
-          "published": "last 4 weeks",
+          "published": "past 4 weeks",
           "source": "YouTube official"
         },
         {
-          "title": "TikTok Discover List 2026 (creator-format trend signal)",
-          "url": "https://newsroom.tiktok.com/en-us",
+          "title": "TikTok Next 2026: discovery-first behavior, curiosity-led search journeys, emotional ROI framing",
+          "url": "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
           "published": "2026",
           "source": "TikTok newsroom"
         },
         {
-          "title": "Wildmoka: automated social publishing workflow patterns for live clipping",
-          "url": "https://www.wildmoka.com/resources/automated-social-media-publishing-how-it-extends-your-broadcast-reach",
-          "published": "2026-01-16",
-          "source": "Wildmoka"
+          "title": "TikTok Discover List 2026: creator format and category signal for emerging storytelling patterns",
+          "url": "https://newsroom.tiktok.com/discover-list-2026-meet-the-creators-to-watch?lang=en",
+          "published": "2026",
+          "source": "TikTok newsroom"
         }
       ]
     },
@@ -93,47 +93,53 @@
       "title": "Newsroom Strategy Signals",
       "items": [
         {
-          "title": "2026 Media Stats report: 117% growth in 9:16 publishing since 2024",
+          "title": "Hybrid ops are now baseline: 71% cloud / 29% on-prem in Backlight dataset",
           "url": "https://www.iconik.io/media-stats-report-2026",
           "published": "2026",
-          "source": "iconik/Backlight"
+          "source": "Backlight/iconik"
         },
         {
-          "title": "Hybrid storage trend: 71% cloud / 29% on-prem + rising automation volumes",
+          "title": "AI metadata throughput signal: 11.4M AI jobs and 55% metadata updates automated",
           "url": "https://www.iconik.io/media-stats-report-2026",
           "published": "2026",
-          "source": "iconik/Backlight"
+          "source": "Backlight/iconik"
+        },
+        {
+          "title": "Social publishing race is mobile-first: 9:16 growth + high-volume publisher behavior",
+          "url": "https://www.iconik.io/media-stats-report-2026",
+          "published": "2026",
+          "source": "Backlight/Wildmoka"
         }
       ]
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-03T22:40:00Z",
-    "newCount": 6,
-    "removedCount": 13,
+    "previousUpdated": "2026-03-04T21:10:00Z",
+    "newCount": 4,
+    "removedCount": 3,
     "newItems": [
       {
-        "title": "LucidLink January 2026 release (Guest Access + Directory Management API)",
-        "url": "https://www.lucidlink.com/blog/january-2026-release",
-        "published": "2026-01",
-        "source": "LucidLink",
-        "section": "Vendor Watch: iconik / LucidLink / Backlight"
+        "title": "TikTok Next 2026 trend forecast added for discovery/search behavior",
+        "url": "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead?lang=en",
+        "published": "2026",
+        "source": "TikTok",
+        "section": "Platform Distribution + Growth"
       },
       {
-        "title": "YouTube Shorts Trends page rollout (official update)",
+        "title": "YouTube Shorts Trends global rollout reflected in growth playbook",
         "url": "https://support.google.com/youtube/answer/9072033?hl=en",
-        "published": "last 4 weeks",
+        "published": "past 4 weeks",
         "source": "YouTube",
         "section": "Platform Distribution + Growth"
       },
       {
-        "title": "2026 Media Stats: 117% growth in 9:16 publishing",
+        "title": "Backlight/iconik automation and storage scale metrics elevated for MMR prioritization",
         "url": "https://www.iconik.io/media-stats-report-2026",
         "published": "2026",
-        "source": "iconik/Backlight",
+        "source": "Backlight/iconik",
         "section": "Newsroom Strategy Signals"
       }
     ],
-    "summary": "Shift from broad scanning to execution bias: review handoff friction, vertical-first packaging, and automation-ready folder governance are now the highest-leverage near-term bets."
+    "summary": "Decision model shifted from generic trend watch to discovery-native execution: search intent, 9:16 packaging velocity, and automation-first workflow reduction of review friction."
   }
 }
