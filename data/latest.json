@@ -1,38 +1,38 @@
 {
-  "updated": "2026-03-07T21:00:00Z",
+  "updated": "2026-03-08T21:00:00Z",
   "meta": {
-    "totalSources": 11,
-    "totalItems": 11
+    "totalSources": 12,
+    "totalItems": 12
   },
   "decisionPanels": [
     {
       "title": "Tonight's decision",
       "priority": "high",
-      "summary": "Shift from brand-only posting to fast journalist-led original vertical packaging; ranking systems are rewarding same-day relevance and distinct voice.",
+      "summary": "Push Guardian video toward same-day journalist-led vertical explainers; platform discovery is rewarding speed, originality, and recognisable human voice more than generic brand packaging.",
       "actions": [
-        "Set a same-day SLA: ingest-to-first 9:16 cut for each major story package.",
-        "Apply an originality gate before publish: new angle, clear why-now, identifiable reporter voice.",
-        "Keep one fixed opening hook template to reduce edit latency while preserving editorial quality."
+        "Set an ingest-to-first-9:16 SLA for major story packages this week.",
+        "Add a pre-publish originality gate: what is new, why now, whose voice carries it?",
+        "Test one paired release pattern: Guardian account plus journalist-led version with shared analytics review."
       ]
     },
     {
       "title": "Ops stack watch (iconik/LucidLink/Backlight)",
       "priority": "high",
-      "summary": "LucidLink Connect + Guest Access + directory API are concrete workflow levers; Backlight signal continues toward review collaboration and social-output throughput.",
+      "summary": "LucidLink's 2026 moves are now operationally useful: Connect, Guest Access, Directory Management API, and FQDN proxy support all point at lower review friction and less duplicate-copy pain; Backlight continues to signal review speed and repurposing throughput.",
       "actions": [
-        "Run a 1-week MMR spike on linked-object access assumptions to cut duplicate copies/handoffs.",
-        "Use Guest Access patterns for external review handoff simplification where policy allows.",
-        "Retain morning manual verification for iconik/LucidLink exact build deltas due overnight anti-bot limits."
+        "Run a 1-week MMR spike on linked-object access assumptions and measure duplicate-copy reduction.",
+        "Map Guest Access to one external review handoff where policy allows.",
+        "Keep morning manual verification for exact iconik/LucidLink build deltas while anti-bot blocks persist."
       ]
     },
     {
       "title": "Audience growth signal",
       "priority": "high",
-      "summary": "YouTube and Meta continue rewarding timely, original creator-style output while industry forecasts show personality-led news pressure on traditional distribution.",
+      "summary": "Reuters, Nieman, YouTube, TikTok, and Facebook now all point in the same direction: personality-led, modular, multi-format journalism is gaining, while classic search-led traffic keeps weakening.",
       "actions": [
-        "Pilot journalist-account + Guardian-account dual distribution with shared analytics review.",
-        "Track first-hour engagement quality by format and presenter identity, not just views.",
-        "Prioritize fast explainers and context cuts on same-day stories over late polished recuts."
+        "Treat story packages as modular assets: hook, quote, explainer beat, reporter POV.",
+        "Prioritise fast explainers and context cuts over slower polished recuts for same-day relevance.",
+        "Track first-hour engagement quality by presenter identity and format, not views alone."
       ]
     }
   ],
@@ -43,31 +43,37 @@
         {
           "title": "iconik changelog hub (manual verification required; anti-bot blocking observed overnight)",
           "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Changelog",
-          "published": "checked 2026-03-07",
+          "published": "checked 2026-03-08",
           "source": "iconik changelog"
+        },
+        {
+          "title": "iconik panel changelog hub (manual verification required; anti-bot blocking observed overnight)",
+          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304675819799-Panel-Changelog",
+          "published": "checked 2026-03-08",
+          "source": "iconik panel changelog"
         },
         {
           "title": "LucidLink release-notes section (manual verification required; anti-bot blocking observed overnight)",
           "url": "https://support.lucidlink.com/hc/en-us/sections/31125638256269-Release-notes",
-          "published": "checked 2026-03-07",
+          "published": "checked 2026-03-08",
           "source": "LucidLink release notes"
         },
         {
-          "title": "Introducing LucidLink Connect: activate existing stores without migration, stream bytes on demand",
+          "title": "LucidLink Connect: activate existing stores without migration and stream bytes on demand",
           "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
           "published": "2026-03",
           "source": "LucidLink"
         },
         {
-          "title": "New in LucidLink: Guest Access and directory management API for cleaner external handoffs",
+          "title": "LucidLink January release: Guest Access, Directory Management API, FQDN proxy support",
           "url": "https://www.lucidlink.com/blog/january-2026-release",
           "published": "2026-02",
           "source": "LucidLink"
         },
         {
-          "title": "Backlight resources/news stream highlights Iconik Review, Wildmoka AI workflows, and supply-chain automation",
+          "title": "Backlight resources stream: Iconik Review, Wildmoka AI workflows, supply-chain automation, 2026 media stats",
           "url": "https://www.backlight.co/resources",
-          "published": "checked 2026-03-07",
+          "published": "checked 2026-03-08",
           "source": "Backlight news"
         }
       ]
@@ -76,19 +82,19 @@
       "title": "Platform Distribution + Growth",
       "items": [
         {
-          "title": "YouTube 2026 priorities: creator-led entertainment, Shorts scale, expanded format integration",
+          "title": "YouTube 2026 priorities: creators as studios, Shorts at 200B daily views, more integrated formats",
           "url": "https://blog.youtube/inside-youtube/the-future-of-youtube-2026/",
           "published": "2026-01-21",
           "source": "YouTube official"
         },
         {
-          "title": "Meta AI performance update: more same-day Reels surfaced and stronger original-content prevalence",
-          "url": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
-          "published": "2026-01-29",
+          "title": "Facebook unifies video posting: all new videos become reels, reducing format friction for Pages and profiles",
+          "url": "https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/",
+          "published": "2025-06-14",
           "source": "Meta official"
         },
         {
-          "title": "TikTok Discover List 2026: creator storytelling formats shaping audience expectations",
+          "title": "TikTok Discover List 2026 highlights storytelling identity and creator-native audience expectations",
           "url": "https://newsroom.tiktok.com/discover-list-2026-meet-the-creators-to-watch?lang=en",
           "published": "2026",
           "source": "TikTok newsroom"
@@ -99,60 +105,60 @@
       "title": "Newsroom Strategy Signals",
       "items": [
         {
-          "title": "Reuters Institute 2026: answer engines + personality-led news create structural distribution pressure",
+          "title": "Reuters Institute 2026: more video, more YouTube/TikTok/AI-platform focus, less faith in classic SEO",
           "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
           "published": "2026-01",
           "source": "Reuters Institute"
         },
         {
-          "title": "Nieman Lab prediction map: vertical video, creators, AI workflows, and product strategy convergence",
-          "url": "https://www.niemanlab.org/2026/01/whats-coming-for-news-in-2026-these-predictions-offer-a-clue/",
+          "title": "Nieman Lab: publishers are being squeezed by AI and creators and pushing journalists to act more like creators",
+          "url": "https://www.niemanlab.org/2026/01/publishers-prepare-to-be-squeezed-by-ai-and-creators-in-2026/",
           "published": "2026-01",
           "source": "Nieman Lab"
         },
         {
-          "title": "Backlight/iconik macro trend: scale + automation + vertical publishing acceleration",
-          "url": "https://www.iconik.io/media-stats-report-2026",
-          "published": "2026",
-          "source": "Backlight/iconik"
+          "title": "Press Gazette: global publisher Google traffic dropped by a third in 2025",
+          "url": "https://pressgazette.co.uk/media-audience-and-business-data/google-traffic-down-2025-trends-report-2026/",
+          "published": "2026-01-16",
+          "source": "Press Gazette"
         }
       ]
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-06T21:00:00Z",
+    "previousUpdated": "2026-03-07T21:00:00Z",
     "newCount": 4,
     "removedCount": 3,
     "newItems": [
       {
-        "title": "LucidLink January release added (Guest Access + directory API)",
+        "title": "LucidLink January release reframed as operational lever: Guest Access + Directory API + FQDN proxy",
         "url": "https://www.lucidlink.com/blog/january-2026-release",
         "published": "2026-02",
         "source": "LucidLink",
         "section": "Vendor Watch: iconik / LucidLink / Backlight"
       },
       {
-        "title": "Reuters Institute 2026 report added for strategic distribution risk framing",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-        "published": "2026-01",
-        "source": "Reuters Institute",
+        "title": "Facebook unified video posting added as a concrete distribution workflow signal",
+        "url": "https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/",
+        "published": "2025-06-14",
+        "source": "Meta official",
+        "section": "Platform Distribution + Growth"
+      },
+      {
+        "title": "Press Gazette traffic decline datapoint added to strengthen urgency around search erosion",
+        "url": "https://pressgazette.co.uk/media-audience-and-business-data/google-traffic-down-2025-trends-report-2026/",
+        "published": "2026-01-16",
+        "source": "Press Gazette",
         "section": "Newsroom Strategy Signals"
       },
       {
-        "title": "Decision panel updated to same-day SLA + originality gate",
-        "url": "https://blog.youtube/inside-youtube/the-future-of-youtube-2026/",
-        "published": "2026-01-21",
-        "source": "YouTube official",
-        "section": "decisionPanels"
-      },
-      {
-        "title": "Ops stack panel updated with Connect spike + manual anti-bot caveat",
-        "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
-        "published": "2026-03",
-        "source": "LucidLink",
+        "title": "Decision panels shifted from watch mode to workflow-speed + journalist-identity execution mode",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+        "published": "2026-01",
+        "source": "Reuters Institute",
         "section": "decisionPanels"
       }
     ],
-    "summary": "Model shifted from watch-mode to execution mode: same-day vertical speed, originality discipline, and targeted storage/workflow friction reduction."
+    "summary": "The model tightened again: audience growth now depends on faster, more human, more modular journalism while MMR reduces workflow drag behind the scenes."
   }
 }
