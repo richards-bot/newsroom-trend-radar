@@ -1,38 +1,48 @@
 {
-  "updated": "2026-03-09T21:00:00Z",
+  "updated": "2026-03-10T21:00:00Z",
   "meta": {
-    "totalSources": 14,
-    "totalItems": 14
+    "totalSources": 16,
+    "totalItems": 16
   },
   "decisionPanels": [
     {
-      "title": "🚨 Guardian Studios is now your internal client",
+      "title": "🚨 LucidLink Directory Management API + Guest Access — direct MMR accelerators",
       "priority": "high",
-      "summary": "The Guardian formed Guardian Studios on 26 Feb 2026, appointing Leah Green as head. Its mandate: transform journalism into compelling new visual formats, reach new audiences, foster on-screen talent. This is the institutional bet on video-first journalism — and MMR is the technical substrate that will either make or break it. Green comes from Channel 4 (Dispatches, Unreported World). Expect a significant uplift in demand for fast ingest, flexible collections, and multi-format output from the multimedia team.",
+      "summary": "LucidLink's January 2026 release delivered two features with immediate MMR relevance. First: Guest Access — external collaborators can now review and download assets directly in-browser, no LucidLink account or install required. Authentication is via a temporary email code; zero-knowledge security maintained. This solves the external review problem for multimedia producers without third-party transfer tools. Second: Directory Management API — programmatic folder structure and permissions management at scale. This means Ricky's Project Launcher can extend beyond iconik collection creation to also automate LucidLink folder hierarchies and access controls — a single trigger, two platforms, fully set up. Both features are available now on new LucidLink plans.",
       "actions": [
-        "Treat Guardian Studios as an explicit stakeholder for MMR workflow design — especially ingest speed and collection management.",
-        "Map the Project Launcher's collection/metadata automation to Guardian Studios' expected output formats (vertical explainer, podcast-video, journalist-led short).",
-        "Flag to MMR stakeholders that Guardian Studios + video podcast launch = new demand on LucidLink + iconik capacity within weeks of go-live."
+        "Evaluate LucidLink Guest Access for multimedia producer external review workflows — eliminates current 'upload it somewhere' workarounds.",
+        "Prototype Project Launcher extension using the Directory Management API to auto-create LucidLink folder structures and permissions when a new production is started — same trigger as iconik collection creation.",
+        "Document the API integration in Project Launcher roadmap before MMR go-live, even if not shipping in v1."
       ]
     },
     {
-      "title": "⚠️ iconik interface overhaul is live — verify with your users now",
+      "title": "⚠️ iconik My Shares filtering (live March 5) + ongoing design system rollout",
       "priority": "high",
-      "summary": "iconik deployed a significant interface refresh from 4 March 2026: new navigation bar, grey background replacing the blue theme, admin functions consolidated into a dropdown menu, and the Upload button removed from the top bar (drag & drop and iconik Agent pushed as primary ingestion paths). Dark mode and a full design system rollout are planned throughout 2026. This is live in production for Guardian producers right now.",
+      "summary": "iconik's March 5 changelog added My Shares filtering: producers can now filter shares by All, Shared with Me, or Shared by Me. Alongside this, favourite saved searches are now bookmarkable. The design system rollout (grey background, new nav, no Upload button) that went live March 4 continues — dark mode and full accessibility work are planned throughout 2026. These are live in production for Guardian producers today. The design system will continue to evolve so training materials need to be considered living documents, not one-off guides.",
       "actions": [
-        "Validate with multimedia producers that the new iconik nav and missing Upload button aren't causing confusion — especially in the first weeks of MMR go-live.",
-        "Update any training materials or producer guides that reference the old navigation or Upload button.",
-        "Monitor iconik changelog for the grey-background rollout phase and accessibility updates — the design system work will continue through 2026."
+        "Update MMR producer documentation and onboarding materials to reflect the new iconik UI (grey background, admin dropdown, no Upload button, My Shares filters).",
+        "Communicate the My Shares filtering feature to multimedia producers — particularly useful for producers receiving shared review links.",
+        "Plan for at least one more iconik UI update round before year-end as dark mode and accessibility work lands — build review checkpoints into MMR maintenance calendar."
       ]
     },
     {
-      "title": "Audience + distribution: manual beats automated on TikTok, NAB is AI week",
+      "title": "📊 SPUR coalition + agentic AI: Guardian is both protecting content AND about to automate with it",
       "priority": "medium",
-      "summary": "Wildmoka data shows TikTok Drafts manual publishing can outperform automated schedulers by up to 60% reach. Meta's Graph API v25.0 is replacing legacy reach metrics with Page Viewer metric by mid-2026 — analytics dashboards will need updating. NAB Show 2026 is the industry's AI inflection point this spring: Backlight, Tedial, and Harmonic all leading with practical AI workflow automation. LucidLink Connect is getting industry-wide press (SiliconANGLE, SVG) — the market is watching Guardian's class of deployment.",
+      "summary": "On February 26, The Guardian joined BBC, FT, Sky News, and Telegraph Media Group as founding members of SPUR (Standards for Publisher Usage Rights) — an industry coalition establishing technical standards for how AI can use journalistic content. Simultaneously, Reuters Institute predicts that 2026 is the year agentic AI moves from pilot to real-world newsroom workflow automation: end-to-end investigations, fact-checking, and newsgathering. A provocative data point: more bots than people may soon be reading publisher websites. The Guardian's dual position (protecting content + using AI internally) is becoming clearer as institutional strategy — not contradiction.",
       "actions": [
-        "Advise multimedia social team: for high-priority TikTok content, consider manual publish from Drafts rather than relying on Wildmoka scheduler for maximum algorithmic reach.",
-        "Flag Meta API v25.0 Page Viewer metric change to whoever owns Guardian's social analytics dashboards — change is mandatory by mid-2026.",
-        "Monitor NAB 2026 announcements (April) for Backlight/iconik and LucidLink product reveals that may be relevant to MMR roadmap."
+        "Monitor SPUR coalition progress for any technical metadata/tagging standards that might affect how multimedia content is tagged or licensed in iconik.",
+        "Keep MMR metadata schema flexible: SPUR may require new rights/licensing fields for video and audio assets — future-proof iconik custom metadata now.",
+        "Watch for Guardian internal AI policy updates following SPUR launch — agentic AI for newsroom workflows will likely accelerate, which means MMR becomes foundational infrastructure sooner than expected."
+      ]
+    },
+    {
+      "title": "📱 Vertical +120%, YouTube Shorts as discovery layer — Guardian Studios' format roadmap",
+      "priority": "medium",
+      "summary": "Backlight's 2026 Media Stats Report shows vertical publishing up 120% year-on-year across its platform, though landscape (16:9) still dominates at 90%+. YouTube CEO Neal Mohan's 2026 letter makes Shorts the primary discovery mechanism, with long-form as the depth/monetisation layer. Creators are now running like full studios — episodic formats, not one-offs. Guardian Studios (headed by Leah Green) exists precisely to build this model. NAB 2026 (April 18-22) will feature Harmonic's AI orchestration, Backlight's single-platform create/manage/publish strategy, and AI asset protection — all directly relevant to Guardian's video-first build.",
+      "actions": [
+        "Ensure MMR output format configurations support vertical (9:16) as a first-class asset type alongside 16:9 — especially for Project Launcher metadata templates.",
+        "Use YouTube Shorts = discovery, long-form = depth as a framing conversation with Guardian Studios when they engage with MMR workflows.",
+        "Track NAB 2026 (April 18-22) announcements from Backlight, Harmonic, and Avid for iconik/LucidLink product reveals that may affect MMR roadmap."
       ]
     }
   ],
@@ -41,46 +51,46 @@
       "title": "Vendor Watch: iconik / LucidLink / Backlight",
       "items": [
         {
-          "title": "iconik interface overhaul live from 4 March 2026: new nav, grey background, admin dropdown, Upload button removed",
-          "url": "https://didtechnology.com/iconik-mises-a-jour-interface-mars-2026/",
+          "title": "iconik changelog March 5, 2026: My Shares filtering (All/Shared with Me/Shared by Me) + favourite saved searches",
+          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
+          "published": "2026-03-05",
+          "source": "iconik official changelog"
+        },
+        {
+          "title": "iconik interface overhaul live from 4 March 2026: new nav, grey background, admin dropdown, Upload button removed — design system continues throughout 2026",
+          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
           "published": "2026-03-04",
-          "source": "DID Technology / iconik official"
+          "source": "iconik official"
         },
         {
-          "title": "iconik design system approach planned throughout 2026: consistent fonts, modals, accessibility, dark mode coming",
-          "url": "https://didtechnology.com/iconik-mises-a-jour-interface-mars-2026/",
-          "published": "2026-03-04",
-          "source": "iconik official / DID Technology"
+          "title": "LucidLink January 2026 release: Guest Access (browser-based external review, zero-knowledge security, email auth, no install required)",
+          "url": "https://www.lucidlink.com/blog/january-2026-release",
+          "published": "2026-02-02",
+          "source": "LucidLink"
         },
         {
-          "title": "iconik changelog hub (manual verification required; anti-bot blocking observed)",
-          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Changelog",
-          "published": "checked 2026-03-09",
-          "source": "iconik changelog"
+          "title": "LucidLink Directory Management API: programmatic folder structure, permissions, access controls at scale — directly relevant to Project Launcher automation",
+          "url": "https://www.lucidlink.com/blog/january-2026-release",
+          "published": "2026-02-02",
+          "source": "LucidLink"
         },
         {
-          "title": "LucidLink Connect launches March 5 2026: stream existing data stores instantly, preserve native formats and workflows",
+          "title": "LucidLink Connect (March 5): stream existing data stores, preserve native formats — industry press: SiliconANGLE, SVG, postPerspective",
           "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
           "published": "2026-03-05",
           "source": "LucidLink"
         },
         {
-          "title": "LucidLink Connect gets industry press: SiliconANGLE, SVG, postPerspective all covering as major workflow shift",
-          "url": "https://siliconangle.com/2026/03/05/exclusive-lucidlink-enables-collaboration-directly-object-storage/",
-          "published": "2026-03-05",
-          "source": "SiliconANGLE"
-        },
-        {
-          "title": "Backlight 2026 iconik Media Stats Report: video is 64% of storage despite only 14% of asset count; 6,943% storage growth",
+          "title": "Backlight 2026 Media Stats Report: video = 64% of storage (14% of assets), vertical publishing +120%, AI features used 11.4M+ times, 903M assets on platform",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/video-is-king-2026-iconik-media-stats-report-finds-video-consumes-64-of-storage-needs-for-media-assets/",
           "published": "2026-02",
           "source": "Backlight / iconik"
         },
         {
-          "title": "NAB Show 2026: Backlight presenting single-platform manage-create-publish at unbelievable speed",
-          "url": "https://www.backlight.co/resources",
-          "published": "2026-04",
-          "source": "Backlight"
+          "title": "NAB Show 2026 (April 18-22): Harmonic unveiling next-gen media server + AI orchestration; Backlight presenting single-platform manage-create-publish",
+          "url": "https://www.broadbandtvnews.com/2026/03/06/harmonic-to-unveil-next-generation-media-server-and-ai-orchestration-at-nab-show-2026/",
+          "published": "2026-03-06",
+          "source": "Broadband TV News"
         }
       ]
     },
@@ -88,28 +98,34 @@
       "title": "Guardian Strategy Signals",
       "items": [
         {
-          "title": "Guardian Studios formed Feb 26 2026: Leah Green appointed head — video-first, personality-led journalism hub",
+          "title": "Guardian Studios formed Feb 26 2026: Leah Green (ex-Channel 4) as head — video-first, personality-led journalism mandate, new demand on MMR",
           "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/guardian-announces-leah-green-as-head-of-guardian-studios",
           "published": "2026-02-26",
           "source": "The Guardian"
         },
         {
-          "title": "Guardian debuts flagship video podcast Feb 2026: co-hosted US show, staff of 10, competing with NYT and NPR",
+          "title": "Guardian joins SPUR coalition (Feb 26): BBC, FT, Sky News, Telegraph founding members — technical standards for AI use of publisher content",
+          "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/major-news-brands-including-the-guardian-form-new-coalition-to-promote-responsible-ai-licensing",
+          "published": "2026-02-26",
+          "source": "The Guardian / journalism.co.uk"
+        },
+        {
+          "title": "Guardian debuts flagship video podcast Feb 2026: US co-hosted show, staff of 10, competing with NYT and NPR",
           "url": "https://www.semafor.com/article/02/15/2026/the-guardian-debuts-new-flagship-podcast",
           "published": "2026-02-15",
           "source": "Semafor"
-        },
-        {
-          "title": "Guardian joins media coalition to protect journalism from AI unpaid use — licensing and technical tools",
-          "url": "https://www.theguardian.com/media/2026/feb/26/guardian-joins-media-coalition-to-protect-original-journalism-from-unpaid-use-by-ai",
-          "published": "2026-02-26",
-          "source": "The Guardian"
         }
       ]
     },
     {
       "title": "Platform Distribution + Growth",
       "items": [
+        {
+          "title": "YouTube CEO 2026 strategy: Shorts = discovery layer, long-form = depth/monetisation, creators = studios — integrated format system required",
+          "url": "https://www.searchenginejournal.com/youtube-ceo-reveals-your-video-marketing-strategy-for-2026/565783/",
+          "published": "2026-02-02",
+          "source": "Search Engine Journal / YouTube"
+        },
         {
           "title": "Wildmoka: TikTok Drafts manual publish outperforms automated schedulers by up to 60% reach",
           "url": "https://media-power.it/wildmoka-contenuti-video-digitali-per-broadcaster-e-media-company-anche-su-tiktok/",
@@ -128,68 +144,67 @@
       "title": "Industry AI + Workflow Signals",
       "items": [
         {
-          "title": "NAB 2026: Tedial unveils practical AI, composability, real operational control for modern media operations",
-          "url": "https://www.tvtechnology.com/infrastructure/cloud/tedial-to-focus-on-ai-fueled-media-lifecycle-at-2026-nab-show",
-          "published": "2026-03-06",
-          "source": "TV Technology"
+          "title": "Reuters Institute 2026: agentic AI for end-to-end newsroom workflow automation becomes real this year — investigations, fact-checking, newsgathering",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01",
+          "source": "Reuters Institute for the Study of Journalism"
         },
         {
-          "title": "Reuters AI stack 2026: first alert in 6 seconds, LEON headline AI, AVISTA photo/video tagger — Bangalore hub largest globally",
-          "url": "https://www.mediabistro.com/be-inspired/career-transition/media-industry-jobs-are-being-rewritten-this-is-the-new-list/",
-          "published": "2026-03",
-          "source": "Mediabistro"
+          "title": "Reuters Institute warning: more bots than people may soon be reading publisher websites — fundamentally changes digital distribution assumptions",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01",
+          "source": "Reuters Institute"
+        },
+        {
+          "title": "Avid CPO at NAB 2026: AI deployed to 'remove friction in the workflow' without replacing creative control or editorial intent",
+          "url": "https://www.tvtechnology.com/production/sports-production/avids-new-cpo-discusses-ai-nab-show-and-newsroom-tech",
+          "published": "2026-02",
+          "source": "TV Technology"
         }
       ]
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-08T21:00:00Z",
-    "newCount": 6,
-    "removedCount": 4,
+    "previousUpdated": "2026-03-09T21:00:00Z",
+    "newCount": 5,
+    "removedCount": 3,
     "newItems": [
       {
-        "title": "Guardian Studios formed — Leah Green as head, video-first personality-led journalism hub",
-        "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/guardian-announces-leah-green-as-head-of-guardian-studios",
+        "title": "iconik changelog March 5: My Shares filtering + favourite saved searches now live",
+        "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
+        "published": "2026-03-05",
+        "source": "iconik official",
+        "section": "Vendor Watch: iconik / LucidLink / Backlight"
+      },
+      {
+        "title": "LucidLink Guest Access: browser-based external review, no account required, zero-knowledge security",
+        "url": "https://www.lucidlink.com/blog/january-2026-release",
+        "published": "2026-02-02",
+        "source": "LucidLink",
+        "section": "Vendor Watch: iconik / LucidLink / Backlight"
+      },
+      {
+        "title": "LucidLink Directory Management API: automate folder structures + permissions at scale",
+        "url": "https://www.lucidlink.com/blog/january-2026-release",
+        "published": "2026-02-02",
+        "source": "LucidLink",
+        "section": "Vendor Watch: iconik / LucidLink / Backlight"
+      },
+      {
+        "title": "SPUR coalition launched: Guardian + BBC + FT + Sky + Telegraph — technical AI content licensing standards",
+        "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/major-news-brands-including-the-guardian-form-new-coalition-to-promote-responsible-ai-licensing",
         "published": "2026-02-26",
         "source": "The Guardian",
         "section": "Guardian Strategy Signals"
       },
       {
-        "title": "iconik interface overhaul live from March 4 — new nav, grey background, Upload button removed",
-        "url": "https://didtechnology.com/iconik-mises-a-jour-interface-mars-2026/",
-        "published": "2026-03-04",
-        "source": "iconik / DID Technology",
-        "section": "Vendor Watch: iconik / LucidLink / Backlight"
-      },
-      {
-        "title": "Wildmoka: TikTok manual Drafts publish beats auto-schedulers by 60% reach",
-        "url": "https://media-power.it/wildmoka-contenuti-video-digitali-per-broadcaster-e-media-company-anche-su-tiktok/",
-        "published": "2026-02",
-        "source": "Wildmoka",
-        "section": "Platform Distribution + Growth"
-      },
-      {
-        "title": "Meta Graph API v25.0: Page Viewer metric replacing legacy reach by mid-2026",
-        "url": "https://emplifi.io/resources/blog/social-media-updates/",
-        "published": "2026-03",
-        "source": "Meta / Emplifi",
-        "section": "Platform Distribution + Growth"
-      },
-      {
-        "title": "Reuters 2026 AI stack: 6-second first alerts, LEON, AVISTA — benchmark for newsroom AI integration",
-        "url": "https://www.mediabistro.com/be-inspired/career-transition/media-industry-jobs-are-being-rewritten-this-is-the-new-list/",
-        "published": "2026-03",
-        "source": "Mediabistro",
+        "title": "Reuters Institute: agentic AI for newsroom workflow automation is real in 2026 — investigations, fact-checking, end-to-end automation",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+        "published": "2026-01",
+        "source": "Reuters Institute",
         "section": "Industry AI + Workflow Signals"
-      },
-      {
-        "title": "Backlight 2026 Media Stats Report: video = 64% of storage, 6,943% storage growth on iconik platform",
-        "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/video-is-king-2026-iconik-media-stats-report-finds-video-consumes-64-of-storage-needs-for-media-assets/",
-        "published": "2026-02",
-        "source": "Backlight",
-        "section": "Vendor Watch: iconik / LucidLink / Backlight"
       }
     ],
-    "summary": "Tonight's dominant signal: Guardian Studios makes Ricky's MMR work internally strategic, not just operational. The iconik UI is already changed — producer training materials need updating now. Distribution intelligence tightens around manual-first TikTok and impending Meta metric changes."
+    "summary": "Tonight's standout signal: LucidLink's Jan 2026 release (Guest Access + Directory Management API) is directly actionable for MMR — external review without accounts, and Project Launcher can now extend to auto-create LucidLink folder structures. iconik My Shares filtering is live in production. The SPUR coalition crystallises The Guardian's AI strategy: protect content externally, automate internally. Agentic AI for end-to-end newsroom workflows is no longer prediction — it's 2026 reality."
   }
 }
