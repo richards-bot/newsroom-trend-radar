@@ -1,48 +1,48 @@
 {
-  "updated": "2026-03-10T21:00:00Z",
+  "updated": "2026-03-11T21:00:00Z",
   "meta": {
-    "totalSources": 16,
-    "totalItems": 16
+    "totalSources": 17,
+    "totalItems": 17
   },
   "decisionPanels": [
     {
-      "title": "🚨 LucidLink Directory Management API + Guest Access — direct MMR accelerators",
+      "title": "🎙️ Audio +45% YoY — Guardian's podcast push is structurally vindicated",
       "priority": "high",
-      "summary": "LucidLink's January 2026 release delivered two features with immediate MMR relevance. First: Guest Access — external collaborators can now review and download assets directly in-browser, no LucidLink account or install required. Authentication is via a temporary email code; zero-knowledge security maintained. This solves the external review problem for multimedia producers without third-party transfer tools. Second: Directory Management API — programmatic folder structure and permissions management at scale. This means Ricky's Project Launcher can extend beyond iconik collection creation to also automate LucidLink folder hierarchies and access controls — a single trigger, two platforms, fully set up. Both features are available now on new LucidLink plans.",
+      "summary": "Backlight's 2026 Media Stats Report (getting full UK trade press coverage today, March 11) reveals audio assets grew 45% year-on-year across its platform — driven by podcasts, voiceovers, music libraries, and multilingual audio tracks. This is the fastest-growing asset type after vertical video. The Guardian launched its flagship video podcast in February and just formed Guardian Studios. The infrastructure timing is right: MMR's LucidLink + iconik stack must handle audio-first asset management at scale, not as an afterthought. Multilingual audio tracks in particular signal the direction of global audience growth.",
       "actions": [
-        "Evaluate LucidLink Guest Access for multimedia producer external review workflows — eliminates current 'upload it somewhere' workarounds.",
-        "Prototype Project Launcher extension using the Directory Management API to auto-create LucidLink folder structures and permissions when a new production is started — same trigger as iconik collection creation.",
-        "Document the API integration in Project Launcher roadmap before MMR go-live, even if not shipping in v1."
+        "Audit MMR iconik metadata schema for audio assets: does it support podcast-specific fields (episode number, series, language, transcript attachment)?",
+        "Ensure Project Launcher covers audio production workflows — not just video. Guardian Studios will need audio collections in iconik from day one.",
+        "Flag to multimedia leadership: audio +45% is a platform-wide trend, not just Guardian. Budget and capacity planning for audio storage in LucidLink should reflect this growth rate."
       ]
     },
     {
-      "title": "⚠️ iconik My Shares filtering (live March 5) + ongoing design system rollout",
+      "title": "☁️ LucidLink Connect + S3 = Guardian archive activation — no migration needed",
       "priority": "high",
-      "summary": "iconik's March 5 changelog added My Shares filtering: producers can now filter shares by All, Shared with Me, or Shared by Me. Alongside this, favourite saved searches are now bookmarkable. The design system rollout (grey background, new nav, no Upload button) that went live March 4 continues — dark mode and full accessibility work are planned throughout 2026. These are live in production for Guardian producers today. The design system will continue to evolve so training materials need to be considered living documents, not one-off guides.",
+      "summary": "The Blocks & Files deep-dive (March 10) on LucidLink Connect confirms the key detail: existing AWS S3 buckets can be streamed directly into LucidLink Filespaces without ingesting or moving the data. Native file formats and workflows are preserved — LucidLink acts as a transparent delivery layer. CEO Peter Thompson: 'activate existing files without ingesting, without moving them.' TeamCache (early access) reduces bandwidth for teams sharing the same office. If Guardian already has any media archive on AWS S3, this is immediately actionable: Connect would let producers access archive footage directly through LucidLink without a migration project. Available on Enterprise plans now.",
       "actions": [
-        "Update MMR producer documentation and onboarding materials to reflect the new iconik UI (grey background, admin dropdown, no Upload button, My Shares filters).",
-        "Communicate the My Shares filtering feature to multimedia producers — particularly useful for producers receiving shared review links.",
-        "Plan for at least one more iconik UI update round before year-end as dark mode and accessibility work lands — build review checkpoints into MMR maintenance calendar."
+        "Check whether The Guardian has existing media archives on AWS S3 that could be activated via LucidLink Connect — speak to infrastructure/cloud team.",
+        "If S3 archives exist, evaluate LucidLink Enterprise plan and Connect as a bridge between legacy archive and MMR's live production Filespace.",
+        "Flag TeamCache early access to LucidLink account team — if Guardian's multimedia team is office-colocated, this reduces bandwidth overhead significantly."
       ]
     },
     {
-      "title": "📊 SPUR coalition + agentic AI: Guardian is both protecting content AND about to automate with it",
+      "title": "📱 Platform split: TikTok leads engagement, Instagram leads safety — Guardian must choose by use case",
       "priority": "medium",
-      "summary": "On February 26, The Guardian joined BBC, FT, Sky News, and Telegraph Media Group as founding members of SPUR (Standards for Publisher Usage Rights) — an industry coalition establishing technical standards for how AI can use journalistic content. Simultaneously, Reuters Institute predicts that 2026 is the year agentic AI moves from pilot to real-world newsroom workflow automation: end-to-end investigations, fact-checking, and newsgathering. A provocative data point: more bots than people may soon be reading publisher websites. The Guardian's dual position (protecting content + using AI internally) is becoming clearer as institutional strategy — not contradiction.",
+      "summary": "Two conflicting signals this week: Buffer's analysis of 52 million posts (CNET, March 9) shows Instagram, LinkedIn and Threads engagement rates all declined in 2025, while TikTok increased. But TikTok faces ongoing regulatory risk (Indonesia under-16 ban from March 28; previous US action). The picture for Guardian: TikTok delivers the highest engagement and algorithmic amplification, but carries brand/regulatory risk. Instagram Reels are safer for a trust-brand like the Guardian but declining in organic reach. The winning strategy is neither/nor — YouTube Shorts for discovery, long-form for depth, TikTok Drafts for high-priority moments, Instagram for archive/community. Different content, different platform, intentional.",
       "actions": [
-        "Monitor SPUR coalition progress for any technical metadata/tagging standards that might affect how multimedia content is tagged or licensed in iconik.",
-        "Keep MMR metadata schema flexible: SPUR may require new rights/licensing fields for video and audio assets — future-proof iconik custom metadata now.",
-        "Watch for Guardian internal AI policy updates following SPUR launch — agentic AI for newsroom workflows will likely accelerate, which means MMR becomes foundational infrastructure sooner than expected."
+        "Brief Guardian's social/multimedia team on the engagement decline on Instagram — do not assume Instagram Reels will perform as well as 2024 benchmarks suggest.",
+        "Maintain TikTok Drafts manual-publish workflow for high-priority Guardian video (per Wildmoka's 60% reach lift data) — but document the regulatory risk in a platform risk register.",
+        "Build YouTube Shorts into Guardian Studios' launch content plan as the primary discovery mechanism — YouTube long-form is where monetisation and depth live."
       ]
     },
     {
-      "title": "📱 Vertical +120%, YouTube Shorts as discovery layer — Guardian Studios' format roadmap",
+      "title": "🤖 UK broadcasters: AI from experimentation to execution — ITV, ThinkAnalytics leading",
       "priority": "medium",
-      "summary": "Backlight's 2026 Media Stats Report shows vertical publishing up 120% year-on-year across its platform, though landscape (16:9) still dominates at 90%+. YouTube CEO Neal Mohan's 2026 letter makes Shorts the primary discovery mechanism, with long-form as the depth/monetisation layer. Creators are now running like full studios — episodic formats, not one-offs. Guardian Studios (headed by Leah Green) exists precisely to build this model. NAB 2026 (April 18-22) will feature Harmonic's AI orchestration, Backlight's single-platform create/manage/publish strategy, and AI asset protection — all directly relevant to Guardian's video-first build.",
+      "summary": "OTT Question Time Live 2026 (March 4, UK) featured ITV's Head of Generative AI and ThinkAnalytics CTO. Key signals: AI is now delivering measurable ROI in backend metadata automation, compliance checking, rights management, and scheduling — not just frontend discovery. The panel was notably honest: 'where expectations still outpace reality' — AI governance, talent, and workflow change management are the real blockers, not the technology. This maps directly to Guardian's position: MMR is being built right now as the foundation. Getting iconik metadata right today means AI automation can run on it tomorrow. The investment is in the metadata, not the model.",
       "actions": [
-        "Ensure MMR output format configurations support vertical (9:16) as a first-class asset type alongside 16:9 — especially for Project Launcher metadata templates.",
-        "Use YouTube Shorts = discovery, long-form = depth as a framing conversation with Guardian Studios when they engage with MMR workflows.",
-        "Track NAB 2026 (April 18-22) announcements from Backlight, Harmonic, and Avid for iconik/LucidLink product reveals that may affect MMR roadmap."
+        "Treat MMR iconik metadata schema as foundational AI infrastructure — every field defined now enables automated processing later (compliance, rights, search, personalisation).",
+        "Monitor ITV's generative AI deployment for case studies applicable to Guardian's video workflow — particularly metadata automation and rights checking.",
+        "Factor AI governance into MMR handover documentation: who owns what data, how is AI use of assets controlled, what are the editorial guardrails?"
       ]
     }
   ],
@@ -63,6 +63,18 @@
           "source": "iconik official"
         },
         {
+          "title": "Backlight 2026 Iconik Media Stats Report — audio +45% YoY (podcasts, multilingual, voiceovers), video = 64% of storage, vertical +120%, AI tools used 11.4M times",
+          "url": "https://www.4rfv.co.uk/industrynews/328227/backlight_report_highlights_surge_in_media_storage_and_ai_use",
+          "published": "2026-03-11",
+          "source": "4rfv / Backlight (full UK trade press coverage today)"
+        },
+        {
+          "title": "LucidLink Connect — Blocks & Files deep-dive (March 10): S3 buckets stream into Filespaces without ingest; TeamCache early access reduces bandwidth for office teams; CEO: 'activate existing files without moving them'",
+          "url": "https://www.blocksandfiles.com/object/2026/03/10/lucidlink-connect-streams-s3-buckets-without-the-ingest-headache/5208840",
+          "published": "2026-03-10",
+          "source": "Blocks and Files"
+        },
+        {
           "title": "LucidLink January 2026 release: Guest Access (browser-based external review, zero-knowledge security, email auth, no install required)",
           "url": "https://www.lucidlink.com/blog/january-2026-release",
           "published": "2026-02-02",
@@ -75,22 +87,10 @@
           "source": "LucidLink"
         },
         {
-          "title": "LucidLink Connect (March 5): stream existing data stores, preserve native formats — industry press: SiliconANGLE, SVG, postPerspective",
-          "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
-          "published": "2026-03-05",
-          "source": "LucidLink"
-        },
-        {
-          "title": "Backlight 2026 Media Stats Report: video = 64% of storage (14% of assets), vertical publishing +120%, AI features used 11.4M+ times, 903M assets on platform",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/video-is-king-2026-iconik-media-stats-report-finds-video-consumes-64-of-storage-needs-for-media-assets/",
+          "title": "NAB Show 2026 (April 18-22): Registration open — Harmonic AI orchestration, Backlight single-platform create/manage/publish, Avid AI workflow; booth N2829",
+          "url": "https://www.nabshow.com/press-release/2026-nab-show-registration-opens-with-first-look-at-major-program-enhancements/",
           "published": "2026-02",
-          "source": "Backlight / iconik"
-        },
-        {
-          "title": "NAB Show 2026 (April 18-22): Harmonic unveiling next-gen media server + AI orchestration; Backlight presenting single-platform manage-create-publish",
-          "url": "https://www.broadbandtvnews.com/2026/03/06/harmonic-to-unveil-next-generation-media-server-and-ai-orchestration-at-nab-show-2026/",
-          "published": "2026-03-06",
-          "source": "Broadband TV News"
+          "source": "NAB Show"
         }
       ]
     },
@@ -98,22 +98,28 @@
       "title": "Guardian Strategy Signals",
       "items": [
         {
-          "title": "Guardian Studios formed Feb 26 2026: Leah Green (ex-Channel 4) as head — video-first, personality-led journalism mandate, new demand on MMR",
+          "title": "Guardian Studios formed Feb 26 2026: Leah Green (ex-Channel 4) as head — video-first, personality-led journalism mandate across multimedia teams globally",
           "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/guardian-announces-leah-green-as-head-of-guardian-studios",
           "published": "2026-02-26",
           "source": "The Guardian"
         },
         {
-          "title": "Guardian joins SPUR coalition (Feb 26): BBC, FT, Sky News, Telegraph founding members — technical standards for AI use of publisher content",
-          "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/major-news-brands-including-the-guardian-form-new-coalition-to-promote-responsible-ai-licensing",
+          "title": "Guardian joins SPUR coalition (Feb 26): BBC, FT, Sky News, Telegraph — technical standards for AI use of publisher content; establishing global licensing frameworks",
+          "url": "https://www.theguardian.com/media/2026/feb/26/guardian-joins-media-coalition-to-protect-original-journalism-from-unpaid-use-by-ai",
           "published": "2026-02-26",
-          "source": "The Guardian / journalism.co.uk"
+          "source": "The Guardian"
         },
         {
-          "title": "Guardian debuts flagship video podcast Feb 2026: US co-hosted show, staff of 10, competing with NYT and NPR",
-          "url": "https://www.semafor.com/article/02/15/2026/the-guardian-debuts-new-flagship-podcast",
-          "published": "2026-02-15",
-          "source": "Semafor"
+          "title": "Guardian year-long reporting initiative: AI, work and power (from Feb 17) — internal editorial stance on AI becoming public Guardian journalism brand signal",
+          "url": "https://www.theguardian.com/guardian-us-press-office/2026/feb/17/ai-guardian-reporting-media",
+          "published": "2026-02-17",
+          "source": "The Guardian"
+        },
+        {
+          "title": "News Corp 'AI input company' after $150M Meta deal (March 4) — contrast with Guardian/SPUR ethical AI licensing approach; News Corp explicitly embracing content-for-training model",
+          "url": "https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m",
+          "published": "2026-03-04",
+          "source": "The Guardian"
         }
       ]
     },
@@ -121,22 +127,22 @@
       "title": "Platform Distribution + Growth",
       "items": [
         {
+          "title": "Buffer analysis: Instagram, LinkedIn, Threads engagement rates DOWN in 2025; TikTok and Facebook engagement UP — 52M posts analysed (CNET, March 9)",
+          "url": "https://www.cnet.com/news/social-media/instagram-threads-and-linkedin-engagement-dipped-last-year-heres-whats-happening-to-our-feeds/",
+          "published": "2026-03-09",
+          "source": "CNET / Buffer"
+        },
+        {
           "title": "YouTube CEO 2026 strategy: Shorts = discovery layer, long-form = depth/monetisation, creators = studios — integrated format system required",
           "url": "https://www.searchenginejournal.com/youtube-ceo-reveals-your-video-marketing-strategy-for-2026/565783/",
           "published": "2026-02-02",
           "source": "Search Engine Journal / YouTube"
         },
         {
-          "title": "Wildmoka: TikTok Drafts manual publish outperforms automated schedulers by up to 60% reach",
+          "title": "Wildmoka: TikTok Drafts manual publish outperforms automated schedulers by up to 60% reach — but TikTok regulatory risk persists (Indonesia under-16 ban from March 28)",
           "url": "https://media-power.it/wildmoka-contenuti-video-digitali-per-broadcaster-e-media-company-anche-su-tiktok/",
           "published": "2026-02",
           "source": "Wildmoka via Media Power"
-        },
-        {
-          "title": "Meta Graph API v25.0: Page Viewer metric replaces legacy reach by mid-2026 — analytics dashboards must update",
-          "url": "https://emplifi.io/resources/blog/social-media-updates/",
-          "published": "2026-03",
-          "source": "Meta / Emplifi"
         }
       ]
     },
@@ -144,67 +150,60 @@
       "title": "Industry AI + Workflow Signals",
       "items": [
         {
+          "title": "OTT Question Time Live 2026: ITV Head of GenAI + ThinkAnalytics CTO — AI delivering ROI in metadata automation, compliance, rights, scheduling; governance/talent remain the real blockers",
+          "url": "https://www.vodprofessional.com/ottqtl26/ott-question-time-live-2026-ai-front-backend-use-cases-solutions/",
+          "published": "2026-03-04",
+          "source": "VOD Professional / OTT Question Time Live"
+        },
+        {
+          "title": "BBC: AI-generated content surge — 'pipeline onto social media almost fully automated' (March 6); content authenticity is now a Guardian editorial competitive advantage",
+          "url": "https://www.bbc.com/news/articles/ckg8wvz427vo",
+          "published": "2026-03-06",
+          "source": "BBC News"
+        },
+        {
           "title": "Reuters Institute 2026: agentic AI for end-to-end newsroom workflow automation becomes real this year — investigations, fact-checking, newsgathering",
           "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
           "published": "2026-01",
           "source": "Reuters Institute for the Study of Journalism"
-        },
-        {
-          "title": "Reuters Institute warning: more bots than people may soon be reading publisher websites — fundamentally changes digital distribution assumptions",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01",
-          "source": "Reuters Institute"
-        },
-        {
-          "title": "Avid CPO at NAB 2026: AI deployed to 'remove friction in the workflow' without replacing creative control or editorial intent",
-          "url": "https://www.tvtechnology.com/production/sports-production/avids-new-cpo-discusses-ai-nab-show-and-newsroom-tech",
-          "published": "2026-02",
-          "source": "TV Technology"
         }
       ]
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-09T21:00:00Z",
-    "newCount": 5,
+    "previousUpdated": "2026-03-10T21:00:00Z",
+    "newCount": 4,
     "removedCount": 3,
     "newItems": [
       {
-        "title": "iconik changelog March 5: My Shares filtering + favourite saved searches now live",
-        "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
-        "published": "2026-03-05",
-        "source": "iconik official",
+        "title": "Backlight 2026 Stats Report NEW DETAIL: audio +45% YoY (podcasts, multilingual tracks, voiceovers) — UK trade press full coverage today",
+        "url": "https://www.4rfv.co.uk/industrynews/328227/backlight_report_highlights_surge_in_media_storage_and_ai_use",
+        "published": "2026-03-11",
+        "source": "4rfv / Backlight",
         "section": "Vendor Watch: iconik / LucidLink / Backlight"
       },
       {
-        "title": "LucidLink Guest Access: browser-based external review, no account required, zero-knowledge security",
-        "url": "https://www.lucidlink.com/blog/january-2026-release",
-        "published": "2026-02-02",
-        "source": "LucidLink",
+        "title": "LucidLink Connect deep-dive: S3 streaming without ingest — activate Guardian archive without migration; TeamCache early access for office teams",
+        "url": "https://www.blocksandfiles.com/object/2026/03/10/lucidlink-connect-streams-s3-buckets-without-the-ingest-headache/5208840",
+        "published": "2026-03-10",
+        "source": "Blocks and Files",
         "section": "Vendor Watch: iconik / LucidLink / Backlight"
       },
       {
-        "title": "LucidLink Directory Management API: automate folder structures + permissions at scale",
-        "url": "https://www.lucidlink.com/blog/january-2026-release",
-        "published": "2026-02-02",
-        "source": "LucidLink",
-        "section": "Vendor Watch: iconik / LucidLink / Backlight"
+        "title": "Buffer/CNET: Instagram, Threads, LinkedIn engagement rates DOWN in 2025 — TikTok and Facebook UP. Platform distribution strategy must be use-case specific, not platform-loyal.",
+        "url": "https://www.cnet.com/news/social-media/instagram-threads-and-linkedin-engagement-dipped-last-year-heres-whats-happening-to-our-feeds/",
+        "published": "2026-03-09",
+        "source": "CNET / Buffer",
+        "section": "Platform Distribution + Growth"
       },
       {
-        "title": "SPUR coalition launched: Guardian + BBC + FT + Sky + Telegraph — technical AI content licensing standards",
-        "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/major-news-brands-including-the-guardian-form-new-coalition-to-promote-responsible-ai-licensing",
-        "published": "2026-02-26",
-        "source": "The Guardian",
-        "section": "Guardian Strategy Signals"
-      },
-      {
-        "title": "Reuters Institute: agentic AI for newsroom workflow automation is real in 2026 — investigations, fact-checking, end-to-end automation",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-        "published": "2026-01",
-        "source": "Reuters Institute",
+        "title": "OTT Question Time Live: ITV Head of GenAI on practical AI — metadata, compliance, rights, scheduling. Governance and talent are the real blockers, not the tech.",
+        "url": "https://www.vodprofessional.com/ottqtl26/ott-question-time-live-2026-ai-front-backend-use-cases-solutions/",
+        "published": "2026-03-04",
+        "source": "VOD Professional",
         "section": "Industry AI + Workflow Signals"
       }
     ],
-    "summary": "Tonight's standout signal: LucidLink's Jan 2026 release (Guest Access + Directory Management API) is directly actionable for MMR — external review without accounts, and Project Launcher can now extend to auto-create LucidLink folder structures. iconik My Shares filtering is live in production. The SPUR coalition crystallises The Guardian's AI strategy: protect content externally, automate internally. Agentic AI for end-to-end newsroom workflows is no longer prediction — it's 2026 reality."
+    "summary": "Tonight's standout signal: audio +45% YoY in iconik's stats — Guardian's podcast/audio strategy is structurally right, and MMR must treat audio as first-class. LucidLink Connect's S3 streaming (no ingest required) is potentially huge if Guardian has S3 archives — worth one conversation with the infrastructure team. Platform landscape is more nuanced than expected: Instagram engagement is declining while TikTok stays high, despite regulatory pressure. UK broadcasters (ITV, ThinkAnalytics) confirm AI is delivering real ROI in metadata automation — Guardian's MMR metadata investment today is the AI foundation for tomorrow."
   }
 }
