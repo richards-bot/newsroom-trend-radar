@@ -1,48 +1,48 @@
 {
-  "updated": "2026-03-11T21:00:00Z",
+  "updated": "2026-03-12T21:00:00Z",
   "meta": {
-    "totalSources": 17,
-    "totalItems": 17
+    "totalSources": 18,
+    "totalItems": 18
   },
   "decisionPanels": [
     {
       "title": "🎙️ Audio +45% YoY — Guardian's podcast push is structurally vindicated",
       "priority": "high",
-      "summary": "Backlight's 2026 Media Stats Report (getting full UK trade press coverage today, March 11) reveals audio assets grew 45% year-on-year across its platform — driven by podcasts, voiceovers, music libraries, and multilingual audio tracks. This is the fastest-growing asset type after vertical video. The Guardian launched its flagship video podcast in February and just formed Guardian Studios. The infrastructure timing is right: MMR's LucidLink + iconik stack must handle audio-first asset management at scale, not as an afterthought. Multilingual audio tracks in particular signal the direction of global audience growth.",
+      "summary": "Backlight's 2026 Media Stats Report (now confirmed across BroadcastBeat, 4rfv, and BroadcastBeat; March 10-12) reveals audio assets grew 45% year-on-year across its platform — driven by podcasts, voiceovers, music libraries, and multilingual audio tracks. This is the fastest-growing asset type after vertical video. The Guardian launched its flagship video podcast in February and just formed Guardian Studios. The infrastructure timing is right: MMR's LucidLink + iconik stack must handle audio-first asset management at scale, not as an afterthought. Multilingual audio tracks in particular signal the direction of global audience growth. 903 million total assets and 324 PB storage now tracked across Backlight's platform — Guardian is a small but growing part of that ecosystem.",
       "actions": [
         "Audit MMR iconik metadata schema for audio assets: does it support podcast-specific fields (episode number, series, language, transcript attachment)?",
         "Ensure Project Launcher covers audio production workflows — not just video. Guardian Studios will need audio collections in iconik from day one.",
-        "Flag to multimedia leadership: audio +45% is a platform-wide trend, not just Guardian. Budget and capacity planning for audio storage in LucidLink should reflect this growth rate."
+        "Flag to multimedia leadership: audio +45% is a platform-wide trend. Budget and capacity planning for audio storage in LucidLink should reflect this growth rate."
       ]
     },
     {
-      "title": "☁️ LucidLink Connect + S3 = Guardian archive activation — no migration needed",
+      "title": "☁️ LucidLink Connect GA: Guardian archive activation — no migration needed",
       "priority": "high",
-      "summary": "The Blocks & Files deep-dive (March 10) on LucidLink Connect confirms the key detail: existing AWS S3 buckets can be streamed directly into LucidLink Filespaces without ingesting or moving the data. Native file formats and workflows are preserved — LucidLink acts as a transparent delivery layer. CEO Peter Thompson: 'activate existing files without ingesting, without moving them.' TeamCache (early access) reduces bandwidth for teams sharing the same office. If Guardian already has any media archive on AWS S3, this is immediately actionable: Connect would let producers access archive footage directly through LucidLink without a migration project. Available on Enterprise plans now.",
+      "summary": "LucidLink Connect is now generally available (SiliconANGLE exclusive March 5; Blocks & Files deep-dive March 10; SVG Europe March 6). The confirmed capability: existing AWS S3 buckets can be streamed directly into LucidLink Filespaces without ingesting or moving data. Native file formats preserved. SOC 2 Type II and MPA TPN Blue Shield certified. CEO Peter Thompson: 'activate existing files without ingesting, without moving them.' TeamCache (early access) reduces bandwidth for office-colocated teams. CLI linking confirmed for a future release. If Guardian has any media archive on AWS S3, this is immediately actionable — no migration project required. Available now on Enterprise plans.",
       "actions": [
-        "Check whether The Guardian has existing media archives on AWS S3 that could be activated via LucidLink Connect — speak to infrastructure/cloud team.",
-        "If S3 archives exist, evaluate LucidLink Enterprise plan and Connect as a bridge between legacy archive and MMR's live production Filespace.",
-        "Flag TeamCache early access to LucidLink account team — if Guardian's multimedia team is office-colocated, this reduces bandwidth overhead significantly."
+        "Ask Guardian infrastructure/cloud team: does Guardian have existing media archives on AWS S3? If yes, LucidLink Connect (Enterprise) can activate them without migration.",
+        "If S3 archives exist, evaluate LucidLink Enterprise plan and Connect as bridge between legacy archive and MMR's live production Filespace.",
+        "Flag TeamCache early access to LucidLink account team — if multimedia team is office-colocated, this reduces bandwidth overhead significantly."
       ]
     },
     {
-      "title": "📱 Platform split: TikTok leads engagement, Instagram leads safety — Guardian must choose by use case",
-      "priority": "medium",
-      "summary": "Two conflicting signals this week: Buffer's analysis of 52 million posts (CNET, March 9) shows Instagram, LinkedIn and Threads engagement rates all declined in 2025, while TikTok increased. But TikTok faces ongoing regulatory risk (Indonesia under-16 ban from March 28; previous US action). The picture for Guardian: TikTok delivers the highest engagement and algorithmic amplification, but carries brand/regulatory risk. Instagram Reels are safer for a trust-brand like the Guardian but declining in organic reach. The winning strategy is neither/nor — YouTube Shorts for discovery, long-form for depth, TikTok Drafts for high-priority moments, Instagram for archive/community. Different content, different platform, intentional.",
+      "title": "🎬 AWS Elemental Inference + UK video ads £9.3bn — live vertical publishing is now an infrastructure decision",
+      "priority": "high",
+      "summary": "Two signals this week that together define the stakes. First: AWS launched Elemental Inference (Hollywood Reporter, ~2 weeks ago) — AI-powered real-time vertical video conversion from live and on-demand feeds with 6-10 second latency. Uses saliency mapping, object tracking, and speaker detection to auto-frame 9:16 from 16:9 during live broadcasts. Fox Sports and NBCUniversal are already using it. This means Guardian could publish live 9:16 clips to TikTok and Instagram *during* breaking news events — press conferences, verdicts, elections — with no post-production. Second: IAB UK reports UK digital video ad investment hit £9.3 billion in 2025, +20% year-on-year, now 24% of all UK digital ad spend. CTV = 34% of video. 57% of respondents expect budgets higher in 2026. The commercial case for Guardian video is rock solid — the infrastructure gap is the only constraint.",
       "actions": [
-        "Brief Guardian's social/multimedia team on the engagement decline on Instagram — do not assume Instagram Reels will perform as well as 2024 benchmarks suggest.",
-        "Maintain TikTok Drafts manual-publish workflow for high-priority Guardian video (per Wildmoka's 60% reach lift data) — but document the regulatory risk in a platform risk register.",
-        "Build YouTube Shorts into Guardian Studios' launch content plan as the primary discovery mechanism — YouTube long-form is where monetisation and depth live."
+        "Evaluate AWS Elemental Inference for Guardian's live news vertical publishing — particularly for breaking news, elections, and live events coverage.",
+        "Ensure MMR Project Launcher metadata templates treat vertical (9:16) as a first-class asset type with its own delivery destination fields.",
+        "Brief Guardian Studios on IAB UK data: video is 24% of UK digital ad spend — this is the commercial argument for investing in Guardian Studios infrastructure now."
       ]
     },
     {
-      "title": "🤖 UK broadcasters: AI from experimentation to execution — ITV, ThinkAnalytics leading",
+      "title": "⚖️ UK AI copyright delayed + BBC Sport digital-first — two signals shaping Guardian's 2026 position",
       "priority": "medium",
-      "summary": "OTT Question Time Live 2026 (March 4, UK) featured ITV's Head of Generative AI and ThinkAnalytics CTO. Key signals: AI is now delivering measurable ROI in backend metadata automation, compliance checking, rights management, and scheduling — not just frontend discovery. The panel was notably honest: 'where expectations still outpace reality' — AI governance, talent, and workflow change management are the real blockers, not the technology. This maps directly to Guardian's position: MMR is being built right now as the foundation. Getting iconik metadata right today means AI automation can run on it tomorrow. The investment is in the metadata, not the model.",
+      "summary": "Two important context signals. First: the UK Government 'kicked the can down the road' on AI copyright rule changes (VideoWeek, March 6). This is good news for Guardian's SPUR coalition — the regulatory pressure hasn't eased, but Guardian is ahead of the market in having a licensing framework in place. SPUR members (BBC, FT, Sky News, Telegraph, Guardian) are building technical standards that may well become de facto requirements once legislation does arrive. Second: BBC Sport used a genuine 'digital first' approach at Milan Cortina 2026 Winter Olympics (SVG Europe) — 'serving audiences through social and online platforms as a priority rather than an afterthought.' This is the benchmark. Guardian Studios launching in 2026 is perfectly timed — but it needs a workflow that makes social-first publishing the path of least resistance, not an extra step.",
       "actions": [
-        "Treat MMR iconik metadata schema as foundational AI infrastructure — every field defined now enables automated processing later (compliance, rights, search, personalisation).",
-        "Monitor ITV's generative AI deployment for case studies applicable to Guardian's video workflow — particularly metadata automation and rights checking.",
-        "Factor AI governance into MMR handover documentation: who owns what data, how is AI use of assets controlled, what are the editorial guardrails?"
+        "Monitor UK AI copyright consultation timeline — SPUR's technical standards may become legally significant once legislation arrives.",
+        "Guardian Studios should benchmark against BBC Sport's Milan Cortina digital-first playbook — key question: what workflow changes made social the primary publish destination?",
+        "Add AI governance section to MMR handover documentation: data ownership, editorial guardrails for AI use of assets — per ITV GenAI lead blueprint."
       ]
     }
   ],
@@ -57,37 +57,37 @@
           "source": "iconik official changelog"
         },
         {
-          "title": "iconik interface overhaul live from 4 March 2026: new nav, grey background, admin dropdown, Upload button removed — design system continues throughout 2026",
+          "title": "iconik interface overhaul live from 4 March 2026: new nav, grey background, admin dropdown, Upload button removed — design system continues throughout 2026 (light/dark mode coming)",
           "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
           "published": "2026-03-04",
-          "source": "iconik official"
+          "source": "iconik official / DID Technology analysis"
         },
         {
-          "title": "Backlight 2026 Iconik Media Stats Report — audio +45% YoY (podcasts, multilingual, voiceovers), video = 64% of storage, vertical +120%, AI tools used 11.4M times",
-          "url": "https://www.4rfv.co.uk/industrynews/328227/backlight_report_highlights_surge_in_media_storage_and_ai_use",
-          "published": "2026-03-11",
-          "source": "4rfv / Backlight (full UK trade press coverage today)"
+          "title": "Backlight 2026 Iconik Media Stats Report — video = 64% of storage, audio +45% YoY, vertical publishing +120%, AI used 11.4M times, 903M assets, 324 PB total (BroadcastBeat, March 10)",
+          "url": "https://www.broadcastbeat.com/video-is-king-2026-iconik-media-stats-report-finds-video-consumes-64-of-storage-needs-for-media-assets/",
+          "published": "2026-03-10",
+          "source": "BroadcastBeat / Backlight"
         },
         {
-          "title": "LucidLink Connect — Blocks & Files deep-dive (March 10): S3 buckets stream into Filespaces without ingest; TeamCache early access reduces bandwidth for office teams; CEO: 'activate existing files without moving them'",
+          "title": "LucidLink Connect GA (SiliconANGLE exclusive, March 5): mount S3 buckets as LucidLink Filespaces without data migration — byte-range streaming, no ingest, SOC 2 Type II + MPA TPN certified",
+          "url": "https://siliconangle.com/2026/03/05/exclusive-lucidlink-enables-collaboration-directly-object-storage/",
+          "published": "2026-03-05",
+          "source": "SiliconANGLE"
+        },
+        {
+          "title": "LucidLink Connect — Blocks & Files deep-dive (March 10): TeamCache early access for office teams; API + SDK for custom orchestration; CLI linking in future release",
           "url": "https://www.blocksandfiles.com/object/2026/03/10/lucidlink-connect-streams-s3-buckets-without-the-ingest-headache/5208840",
           "published": "2026-03-10",
           "source": "Blocks and Files"
         },
         {
-          "title": "LucidLink January 2026 release: Guest Access (browser-based external review, zero-knowledge security, email auth, no install required)",
+          "title": "LucidLink January 2026 release: Guest Access (browser-based external review, zero-knowledge security, no install required) + Directory Management API (programmatic folder/permissions automation)",
           "url": "https://www.lucidlink.com/blog/january-2026-release",
           "published": "2026-02-02",
           "source": "LucidLink"
         },
         {
-          "title": "LucidLink Directory Management API: programmatic folder structure, permissions, access controls at scale — directly relevant to Project Launcher automation",
-          "url": "https://www.lucidlink.com/blog/january-2026-release",
-          "published": "2026-02-02",
-          "source": "LucidLink"
-        },
-        {
-          "title": "NAB Show 2026 (April 18-22): Registration open — Harmonic AI orchestration, Backlight single-platform create/manage/publish, Avid AI workflow; booth N2829",
+          "title": "NAB Show 2026 (April 18-22): Backlight booth N2829 — single-platform create/manage/publish; Harmonic AI orchestration; Avid AI workflow. Key vendor watch dates.",
           "url": "https://www.nabshow.com/press-release/2026-nab-show-registration-opens-with-first-look-at-major-program-enhancements/",
           "published": "2026-02",
           "source": "NAB Show"
@@ -104,19 +104,19 @@
           "source": "The Guardian"
         },
         {
-          "title": "Guardian joins SPUR coalition (Feb 26): BBC, FT, Sky News, Telegraph — technical standards for AI use of publisher content; establishing global licensing frameworks",
+          "title": "Guardian joins SPUR coalition (Feb 26): BBC, FT, Sky News, Telegraph — technical standards for AI use of publisher content; UK government AI copyright delay makes SPUR's early-mover position stronger",
           "url": "https://www.theguardian.com/media/2026/feb/26/guardian-joins-media-coalition-to-protect-original-journalism-from-unpaid-use-by-ai",
           "published": "2026-02-26",
           "source": "The Guardian"
         },
         {
-          "title": "Guardian year-long reporting initiative: AI, work and power (from Feb 17) — internal editorial stance on AI becoming public Guardian journalism brand signal",
-          "url": "https://www.theguardian.com/guardian-us-press-office/2026/feb/17/ai-guardian-reporting-media",
-          "published": "2026-02-17",
-          "source": "The Guardian"
+          "title": "UK Government delays AI copyright rule change (VideoWeek, March 6) — kicks the can on legislation; SPUR coalition members are building de facto standards ahead of law",
+          "url": "https://videoweek.com/2026/03/06/week-in-review-bbc-mulls-opening-up-iplayer-to-other-psbs-video-leads-digital-ad-growth-in-the-uk-and-uk-government-delays-ai-copyright-rule-change/",
+          "published": "2026-03-06",
+          "source": "VideoWeek / IAB UK"
         },
         {
-          "title": "News Corp 'AI input company' after $150M Meta deal (March 4) — contrast with Guardian/SPUR ethical AI licensing approach; News Corp explicitly embracing content-for-training model",
+          "title": "News Corp 'AI input company' after $150M Meta deal (March 4) — direct contrast with Guardian/SPUR ethical AI licensing approach",
           "url": "https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m",
           "published": "2026-03-04",
           "source": "The Guardian"
@@ -127,7 +127,19 @@
       "title": "Platform Distribution + Growth",
       "items": [
         {
-          "title": "Buffer analysis: Instagram, LinkedIn, Threads engagement rates DOWN in 2025; TikTok and Facebook engagement UP — 52M posts analysed (CNET, March 9)",
+          "title": "AWS Elemental Inference: AI real-time vertical video (9:16) from live feeds at 6-10s latency — saliency mapping, object/speaker tracking; Fox Sports + NBCUniversal live (Hollywood Reporter)",
+          "url": "https://www.hollywoodreporter.com/business/digital/amazon-tiktok-fighting-ai-powered-vertical-video-tech-fox-1236512376/",
+          "published": "2026-03",
+          "source": "Hollywood Reporter / AWS"
+        },
+        {
+          "title": "IAB UK: UK digital video ad spend £9.3bn in 2025, +20% YoY — now 24% of all UK digital ad spend; CTV = 34% of video; 57% of marketers expect higher video budgets in 2026",
+          "url": "https://videoweek.com/2026/03/06/week-in-review-bbc-mulls-opening-up-iplayer-to-other-psbs-video-leads-digital-ad-growth-in-the-uk-and-uk-government-delays-ai-copyright-rule-change/",
+          "published": "2026-03-06",
+          "source": "VideoWeek / IAB UK"
+        },
+        {
+          "title": "Buffer analysis: Instagram, LinkedIn, Threads engagement rates DOWN in 2025; TikTok and Facebook engagement UP — 52M posts analysed (CNET, March 9); March 2026 confirms Instagram thriving, TikTok volatile",
           "url": "https://www.cnet.com/news/social-media/instagram-threads-and-linkedin-engagement-dipped-last-year-heres-whats-happening-to-our-feeds/",
           "published": "2026-03-09",
           "source": "CNET / Buffer"
@@ -137,12 +149,6 @@
           "url": "https://www.searchenginejournal.com/youtube-ceo-reveals-your-video-marketing-strategy-for-2026/565783/",
           "published": "2026-02-02",
           "source": "Search Engine Journal / YouTube"
-        },
-        {
-          "title": "Wildmoka: TikTok Drafts manual publish outperforms automated schedulers by up to 60% reach — but TikTok regulatory risk persists (Indonesia under-16 ban from March 28)",
-          "url": "https://media-power.it/wildmoka-contenuti-video-digitali-per-broadcaster-e-media-company-anche-su-tiktok/",
-          "published": "2026-02",
-          "source": "Wildmoka via Media Power"
         }
       ]
     },
@@ -150,60 +156,65 @@
       "title": "Industry AI + Workflow Signals",
       "items": [
         {
-          "title": "OTT Question Time Live 2026: ITV Head of GenAI + ThinkAnalytics CTO — AI delivering ROI in metadata automation, compliance, rights, scheduling; governance/talent remain the real blockers",
-          "url": "https://www.vodprofessional.com/ottqtl26/ott-question-time-live-2026-ai-front-backend-use-cases-solutions/",
-          "published": "2026-03-04",
-          "source": "VOD Professional / OTT Question Time Live"
+          "title": "BBC Sport digital-first at Milan Cortina 2026 Winter Olympics: social/online platforms as publish priority, not afterthought — integrated linear and digital editorial (SVG Europe)",
+          "url": "https://www.svgeurope.org/blog/headlines/milano-cortina-2026-how-digital-first-goals-are-bringing-together-linear-and-online-editorial-for-bbc-sport-coverage-at-the-winter-olympics/",
+          "published": "2026-02",
+          "source": "SVG Europe"
+        },
+        {
+          "title": "BBC iPlayer proposes opening to ITV/Channel 4 — platform consolidation signal; UK's most-used streaming platform may become PSB hub",
+          "url": "https://rxtvinfo.com/2026/bbc-proposes-iplayer-upgrade-with-itv-and-channel-4-shows/",
+          "published": "2026-03",
+          "source": "RXTV / BBC"
         },
         {
           "title": "BBC: AI-generated content surge — 'pipeline onto social media almost fully automated' (March 6); content authenticity is now a Guardian editorial competitive advantage",
           "url": "https://www.bbc.com/news/articles/ckg8wvz427vo",
           "published": "2026-03-06",
           "source": "BBC News"
-        },
-        {
-          "title": "Reuters Institute 2026: agentic AI for end-to-end newsroom workflow automation becomes real this year — investigations, fact-checking, newsgathering",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01",
-          "source": "Reuters Institute for the Study of Journalism"
         }
       ]
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-10T21:00:00Z",
+    "previousUpdated": "2026-03-11T21:00:00Z",
     "newCount": 4,
     "removedCount": 3,
     "newItems": [
       {
-        "title": "Backlight 2026 Stats Report NEW DETAIL: audio +45% YoY (podcasts, multilingual tracks, voiceovers) — UK trade press full coverage today",
-        "url": "https://www.4rfv.co.uk/industrynews/328227/backlight_report_highlights_surge_in_media_storage_and_ai_use",
-        "published": "2026-03-11",
-        "source": "4rfv / Backlight",
-        "section": "Vendor Watch: iconik / LucidLink / Backlight"
-      },
-      {
-        "title": "LucidLink Connect deep-dive: S3 streaming without ingest — activate Guardian archive without migration; TeamCache early access for office teams",
-        "url": "https://www.blocksandfiles.com/object/2026/03/10/lucidlink-connect-streams-s3-buckets-without-the-ingest-headache/5208840",
-        "published": "2026-03-10",
-        "source": "Blocks and Files",
-        "section": "Vendor Watch: iconik / LucidLink / Backlight"
-      },
-      {
-        "title": "Buffer/CNET: Instagram, Threads, LinkedIn engagement rates DOWN in 2025 — TikTok and Facebook UP. Platform distribution strategy must be use-case specific, not platform-loyal.",
-        "url": "https://www.cnet.com/news/social-media/instagram-threads-and-linkedin-engagement-dipped-last-year-heres-whats-happening-to-our-feeds/",
-        "published": "2026-03-09",
-        "source": "CNET / Buffer",
+        "title": "AWS Elemental Inference: AI real-time vertical video conversion at 6-10s latency — Fox Sports + NBCUniversal already live",
+        "url": "https://www.hollywoodreporter.com/business/digital/amazon-tiktok-fighting-ai-powered-vertical-video-tech-fox-1236512376/",
+        "published": "2026-03",
+        "source": "Hollywood Reporter / AWS",
         "section": "Platform Distribution + Growth"
       },
       {
-        "title": "OTT Question Time Live: ITV Head of GenAI on practical AI — metadata, compliance, rights, scheduling. Governance and talent are the real blockers, not the tech.",
-        "url": "https://www.vodprofessional.com/ottqtl26/ott-question-time-live-2026-ai-front-backend-use-cases-solutions/",
-        "published": "2026-03-04",
-        "source": "VOD Professional",
+        "title": "IAB UK: UK digital video ad spend £9.3bn in 2025, +20% YoY — 24% of all UK digital ad spend",
+        "url": "https://videoweek.com/2026/03/06/week-in-review-bbc-mulls-opening-up-iplayer-to-other-psbs-video-leads-digital-ad-growth-in-the-uk-and-uk-government-delays-ai-copyright-rule-change/",
+        "published": "2026-03-06",
+        "source": "VideoWeek / IAB UK",
+        "section": "Platform Distribution + Growth"
+      },
+      {
+        "title": "BBC Sport digital-first at Milan Cortina 2026: social platforms as publish priority, not afterthought",
+        "url": "https://www.svgeurope.org/blog/headlines/milano-cortina-2026-how-digital-first-goals-are-bringing-together-linear-and-online-editorial-for-bbc-sport-coverage-at-the-winter-olympics/",
+        "published": "2026-02",
+        "source": "SVG Europe",
         "section": "Industry AI + Workflow Signals"
+      },
+      {
+        "title": "UK AI copyright rule change delayed — SPUR coalition's early-mover position becomes stronger; Guardian ahead of market",
+        "url": "https://videoweek.com/2026/03/06/week-in-review-bbc-mulls-opening-up-iplayer-to-other-psbs-video-leads-digital-ad-growth-in-the-uk-and-uk-government-delays-ai-copyright-rule-change/",
+        "published": "2026-03-06",
+        "source": "VideoWeek",
+        "section": "Guardian Strategy Signals"
       }
     ],
-    "summary": "Tonight's standout signal: audio +45% YoY in iconik's stats — Guardian's podcast/audio strategy is structurally right, and MMR must treat audio as first-class. LucidLink Connect's S3 streaming (no ingest required) is potentially huge if Guardian has S3 archives — worth one conversation with the infrastructure team. Platform landscape is more nuanced than expected: Instagram engagement is declining while TikTok stays high, despite regulatory pressure. UK broadcasters (ITV, ThinkAnalytics) confirm AI is delivering real ROI in metadata automation — Guardian's MMR metadata investment today is the AI foundation for tomorrow."
+    "removedItems": [
+      "OTT Question Time Live 2026 (March 4) — absorbed; AI governance actions captured in decision panel and KANBAN",
+      "Wildmoka TikTok Drafts 60% reach (Feb) — stable background signal, rotated out",
+      "Reuters Institute 2026 agentic AI (Jan) — evergreen but rotated to make room for current signals"
+    ],
+    "summary": "Tonight's standout new signal: AWS Elemental Inference — real-time AI vertical video from live feeds at 6-10s latency. Fox Sports and NBCUniversal already live. This is a direct infrastructure question for Guardian's live news and Guardian Studios: can you publish 9:16 vertical clips *during* a breaking news event? Pair that with IAB UK's data that UK digital video ad spend is now £9.3bn (+20% YoY, 24% of all digital), and the commercial case for Guardian Studios investment is irrefutable. Vendor update: LucidLink Connect now has multiple GA confirmations across SiliconANGLE and Blocks & Files — the S3 archive activation story is fully confirmed. No new iconik changelog items since March 5. BBC iPlayer consolidation proposal adds to the platform signals: UK PSBs are clustering around fewer, bigger destination platforms — Guardian Studios must be visible on all of them."
   }
 }
