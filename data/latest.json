@@ -1,65 +1,65 @@
 {
-  "updated": "2026-03-14T21:00:00Z",
+  "updated": "2026-03-15T21:00:00Z",
   "meta": {
     "totalSources": 22,
     "totalItems": 25,
     "curatedBy": "Claw overnight run",
-    "note": "Merged from RSS auto-update (17:10 UTC) + curated evening analysis (21:00 UTC)"
+    "note": "March 15 evening run — SXSW final day (YouTube creator sessions), RISJ 'liquid content' + AEO + search -40%, Guardian Iran Day 2 analysis, Wildmoka social draft publishing"
   },
   "decisionPanels": [
     {
-      "title": "🚨 Kharg Island strikes + Guardian LIVE: MMR under maximum stress test RIGHT NOW",
+      "title": "🚨 Iran Conflict Day 2+ — Guardian at video velocity, MMR stress test ongoing",
       "priority": "high",
-      "summary": "Saturday 14 March 2026: US forces struck 90+ military targets on Iran's Kharg Island — the hub for nearly all Iranian oil exports. Trump posted strike videos directly to Truth Social before any newsroom press conference. Guardian is publishing live blogs and video explainers at maximum velocity. Iran has threatened to destroy energy infrastructure of cooperating firms. This is the biggest breaking news event of 2026, live tonight. The workflow question is no longer hypothetical: can Guardian publish 9:16 clips during an active military conflict as fast as the US president posts to Truth Social? MMR workflows are being stress-tested at full capacity right now.",
+      "summary": "The US-Iran conflict entered its second day with Guardian publishing multiple analysis pieces on March 15: 'Trump wages war on Iran his own way' (David Smith, Mar 14) and Simon Tisdall's 'Humiliating failure looms' op-ed (Mar 15). Guardian continues at full editorial intensity — live blogs, video explainers, news analysis — across a sustained breaking news event. This is no longer a one-night stress test: MMR workflows are being evaluated under multi-day breaking news load. The question has evolved from 'can we publish fast enough?' to 'can we sustain quality vertical output across a 72+ hour crisis event?'",
       "actions": [
-        "IMMEDIATE: Check with multimedia producers — are MMR LucidLink ingest and iconik collection workflows holding under current conflict load? Any bottlenecks during breaking news bursts?",
-        "EVALUATE: AWS Elemental Inference for live vertical publishing — the Iran story is demonstrating the exact use case (live event → instant 9:16 clip → TikTok/Instagram) at maximum urgency.",
-        "NOTE: Trump posting strike footage to Truth Social before press conferences is now a pattern for covering US military actions. Social teams need a workflow for monitoring/ingesting official social video as source material, with editorial verification steps."
+        "ASSESS: After 48+ hours of conflict coverage, review with producers — are LucidLink ingest and iconik collection workflows holding? Where are the bottlenecks (upload speed, metadata, approvals)?",
+        "DEBRIEF: Schedule a post-crisis workflow debrief with multimedia producers once the acute phase ends — this is the most valuable MMR test data you'll get before official go-live.",
+        "NOTE: Guardian's editorial framing is now 'human analysis + original journalism' vs commoditised AI news. This is precisely the content Reuters Institute says will command premium subscriptions. MMR's job is to make that journalism faster to produce and distribute, not to generate it."
       ]
     },
     {
-      "title": "📺 YouTube March 13: live stream → instant vertical layout in live control room — zero-cost Shorts from any live feed",
+      "title": "📺 YouTube at SXSW 2026 — Creator tools, podcasting, AI storytelling: publisher roadmap signal",
       "priority": "high",
-      "summary": "YouTube's March 13, 2026 update: publishers can now generate a vertical (9:16) layout directly from a horizontal live stream inside the YouTube live control room. No post-production, no separate encoding pipeline, no engineering work. For Guardian, this means live conflict coverage, press conferences, and parliamentary sessions can simultaneously produce Shorts-ready vertical content. Combined with AWS Elemental Inference (6-10s latency vertical from broadcast feed), Guardian now has two viable paths to real-time vertical from live events. One is free to try today.",
+      "summary": "YouTube and Google presented multiple sessions at SXSW 2026 (March 12-15) focused on podcasting, building audiences as new creators, and how AI is changing brand storytelling. This is YouTube's clearest signal yet that it's positioning itself as the primary platform for publisher-as-creator workflows — not just distribution. Combined with YouTube's March 13 live control room vertical update (zero-cost 9:16 from live feeds) and Reuters Institute confirming YouTube as publishers' #1 platform priority in 2026 (+74 net score), the strategic direction is unambiguous. YouTube should be Guardian's primary video infrastructure investment this year — not a secondary outlet.",
       "actions": [
-        "TEST: YouTube live control room vertical layout for Guardian's next live stream — zero engineering cost, available now.",
-        "MAP: Two live-to-vertical pipelines: (1) YouTube live control room → auto-vertical Shorts [free, YouTube-only], (2) AWS Elemental Inference → real-time 9:16 for TikTok/Instagram [paid, multi-platform]. Different trade-offs, both viable.",
-        "UPDATE: MMR Project Launcher metadata templates — add 'Live vertical Shorts' as a recognised asset type with correct destination metadata fields."
+        "REVIEW: YouTube SXSW session outputs — specifically the 'building an audience as a new creator' session is directly applicable to Guardian Studios journalists-as-creators mandate.",
+        "TEST: YouTube live control room vertical layout on Guardian's next live event (still free, still zero engineering cost — confirmed unchanged since March 13 launch).",
+        "ESCALATE: Present the Reuters Institute +74 net score to Guardian's video/digital leadership as the external validation for YouTube-first investment decision."
       ]
     },
     {
-      "title": "🎙️ Audio +45% YoY + journalist-as-creator model: two MMR schema gaps must close before go-live",
+      "title": "💧 RISJ 2026: 'Liquid Content' + AEO + Search -40% — MMR schema must support this NOW",
       "priority": "high",
-      "summary": "Two compounding signals remain critical. Audio grew 45% YoY across Backlight's platform — Guardian just formed Guardian Studios under Leah Green with an explicit audio + video mandate. The iconik metadata schema needs podcast-specific fields (episode number, series, language, transcript). Concurrently, the journalist-as-creator model is crystallising: NYT Watch Tab is live, Washington Post following, Nieman Lab confirmed the structural shift. Project Launcher needs a journalist-branded vertical publish flow. MMR go-live is weeks away. Neither gap currently has a solution.",
+      "summary": "The Reuters Institute 2026 report introduces three terms that will reshape how Guardian thinks about MMR: (1) 'Liquid content' — journalism structured to reformat and personalise across formats (text → video → short → audio), which means asset metadata must capture format-agnostic structure from creation; (2) AEO (Answer Engine Optimization) — the successor to SEO, optimising content for AI chatbot retrieval rather than search links; and (3) Search traffic -40% over 3 years — publishers forecast >40% drop in Google referral traffic. Combined, these three signals mean Guardian's video-first strategy isn't just about YouTube reach — it's about making content 'liquid' enough to survive the collapse of traditional search distribution. MMR is the infrastructure that either enables or blocks liquid content at Guardian scale.",
       "actions": [
-        "URGENT: Audit MMR iconik metadata schema for audio: podcast episode, series, language, transcript attachment fields must exist before Guardian Studios produces its first audio episode.",
-        "Add 'journalist-as-creator' vertical publish destination field to Project Launcher roadmap before go-live.",
-        "Raise with Leah Green's team: what audio asset types does Guardian Studios plan first? Match iconik metadata schema to their day-one needs."
+        "IMMEDIATE: Review MMR iconik metadata schema — does it capture the fields needed for liquid content? (format tags, reformattability, target-platform fields, transcript/subtitle attachment, original language). If not, add before go-live.",
+        "STRATEGIC: Brief Guardian digital leadership on AEO — answer engine optimization is now the successor to search SEO. Video and audio need structured metadata that AI retrieval systems can parse. This is an MMR schema decision.",
+        "ADD TO ROADMAP: 'Liquid content packaging' as a Project Launcher output type — one press event → multiple reformatted assets (long-form YouTube + Shorts + audio clip + text summary) as a standard workflow, not an edge case."
       ]
     },
     {
-      "title": "🏭 NAB 2026 (April 18-22): Harmonic + Avid + Backlight all confirmed — 5 weeks away",
+      "title": "🏭 NAB 2026 (April 18-22): Harmonic + Avid + Backlight — 34 days away",
       "priority": "medium",
-      "summary": "Harmonic pre-announced the Spectrum X Plus: next-gen media server that dramatically simplifies video ingest/playout, lowers total cost per channel, plus new AI-driven workflow innovations (stand W2831). Avid's new CPO confirmed AI focus — real workflows over big announcements. Backlight at N2829 with 'single platform to manage, create and publish.' Three of Guardian's most relevant vendors presenting in 5 weeks. Meta also announced 'bringing more international news and content to Meta AI' (March 13) — watch for what this means for news publisher content deals.",
+      "summary": "Harmonic pre-announced the Spectrum X Plus: next-gen media server that dramatically simplifies video ingest/playout, lowers total cost per channel, plus new AI-driven workflow innovations (stand W2831). Avid's new CPO confirmed AI focus — real workflows over big announcements. Backlight at N2829 with 'single platform to manage, create and publish.' Three of Guardian's most relevant vendors presenting in 34 days. The SXSW week has reconfirmed YouTube's creator-first trajectory — NAB will add the production infrastructure side of that story (how do you produce at the scale YouTube now expects?).",
       "actions": [
         "Assess whether Ricky or a Guardian colleague can attend NAB 2026 (April 18-22, Las Vegas). Harmonic/Avid/Backlight concentration makes it the highest-value media tech event of the year for MMR context.",
         "Pre-register for Harmonic NAB briefings — Spectrum X Plus ingest/playout cost story is directly relevant to Guardian broadcast infrastructure.",
-        "Monitor Meta's 'international news and content to Meta AI' announcement — if this is a content licensing move, SPUR coalition positioning becomes immediately more important."
+        "Prepare a targeted question list for Backlight/iconik at NAB: specifically around liquid content metadata fields and any AI-powered reformatting features in their 2026 roadmap."
       ]
     }
   ],
   "sections": [
     {
-      "title": "Vendor Watch: iconik / LucidLink / Backlight",
+      "title": "Vendor Watch: iconik / LucidLink / Backlight / Wildmoka",
       "items": [
         {
-          "title": "iconik changelog March 5, 2026: My Shares filtering + favourite saved searches — still latest confirmed update (no new items March 6-14)",
+          "title": "iconik changelog March 5, 2026: My Shares filtering + favourite saved searches — no new changelog items March 6-15",
           "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
           "published": "2026-03-05",
           "source": "iconik official changelog"
         },
         {
-          "title": "iconik interface overhaul from March 4: new nav, grey background, admin dropdown, Upload button removed — design system refresh continues through 2026",
+          "title": "iconik March 2026 UI overhaul: new navigation, neutral grey background, admin dropdown restructured, Upload button removed — training materials need update before MMR go-live",
           "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
           "published": "2026-03-04",
           "source": "iconik official"
@@ -71,16 +71,16 @@
           "source": "BroadcastBeat / Backlight"
         },
         {
-          "title": "LucidLink + Frame.io integration: Q1 2026 GA target — Camera-to-Cloud appears instantly in LucidLink; editors cut in Premiere/After Effects; included with Business + Enterprise",
-          "url": "https://www.svgeurope.org/blog/news-roundup/lucidlink-unveils-frame-io-integration-and-expanded-mobile-capabilities/",
-          "published": "2026-03-05",
-          "source": "SVG Europe / LucidLink"
+          "title": "Wildmoka supports publishing to social drafts (Facebook/Instagram drafts, YouTube unlisted) — batch social scheduling workflow available now for Guardian social teams without live-publishing risk",
+          "url": "https://www.wildmoka.com",
+          "published": "2026-01-16",
+          "source": "Wildmoka"
         },
         {
           "title": "LucidLink Connect GA: mount S3 buckets as LucidLink Filespaces without data migration — byte-range streaming, SOC 2 Type II + MPA TPN certified",
-          "url": "https://siliconangle.com/2026/03/05/exclusive-lucidlink-enables-collaboration-directly-object-storage/",
-          "published": "2026-03-05",
-          "source": "SiliconANGLE"
+          "url": "https://www.blocksandfiles.com/object/2026/03/10/lucidlink-connect-streams-s3-buckets-without-the-ingest-headache/5208840",
+          "published": "2026-03-10",
+          "source": "Blocks & Files / LucidLink"
         },
         {
           "title": "LucidLink January 2026: Guest Access (secure browser review, zero-knowledge, no install) + Directory Management API (programmatic folder automation) + iOS v3.3.14",
@@ -89,7 +89,7 @@
           "source": "LucidLink blog"
         },
         {
-          "title": "NAB Show 2026 (April 18-22): Backlight (N2829), Harmonic Spectrum X Plus (W2831 + N2829), Avid AI workflow focus — three major vendors in 5 weeks",
+          "title": "NAB Show 2026 (April 18-22): Backlight (N2829), Harmonic Spectrum X Plus (W2831), Avid AI workflow focus — three major vendors in 34 days",
           "url": "https://www.tvtechnology.com/production/live-production/harmonic-to-launch-spectrum-x-plus-media-server-at-2026-nab-show",
           "published": "2026-03-12",
           "source": "TV Technology / NAB 2026"
@@ -100,10 +100,10 @@
       "title": "Guardian Strategy Signals",
       "items": [
         {
-          "title": "LIVE NOW (March 14): US strikes Kharg Island — Guardian live blog at maximum velocity; Trump posts strike video to Truth Social; Iran threatens energy infrastructure retaliation",
-          "url": "https://www.theguardian.com/world/live/2026/mar/14/middle-east-crisis-live-iran-warns-of-retaliation-after-trump-says-military-targets-on-kharg-island-obliterated",
-          "published": "2026-03-14",
-          "source": "The Guardian (live coverage)"
+          "title": "Guardian Iran Day 2 (March 15): 'Trump wages war his own way' analysis + Tisdall 'humiliating failure looms' — Guardian at full editorial velocity; sustained conflict coverage output",
+          "url": "https://www.theguardian.com/us-news/2026/mar/14/trump-iran-war-chaos",
+          "published": "2026-03-15",
+          "source": "The Guardian"
         },
         {
           "title": "Guardian Studios confirmed: Leah Green (ex-Channel 4) as head — video-first, personality-led journalism; podcast + vertical video output from launch",
@@ -118,10 +118,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "Guardian US expansion: hiring NY/DC, first podcasts, football/soccer ramp-up for 2026 World Cup — #3 in global News & Media publishers (SimilarWeb Jan 2026)",
-          "url": "https://www.marketingweek.com/the-guardian-us-whole-picture/",
+          "title": "Guardian 2024/25 annual report: US audience 30M (+21% YoY), highest US traffic of any UK newspaper brand (Nov 2025 Comscore) — 'ambitious long-term investment plan to become more accessible to global audiences'",
+          "url": "https://www.amediaoperator.com/news/u-s-audience-growth-seen-at-guardian-independent-future-foresees-higher-ad-spend/",
           "published": "2025-09-29",
-          "source": "Marketing Week"
+          "source": "A Media Operator / Guardian"
         }
       ]
     },
@@ -129,10 +129,22 @@
       "title": "Platform Distribution + Growth",
       "items": [
         {
-          "title": "YouTube March 13, 2026: live stream vertical layout generation in live control room — zero post-production vertical publishing from live events now available",
+          "title": "SXSW 2026 final day (March 15): YouTube/Google sessions on podcasting, building a creator audience, and AI brand storytelling — YouTube signalling publisher-as-creator as core 2026 strategy",
+          "url": "https://blog.youtube/news-and-events/google-youtube-sxsw-2026-guide/",
+          "published": "2026-03-15",
+          "source": "YouTube Blog / SXSW 2026"
+        },
+        {
+          "title": "YouTube March 13, 2026: live stream → instant vertical layout in live control room — zero-cost Shorts from any live feed, zero engineering required",
           "url": "https://socialbee.com/blog/youtube-updates/",
           "published": "2026-03-13",
           "source": "SocialBee / YouTube"
+        },
+        {
+          "title": "Reuters Institute 2026: YouTube main publisher focus (+74 net score, up substantially on 2025); TikTok +56, Instagram +41; publishers deprioritising Facebook (-23) and X (-52)",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01-14",
+          "source": "Reuters Institute"
         },
         {
           "title": "AWS Elemental Inference: AI real-time vertical video (9:16) from live feeds at 6-10s latency — Fox Sports + NBCUniversal live; live breaking news vertical publishing now viable",
@@ -151,18 +163,18 @@
           "url": "https://sproutsocial.com/insights/tiktok-algorithm/",
           "published": "2026-02-06",
           "source": "Sprout Social"
-        },
-        {
-          "title": "Publishers turn to vertical video to compete with creators and grow ad revenue — IAB UK £9.3bn digital video spend (+20% YoY) makes commercial case irrefutable",
-          "url": "https://digiday.com/media/media-briefing-publishers-turn-to-vertical-video-to-compete-with-creators-and-grow-ad-revenue-in-2026/",
-          "published": "2025-12-05",
-          "source": "Digiday"
         }
       ]
     },
     {
       "title": "Industry AI + Workflow Signals",
       "items": [
+        {
+          "title": "Reuters Institute 2026: 'liquid content' + AEO + search -40% — publishers restructuring journalism to be format-agnostic; AEO (Answer Engine Optimization) replaces SEO; search referral traffic falling >40% over 3 years",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01-14",
+          "source": "Reuters Institute"
+        },
         {
           "title": "Harmonic Spectrum X Plus for NAB 2026: next-gen media server — dramatically simplifies video ingest/playout, lowers total cost per channel, new AI-driven workflow innovations",
           "url": "https://www.tvtechnology.com/production/live-production/harmonic-to-launch-spectrum-x-plus-media-server-at-2026-nab-show",
@@ -176,25 +188,19 @@
           "source": "TV Technology / Avid"
         },
         {
-          "title": "Reuters Institute 2026: agentic AI for end-to-end newsroom workflow automation is 2026's defining shift — news orgs move from single-task tools to multi-step autonomous agents",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/news/how-will-ai-reshape-news-2026-forecasts-17-experts-around-world",
-          "published": "2026-01",
-          "source": "Reuters Institute"
+          "title": "Agentic AI for newsrooms: 2026 is the year real-world impact arrives — multi-step autonomous agents moving from theory to operations in metadata, compliance, rights, scheduling (NewscastStudio + Reuters Institute)",
+          "url": "https://www.newscaststudio.com/2025/12/31/agentic-ai-broadcast-media-production-outlook/",
+          "published": "2026-01-02",
+          "source": "NewscastStudio"
         },
         {
-          "title": "Nieman Lab: journalist-as-creator model arriving in 2026 — reporters become on-screen talent on vertical platforms; social teams become editorial support units",
-          "url": "https://www.niemanlab.org/2025/12/newsrooms-become-talent-hubs-for-vertical-video-journalists/",
-          "published": "2025-12",
-          "source": "Nieman Journalism Lab"
+          "title": "SXSW 2026 'Who Owns the Truth?': journalist Tara Palmeri + CCDH CEO Imran Ahmed on algorithms, AI, and fractured media — AI governance for journalism is moving into mainstream conference agenda",
+          "url": "https://mashable.com/article/what-to-expect-sxsw-2026",
+          "published": "2026-03-12",
+          "source": "Mashable / SXSW 2026"
         },
         {
-          "title": "BBC: AI-generated social media pipeline 'almost fully automated' — authentic Guardian journalism becomes primary editorial competitive advantage vs AI content flood",
-          "url": "https://www.bbc.com/news/articles/ckg8wvz427vo",
-          "published": "2026-03-06",
-          "source": "BBC News"
-        },
-        {
-          "title": "Middle East conflict casts shadow on global ad outlook — Digiday analysis: brands pausing placements during conflict news, affects Guardian ad yield around Iran coverage",
+          "title": "Digiday: brands pausing ad placements during conflict news — Guardian commercial team should note ad yield around Iran coverage may be depressed despite high editorial value",
           "url": "https://digiday.com/marketing/middle-east-conflict-casts-shadow-of-global-ad-outlook/",
           "published": "2026-03-13",
           "source": "Digiday"
@@ -203,58 +209,45 @@
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-13T21:00:00Z",
-    "newCount": 6,
-    "removedCount": 3,
+    "previousUpdated": "2026-03-14T21:00:00Z",
+    "newCount": 4,
+    "removedCount": 4,
     "newItems": [
       {
-        "title": "LIVE: US strikes Kharg Island, Trump posts footage to Truth Social — Guardian at maximum video velocity",
-        "url": "https://www.theguardian.com/world/live/2026/mar/14/middle-east-crisis-live-iran-warns-of-retaliation",
-        "published": "2026-03-14",
-        "source": "The Guardian (live)",
+        "title": "Guardian Iran Day 2 (March 15): 'Trump wages war his own way' + Tisdall analysis — sustained conflict coverage at full velocity",
+        "url": "https://www.theguardian.com/us-news/2026/mar/14/trump-iran-war-chaos",
+        "published": "2026-03-15",
+        "source": "The Guardian",
         "section": "Guardian Strategy Signals"
       },
       {
-        "title": "YouTube March 13: live stream → vertical layout in live control room (zero post-production)",
-        "url": "https://socialbee.com/blog/youtube-updates/",
-        "published": "2026-03-13",
-        "source": "SocialBee / YouTube",
+        "title": "SXSW 2026 final day: YouTube/Google sessions — podcasting, creator audience building, AI brand storytelling",
+        "url": "https://blog.youtube/news-and-events/google-youtube-sxsw-2026-guide/",
+        "published": "2026-03-15",
+        "source": "YouTube Blog / SXSW 2026",
         "section": "Platform Distribution + Growth"
       },
       {
-        "title": "Meta March 13: Rewarding Original Creators + Bringing More International News to Meta AI",
-        "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
-        "published": "2026-03-13",
-        "source": "Meta newsroom",
-        "section": "Platform Distribution + Growth"
-      },
-      {
-        "title": "Harmonic Spectrum X Plus pre-announced for NAB 2026: AI-driven video ingest/playout, lower cost per channel",
-        "url": "https://www.tvtechnology.com/production/live-production/harmonic-to-launch-spectrum-x-plus-media-server-at-2026-nab-show",
-        "published": "2026-03-12",
-        "source": "TV Technology",
+        "title": "RISJ 2026: 'liquid content' + AEO (Answer Engine Optimization) + search -40% over 3 years — three terms that reshape MMR strategy",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+        "published": "2026-01-14",
+        "source": "Reuters Institute",
         "section": "Industry AI + Workflow Signals"
       },
       {
-        "title": "Avid CPO interview: AI focus, real newsroom workflows at NAB 2026",
-        "url": "https://www.tvtechnology.com/production/sports-production/avids-new-cpo-discusses-ai-nab-show-and-newsroom-tech",
-        "published": "2026-02",
-        "source": "TV Technology / Avid",
-        "section": "Industry AI + Workflow Signals"
-      },
-      {
-        "title": "Digiday: Middle East conflict casting shadow on global ad outlook — implications for Guardian ad yield",
-        "url": "https://digiday.com/marketing/middle-east-conflict-casts-shadow-of-global-ad-outlook/",
-        "published": "2026-03-13",
-        "source": "Digiday",
-        "section": "Industry AI + Workflow Signals"
+        "title": "Wildmoka supports social draft publishing (Facebook/Instagram drafts, YouTube unlisted) — batch scheduling without live-publish risk",
+        "url": "https://www.wildmoka.com",
+        "published": "2026-01-16",
+        "source": "Wildmoka",
+        "section": "Vendor Watch"
       }
     ],
     "removedItems": [
-      "Google Flow March 2026 item — subsumed into broader agentic AI trend context",
-      "France Télévisions Wildmoka standalone item — absorbed into Wildmoka platform context",
-      "NYT Watch Tab standalone item — embedded in journalist-as-creator decision panel"
+      "Guardian US expansion Sept 2025 item — stale, absorbed into annual report item",
+      "Nieman Lab journalist-as-creator Dec 2025 — embedded in Decision Panel 3",
+      "BBC AI-generated social media pipeline March 6 — absorbed into agentic AI item",
+      "Kharg Island LIVE March 14 item — updated to Day 2 sustained coverage item"
     ],
-    "summary": "Tonight's dominant story: US struck Kharg Island, Trump posted videos to Truth Social before press conferences — Guardian is live at maximum intensity. This is the real stress test for MMR. Two new live-to-vertical paths confirmed this week: YouTube live control room (March 13, free, zero engineering) and AWS Elemental Inference (6-10s latency, paid). NAB 2026 (5 weeks away) is building up with Harmonic Spectrum X Plus + Avid AI confirmed. Meta made two significant news-relevant moves on March 13: rewarding original creators on Facebook AND expanding international news into Meta AI. No new iconik changelog since March 5. No new LucidLink release since January. Vendor watch steady — the action is in platform distribution and Guardian's live editorial operation."
+    "summary": "Tonight's run is steadier than yesterday's — no single explosive event, but the strategic picture is deepening. Guardian continues at maximum editorial intensity through Day 2 of the Iran conflict: analysis pieces, op-eds, and live-updated explainers published today (March 15). SXSW concludes today with YouTube/Google doubling down on publisher-as-creator infrastructure. The Reuters Institute 2026 report is now yielding its most actionable concepts: 'liquid content' (format-agnostic journalism structure) and AEO (Answer Engine Optimization) are now concrete terms MMR infrastructure must support. No new iconik changelog since March 5. No new LucidLink release since January. Wildmoka draft publishing detail added — directly useful for Guardian social team's workflow planning. NAB 2026 now 34 days away."
   }
 }
