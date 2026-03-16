@@ -1,50 +1,50 @@
 {
-  "updated": "2026-03-15T21:00:00Z",
+  "updated": "2026-03-16T21:00:00Z",
   "meta": {
-    "totalSources": 22,
+    "totalSources": 24,
     "totalItems": 25,
     "curatedBy": "Claw overnight run",
-    "note": "March 15 evening run — SXSW final day (YouTube creator sessions), RISJ 'liquid content' + AEO + search -40%, Guardian Iran Day 2 analysis, Wildmoka social draft publishing"
+    "note": "March 16 evening run — YouTube as 'Creators are new studios' (INMA), publishers hiring YouTube-specialist producers (DCN), EditShare Analytical AI at NAB 2026, LucidLink Classic upgrade tool, TikTok Bulletin Boards for publishers"
   },
   "decisionPanels": [
     {
-      "title": "🚨 Iran Conflict Day 2+ — Guardian at video velocity, MMR stress test ongoing",
+      "title": "🚨 Iran Conflict Day 3 — Guardian sustained output, MMR endurance test",
       "priority": "high",
-      "summary": "The US-Iran conflict entered its second day with Guardian publishing multiple analysis pieces on March 15: 'Trump wages war on Iran his own way' (David Smith, Mar 14) and Simon Tisdall's 'Humiliating failure looms' op-ed (Mar 15). Guardian continues at full editorial intensity — live blogs, video explainers, news analysis — across a sustained breaking news event. This is no longer a one-night stress test: MMR workflows are being evaluated under multi-day breaking news load. The question has evolved from 'can we publish fast enough?' to 'can we sustain quality vertical output across a 72+ hour crisis event?'",
+      "summary": "Guardian is now into day 3 of the US-Iran conflict. Today's output: 'Trump wages war on Iran his own way: commander-in-chaos' (David Smith analysis, published ~3pm London). This is a multi-day, high-volume multimedia event — the kind that will define whether MMR's architecture is production-grade. The key risk has shifted from speed (can we publish fast?) to endurance (can we maintain quality vertical output over 72+ hours without team burnout or workflow degradation?). Any friction in LucidLink ingest, iconik metadata, or Wildmoka distribution is magnified under sustained conflict load. This is live data for the MMR handover docs.",
       "actions": [
-        "ASSESS: After 48+ hours of conflict coverage, review with producers — are LucidLink ingest and iconik collection workflows holding? Where are the bottlenecks (upload speed, metadata, approvals)?",
-        "DEBRIEF: Schedule a post-crisis workflow debrief with multimedia producers once the acute phase ends — this is the most valuable MMR test data you'll get before official go-live.",
-        "NOTE: Guardian's editorial framing is now 'human analysis + original journalism' vs commoditised AI news. This is precisely the content Reuters Institute says will command premium subscriptions. MMR's job is to make that journalism faster to produce and distribute, not to generate it."
+        "CAPTURE: Ask multimedia producers today or tomorrow — what broke, what was slow, what worked? This debrief data is more valuable than any vendor demo.",
+        "DOCUMENT: Log which workflow steps became bottlenecks under sustained conflict load. This becomes the opening section of the MMR risk register.",
+        "MONITOR: Guardian continues to be at maximum editorial intensity. Don't push new tooling changes during the hot phase — wait for the acute period to pass."
       ]
     },
     {
-      "title": "📺 YouTube at SXSW 2026 — Creator tools, podcasting, AI storytelling: publisher roadmap signal",
+      "title": "📺 YouTube: 'Creators are the New Studios' — Guardian's competitive set just changed",
       "priority": "high",
-      "summary": "YouTube and Google presented multiple sessions at SXSW 2026 (March 12-15) focused on podcasting, building audiences as new creators, and how AI is changing brand storytelling. This is YouTube's clearest signal yet that it's positioning itself as the primary platform for publisher-as-creator workflows — not just distribution. Combined with YouTube's March 13 live control room vertical update (zero-cost 9:16 from live feeds) and Reuters Institute confirming YouTube as publishers' #1 platform priority in 2026 (+74 net score), the strategic direction is unambiguous. YouTube should be Guardian's primary video infrastructure investment this year — not a secondary outlet.",
+      "summary": "INMA analysis of YouTube CEO Neal Mohan's 2026 letter (published 3 weeks ago, now being acted on) makes the competitive reality clear: Guardian is no longer competing mainly against other publishers for YouTube audience. It is competing against self-funded creator businesses that move faster, cost less, and own their audience data directly. YouTube is also not picking a format — Shorts (200bn daily views), long-form, podcasts, live, shopping all coexist in one product. The key phrase: 'Platforms are native to format shifts. Publishers are retrofitting them.' Publishers hiring YouTube-specialist video producers confirms this is now operational strategy, not theory (DCN, March 12). YouTube is UK's #2 streaming service (behind BBC, ahead of ITV). That is the audience Guardian's YouTube strategy is competing for.",
       "actions": [
-        "REVIEW: YouTube SXSW session outputs — specifically the 'building an audience as a new creator' session is directly applicable to Guardian Studios journalists-as-creators mandate.",
-        "TEST: YouTube live control room vertical layout on Guardian's next live event (still free, still zero engineering cost — confirmed unchanged since March 13 launch).",
-        "ESCALATE: Present the Reuters Institute +74 net score to Guardian's video/digital leadership as the external validation for YouTube-first investment decision."
+        "HIRE (or advocate): The 'YouTube-specialist video producer' role is now industry-standard. Guardian Studios should have one if it doesn't. This person is distinct from a general video producer — they understand the platform's algorithmic logic.",
+        "RETHINK: MMR's Project Launcher needs a YouTube-native output type — not just 'upload here' but structured workflow for Shorts + long-form + thumbnail + metadata optimised for YouTube discovery.",
+        "TEST: YouTube live control room vertical layout (March 13 feature) on Guardian's next live event — still free, zero engineering. This is the fastest route to testing the vertical format with real audience data."
       ]
     },
     {
-      "title": "💧 RISJ 2026: 'Liquid Content' + AEO + Search -40% — MMR schema must support this NOW",
+      "title": "🤖 Analytical AI vs Generative AI — the MAM distinction that matters at NAB 2026",
       "priority": "high",
-      "summary": "The Reuters Institute 2026 report introduces three terms that will reshape how Guardian thinks about MMR: (1) 'Liquid content' — journalism structured to reformat and personalise across formats (text → video → short → audio), which means asset metadata must capture format-agnostic structure from creation; (2) AEO (Answer Engine Optimization) — the successor to SEO, optimising content for AI chatbot retrieval rather than search links; and (3) Search traffic -40% over 3 years — publishers forecast >40% drop in Google referral traffic. Combined, these three signals mean Guardian's video-first strategy isn't just about YouTube reach — it's about making content 'liquid' enough to survive the collapse of traditional search distribution. MMR is the infrastructure that either enables or blocks liquid content at Guardian scale.",
+      "summary": "EditShare's NAB 2026 preview (March 11) has crystallised an important distinction for Guardian's AI governance: Analytical AI (speech recognition, face detection, scene tagging, text analysis — what EditShare FLOW AI and iconik's AI do) vs Generative AI (creating new content — what ChatGPT/Sora/Veo do). Analytical AI is the workhorse of the MAM world: it auto-tags, makes archives searchable, routes assets, and removes manual data entry. Backlight already uses it (11.4M AI uses in their 2026 stats report). INMA's YouTube analysis adds another layer: YouTube CEO describes AI as 'a substrate' — not a feature, but the operating layer everything sits on. For Guardian: the AI governance document for MMR should explicitly separate Analytical AI (safe, already in iconik) from Generative AI (requires editorial guardrails). This framing will help the SPUR coalition conversation too.",
       "actions": [
-        "IMMEDIATE: Review MMR iconik metadata schema — does it capture the fields needed for liquid content? (format tags, reformattability, target-platform fields, transcript/subtitle attachment, original language). If not, add before go-live.",
-        "STRATEGIC: Brief Guardian digital leadership on AEO — answer engine optimization is now the successor to search SEO. Video and audio need structured metadata that AI retrieval systems can parse. This is an MMR schema decision.",
-        "ADD TO ROADMAP: 'Liquid content packaging' as a Project Launcher output type — one press event → multiple reformatted assets (long-form YouTube + Shorts + audio clip + text summary) as a standard workflow, not an edge case."
+        "DRAFT: Add an AI governance section to MMR documentation that distinguishes Analytical AI (metadata, search, tagging — already in iconik) from Generative AI (content creation — requires editorial policy).",
+        "BRIEF: Use EditShare/FLOW AI as a reference point when explaining iconik's AI features to producers. 'It finds and tags — it doesn't write or generate.' Reduces anxiety around AI use in the workflow.",
+        "NAB WATCH: EditShare at N1251 and Backlight at N2829 — both showcasing Analytical AI at NAB (April 18-22). Compare approaches when announcements land."
       ]
     },
     {
-      "title": "🏭 NAB 2026 (April 18-22): Harmonic + Avid + Backlight — 34 days away",
+      "title": "🏭 NAB 2026 (April 18-22): 33 days — Harmonic, Avid, Backlight, EditShare all confirmed",
       "priority": "medium",
-      "summary": "Harmonic pre-announced the Spectrum X Plus: next-gen media server that dramatically simplifies video ingest/playout, lowers total cost per channel, plus new AI-driven workflow innovations (stand W2831). Avid's new CPO confirmed AI focus — real workflows over big announcements. Backlight at N2829 with 'single platform to manage, create and publish.' Three of Guardian's most relevant vendors presenting in 34 days. The SXSW week has reconfirmed YouTube's creator-first trajectory — NAB will add the production infrastructure side of that story (how do you produce at the scale YouTube now expects?).",
+      "summary": "The vendor picture for NAB 2026 is now clearer than ever. Confirmed exhibitors directly relevant to Guardian MMR: Backlight/iconik (N2829), Harmonic Spectrum X Plus (W2831), Avid AI workflows, EditShare FLOW AI + MediaSilo AI (N1251). Four of Guardian's most relevant media tech vendors in one room over five days. EditShare's MediaSilo AI announcement (new bundles: Teams/Pro/Enterprise, unlimited AI, forensic watermarking, SSO) is also a direct signal about where the MAM+review market is heading — all-in-one AI intelligence, not bolt-on. This is the context in which Backlight will make any iconik announcements. Expect AI metadata, archive activation, and multi-format publishing to dominate all four vendor stories.",
       "actions": [
-        "Assess whether Ricky or a Guardian colleague can attend NAB 2026 (April 18-22, Las Vegas). Harmonic/Avid/Backlight concentration makes it the highest-value media tech event of the year for MMR context.",
-        "Pre-register for Harmonic NAB briefings — Spectrum X Plus ingest/playout cost story is directly relevant to Guardian broadcast infrastructure.",
-        "Prepare a targeted question list for Backlight/iconik at NAB: specifically around liquid content metadata fields and any AI-powered reformatting features in their 2026 roadmap."
+        "PLAN: Decide NAB 2026 attendance before April 1. Even a two-day trip covers all four vendor booths. Highest-value media tech event of the year for MMR context.",
+        "PREP: Build a Backlight/iconik question list focused on: (1) Analytical AI auto-tagging improvements, (2) liquid content metadata fields, (3) audio workflow enhancements, (4) any LucidLink/Frame.io integration updates.",
+        "WATCH: EditShare MediaSilo AI new bundles (Teams/Pro/Enterprise) — if pricing is competitive, worth evaluating as an external review platform for Guardian's post-production partners."
       ]
     }
   ],
@@ -53,13 +53,13 @@
       "title": "Vendor Watch: iconik / LucidLink / Backlight / Wildmoka",
       "items": [
         {
-          "title": "iconik changelog March 5, 2026: My Shares filtering + favourite saved searches — no new changelog items March 6-15",
+          "title": "iconik changelog March 5, 2026: My Shares filtering + favourite saved searches — confirmed no new changelog items March 6-16",
           "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
           "published": "2026-03-05",
           "source": "iconik official changelog"
         },
         {
-          "title": "iconik March 2026 UI overhaul: new navigation, neutral grey background, admin dropdown restructured, Upload button removed — training materials need update before MMR go-live",
+          "title": "iconik March 2026 UI overhaul: new navigation, neutral grey background, admin dropdown restructured, Upload button removed — update producer training materials before MMR go-live",
           "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
           "published": "2026-03-04",
           "source": "iconik official"
@@ -71,10 +71,10 @@
           "source": "BroadcastBeat / Backlight"
         },
         {
-          "title": "Wildmoka supports publishing to social drafts (Facebook/Instagram drafts, YouTube unlisted) — batch social scheduling workflow available now for Guardian social teams without live-publishing risk",
-          "url": "https://www.wildmoka.com",
-          "published": "2026-01-16",
-          "source": "Wildmoka"
+          "title": "LucidLink Upgrade Tool (March 2, 2026): upgrade Classic Filespaces to new LucidLink in-place — no data copying or migration required; Guardian WIP storage upgrade path now confirmed",
+          "url": "https://support.lucidlink.com/hc/en-us/articles/40136893598733-Step-by-step-upgrade-guide",
+          "published": "2026-03-02",
+          "source": "LucidLink support docs"
         },
         {
           "title": "LucidLink Connect GA: mount S3 buckets as LucidLink Filespaces without data migration — byte-range streaming, SOC 2 Type II + MPA TPN certified",
@@ -83,13 +83,13 @@
           "source": "Blocks & Files / LucidLink"
         },
         {
-          "title": "LucidLink January 2026: Guest Access (secure browser review, zero-knowledge, no install) + Directory Management API (programmatic folder automation) + iOS v3.3.14",
-          "url": "https://www.lucidlink.com/blog/january-2026-release",
-          "published": "2026-02-02",
-          "source": "LucidLink blog"
+          "title": "Wildmoka supports publishing to social drafts (Facebook/Instagram drafts, YouTube unlisted) — batch social scheduling workflow available now for Guardian social teams without live-publish risk",
+          "url": "https://www.wildmoka.com",
+          "published": "2026-01-16",
+          "source": "Wildmoka"
         },
         {
-          "title": "NAB Show 2026 (April 18-22): Backlight (N2829), Harmonic Spectrum X Plus (W2831), Avid AI workflow focus — three major vendors in 34 days",
+          "title": "NAB Show 2026 (April 18-22): Backlight (N2829), Harmonic Spectrum X Plus (W2831), Avid AI, EditShare FLOW AI + MediaSilo AI (N1251) — four vendors in 33 days",
           "url": "https://www.tvtechnology.com/production/live-production/harmonic-to-launch-spectrum-x-plus-media-server-at-2026-nab-show",
           "published": "2026-03-12",
           "source": "TV Technology / NAB 2026"
@@ -100,25 +100,25 @@
       "title": "Guardian Strategy Signals",
       "items": [
         {
-          "title": "Guardian Iran Day 2 (March 15): 'Trump wages war his own way' analysis + Tisdall 'humiliating failure looms' — Guardian at full editorial velocity; sustained conflict coverage output",
+          "title": "Guardian Iran Day 3 (March 16): 'Trump wages war on Iran his own way: commander-in-chaos' — Day 3 of sustained conflict publishing; MMR under endurance test",
           "url": "https://www.theguardian.com/us-news/2026/mar/14/trump-iran-war-chaos",
-          "published": "2026-03-15",
+          "published": "2026-03-16",
           "source": "The Guardian"
         },
         {
-          "title": "Guardian Studios confirmed: Leah Green (ex-Channel 4) as head — video-first, personality-led journalism; podcast + vertical video output from launch",
-          "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/guardian-announces-leah-green-as-head-of-guardian-studios",
-          "published": "2026-02-26",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Guardian SPUR coalition (BBC, FT, Sky News, Telegraph): technical standards for AI use of publisher content — UK AI copyright delay strengthens early-mover position",
+          "title": "Guardian SPUR coalition: BBC, FT, Sky News, Telegraph building AI content standards — UK AI copyright delay strengthens early-mover position; MMR schema should incorporate rights/licensing fields",
           "url": "https://www.theguardian.com/media/2026/feb/26/guardian-joins-media-coalition-to-protect-original-journalism-from-unpaid-use-by-ai",
           "published": "2026-02-26",
           "source": "The Guardian"
         },
         {
-          "title": "Guardian 2024/25 annual report: US audience 30M (+21% YoY), highest US traffic of any UK newspaper brand (Nov 2025 Comscore) — 'ambitious long-term investment plan to become more accessible to global audiences'",
+          "title": "Guardian Studios: Leah Green (ex-Channel 4) as head — personality-led journalism, video-first mandate; Project Launcher must support journalist-as-creator social publishing workflows",
+          "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/guardian-announces-leah-green-as-head-of-guardian-studios",
+          "published": "2026-02-26",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Guardian US 30M audience (+21% YoY, Nov 2025 Comscore): highest US traffic of any UK newspaper brand — US audience is the growth engine; YouTube is the distribution layer",
           "url": "https://www.amediaoperator.com/news/u-s-audience-growth-seen-at-guardian-independent-future-foresees-higher-ad-spend/",
           "published": "2025-09-29",
           "source": "A Media Operator / Guardian"
@@ -129,40 +129,40 @@
       "title": "Platform Distribution + Growth",
       "items": [
         {
-          "title": "SXSW 2026 final day (March 15): YouTube/Google sessions on podcasting, building a creator audience, and AI brand storytelling — YouTube signalling publisher-as-creator as core 2026 strategy",
-          "url": "https://blog.youtube/news-and-events/google-youtube-sxsw-2026-guide/",
-          "published": "2026-03-15",
-          "source": "YouTube Blog / SXSW 2026"
+          "title": "INMA March 2026: YouTube CEO 'Creators are the new studios' — publishers competing against self-funded creators with lower costs + better audience data; YouTube is UK's #2 streaming service (behind BBC, ahead of ITV)",
+          "url": "https://www.inma.org/blogs/product-initiative/post.cfm/what-youtube-s-2026-strategy-signals-for-news-companies",
+          "published": "2026-03-01",
+          "source": "INMA"
         },
         {
-          "title": "YouTube March 13, 2026: live stream → instant vertical layout in live control room — zero-cost Shorts from any live feed, zero engineering required",
-          "url": "https://socialbee.com/blog/youtube-updates/",
-          "published": "2026-03-13",
-          "source": "SocialBee / YouTube"
+          "title": "DCN March 12: publishers now actively hiring YouTube-specialist video producers — YouTube climbing priority lists in 2026 as AI cuts search referral traffic by up to 79%",
+          "url": "https://digitalcontentnext.org/blog/2026/03/12/publishers-rethink-youtube-strategy-as-search-traffic-erodes/",
+          "published": "2026-03-12",
+          "source": "Digital Content Next"
         },
         {
-          "title": "Reuters Institute 2026: YouTube main publisher focus (+74 net score, up substantially on 2025); TikTok +56, Instagram +41; publishers deprioritising Facebook (-23) and X (-52)",
+          "title": "Reuters Institute 2026: YouTube main publisher focus (+74 net score); TikTok +56, Instagram +41; publishers deprioritising Facebook (-23) and X (-52); search traffic -40% over 3 years",
           "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
           "published": "2026-01-14",
           "source": "Reuters Institute"
+        },
+        {
+          "title": "TikTok Bulletin Boards rolling out to publishers/brands in For You feed (March 13) — direct audience notification tool; Guardian should test alongside YouTube live control room vertical",
+          "url": "https://socialbee.com/blog/tiktok-updates/",
+          "published": "2026-03-13",
+          "source": "SocialBee / TikTok"
+        },
+        {
+          "title": "YouTube March 13: live stream → instant vertical layout in live control room — zero-cost Shorts from any live feed, zero engineering required",
+          "url": "https://socialbee.com/blog/youtube-updates/",
+          "published": "2026-03-13",
+          "source": "SocialBee / YouTube"
         },
         {
           "title": "AWS Elemental Inference: AI real-time vertical video (9:16) from live feeds at 6-10s latency — Fox Sports + NBCUniversal live; live breaking news vertical publishing now viable",
           "url": "https://www.hollywoodreporter.com/business/digital/amazon-tiktok-fighting-ai-powered-vertical-video-tech-fox-1236512376/",
           "published": "2026-03",
           "source": "Hollywood Reporter / AWS"
-        },
-        {
-          "title": "Meta March 13: 'Rewarding Original Creators on Facebook' + 'Bringing More International News to Meta AI' — two moves that affect news publisher distribution strategy simultaneously",
-          "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
-          "published": "2026-03-13",
-          "source": "Meta newsroom"
-        },
-        {
-          "title": "TikTok 2026 algorithm: watch time > views, rewards niche content, favours authentic human creators — 'qualified views' (>5s) gate expansion; Guardian conflict explainers structurally well-suited",
-          "url": "https://sproutsocial.com/insights/tiktok-algorithm/",
-          "published": "2026-02-06",
-          "source": "Sprout Social"
         }
       ]
     },
@@ -170,84 +170,91 @@
       "title": "Industry AI + Workflow Signals",
       "items": [
         {
-          "title": "Reuters Institute 2026: 'liquid content' + AEO + search -40% — publishers restructuring journalism to be format-agnostic; AEO (Answer Engine Optimization) replaces SEO; search referral traffic falling >40% over 3 years",
+          "title": "EditShare FLOW AI + MediaSilo AI at NAB 2026 (N1251): Analytical AI for auto-metadata (speech, faces, scenes, text) — transforms archives into searchable assets without manual tagging; new MediaSilo bundles with unlimited AI",
+          "url": "https://editshare.com/editshare-advances-analytical-ai-and-nvme-performance-at-nab-2026",
+          "published": "2026-03-11",
+          "source": "EditShare"
+        },
+        {
+          "title": "INMA: YouTube CEO says AI is now 'a substrate not a feature' — 20M users using Ask feature; AI Shorts generation; autodubbing at scale. Publishers treating AI as assistive tool risk falling behind audience expectations",
+          "url": "https://www.inma.org/blogs/product-initiative/post.cfm/what-youtube-s-2026-strategy-signals-for-news-companies",
+          "published": "2026-03-01",
+          "source": "INMA"
+        },
+        {
+          "title": "Reuters Institute 2026: 'liquid content' + AEO (Answer Engine Optimization) + search -40% — MMR iconik metadata schema must support format-agnostic liquid content packaging from creation",
           "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
           "published": "2026-01-14",
           "source": "Reuters Institute"
         },
         {
-          "title": "Harmonic Spectrum X Plus for NAB 2026: next-gen media server — dramatically simplifies video ingest/playout, lowers total cost per channel, new AI-driven workflow innovations",
+          "title": "Harmonic Spectrum X Plus for NAB 2026: next-gen media server — simplified ingest/playout, lower cost per channel, new AI-driven workflow innovations (W2831)",
           "url": "https://www.tvtechnology.com/production/live-production/harmonic-to-launch-spectrum-x-plus-media-server-at-2026-nab-show",
           "published": "2026-03-12",
           "source": "TV Technology"
         },
         {
-          "title": "Avid CPO (TV Tech Feb 2026): AI removing friction without replacing creative control — NAB focus on real newsroom workflows; newsroom AI is Avid's core investment",
-          "url": "https://www.tvtechnology.com/production/sports-production/avids-new-cpo-discusses-ai-nab-show-and-newsroom-tech",
-          "published": "2026-02",
-          "source": "TV Technology / Avid"
+          "title": "Agentic AI for newsrooms: 2026 is the year real-world impact arrives — multi-step autonomous agents now in metadata, compliance, rights, scheduling at well-resourced newsrooms",
+          "url": "https://www.niemanlab.org/2025/12/big-newsrooms-pave-the-way-for-ai-agents-in-journalism/",
+          "published": "2025-12-17",
+          "source": "Nieman Lab"
         },
         {
-          "title": "Agentic AI for newsrooms: 2026 is the year real-world impact arrives — multi-step autonomous agents moving from theory to operations in metadata, compliance, rights, scheduling (NewscastStudio + Reuters Institute)",
-          "url": "https://www.newscaststudio.com/2025/12/31/agentic-ai-broadcast-media-production-outlook/",
-          "published": "2026-01-02",
-          "source": "NewscastStudio"
-        },
-        {
-          "title": "SXSW 2026 'Who Owns the Truth?': journalist Tara Palmeri + CCDH CEO Imran Ahmed on algorithms, AI, and fractured media — AI governance for journalism is moving into mainstream conference agenda",
-          "url": "https://mashable.com/article/what-to-expect-sxsw-2026",
-          "published": "2026-03-12",
-          "source": "Mashable / SXSW 2026"
-        },
-        {
-          "title": "Digiday: brands pausing ad placements during conflict news — Guardian commercial team should note ad yield around Iran coverage may be depressed despite high editorial value",
-          "url": "https://digiday.com/marketing/middle-east-conflict-casts-shadow-of-global-ad-outlook/",
+          "title": "YouTube pre-publish check tool expanding — detects more potential policy violations before upload; reduces risk of Guardian content being flagged post-publish on conflict/breaking news coverage",
+          "url": "https://socialbee.com/blog/youtube-updates/",
           "published": "2026-03-13",
-          "source": "Digiday"
+          "source": "SocialBee / YouTube"
         }
       ]
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-14T21:00:00Z",
-    "newCount": 4,
+    "previousUpdated": "2026-03-15T21:00:00Z",
+    "newCount": 5,
     "removedCount": 4,
     "newItems": [
       {
-        "title": "Guardian Iran Day 2 (March 15): 'Trump wages war his own way' + Tisdall analysis — sustained conflict coverage at full velocity",
-        "url": "https://www.theguardian.com/us-news/2026/mar/14/trump-iran-war-chaos",
-        "published": "2026-03-15",
-        "source": "The Guardian",
-        "section": "Guardian Strategy Signals"
+        "title": "LucidLink Upgrade Tool (March 2): upgrade Classic Filespaces in-place, no data migration",
+        "url": "https://support.lucidlink.com/hc/en-us/articles/40136893598733-Step-by-step-upgrade-guide",
+        "published": "2026-03-02",
+        "source": "LucidLink",
+        "section": "Vendor Watch"
       },
       {
-        "title": "SXSW 2026 final day: YouTube/Google sessions — podcasting, creator audience building, AI brand storytelling",
-        "url": "https://blog.youtube/news-and-events/google-youtube-sxsw-2026-guide/",
-        "published": "2026-03-15",
-        "source": "YouTube Blog / SXSW 2026",
-        "section": "Platform Distribution + Growth"
-      },
-      {
-        "title": "RISJ 2026: 'liquid content' + AEO (Answer Engine Optimization) + search -40% over 3 years — three terms that reshape MMR strategy",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-        "published": "2026-01-14",
-        "source": "Reuters Institute",
+        "title": "EditShare FLOW AI + MediaSilo AI at NAB 2026 — Analytical AI metadata, new bundle pricing",
+        "url": "https://editshare.com/editshare-advances-analytical-ai-and-nvme-performance-at-nab-2026",
+        "published": "2026-03-11",
+        "source": "EditShare",
         "section": "Industry AI + Workflow Signals"
       },
       {
-        "title": "Wildmoka supports social draft publishing (Facebook/Instagram drafts, YouTube unlisted) — batch scheduling without live-publish risk",
-        "url": "https://www.wildmoka.com",
-        "published": "2026-01-16",
-        "source": "Wildmoka",
-        "section": "Vendor Watch"
+        "title": "INMA: 'Creators are the new studios' — YouTube CEO 2026 letter; publishers vs self-funded creators; AI as substrate",
+        "url": "https://www.inma.org/blogs/product-initiative/post.cfm/what-youtube-s-2026-strategy-signals-for-news-companies",
+        "published": "2026-03-01",
+        "source": "INMA",
+        "section": "Platform Distribution + Growth"
+      },
+      {
+        "title": "DCN March 12: publishers hiring YouTube-specialist video producers; YouTube now UK's #2 streaming service",
+        "url": "https://digitalcontentnext.org/blog/2026/03/12/publishers-rethink-youtube-strategy-as-search-traffic-erodes/",
+        "published": "2026-03-12",
+        "source": "Digital Content Next",
+        "section": "Platform Distribution + Growth"
+      },
+      {
+        "title": "TikTok Bulletin Boards rolling out to publishers/brands in For You feed (March 13)",
+        "url": "https://socialbee.com/blog/tiktok-updates/",
+        "published": "2026-03-13",
+        "source": "SocialBee / TikTok",
+        "section": "Platform Distribution + Growth"
       }
     ],
     "removedItems": [
-      "Guardian US expansion Sept 2025 item — stale, absorbed into annual report item",
-      "Nieman Lab journalist-as-creator Dec 2025 — embedded in Decision Panel 3",
-      "BBC AI-generated social media pipeline March 6 — absorbed into agentic AI item",
-      "Kharg Island LIVE March 14 item — updated to Day 2 sustained coverage item"
+      "SXSW 2026 final day YouTube/Google sessions — absorbed into INMA YouTube analysis item",
+      "Meta March 13 double announcement — absorbed into TikTok Bulletin Boards + platform section",
+      "Avid CPO Feb 2026 — absorbed into NAB 2026 decision panel",
+      "SXSW 'Who Owns the Truth?' — stale, absorbed into AI governance/Analytical AI framing"
     ],
-    "summary": "Tonight's run is steadier than yesterday's — no single explosive event, but the strategic picture is deepening. Guardian continues at maximum editorial intensity through Day 2 of the Iran conflict: analysis pieces, op-eds, and live-updated explainers published today (March 15). SXSW concludes today with YouTube/Google doubling down on publisher-as-creator infrastructure. The Reuters Institute 2026 report is now yielding its most actionable concepts: 'liquid content' (format-agnostic journalism structure) and AEO (Answer Engine Optimization) are now concrete terms MMR infrastructure must support. No new iconik changelog since March 5. No new LucidLink release since January. Wildmoka draft publishing detail added — directly useful for Guardian social team's workflow planning. NAB 2026 now 34 days away."
+    "summary": "March 16 run: Guardian enters Day 3 of Iran conflict publishing. Two high-signal new sources tonight: INMA's analysis of YouTube CEO's 2026 letter ('Creators are the new studios') with direct publisher implications, and Digital Content Next confirming publishers are now operationalising YouTube strategies by hiring specialist producers. EditShare's NAB 2026 preview adds important context for the Analytical AI vs Generative AI distinction — a framing that will be useful for Guardian's MMR AI governance documentation. New LucidLink Upgrade Tool (March 2) added — confirms Guardian's WIP filespace can be upgraded in-place without data migration. TikTok Bulletin Boards now rolling to publishers in For You feed — new audience notification tool to evaluate. No new iconik changelog since March 5. No new LucidLink product release since January/March 5 Connect GA. NAB 2026 now 33 days away."
   }
 }
