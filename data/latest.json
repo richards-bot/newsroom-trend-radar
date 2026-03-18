@@ -1,50 +1,50 @@
 {
-  "updated": "2026-03-17T21:00:00Z",
+  "updated": "2026-03-18T21:00:00Z",
   "meta": {
-    "totalSources": 26,
-    "totalItems": 26,
+    "totalSources": 28,
+    "totalItems": 28,
     "curatedBy": "Claw overnight run",
-    "note": "March 17 evening run — LucidLink Connect full detail (Emmy award, 90 PB, no egress fees), Backlight vertical publishing +120% confirmed, long-form counter-trend signal (Metricool), agentic AI vertical video pipelines, iconik UI navigation overhaul coming March"
+    "note": "March 18 evening run — Meta Creator Fast Track (breaking tonight: $1K-$3K/month to poach TikTok/YouTube creators to Facebook), iconik Web 26.02 multi-channel audio now live (16 channels, mute/solo/pan), SMPTE VIBE NAB AI session confirmed, social search as new discoverability layer"
   },
   "decisionPanels": [
     {
-      "title": "🚨 Iran Conflict Day 4 — MMR endurance test entering extended phase",
+      "title": "🚨 Iran Conflict Day 5 — Guardian at sustained high velocity; debrief window opening",
       "priority": "high",
-      "summary": "Guardian is now into Day 4 of sustained US-Iran conflict publishing. This is no longer a sprint; it is a sustained operational load test for MMR's architecture. The workflow under stress right now is the single best data set available before go-live: LucidLink ingest under sustained use, iconik collection management at editorial pace, Wildmoka distribution velocity on a multi-day story. The question has shifted from 'can the system publish fast?' to 'can it maintain quality output across 96+ hours without workflow degradation?' Any friction discovered now is infinitely cheaper to fix before go-live than after.",
+      "summary": "Guardian is now into Day 5 of sustained US-Iran conflict publishing. The acute publishing load is creating the most valuable MMR test data available before go-live. Every workflow friction point encountered now — LucidLink ingest queues, iconik collection management under editorial pace, Wildmoka distribution velocity — should be documented. The 96-hour+ mark is when workflow fatigue starts to show: producers working around tools rather than through them. If that's happening, it needs to be caught before go-live, not after. The debrief window is opening.",
       "actions": [
-        "DEBRIEF (highest priority): Schedule a structured producer debrief once the acute publishing phase eases. Ask: what broke, what was slow, what worked. This is the most valuable data available before MMR go-live.",
-        "DOCUMENT: Log workflow bottlenecks as they appear. These become the opening section of the MMR risk register and inform handover documentation.",
-        "DO NOT push new tooling changes during the hot phase. Stability of workflow under load is more valuable than any new feature right now."
+        "DEBRIEF (now schedulable): The conflict has been sustained enough that producers have genuine pattern data. Schedule a structured debrief with multimedia team within the next 48-72 hours. Key questions: what slowed you down, what did you work around, what saved time.",
+        "DOCUMENT: Any workarounds discovered now become the opening section of the MMR risk register. These are the gaps the go-live must close.",
+        "HOLD on new tooling changes until the conflict intensity eases. Stability beats new features during a live operational load."
       ]
     },
     {
-      "title": "☁️ LucidLink Connect — Emmy-winning platform, no egress fees, Guardian archive activation",
+      "title": "📱 Meta Creator Fast Track — BREAKING TONIGHT: $1K-$3K/month to pull creators from YouTube/TikTok",
       "priority": "high",
-      "summary": "LucidLink Connect (GA: March 5) is now fully documented. New detail tonight: LucidLink manages 90+ petabytes for 100,000+ users globally. It won an Emmy from the Academy of Television Arts & Sciences Engineering, Science & Technology category in 2025. Critically: LucidLink does not charge egress fees — in a world of rising cloud storage costs (storage cost is a central finding of Backlight's 2026 report), this is a meaningful differentiator. Connect enables byte-range streaming of existing S3-compatible stores without data migration. CEO quote: 'Customers told us they got 10 PB or 100 PB sitting in buckets that they want to activate.' If The Guardian has S3 archives, Connect makes them immediately usable without touching or copying the data.",
+      "summary": "Meta launched Creator Fast Track tonight (March 18). It pays creators who already have large followings on Instagram, TikTok, or YouTube guaranteed cash — $1,000/month for 100K+ followers, $3,000/month for 1M+ followers — plus 3 months guaranteed Reels pay and increased Facebook reach, just to post on Facebook. Sources: Meta newsroom, CNBC, TechCrunch, Engadget. This is a direct platform war move. Meta is admitting it cannot organically compete for creator content by merit alone — it has to pay. The implications for Guardian Studios are structural: (1) the creator monetisation bar has been raised across every platform — your journalists-as-creators are now competing in a cash-incentivised ecosystem; (2) Facebook as a distribution platform is being actively re-seeded with fresh creator content, which changes its algorithmic relevance for news publishers; (3) if creators flood back to Facebook Reels, Guardian's Facebook-distributed video may get better organic reach than it has in years.",
       "actions": [
-        "ASK (infrastructure/cloud team): Does Guardian have existing media archives in AWS S3 or S3-compatible storage? If yes, LucidLink Connect (Enterprise tier) activates them without migration — the economics are direct.",
-        "CONFIRM: Which version of LucidLink is Guardian's WIP filespace running? If Classic, the March 2 Upgrade Tool enables in-place upgrade to unlock Connect, Guest Access, and Directory Management API — all without data copying.",
-        "NOTE: Azure Blob storage support is on the LucidLink Connect roadmap. If Guardian uses Azure, this is an upcoming unlock worth tracking."
+        "MONITOR Facebook reach data over the next 4-6 weeks: Creator Fast Track will change the algorithmic environment. If creator content floods Facebook, organic reach for publisher videos may improve or degrade depending on how Meta's algorithm responds.",
+        "BRIEF Guardian social team: Facebook Reels is being re-energised by Meta spending cash. Don't write it off as a distribution channel based on 2024 data. Test a republishing cadence.",
+        "CONTEXT: Reuters Institute data already shows publishers deprioritising Facebook (-23 net score). This move may require a reassessment — Meta is actively investing in making Facebook relevant again."
       ]
     },
     {
-      "title": "📊 Backlight 2026: Vertical +120%, Audio +45%, Video 64% of Storage — The Guardian MMR numbers",
+      "title": "☁️ LucidLink Connect + iconik Web 26.02 Audio — MMR stack maturing",
       "priority": "high",
-      "summary": "The Backlight 2026 Iconik Media Stats Report (published March 10, now widely covered) contains the industry-wide data that validates every key MMR architectural decision. Vertical publishing grew 120% — confirming 9:16 as a first-class production format, not a conversion afterthought. Audio assets grew 45% year-over-year, driven by podcasts, multi-language tracks, and voice-overs. Video is 64% of storage despite being only 14% of asset count — validating LucidLink's storage architecture over flat object storage. AI was used 11.4 million times in 2025 across Backlight's product suite. These are not forecasts — they are 903 million assets across 324 petabytes of confirmed production data. This report is the single most credible data source for making the business case for Guardian's MMR investment.",
+      "summary": "Two MAM/storage signals confirm the MMR stack is ahead of most peers: (1) iconik Web 26.02 shipped multi-channel audio review directly in the web player — up to 16 discrete channels with independent mute, solo, pan, and volume control, no download required. This is directly relevant for Guardian's podcast and multilingual audio workflows (audio +45% YoY industry-wide). Plus: playlist versioning and new iconik Review sorting. (2) LucidLink Connect (GA March 5, Emmy-winning) remains the standout infrastructure story — 90+ PB managed, no egress fees, mounts S3/Azure Blob as native Filespaces. The combination: Guardian has best-in-class MAM audio tooling AND best-in-class storage available through its current vendor stack.",
       "actions": [
-        "USE THIS REPORT: The 64% storage / 14% asset count ratio is the most powerful statistic for making the business case to Guardian infrastructure/finance. Video is the most expensive asset class by far.",
-        "AUDIT: Check iconik metadata schema for audio fields — podcast episode/series, language, transcript attachment. Audio +45% YoY means Guardian's audio needs will compound fast if schema isn't ready.",
-        "ENSURE Project Launcher covers audio collection creation workflows from day one — not as a follow-on. Backlight data shows audio is growing faster than video on a percentage basis."
+        "VERIFY: Is iconik Web 26.02 live on Guardian's iconik instance? Multi-channel audio review (up to 16ch, mute/solo/pan/volume in browser) is a direct workflow upgrade for audio producers working on podcasts and multilingual content.",
+        "AUDIT iconik metadata schema for audio: podcast episode/series fields, language track, transcript attachment. Audio +45% YoY means unstructured audio in iconik becomes a technical debt problem fast.",
+        "ASK infrastructure team: Does Guardian have existing S3 archives? LucidLink Connect activates them without migration. The Emmy-winning platform managing 90+ PB now has no egress fee — the economic case is direct."
       ]
     },
     {
-      "title": "🏭 NAB 2026 (April 18-22): 32 days — Backlight, Harmonic, Avid, EditShare, AWS all confirmed",
+      "title": "🏭 NAB 2026 (April 18-22): 31 days — SMPTE VIBE, AI live production sessions confirmed",
       "priority": "medium",
-      "summary": "The NAB 2026 vendor picture now includes AWS Elemental Inference (W1701) alongside Backlight (N2829), Harmonic Spectrum X Plus (W2831), Avid AI, and EditShare FLOW AI + MediaSilo AI (N1251). Five directly relevant vendors in one room. AWS Elemental Inference is the most significant new addition: it applies AI during encoding (not after) to produce 9:16 vertical clips at 6-10 second latency from live feeds — Fox Sports cut turnaround from 45-60 minutes to under 15 minutes. This is the technology that enables Guardian-scale live breaking news vertical publishing. Seeing it demoed at NAB with a Guardian use case framing in mind would be high value.",
+      "summary": "NAB 2026 is now 31 days away. New tonight: SMPTE is replacing its Future of Cinema Conference with the VIBE (Visual Innovation and Brilliant Engineering) Conference on April 18. Keynote: Poppy Crum, neuroscientist — 'From Data to Mind: How Technology is Reshaping the Minds of Storytellers and Media Consumers.' Confirmed AI sessions include 'AI-Driven Live Production: Real-Time Metadata, Workflow Automation and Accessible Audio' (April 20, 1:30-2:30pm). This is directly in Guardian's use case. Plus Backlight (N2829), Harmonic Spectrum X Plus (W2831), AWS Elemental Inference (W1701), Avid AI, EditShare (N1251).",
       "actions": [
-        "PLAN: Decide NAB 2026 attendance before April 1. Five key vendors in one room in 32 days. This is the best possible use of two days' travel for MMR context.",
-        "PREP: Build vendor question list: iconik Analytical AI improvements, audio workflow schema, LucidLink Connect + Frame.io integration status, AWS Elemental Inference pricing model for news publishers.",
-        "AWS Elemental Inference pitch: 'AI during encoding, not after.' That 6-10s latency vs 45-60min means the Guardian could publish vertical clips of breaking events while they are still breaking."
+        "DECISION NEEDED: NAB attendance (April 18-22). 31 days. SMPTE VIBE AI session on April 20 + 5 directly relevant vendor booths. This is the single highest-ROI two-day trip available for MMR context in 2026.",
+        "PREP vendor questions: iconik audio schema improvements, LucidLink Connect + Frame.io integration GA status, AWS Elemental Inference pricing for news publishers, Backlight NAB 2026 roadmap previews.",
+        "REGISTER NOW if attending — early registration has closed but floor registration is available. Book travel: Las Vegas, April 18-22."
       ]
     }
   ],
@@ -53,16 +53,16 @@
       "title": "Vendor Watch: iconik / LucidLink / Backlight / Wildmoka",
       "items": [
         {
+          "title": "iconik Web 26.02: multi-channel audio review NOW LIVE — up to 16 discrete channels, mute/solo/pan/volume in browser player, no download required; plus playlist versioning, new iconik Review sorting",
+          "url": "https://www.iconik.io/blog/multi-channel-audio-review-now-live-in-iconik",
+          "published": "2026-02",
+          "source": "iconik / Backlight"
+        },
+        {
           "title": "iconik March 2026: redesigned navigation, neutral grey background, admin dropdown restructured — UI overhaul rolling out; update producer training materials before MMR go-live",
           "url": "https://www.iconik.io/blog/iconik-interface-updates-coming-march-2026",
           "published": "2026-03",
           "source": "iconik / Backlight"
-        },
-        {
-          "title": "iconik changelog March 5, 2026: My Shares filtering + favourite saved searches — confirmed no new changelog items March 6-17",
-          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304685702167-Iconik-Web-Changelog",
-          "published": "2026-03-05",
-          "source": "iconik official changelog"
         },
         {
           "title": "Backlight 2026 Iconik Media Stats Report — video 64% of storage, audio +45% YoY, vertical +120%, AI used 11.4M times, 903M assets / 324 PB total",
@@ -89,9 +89,9 @@
           "source": "Wildmoka"
         },
         {
-          "title": "NAB Show 2026 (April 18-22): Backlight (N2829), Harmonic Spectrum X Plus (W2831), AWS Elemental Inference (W1701), Avid AI, EditShare FLOW AI + MediaSilo AI (N1251)",
+          "title": "NAB Show 2026 (April 18-22): Backlight (N2829), Harmonic Spectrum X Plus (W2831), AWS Elemental Inference (W1701), Avid AI, EditShare FLOW AI + MediaSilo AI (N1251), SMPTE VIBE AI sessions",
           "url": "https://www.tvtechnology.com/production/live-production/harmonic-to-launch-spectrum-x-plus-media-server-at-2026-nab-show",
-          "published": "2026-03-12",
+          "published": "2026-03-17",
           "source": "TV Technology / NAB 2026"
         }
       ]
@@ -100,9 +100,9 @@
       "title": "Guardian Strategy Signals",
       "items": [
         {
-          "title": "Guardian Iran Day 4 (March 17): sustained conflict publishing entering extended phase — MMR endurance test; debrief window approaching",
+          "title": "Guardian Iran Day 5 (March 18): sustained conflict publishing — debrief window opening; most valuable MMR workflow data available before go-live",
           "url": "https://www.theguardian.com/world/iran",
-          "published": "2026-03-17",
+          "published": "2026-03-18",
           "source": "The Guardian"
         },
         {
@@ -129,13 +129,25 @@
       "title": "Platform Distribution + Growth",
       "items": [
         {
-          "title": "INMA March 2026: YouTube CEO 'Creators are the new studios' — publishers competing against self-funded creators with lower costs + better audience data; YouTube UK's #2 streaming service (behind BBC, ahead of ITV)",
+          "title": "Meta Creator Fast Track LAUNCHED (March 18, 2026): $1,000/month for 100K+ followers, $3,000/month for 1M+ followers — poaching TikTok/YouTube creators to Facebook Reels; 3 months guaranteed pay",
+          "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/",
+          "published": "2026-03-18",
+          "source": "Meta / CNBC / TechCrunch"
+        },
+        {
+          "title": "Social search as new discoverability layer (March 2026): TikTok for recommendations, YouTube for tutorials, Reddit for opinions — AEO + social search visibility now more important than Google SEO alone",
+          "url": "https://searchengineland.com/social-search-visibility-evolution-471685",
+          "published": "2026-03-17",
+          "source": "Search Engine Land"
+        },
+        {
+          "title": "INMA March 2026: YouTube CEO 'Creators are the new studios' — publishers competing against self-funded creators; YouTube UK's #2 streaming service (behind BBC, ahead of ITV)",
           "url": "https://www.inma.org/blogs/product-initiative/post.cfm/what-youtube-s-2026-strategy-signals-for-news-companies",
           "published": "2026-03-01",
           "source": "INMA"
         },
         {
-          "title": "DCN March 12: publishers now actively hiring YouTube-specialist video producers — YouTube climbing priority lists in 2026 as AI cuts search referral traffic by up to 79%",
+          "title": "DCN March 12: publishers now actively hiring YouTube-specialist video producers — YouTube climbing priority lists in 2026 as AI cuts search referral traffic",
           "url": "https://digitalcontentnext.org/blog/2026/03/12/publishers-rethink-youtube-strategy-as-search-traffic-erodes/",
           "published": "2026-03-12",
           "source": "Digital Content Next"
@@ -147,22 +159,16 @@
           "source": "Reuters Institute"
         },
         {
-          "title": "TikTok Bulletin Boards rolling out to publishers/brands in For You feed (March 13) — direct audience notification tool; Guardian should test alongside YouTube live control room vertical",
-          "url": "https://socialbee.com/blog/tiktok-updates/",
-          "published": "2026-03-13",
-          "source": "SocialBee / TikTok"
+          "title": "Counter-trend signal (Metricool 2026): long-form video + authentic storytelling returning — audiences seeking 'more human rhythm' after short-form AI content saturation; Guardian's editorial depth is a differentiator",
+          "url": "https://metricool.com/social-media-study/",
+          "published": "2026-03",
+          "source": "Metricool"
         },
         {
           "title": "YouTube March 13: live stream → instant vertical layout in live control room — zero-cost Shorts from any live feed, zero engineering required",
           "url": "https://socialbee.com/blog/youtube-updates/",
           "published": "2026-03-13",
           "source": "SocialBee / YouTube"
-        },
-        {
-          "title": "Counter-trend signal (Metricool 2026 Social Study): long-form video and authentic storytelling returning — audiences seeking 'more human rhythm' after 5 years of short-form AI content saturation; mix formats intentionally",
-          "url": "https://metricool.com/social-media-study/",
-          "published": "2026-03",
-          "source": "Metricool"
         }
       ]
     },
@@ -170,7 +176,13 @@
       "title": "Industry AI + Workflow Signals",
       "items": [
         {
-          "title": "AWS Elemental Inference (GA): AI during encoding (not after) — 9:16 vertical at 6-10s latency from live feeds; Fox Sports cut turnaround from 45-60 min to <15 min; Fox + NBCUniversal live; demoing at NAB W1701",
+          "title": "SMPTE VIBE Conference NAB 2026 (April 18): replaces Future of Cinema — keynote Poppy Crum 'From Data to Mind'; confirmed AI-Driven Live Production session (April 20): real-time metadata, workflow automation, accessible audio",
+          "url": "https://nabpilot.org/ai-education-at-the-2026-nab-broadcast-engineering-and-it-conference/",
+          "published": "2026-03-16",
+          "source": "NAB PILOT / SMPTE"
+        },
+        {
+          "title": "AWS Elemental Inference (GA): AI during encoding (not after) — 9:16 vertical at 6-10s latency from live feeds; Fox Sports cut turnaround from 45-60 min to <15 min; demoing at NAB W1701",
           "url": "https://aws.amazon.com/elemental-inference/",
           "published": "2026-02",
           "source": "AWS / Deadline"
@@ -188,19 +200,13 @@
           "source": "EditShare"
         },
         {
-          "title": "INMA: YouTube CEO says AI is now 'a substrate not a feature' — 20M users using Ask feature; AI Shorts generation; autodubbing at scale. Publishers treating AI as assistive tool risk falling behind audience expectations",
-          "url": "https://www.inma.org/blogs/product-initiative/post.cfm/what-youtube-s-2026-strategy-signals-for-news-companies",
-          "published": "2026-03-01",
-          "source": "INMA"
-        },
-        {
           "title": "Reuters Institute 2026: 'liquid content' + AEO (Answer Engine Optimization) + search -40% — MMR iconik metadata schema must support format-agnostic liquid content packaging from creation",
           "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
           "published": "2026-01-14",
           "source": "Reuters Institute"
         },
         {
-          "title": "Harmonic Spectrum X Plus for NAB 2026: next-gen media server — simplified ingest/playout, lower cost per channel, new AI-driven workflow innovations (W2831)",
+          "title": "Harmonic Spectrum X Plus for NAB 2026: next-gen media server — simplified ingest/playout, lower cost per channel, AI-driven workflow innovations (W2831)",
           "url": "https://www.tvtechnology.com/production/live-production/harmonic-to-launch-spectrum-x-plus-media-server-at-2026-nab-show",
           "published": "2026-03-12",
           "source": "TV Technology"
@@ -209,44 +215,43 @@
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-16T21:00:00Z",
+    "previousUpdated": "2026-03-17T21:00:00Z",
     "newCount": 4,
-    "removedCount": 3,
+    "removedCount": 2,
     "newItems": [
       {
-        "title": "LucidLink Connect full detail: Emmy award, 90+ PB, 100,000+ users, no egress fees, Azure Blob roadmap",
-        "url": "https://siliconangle.com/2026/03/05/exclusive-lucidlink-enables-collaboration-directly-object-storage/",
-        "published": "2026-03-05",
-        "source": "SiliconANGLE",
+        "title": "Meta Creator Fast Track: $1K-$3K/month to poach TikTok/YouTube creators to Facebook Reels — BREAKING March 18",
+        "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/",
+        "published": "2026-03-18",
+        "source": "Meta newsroom",
+        "section": "Platform Distribution + Growth + Decision Panel"
+      },
+      {
+        "title": "iconik Web 26.02: multi-channel audio review live — 16 discrete channels, mute/solo/pan/volume in browser",
+        "url": "https://www.iconik.io/blog/multi-channel-audio-review-now-live-in-iconik",
+        "published": "2026-02",
+        "source": "iconik / Backlight",
         "section": "Vendor Watch"
       },
       {
-        "title": "Agentic AI video editing pipelines 2026: automatic 9:16 reframing, subject tracking, caption styling",
-        "url": "https://www.reelnreel.com/agentic-video-editing/",
-        "published": "2026-03",
-        "source": "ReelnReel",
+        "title": "SMPTE VIBE Conference NAB 2026: AI-Driven Live Production session confirmed April 20; Poppy Crum keynote April 18",
+        "url": "https://nabpilot.org/ai-education-at-the-2026-nab-broadcast-engineering-and-it-conference/",
+        "published": "2026-03-16",
+        "source": "NAB PILOT / SMPTE",
         "section": "Industry AI + Workflow Signals"
       },
       {
-        "title": "Counter-trend signal: long-form video + authentic storytelling returning (Metricool 2026 Social Study)",
-        "url": "https://metricool.com/social-media-study/",
-        "published": "2026-03",
-        "source": "Metricool",
+        "title": "Social search visibility: TikTok/YouTube/Reddit as search engines — AEO + social discoverability replacing Google SEO",
+        "url": "https://searchengineland.com/social-search-visibility-evolution-471685",
+        "published": "2026-03-17",
+        "source": "Search Engine Land",
         "section": "Platform Distribution + Growth"
-      },
-      {
-        "title": "iconik March 2026 UI: redesigned navigation, neutral grey background — update training materials",
-        "url": "https://www.iconik.io/blog/iconik-interface-updates-coming-march-2026",
-        "published": "2026-03",
-        "source": "iconik / Backlight",
-        "section": "Vendor Watch"
       }
     ],
     "removedItems": [
-      "Iran Day 3 decision panel — updated to Day 4 framing",
-      "LucidLink Connect basic item — replaced with full Emmy/PB/egress detail",
-      "AWS Elemental Inference standalone item — merged into expanded NAB 2026 decision panel + AI section"
+      "Iran Day 4 decision panel — updated to Day 5 with debrief window framing",
+      "LucidLink+iconik standalone items — merged into combined MAM stack decision panel"
     ],
-    "summary": "March 17 run: Iran conflict enters Day 4 — debrief window approaching. LucidLink Connect deepened with Emmy award, 90+ PB scale, no egress fees, and Azure Blob roadmap — elevates strategic case significantly. Backlight's vertical +120% confirmed as core business case data. New tonight: agentic AI video editing pipelines (automated 9:16 reframing/subject tracking at scale) and a counter-trend signal from Metricool 2026 study — long-form + authentic storytelling is returning after short-form saturation. NAB 2026 now 32 days away. No new iconik changelog since March 5. iconik UI overhaul (navigation + grey background) confirmed rolling out March — update producer training materials."
+    "summary": "March 18 run: BREAKING — Meta Creator Fast Track launches tonight: $1K-$3K/month guarantees to pull TikTok/YouTube creators to Facebook Reels. This re-energises Facebook as a distribution channel and raises the creator monetisation bar across all platforms. New vendor intel: iconik Web 26.02 multi-channel audio (16ch, mute/solo/pan/volume in browser) confirmed live — directly relevant for Guardian's podcast workflows. SMPTE VIBE replaces Future of Cinema at NAB 2026; AI-Driven Live Production session confirmed April 20. Social search (TikTok/YouTube/Reddit as discovery engines) now a core discoverability signal alongside AEO. Iran conflict Day 5 — producer debrief window opening. NAB 2026 countdown: 31 days."
   }
 }
