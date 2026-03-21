@@ -1,58 +1,93 @@
 {
-  "updated": "2026-03-20T21:00:00Z",
+  "updated": "2026-03-21T21:00:00Z",
   "meta": {
-    "totalSources": 31,
-    "totalItems": 31,
+    "totalSources": 33,
+    "totalItems": 33,
     "curatedBy": "Claw overnight run",
-    "note": "March 20 run — BREAKING: Guardian reveals first reader-facing AI product at Digiday Monday (3 days); NAB 2026 adds second AI Pavilion; Moments Lab agentic AI for video at NAB; Backlight 2026 Stats Report now widely covered (vertical +120%, audio +45%); LucidLink Frame.io GA window: 11 days; Digiday Publishing Summit starts Monday"
+    "note": "March 21 run — Digiday Summit TOMORROW: Guardian AI feature reveal + editor-trained non-chatbot; Cloudflare compliant crawler: new publisher-AI licensing infrastructure emerging; NVIDIA GTC Holoscan for Media upgraded; Schibsted open-sources Videofy (text-to-video for news); CineSys demoing iconik+Twelve Labs at NAB; Frame.io GA window: 10 days"
   },
   "decisionPanels": [
     {
-      "title": "🚨 Guardian Reveals First Reader-Facing AI Product — Monday at Digiday (3 Days)",
+      "title": "🚨 Guardian AI Feature Reveal — TOMORROW at Digiday (Monday March 23)",
       "priority": "urgent",
-      "summary": "Breaking intelligence from tonight's Digiday briefing (published 2 days ago): Guardian's Chris Moran, Head of Editorial Innovation, will present the Guardian's FIRST READER-FACING AI FEATURE on stage at the Digiday Publishing Summit on Monday March 23. The briefing explicitly notes it is NOT a chatbot. This is a major product reveal happening in 3 days. This is the Guardian's first public demonstration of a reader-facing AI product — distinct from internal tools (transcription, archive search, document analysis) confirmed in the March 4 AI policy. The Guardian is also taking part in sessions on AI licensing, bot-blocking strategy, and creator networks. Context: the Guardian's March 4 AI policy established guardrails for internal tools; this Monday reveal is the first evidence of a consumer-facing AI product. MMR implications: whatever this feature is, it almost certainly requires structured metadata as input — making the iconik metadata schema the foundation for the Guardian's AI product roadmap.",
+      "summary": "The Digiday Publishing Summit opens TOMORROW (March 23). Guardian's Chris Moran will present the Guardian's first reader-facing AI feature on stage. NEW DETAIL confirmed tonight: The Guardian enlisted editors from its newsroom to help train the feature — meaning it is editorially grounded, not a generic LLM product. It is explicitly NOT a chatbot. Moran will also discuss the mandatory all-staff AI training programme rolling out across the organisation. This is the most significant Guardian product reveal of the year. The feature's nature remains undisclosed. Also at the Summit: The Atlantic's 3-tier AI bot framework (Allow/Block/Yes-But), publisher zero-click strategies, AI licensing deals, and RAG readiness sessions. Cloudflare's compliant crawler is live context — publishers now have new AI content control infrastructure to deploy. Guardian is making active decisions on all three fronts simultaneously this week. MMR implication: whatever the feature is, structured iconik metadata is almost certainly its data foundation.",
       "actions": [
-        "WATCH Monday March 23: Digiday Publishing Summit opens — Chris Moran's session will be the most important Guardian tech reveal of the year so far. Follow Digiday's live coverage and recaps.",
-        "IDENTIFY what the product is from Monday's coverage and assess MMR implications: if it involves archive content, video, or structured metadata retrieval, iconik is in the pipeline.",
-        "NOTE: Guardian is also participating in AI bot-blocking and AI licensing sessions — further signals that Guardian leadership is making active decisions on these fronts right now (perfect timing for MMR governance docs).",
-        "CROSS-REFERENCE with the March 4 AI policy: the in-house tools described there (archive search, transcription, document analysis) may be precursors to or components of this reader-facing product."
+        "WATCH Digiday live coverage TOMORROW (March 23) from ~2pm ET / 7pm GMT for Chris Moran's session. Digiday.com and their newsletters will carry recaps within hours.",
+        "IDENTIFY the feature from tomorrow's coverage. Key questions: does it touch video/multimedia? Does it use archive content retrieval? Are structured metadata fields involved? If yes to any, MMR's iconik schema is directly in scope.",
+        "NOTE the editor-training detail: a reader-facing AI feature trained by newsroom editors = high editorial credibility signal. This is the Guardian differentiating on trust.",
+        "BRIEF colleagues: whatever this is, it positions Guardian as a responsible AI publisher. Important context for MMR's own governance framing."
       ]
     },
     {
-      "title": "🧠 Guardian Mandatory AI Training + In-House Tools — MMR AI Governance Alignment (URGENT)",
+      "title": "🌐 Cloudflare Compliant Crawler — New AI Content Licensing Infrastructure",
       "priority": "high",
-      "summary": "The Guardian updated its AI policy on March 4 (journalism.co.uk coverage confirmed). Key facts: (1) ALL staff now required to complete mandatory AI training — designed to help everyone understand how AI works and use it responsibly, and will evolve as the technology develops. (2) Guardian is building IN-HOUSE AI tools aligned with editorial standards — specifically: image description writing, archive search, document analysis, and audio transcription — all with built-in guardrails to protect authenticity and values. (3) Transparency requirement: any significant GenAI use in journalism must be clearly labelled. (4) Editorial code and AI principles revised. This is directly relevant to MMR: the in-house tools being built (transcription, archive search) are EXACTLY what iconik already delivers. MMR's AI governance documentation needs to align with this institutional policy NOW, before go-live. Combined with Monday's Digiday reveal of a reader-facing AI product, Guardian's AI posture is more advanced than previously understood.",
+      "summary": "Cloudflare (March 2026) has launched a 'compliant crawler' — positioning itself as a trusted intermediary between publishers and AI companies. The crawler offers publishers more control over how their content is accessed by AI training and RAG pipelines, reducing inefficient site crawls and creating a path to licensed AI content markets. Separately, Cloudflare CEO Matthew Prince (March 19) stated that bot traffic will EXCEED human traffic by 2027. This has immediate strategic implications for news publishers. Two angles: (1) Guardian/SPUR can use Cloudflare's infrastructure to enforce AI content licensing at the network layer — a practical tool for what SPUR is trying to achieve contractually. (2) If >50% of web traffic is bot-driven by next year, editorial SEO and audience measurement fundamentally changes. The publisher-AI licensing market now has a network-layer player, not just contractual agreements.",
       "actions": [
-        "READ the Guardian's updated AI principles (theguardian.com/help/insideguardian/2026/mar/04/how-the-guardian-is-using-genai) and align MMR's AI governance section with the language. Use it as the source of truth for how to frame iconik's Analytical AI (safe: metadata, transcription, search) vs any future Generative AI use.",
-        "LEVERAGE the mandatory training: all staff going through AI training in 2026 creates a window for MMR onboarding to reference the institutional framing. Producers learning 'how AI works' through Guardian training will be more receptive to iconik AI features if MMR docs use the same language.",
-        "NOTE the in-house Guardian archive search + transcription tools being built — these could interface with iconik via API. Worth surfacing to the Guardian product/engineering team whether MMR's iconik setup should be an API endpoint for these tools.",
-        "ADD transparency labelling requirement to MMR documentation: any AI-generated metadata in iconik (auto-tags, AI transcripts) should be clearly distinguished from human-validated metadata."
+        "SHARE with Guardian infrastructure/tech team: Cloudflare's compliant crawler is a practical tool for AI content licensing enforcement — complements SPUR strategy at the network layer.",
+        "ASSESS: does Guardian already use Cloudflare? If yes, the compliant crawler may be a low-effort way to add AI content licensing controls immediately.",
+        "FLAG to SPUR context: Cloudflare sitting between publishers and AI companies creates a new commercial opportunity — publishers can use Cloudflare to meter, control, and monetise AI access to their content.",
+        "MONITOR bot traffic figures: if Cloudflare CEO's 2027 forecast is directionally correct, audience measurement tools that only count human sessions will systematically undercount total engagement within 12 months."
       ]
     },
     {
-      "title": "📦 iconik Web 26.03 Shipped + LucidLink+Frame.io GA Window: 11 Days",
+      "title": "🎬 NVIDIA GTC Holoscan for Media + Schibsted Videofy Open Source",
       "priority": "high",
-      "summary": "Two time-critical vendor signals: (1) iconik Web 26.03 has shipped — confirmed in the Backlight help centre navigation breadcrumbs (sitting above 26.02 in Q1 2026 release sequence). Content was behind auth (403) so specific features are unconfirmed, but a new quarterly release is live. Also confirmed: Iconik iOS 1.3.1 is available. Guardian should verify what 26.03 contains and whether it's live on their instance. (2) LucidLink + Frame.io integration GA is targeted for Q1 2026 — Q1 ends March 31, which is 11 days from tonight. The integration turns Frame.io Camera to Cloud into 'Camera to Timeline' — field footage appears instantly in LucidLink Filespace and directly in Premiere/After Effects without downloading or relinking. Included with Business and Enterprise plans. If confirmed GA before March 31, this is an immediate workflow upgrade for Guardian field production teams.",
+      "summary": "Two significant production AI signals from this week. (1) NVIDIA GTC 2026 (March 17): NVIDIA announced upgraded AI media SDKs including Holoscan for Media — an AI platform for live production, post-production, and content localization workflows. New Content-Localization Blueprint and microservices for audio, video, and AR processing. This is production-grade AI entering the broadcast/streaming workflow stack: real-time metadata, multi-language processing, and workflow automation at scale. Combined with AWS Elemental Inference (live 9:16 at 6-10s latency), the AI production toolkit for news publishers is now a real stack. (2) Schibsted (March 2026) open-sourced 'Videofy' — an AI tool that automatically converts text-based news articles into ready-to-publish news videos in minutes. Now available to all media organisations. This is a direct tool for Guardian Studios: text-to-video pipeline at zero licensing cost, open-source, tested by a major European news publisher. Both signals together mean: AI production tools are now either free (Schibsted Videofy) or enterprise-grade NVIDIA infrastructure. The gap between 'experimenting with AI video' and 'AI video in production' has closed.",
       "actions": [
-        "CHECK: Log into Guardian's iconik instance — is 26.03 showing? Review release notes in-app. Confirm what new features have shipped (the navigation confirms a new release exists).",
-        "CONTACT LucidLink account team: confirm Frame.io integration GA status. Q1 closes March 31 — 11 days. If it's live now, Guardian field teams can use Camera to Timeline workflows immediately.",
-        "ALSO CHECK: Iconik iOS 1.3.1 — what's new? Mobile app updates often include producer-facing features (share, review, upload). Check before updating producer training materials.",
-        "VERIFY iconik 26.02 multi-channel audio is live on Guardian instance — combine this check with the 26.03 verification into a single login session."
+        "EVALUATE Schibsted Videofy for Guardian Studios: it's open-source, news-tested, and converts articles to video automatically. Could reduce turnaround on text-to-social clips. GitHub/blog available.",
+        "NOTE NVIDIA Holoscan for Media in context of NAB 2026 (28 days): NVIDIA will likely demo this at NAB. Worth understanding capabilities before the show.",
+        "ASSESS content-localization angle: NVIDIA's localization blueprint could apply to Guardian's multilingual output — Spanish, Arabic editions. Worth tracking.",
+        "BRIEF production team: free, publisher-tested text-to-video tool now exists (Schibsted Videofy). Not a replacement for journalism, but a workflow accelerator for article-to-social conversion."
       ]
     },
     {
-      "title": "🏭 NAB 2026 — Second AI Pavilion Added + Agentic AI for Video Workflows (29 Days)",
-      "priority": "medium",
-      "summary": "Two new signals from the past 48 hours: (1) NAB 2026 has added a SECOND AI Pavilion to the show floor (announced March 19) — reflecting how quickly AI has moved from experimentation into widespread practical use across the entire media workflow. This is unprecedented and signals agentic AI is the dominant theme of NAB 2026. (2) Moments Lab will showcase multimodal and AGENTIC AI capabilities of its Video Discovery Platform at NAB — AI agents automating content search, creation and distribution workflows at scale. Combined with AWS Elemental Inference, EditShare FLOW AI, Harmonic Spectrum X Plus, and Backlight (N2829), the NAB floor is now the most concentrated AI-for-video intelligence environment of the year. Additionally: SMPTE VIBE has confirmed a session on 'Securing and Scaling Agentic AI: Safe Conversational Control for Media Workflows' — directly relevant to Guardian's iconik governance. NAB is 29 days away (April 18-22).",
+      "title": "🏭 NAB 2026 — 28 Days + Frame.io GA Window: 10 Days Remaining",
+      "priority": "high",
+      "summary": "NAB 2026 (April 18-22, Las Vegas) is 28 days away. New details from the March 19 speaker announcement: Creator Lab expanded (Adobe + Blackmagic Design partnership), NAB registration shows 200% increase in content creator/influencer/podcaster attendees vs 2025, and 150% increase in social media content producers. Sessions confirmed: 'Are We Nervous Yet: A Creator's Guide to AI', 'Beyond Views: Measuring Creator Impact', 'Creator Survival Guide'. New confirmed exhibitor: CineSys will demo live integrations of iconik + LucidLink + Twelve Labs (AI video intelligence) + MASV at NAB — directly relevant to Guardian's stack. Twelve Labs at NAB with iconik is the most important new detail: Twelve Labs does deep AI video search and understanding (semantic search inside video without manual transcription), which is the next capability layer beyond iconik's current metadata workflow. Also: LucidLink + Frame.io GA window closes March 31 — 10 days remaining. Q1 2026 target. Contact LucidLink account team this week if not already done.",
       "actions": [
-        "DECISION: NAB attendance — second AI Pavilion + Moments Lab agentic AI + SMPTE VIBE AI governance session makes a 2-day trip (April 20-21) higher value than ever. Book now if going.",
-        "PREP agentic AI question list for vendors: (1) How does Moments Lab Video Discovery Platform differ from iconik's AI features? (2) What does AWS 'agentic AI' for metadata extraction look like in practice? (3) How does Backlight plan to extend iconik with agentic agents?",
-        "NOTE Moments Lab specifically — it's a Video Discovery Platform focused on search, creation, and distribution automation. Evaluate whether it's a complement or competitor to iconik for Guardian's use case.",
-        "FOLLOW NAB pre-announcements daily through April 17 — second AI Pavilion signals many more vendor announcements incoming."
+        "CONTACT LucidLink account team THIS WEEK: Frame.io integration GA status confirmation before March 31 deadline (10 days). If GA, Camera to Cloud → Premiere Timeline is live for Guardian field teams now.",
+        "NOTE CineSys at NAB: they are integrating iconik + Twelve Labs (AI video semantic search). This is the next capability layer for Guardian's MAM. Worth a conversation at NAB or ahead of it.",
+        "BOOK NAB 2026 if attending: 28 days. Two AI Pavilions, SMPTE VIBE session April 20 (agentic AI governance), Backlight at N2829, Harmonic, Avid, EditShare all confirmed.",
+        "TRACK: Creator registration up 200% at NAB signals the creator economy has fully merged with broadcast/media technology. Guardian Studios context for any NAB briefing."
       ]
     }
   ],
   "sections": [
+    {
+      "title": "🎯 New This Week (March 21)",
+      "items": [
+        {
+          "title": "Cloudflare compliant crawler: publisher AI content licensing at network layer; Cloudflare CEO forecasts bot traffic exceeds human traffic by 2027",
+          "url": "https://digiday.com/media/cloudflares-compliant-crawler-highlights-tension-and-opportunity-in-the-emerging-ai-content-market/",
+          "published": "2026-03-19",
+          "source": "Digiday / TechCrunch"
+        },
+        {
+          "title": "NVIDIA GTC 2026: Holoscan for Media — upgraded AI SDKs for live production, post-production, content localization + content-localization blueprint",
+          "url": "https://www.techrepublic.com/article/news-nvidia-gtc-2026-live-updates/",
+          "published": "2026-03-17",
+          "source": "NVIDIA / TechRepublic"
+        },
+        {
+          "title": "Schibsted open-sources Videofy: text article → ready-to-publish news video in minutes; free for all media organisations worldwide",
+          "url": "https://schibsted.com/news/schibsted-open-sources-ai-tool-that-turns-news-articles-into-videos/",
+          "published": "2026-03-17",
+          "source": "Schibsted"
+        },
+        {
+          "title": "NAB 2026: CineSys demoing iconik + LucidLink + Twelve Labs (AI video intelligence) + MASV integrations; creator registrations up 200% vs 2025",
+          "url": "https://www.cinesys.io/nab-2026/",
+          "published": "2026-03-18",
+          "source": "CineSys / NAB Show"
+        },
+        {
+          "title": "Guardian AI feature: editor-trained, non-chatbot — newsroom editors enlisted to train the model; mandatory all-staff AI training programme also rolling out",
+          "url": "https://digiday.com/media/media-briefing-what-to-expect-at-the-digiday-publishing-summit-march-2026-edition/",
+          "published": "2026-03-18",
+          "source": "Digiday"
+        }
+      ]
+    },
     {
       "title": "Vendor Watch: iconik / LucidLink / Backlight / Wildmoka",
       "items": [
@@ -243,50 +278,38 @@
     }
   ],
   "changes": {
-    "previousUpdated": "2026-03-19T21:00:00Z",
-    "newCount": 5,
-    "removedCount": 2,
+    "previousUpdated": "2026-03-20T21:00:00Z",
+    "newCount": 4,
+    "removedCount": 1,
     "newItems": [
       {
-        "title": "BREAKING: Guardian first reader-facing AI product reveal at Digiday Publishing Summit Monday March 23 — Chris Moran presenting; NOT a chatbot; reader-facing product debut",
+        "title": "Digiday Publishing Summit TOMORROW (March 23): Guardian AI feature reveal imminent — editor-trained, non-chatbot; Cloudflare compliant crawler enabling publisher AI content licensing at network layer",
         "url": "https://digiday.com/media/media-briefing-what-to-expect-at-the-digiday-publishing-summit-march-2026-edition/",
         "published": "2026-03-18",
         "source": "Digiday",
-        "section": "Guardian Strategy + URGENT Decision Panel (new #1)"
+        "section": "Decision Panel 1 — elevated to IMMINENT"
       },
       {
-        "title": "NAB 2026 adds second AI Pavilion (March 19) — AI now mainstream across entire media workflow, not just a dedicated zone",
-        "url": "https://www.globenewswire.com/news-release/2026/03/19/3259346/0/en/",
+        "title": "Cloudflare compliant crawler positions Cloudflare between publishers and AI companies; Cloudflare CEO: bot traffic exceeds human traffic by 2027",
+        "url": "https://digiday.com/media/cloudflares-compliant-crawler-highlights-tension-and-opportunity-in-the-emerging-ai-content-market/",
         "published": "2026-03-19",
-        "source": "NAB Show",
-        "section": "Industry AI + Workflow Signals + Decision Panel updated"
+        "source": "Digiday / TechCrunch",
+        "section": "Decision Panel 2 — new"
       },
       {
-        "title": "Moments Lab: agentic AI for video discovery at NAB 2026 — multimodal agents for content search, creation, distribution",
-        "url": "https://www.tvtechnology.com/production/moments-lab-to-feature-agentic-ai-for-video-workflows-at-2026-nab-show",
-        "published": "2026-03-06",
-        "source": "TV Technology",
-        "section": "Industry AI + Workflow Signals"
+        "title": "NVIDIA GTC 2026: Holoscan for Media upgraded — AI SDKs for live production, post-production, content localization; content-localization blueprint released",
+        "url": "https://www.techrepublic.com/article/news-nvidia-gtc-2026-live-updates/",
+        "published": "2026-03-17",
+        "source": "NVIDIA GTC / TechRepublic",
+        "section": "Decision Panel 3 — new"
       },
       {
-        "title": "The Atlantic's 3-tier AI bot framework (Allow/Block/Yes-But) — model for Guardian's own AI crawler governance",
-        "url": "https://digiday.com/events/digiday-publishing-summit-march-2026/",
-        "published": "2026-03-18",
-        "source": "Digiday / The Atlantic",
-        "section": "Guardian Strategy Signals"
-      },
-      {
-        "title": "GEO (Generative Engine Optimization) — Time Magazine monetizing AI visibility; new revenue stream emerging for publishers alongside traditional AI licensing",
-        "url": "https://digiday.com/events/digiday-publishing-summit-march-2026/",
-        "published": "2026-03-18",
-        "source": "Digiday / Time",
-        "section": "Guardian Strategy Signals"
+        "title": "Schibsted open-sources Videofy: AI tool converts text news articles to ready-to-publish video in minutes — now free for all media organisations",
+        "url": "https://schibsted.com/news/schibsted-open-sources-ai-tool-that-turns-news-articles-into-videos/",
+        "published": "2026-03-17",
+        "source": "Schibsted",
+        "section": "Decision Panel 3 — new"
       }
-    ],
-    "removedItems": [
-      "DCN publishers hiring YouTube-specialist producers (March 12) — action absorbed into KANBAN; signal well understood",
-      "Counter-trend Metricool long-form signal (March 2026) — action absorbed into KANBAN; strategic point established"
-    ],
-    "summary": "March 20 run: HIGHEST PRIORITY — Guardian is revealing their first reader-facing AI product (NOT a chatbot) at Digiday Publishing Summit on Monday March 23, presented by Chris Moran. This is the most important Guardian product signal of the year so far. New NAB intel: second AI Pavilion added (unprecedented), Moments Lab showing agentic AI for video workflows. SMPTE VIBE session on agentic AI safety confirmed. LucidLink Frame.io GA window: 11 days. Digiday Publishing Summit starts Monday with Guardian, Atlantic (3-tier bot framework), Time (GEO revenue), Bloomberg, Washington Post."
+    ]
   }
 }
