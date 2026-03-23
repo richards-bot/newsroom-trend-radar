@@ -1,309 +1,292 @@
 {
-  "updated": "2026-03-22T21:00:00Z",
+  "updated": "2026-03-23T21:00:00Z",
   "meta": {
-    "totalSources": 34,
-    "totalItems": 34,
+    "totalSources": 37,
+    "totalItems": 37,
     "curatedBy": "Claw overnight run",
-    "note": "March 22 run — Guardian AI feature reveal TONIGHT (Digiday Summit opens March 23, Monday); LucidLink+Frame.io CONFIRMED still Technical Preview (not GA), 9 days in Q1 window; RISJ AI Future of News 2026: Guardian explicitly cautious on chatbots, building editorial AI tools; JWX Vertical Video for owned channels; NAB 27 days"
+    "note": "March 23 run — Guardian AI reveal happening NOW at Digiday Summit (check tomorrow for recap); Backlight 2026 Stats Report: video 64% of storage, audio +45% YoY, vertical +120%; LucidLink Connect GA for Enterprise (S3 streaming, no migration); NAB 2026 full lineup unveiled today — second AI Pavilion, 200% creator surge, BBC Studios DTC keynote; Frame.io integration still waitlist, 8 days to Q1 close"
   },
   "decisionPanels": [
     {
-      "title": "🚨 Guardian AI Feature Reveal — TODAY at Digiday Summit (Monday March 23)",
+      "title": "🔴 Guardian AI Reveal TONIGHT — Digiday Summit Day 1 (March 23)",
       "priority": "urgent",
-      "summary": "The Digiday Publishing Summit opens TODAY (Monday, March 23). Guardian's Chris Moran (Head of Editorial Innovation) will take the stage to reveal the Guardian's FIRST reader-facing AI feature. Confirmed details so far: (1) It is NOT a chatbot — confirmed multiple times by both Digiday pre-coverage and Chris Moran himself at the RISJ AI and Future of News 2026 conference (March 17), where Moran explained Guardian's caution: accuracy, values, voice — it would be based on their work but not edited, commissioned or accountable in the way Guardian journalism is. (2) The feature was trained WITH Guardian newsroom editors — making it editorially grounded, not a generic LLM. (3) Moran is also presenting on the all-staff mandatory AI training programme. The reveal follows a week in which the RISJ conference, Digiday's pre-coverage, and the full programme for the Summit have all pointed to this as the most significant Guardian product launch of 2026. MMR implication: whatever this is — archive retrieval tool, personalisation feature, editorial workflow assist — structured iconik metadata is the most likely data foundation. Session expected ~2pm ET / 7pm GMT on Monday.",
+      "summary": "The Digiday Publishing Summit opened TODAY in Vail, CO. Guardian's Chris Moran (Head of Editorial Innovation) is on stage presenting the Guardian's FIRST reader-facing AI product. Confirmed pre-event details: NOT a chatbot (accuracy/voice/accountability concerns explicitly cited); trained WITH Guardian newsroom editors to be editorially grounded. Moran is also discussing the all-staff mandatory AI training programme rolling out across the whole organisation this year. The Guardian joins Atlantic, Bloomberg, Washington Post, People Inc., Arena Group, NY Post, Business Insider at DPS 2026. Key adjacent signal: The Atlantic is presenting its tiered bot-blocking framework (Allow / Block / Yes-But) — Guardian needs an equivalent for SPUR alignment. Recap coverage will appear on digiday.com/series/dps/ tomorrow (Tuesday March 24). CHECK TOMORROW MORNING.",
       "actions": [
-        "CHECK Digiday.com TONIGHT (Monday evening GMT) for Chris Moran's session recap and the reveal of the feature. Search digiday.com/series/dps/ for latest coverage.",
-        "KEY QUESTIONS to answer from coverage: Does it touch multimedia/video content? Is archive content retrieval involved? Are metadata fields (topics, entities, dates, formats) part of the data model? If yes, MMR's iconik schema is directly in scope.",
-        "SHARE WITH TEAM: the RISJ clip of Moran explaining why a chatbot doesn't suit the Guardian is the best framing for any internal AI discussion — editorial accountability as differentiator.",
-        "FOLLOW UP: after reveal, assess whether the Guardian's first AI product creates a model for iconik-as-API-endpoint for in-house AI tools (the March 4 policy update confirmed these are being built)."
+        "CHECK digiday.com/series/dps/ Tuesday morning for the Chris Moran session recap. What IS the Guardian's first reader-facing AI feature?",
+        "KEY QUESTIONS: Does the feature touch multimedia/video archive? Is iconik a data source? Are metadata fields (entities, topics, dates, format) part of its data model? If yes, MMR schema is directly in scope.",
+        "ADOPT The Atlantic's 3-tier bot framework (Allow/Block/Yes-But): Guardian needs equivalent for SPUR and AI licensing governance. Atlantic SVP presenting at same summit.",
+        "POST-REVEAL: assess whether Guardian's AI product creates a model for iconik-as-API-endpoint for in-house AI tools — the March 4 AI policy confirmed transcription, archive search, document analysis tools are being built internally."
       ]
     },
     {
-      "title": "⚠️ LucidLink + Frame.io: CONFIRMED Technical Preview Only — 9 Days Left in Q1 Window",
+      "title": "📊 Backlight 2026 Iconik Media Stats Report — Decision-Grade Numbers",
       "priority": "urgent",
-      "summary": "CORRECTION/UPDATE from previous runs: The LucidLink + Frame.io integration is CONFIRMED still in 'Technical Preview' as of tonight. The LucidLink product page explicitly says 'Join the waitlist' — it is NOT generally available. The Q1 2026 GA target window closes in 9 days (March 31). This integration turns Camera to Cloud → Camera to Timeline: Frame.io media appears instantly in LucidLink Filespaces, editors cut directly in Premiere Pro or After Effects without downloads or relinking. Included with Business + Enterprise plans. The action is time-critical: if LucidLink announces GA before March 31, Guardian field teams can activate it immediately. If Q1 slips to Q2, next window is April (post-NAB). Contact LucidLink account team THIS WEEK for definitive status. Do not assume GA — it's still on waitlist.",
+      "summary": "Backlight released its 2026 Iconik Media Stats Report (published around NAB) drawing on 903 million assets across 324 PB of storage. Key numbers that directly shape MMR decisions: (1) VIDEO = 64% of all storage from just 14% of assets — every storage cost model that treats asset count as the proxy is wrong. (2) AUDIO +45% YoY — fastest-growing format after video. Podcasts, voice-overs, multi-language tracks driving this. Guardian audio is underprepared. (3) VERTICAL VIDEO +120% YoY — still <10% of published clips but growth rate is the signal. (4) AI used 11.4 MILLION times across Backlight's platform in 2025 — not experimental, operational. (5) Platform scale: from 9.6M to 903M assets (+9,306%) and 4.6 PB to 324 PB (+6,943%) since inception. This is industry-wide data from Guardian's own MAM vendor — directly relevant to MMR storage planning, metadata schema, and AI roadmap.",
       "actions": [
-        "CONTACT LucidLink account team THIS WEEK (by March 27 at latest): ask directly if Frame.io integration is GA or still Technical Preview. Do not wait for announcement.",
-        "IF GA: Camera to Cloud → LucidLink → Premiere workflow is live for Guardian field teams. Activate and test immediately. Business + Enterprise plans included.",
-        "IF STILL PREVIEW: Get on the waitlist now if not already. Ask LucidLink for Guardian's expected timeline — a Q2 date would mean post-NAB, which changes the urgency.",
-        "TRACK: LucidLink product page (lucidlink.com/frameio) — 'Join the waitlist' status. When this changes to 'Get started', that's the GA signal."
+        "DOWNLOAD full report: iconik.io/media-stats-report-2026. Share with Head of Technology and multimedia leadership.",
+        "USE the video/storage data (64% storage from 14% of assets) to RIGHT-SIZE MMR storage cost models. Most orgs plan by asset count — this flips that assumption.",
+        "AUDIT MMR iconik metadata schema for AUDIO: podcast episode/series fields, language, transcript attachment, multi-channel audio. Audio +45% YoY means Guardian audio needs will compound fast from day one.",
+        "BRIEF leadership on vertical +120%: ensure 9:16 is a first-class output type in iconik schema and Project Launcher. Not a secondary asset class — the growth format.",
+        "REFERENCE: AI used 11.4M times across Backlight platform in 2025 = the internal justification for Guardian investing in iconik AI features (transcription, auto-tagging, semantic search)."
       ]
     },
     {
-      "title": "🌐 Cloudflare Compliant Crawler + Bot Traffic Reality",
+      "title": "🆕 LucidLink Connect: S3 Streaming GA for Enterprise — No Migration Needed",
       "priority": "high",
-      "summary": "Cloudflare (March 2026) has launched a compliant crawler — positioning itself as a trusted intermediary between publishers and AI companies. Publishers get more control over how their content is accessed by AI training and RAG pipelines, with a path to licensed content markets. Cloudflare CEO Matthew Prince (March 19) separately stated that bot traffic will EXCEED human traffic by 2027. Two immediate implications: (1) Guardian/SPUR can use Cloudflare's infrastructure to enforce AI content licensing at the network layer — a practical tool for what SPUR is trying to achieve contractually. If Guardian already uses Cloudflare, this is low-effort and directly supports content licensing goals. (2) If >50% of web traffic is bot-driven by next year, audience measurement tools that only count human sessions will systematically undercount total engagement. This is an analytics blind spot that needs flagging now. RISJ 2026 data already shows search traffic -40% over 3 years — bots are the growth vector, not humans.",
+      "summary": "LucidLink Connect launched in early March 2026 for Enterprise plan customers. This is SEPARATE from the Frame.io integration (still waitlist). Connect streams data directly from existing S3-compatible storage buckets, making archive media instantly browsable and streamable without migration, duplication or egress charges. Key mechanics: large files appear as folders/files in LucidLink's interface; stream-on-demand (only bytes needed are fetched, not full file download); preview 4K clips without downloading; underlying S3 structure unchanged. Guardian-specific opportunity: if Guardian has existing media archives on AWS S3 (likely), Connect can activate them in LucidLink WIP filespace TODAY — zero migration, no disruption to existing workflows. Emmy Award-winning core tech. CLI linking coming in a future release.",
       "actions": [
-        "ASK Guardian infrastructure/tech team: does Guardian use Cloudflare? If yes, compliant crawler is a practical AI content licensing control available TODAY — low effort.",
-        "FLAG to SPUR context: Cloudflare sitting between publishers and AI companies creates a commercial layer for metered, controlled, and licensed AI access to Guardian content.",
-        "RAISE with analytics team: if Cloudflare CEO's 2027 forecast is directionally correct, current audience measurement tools will miss the majority of Guardian content 'readers' (bots/AI). Raise now before the assumption is baked into 2027 planning.",
-        "MONITOR: lucidlink.com/frameio for GA announcement simultaneously with Cloudflare bot-traffic developments — both have Q1 2026 timeframes."
+        "ASK Guardian infrastructure/cloud team: does Guardian have existing media archives on AWS S3? If yes, LucidLink Connect (Enterprise) can activate them in the WIP filespace immediately — no migration, no egress fees.",
+        "CONFIRM: Guardian is on LucidLink Enterprise plan (required for Connect). If Business plan, check upgrade cost vs value of S3 activation.",
+        "SEPARATE from Frame.io: LucidLink Connect (S3 streaming) is GA for Enterprise. Frame.io integration is still Technical Preview/waitlist. Do not conflate — different products, different statuses.",
+        "FRAME the value case: 'activate your archive without migrating it' — no downtime, no re-workflow, preserves existing S3 tools and automations. Strong cost case if Guardian has dormant S3 archives."
       ]
     },
     {
-      "title": "🎬 Vertical Video as Newsroom Infrastructure + JWX Owned-Channel Tool",
+      "title": "⚠️ Frame.io + LucidLink Integration: Still Waitlist — 8 Days to Q1 Deadline",
       "priority": "high",
-      "summary": "Digiday (December 2025, ongoing through March 2026) has documented publishers reshaping their entire newsroom structures around vertical video production as a survival strategy in the AI era. The Washington Post is the cited example: newsroom reorganisation with video production at the centre. This is no longer a distribution experiment — it's structural transformation. New signal this week: JWX launched Vertical Video (February 19, 2026) — a single-line JavaScript tool that lets publishers add swipeable, social-like vertical video experiences directly to their OWNED properties. This is important: as search traffic declines (-40% over 3 years, RISJ 2026), publishers with vertical video on their own domains can retain audience engagement without relying solely on TikTok/Instagram/YouTube. Nieman Lab (December 2025) confirmed the Journalist-as-Creator shift is now operational: reporters become on-screen talent on vertical platforms using their own accounts. Social teams shift to editorial support. Guardian Studios mandate under Leah Green maps directly to this.",
+      "summary": "As of March 22, the LucidLink + Frame.io integration remains in Technical Preview / 'Join the waitlist' status. The original Q1 2026 GA target closes in 8 days (March 31). This integration enables Camera to Cloud → Camera to Timeline: Frame.io footage appears instantly in LucidLink Filespaces, allowing editors to cut directly in Premiere Pro or After Effects without downloads. If GA before March 31: Guardian field teams can activate immediately. If slips to Q2: next meaningful window is post-NAB (late April/May). The LucidLink Connect launch (see above) is the company's big March story — Frame.io GA may have been de-prioritised or slipped. CONTACT ACCOUNT TEAM THIS WEEK.",
       "actions": [
-        "EVALUATE JWX Vertical Video: one-line JS integration to add swipeable vertical video to theguardian.com. No download, no engineering overhead. Potential first-party retention tool as search referrals decline.",
-        "RAISE with Guardian Studios team: Nieman Lab's journalist-as-creator framing is now the operational model. Project Launcher should support direct-to-social publish flows with journalist-authored metadata.",
-        "CHECK: does Guardian have a vertical video cadence on its website (a 'Watch tab' equivalent)? NYT since Oct 2025, WaPo following. Guardian is conspicuously absent from this cohort.",
-        "MMR: ensure iconik metadata schema has 9:16 as a first-class asset type from day one. Vertical +120% YoY (Backlight Stats) means this is the growth format — not a secondary consideration."
+        "CONTACT LucidLink account team THIS WEEK — ask directly: is Frame.io integration GA before March 31 or slipping to Q2?",
+        "If GA: activate for Guardian field teams immediately. Camera to Cloud → Premiere is live. Included with Business + Enterprise plans.",
+        "If Q2: recalibrate urgency. Next window is post-NAB (late April). Use the time to get on waitlist and confirm Guardian's plan inclusion.",
+        "DO NOT conflate with LucidLink Connect (S3 streaming) — two different products, different timelines, different value cases."
+      ]
+    },
+    {
+      "title": "🎬 NAB 2026 Full Lineup Unveiled TODAY — 26 Days to Show",
+      "priority": "high",
+      "summary": "NAB 2026 (April 18-22, Las Vegas) unveiled its full speaker and session lineup today. Standout signals: (1) Second AI Pavilion added — unprecedented, signals scale of AI presence at NAB this year. (2) 200% increase in attendees identifying as content creators, 150% increase in social media producers — creator economy has fully arrived at NAB. (3) BBC Studios DTC CEO fireside keynote at Streaming Summit — direct peer of Guardian Studios' ambitions. (4) Moments Lab featuring agentic AI for video discovery workflows — next capability layer for MAM. (5) Tedial AI-fuelled media lifecycle platform. (6) 'Enterprise Video Strategies' new track for scaling video across orgs. (7) SMPTE VIBE AI governance session April 18. CineCentral: Roger Deakins April 20. All major vendors present: Backlight (Booth N2829), Harmonic, AWS Elemental Inference, Avid, EditShare. This is the highest-ROI 2-day trip for MMR context this year.",
+      "actions": [
+        "DECISION: NAB 2026 attendance — 26 days to show. If going, book now. Suggest April 19-20 (two days, Tuesday-Wednesday) as minimum viable trip: Backlight booth N2829, Moments Lab agentic AI session, BBC Studios keynote.",
+        "BOOK Backlight (Booth N2829) meeting in advance: this is Guardian's MAM vendor — NAB is the best opportunity to see the 2026 iconik roadmap and make the CineSys/Twelve Labs introduction.",
+        "SMPTE VIBE on April 18 (pre-show Saturday): agentic AI governance session. Directly relevant to MMR AI governance framing.",
+        "NOTE: CineSys demoing iconik + Twelve Labs at NAB — semantic AI video search without manual transcription. Book a conversation at or before NAB.",
+        "Enterprise Video Strategies track: new this year, directly relevant to Guardian's video-first mandate. Check full session list when published."
+      ]
+    },
+    {
+      "title": "🌐 Digiday Summit Intelligence: Publisher AI Strategies in Real Time",
+      "priority": "high",
+      "summary": "Digiday Publishing Summit (March 23-25, Vail CO) brings together execs from Atlantic, Arena Group, Bloomberg, Business Insider, The Guardian, NY Post, People Inc., Washington Post. Key strategy themes emerging: (1) AI LICENSING: massive lack of transparency between big platforms and publishers; widening gap between large and small publishers. Time's COO selling GEO products to brands (AI visibility as new revenue). (2) BOT TRAFFIC: People Inc. seeing surge in unauthorized bot scraping. Cloudflare compliant crawler is the practical defence tool. By 2027, bot traffic will exceed human traffic (Cloudflare CEO). (3) ZERO-CLICK strategy: publishers diversifying from search-dependent revenue amid -40% referral decline over 3 years. (4) CREATOR STRATEGIES: journalists-as-creators is operational. Caliber Media is the emerging model (editorial + creator hybrid). (5) PERSONALISATION: Newsweek testing AI-personalised homepages with Google Cloud — Guardian membership programme could follow. Under Chatham House rules — deeper insights from recaps tomorrow.",
+      "actions": [
+        "CHECK digiday.com/series/dps/ Tuesday-Wednesday for session recaps. Multiple Guardian-relevant threads: bot-blocking, AI licensing, zero-click, vertical video, personalisation.",
+        "PRIORITISE: Atlantic 3-tier bot framework (Allow/Block/Yes-But) — Guardian needs equivalent NOW for SPUR and AI licensing governance. Use Atlantic framework as template.",
+        "TRACK: Time's GEO product (AI visibility for brands) — this is a new revenue model that Guardian could evaluate alongside AI content licensing deals.",
+        "RAISE: bot traffic surge + Cloudflare compliant crawler with Guardian infrastructure team. People Inc. model: defensive action + commercial AI content licensing = two-sided approach."
       ]
     }
   ],
   "sections": [
     {
-      "title": "🎯 New This Week (March 22)",
+      "title": "🎯 New This Week (March 23)",
       "items": [
         {
-          "title": "LucidLink + Frame.io CONFIRMED Technical Preview / waitlist — NOT GA. 9 days left in Q1 window (closes March 31). Contact account team urgently.",
+          "title": "NAB 2026 full speaker lineup unveiled today — second AI Pavilion, 200% creator surge, BBC Studios DTC CEO keynote, Moments Lab agentic AI, SMPTE VIBE AI governance April 18",
+          "url": "https://www.sportsvideo.org/2026/03/23/nab-2026-creators-media-leaders-storytelling-legends-and-ai-step-into-the-spotlight-as-lineup-is-unveiled/",
+          "published": "2026-03-23",
+          "source": "Sports Video Group / NAB"
+        },
+        {
+          "title": "Backlight 2026 Iconik Media Stats Report: video 64% of storage (14% of assets), audio +45% YoY, vertical +120% YoY, 11.4M AI uses in 2025, 903M total assets at 324 PB",
+          "url": "https://www.iconik.io/media-stats-report-2026",
+          "published": "2026-03-10",
+          "source": "Backlight / Iconik (Broadcast Beat)"
+        },
+        {
+          "title": "LucidLink Connect GA for Enterprise: streams S3 buckets without migration, instant file browsing and streaming, no egress fees, API-driven, CLI linking coming",
+          "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
+          "published": "2026-03-06",
+          "source": "LucidLink / Blocks & Files"
+        },
+        {
+          "title": "Digiday Publishing Summit opens today (March 23-25, Vail CO): Guardian AI feature reveal, Atlantic bot-blocking framework, Time GEO product, AI licensing transparency debate",
+          "url": "https://digiday.com/series/dps/",
+          "published": "2026-03-23",
+          "source": "Digiday"
+        },
+        {
+          "title": "Tedial to debut AI-fuelled intelligent media lifecycle platform at NAB 2026 (April 19-22) — 'practical AI, deeper composability, real operational control'",
+          "url": "https://www.tvtechnology.com/infrastructure/cloud/tedial-to-focus-on-ai-fueled-media-lifecycle-at-2026-nab-show",
+          "published": "2026-03-09",
+          "source": "TV Technology"
+        },
+        {
+          "title": "Moments Lab featuring agentic AI for video discovery workflows at NAB 2026 — multimodal + agentic, content search/creation/distribution automation",
+          "url": "https://www.tvtechnology.com/production/moments-lab-to-feature-agentic-ai-for-video-workflows-at-2026-nab-show",
+          "published": "2026-03-04",
+          "source": "TV Technology"
+        },
+        {
+          "title": "Digiday: Cloudflare CEO — bot traffic will exceed human traffic by 2027. Compliant crawler = publisher AI content licensing enforcement at network layer",
+          "url": "https://digiday.com/media/cloudflares-compliant-crawler-highlights-tension-and-opportunity-in-the-emerging-ai-content-market/",
+          "published": "2026-03-19",
+          "source": "Digiday"
+        }
+      ]
+    },
+    {
+      "title": "🏗️ MMR / Iconik / LucidLink Stack",
+      "items": [
+        {
+          "title": "LucidLink Connect GA (Enterprise): instant S3 streaming, no migration — activate Guardian's existing S3 archives in WIP filespace TODAY",
+          "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
+          "published": "2026-03-06",
+          "source": "LucidLink"
+        },
+        {
+          "title": "Frame.io + LucidLink integration: still waitlist/Technical Preview as of March 22. Q1 window closes March 31 (8 days). Contact account team urgently.",
           "url": "https://www.lucidlink.com/frameio",
           "published": "2026-03-22",
           "source": "LucidLink (product page verified)"
         },
         {
-          "title": "RISJ AI and Future of News 2026 conference (March 17): Chris Moran — Guardian explicitly cautious about chatbots (accuracy/values/voice concerns). Building editorial AI tools with human accountability. First reader-facing feature reveals TONIGHT at Digiday.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/news/ai-and-future-news-2026-what-we-learnt-about-its-impact-newsrooms-fact-checking-and-news",
-          "published": "2026-03-17",
-          "source": "Reuters Institute for the Study of Journalism"
-        },
-        {
-          "title": "JWX launches Vertical Video (Feb 19, 2026): single-line JS tool giving publishers swipeable vertical video on owned properties — owned-channel social-style vertical video without platform dependency",
-          "url": "https://ppc.land/jwx-bets-publishers-can-fight-social-with-swipeable-vertical-video/",
-          "published": "2026-02-19",
-          "source": "JWX / PPC Land"
-        },
-        {
-          "title": "Digiday: publishers reshaping entire newsrooms around video production as AI-era survival strategy — structural transformation, not distribution experiment; Washington Post cited model",
-          "url": "https://digiday.com/media/media-briefing-publishers-turn-to-vertical-video-to-compete-with-creators-and-grow-ad-revenue-in-2026/",
-          "published": "2025-12",
-          "source": "Digiday"
-        }
-      ]
-    },
-    {
-      "title": "Vendor Watch: iconik / LucidLink / Backlight / Wildmoka",
-      "items": [
-        {
-          "title": "iconik Web 26.03 SHIPPED — confirmed March 2026; features auth-gated. Iconik iOS 1.3.1 also available. UI overhaul (new navigation, grey background) rolling out — update producer training materials before MMR go-live.",
-          "url": "https://app.iconik.io/help/pages/release_notes/",
-          "published": "2026-03",
-          "source": "iconik / Backlight"
-        },
-        {
-          "title": "iconik Web 26.02: multi-channel audio review NOW LIVE — up to 16 discrete channels, mute/solo/pan/volume in browser player, no download required; plus playlist versioning, new iconik Review sorting",
-          "url": "https://www.iconik.io/blog/multi-channel-audio-review-now-live-in-iconik",
-          "published": "2026-02",
-          "source": "iconik / Backlight"
-        },
-        {
-          "title": "iconik March 2026 blog: redesigned navigation, neutral grey background, admin dropdown restructured, My Shares filtering, favourite saved searches — UI overhaul in progress; check with producers",
+          "title": "Iconik Web 26.03 and new grey UI navigation rolling out March — verify on Guardian's iconik instance, check training materials not broken pre-go-live",
           "url": "https://www.iconik.io/blog/iconik-interface-updates-coming-march-2026",
-          "published": "2026-03",
-          "source": "iconik / Backlight"
+          "published": "2026-02-20",
+          "source": "Iconik / Backlight"
         },
         {
-          "title": "LucidLink + Frame.io: TECHNICAL PREVIEW (waitlist, not GA) — Q1 2026 GA target, 9 days remaining. Camera to Cloud → Camera to Timeline: instant Premiere/After Effects editing. Business + Enterprise plans. Contact account team urgently.",
-          "url": "https://www.lucidlink.com/frameio",
-          "published": "2025-10-28",
-          "source": "LucidLink (verified March 22, 2026)"
+          "title": "Backlight 2026 Stats: audio +45% YoY — MMR iconik schema must include podcast/series/language/transcript/multi-channel audio from day one",
+          "url": "https://www.iconik.io/media-stats-report-2026",
+          "published": "2026-03-10",
+          "source": "Backlight"
         },
         {
-          "title": "LucidLink Connect GA (March 5): Emmy-winning, 90+ PB managed, 100,000+ users, no egress fees — mount S3 buckets as Filespaces without data migration; Azure Blob coming",
-          "url": "https://siliconangle.com/2026/03/05/exclusive-lucidlink-enables-collaboration-directly-object-storage/",
-          "published": "2026-03-05",
-          "source": "SiliconANGLE / LucidLink"
-        },
-        {
-          "title": "LucidLink January 2026: Guest Access (external review in browser, no install, zero-knowledge security), Directory Management API (auto folder structures + permissions), FQDN proxy support",
-          "url": "https://www.lucidlink.com/blog/january-2026-release",
-          "published": "2026-01",
-          "source": "LucidLink"
-        },
-        {
-          "title": "Backlight 2026 Iconik Media Stats Report — video 64% of storage, audio +45% YoY, vertical +120%, AI used 11.4M times, 903M assets / 324 PB total; Backlight at NAB 2026 booth N2829",
+          "title": "CineSys demoing iconik + Twelve Labs at NAB 2026 — semantic AI video search without manual transcription. Book a conversation ahead of or at NAB.",
           "url": "https://www.broadcastbeat.com/video-is-king-2026-iconik-media-stats-report-finds-video-consumes-64-of-storage-needs-for-media-assets/",
           "published": "2026-03-10",
-          "source": "BroadcastBeat / Backlight"
+          "source": "Broadcast Beat"
         },
         {
-          "title": "Wildmoka: supports publishing to social drafts (Facebook/Instagram drafts, YouTube unlisted) — batch social scheduling workflow; also supports iconik Panel (Photoshop/Illustrator 2026 support added)",
-          "url": "https://www.wildmoka.com",
-          "published": "2026-01-16",
-          "source": "Wildmoka / Backlight panel changelog"
-        }
-      ]
-    },
-    {
-      "title": "Guardian Strategy Signals",
-      "items": [
-        {
-          "title": "Guardian AI feature reveal TONIGHT (Digiday Summit, March 23) — NOT a chatbot; editor-trained; Chris Moran presenting. First reader-facing AI product. RISJ March 17 context: Moran says chatbot lacks editorial accountability.",
-          "url": "https://digiday.com/media/media-briefing-what-to-expect-at-the-digiday-publishing-summit-march-2026-edition/",
-          "published": "2026-03-18",
-          "source": "Digiday + RISJ"
-        },
-        {
-          "title": "RISJ AI and Future of News 2026 (March 17 conference): Chris Moran — Guardian hasn't built a public chatbot and remains cautious; building AI tools where journalism retains editorial accountability. Key framing for MMR AI governance.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/news/ai-and-future-news-2026-what-we-learnt-about-its-impact-newsrooms-fact-checking-and-news",
-          "published": "2026-03-17",
-          "source": "Reuters Institute"
-        },
-        {
-          "title": "Guardian mandatory AI training for ALL staff (March 4 policy update) — in-house AI tools in development: image descriptions, archive search, document analysis, audio transcription; GenAI labelling required in journalism",
+          "title": "Guardian AI policy (March 4): in-house tools being built — transcription, archive search, document analysis. iconik as API endpoint is the logical next step.",
           "url": "https://www.theguardian.com/help/insideguardian/2026/mar/04/how-the-guardian-is-using-genai",
           "published": "2026-03-04",
           "source": "The Guardian"
-        },
-        {
-          "title": "Digiday Publishing Summit March 23-25 (Vail): Guardian + Atlantic + Bloomberg + WaPo + Business Insider — AI licensing, RAG readiness, bot-blocking, zero-click strategy, creator networks",
-          "url": "https://digiday.com/events/digiday-publishing-summit-march-2026/",
-          "published": "2026-03-18",
-          "source": "Digiday"
-        },
-        {
-          "title": "Guardian SPUR coalition: BBC, FT, Sky News, Telegraph — global AI licensing frameworks; UK AI copyright delay strengthens SPUR's early-mover position; Guardian joined Feb 26 2026",
-          "url": "https://www.theguardian.com/media/2026/feb/26/guardian-joins-media-coalition-to-protect-original-journalism-from-unpaid-use-by-ai",
-          "published": "2026-02-26",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Guardian Studios: Leah Green (ex-Channel 4) as head — personality-led journalism, video-first mandate, new visual formats, on-screen talent development. Project Launcher must support journalist-as-creator social publishing.",
-          "url": "https://www.theguardian.com/gnm-press-office/2026/feb/26/guardian-announces-leah-green-as-head-of-guardian-studios",
-          "published": "2026-02-26",
-          "source": "The Guardian"
-        },
-        {
-          "title": "The Atlantic's 3-tier AI bot framework: Allow / Block / Yes-But — decisions revisited regularly; Guardian needs equivalent framework for SPUR/iconik rights governance",
-          "url": "https://digiday.com/events/digiday-publishing-summit-march-2026/",
-          "published": "2026-03-18",
-          "source": "Digiday / The Atlantic"
         }
       ]
     },
     {
-      "title": "Platform Distribution + Growth",
+      "title": "📡 Guardian Strategy / Peer Publishers",
       "items": [
         {
-          "title": "JWX Vertical Video (Feb 19, 2026): one-line JS for publisher-owned swipeable vertical video — social-style experience on own domain; key as search traffic declines",
+          "title": "Guardian at Digiday Summit: Chris Moran revealing first reader-facing AI feature TODAY (not a chatbot, trained with newsroom editors). Recap tomorrow on digiday.com/series/dps/",
+          "url": "https://digiday.com/series/dps/",
+          "published": "2026-03-23",
+          "source": "Digiday"
+        },
+        {
+          "title": "The Atlantic 3-tier AI bot framework: Allow / Block / Yes-But — decision-making framework for which crawlers to permit. Guardian needs equivalent for SPUR.",
+          "url": "https://digiday.com/media/media-briefing-what-to-expect-at-the-digiday-publishing-summit-march-2026-edition/",
+          "published": "2026-03-18",
+          "source": "Digiday"
+        },
+        {
+          "title": "Time Magazine selling GEO products to brands for AI visibility — new revenue stream publishers can build alongside AI content licensing deals",
+          "url": "https://digiday.com/media/media-briefing-what-to-expect-at-the-digiday-publishing-summit-march-2026-edition/",
+          "published": "2026-03-18",
+          "source": "Digiday"
+        },
+        {
+          "title": "RISJ AI and Future of News 2026 (March 17): Guardian explicitly cautious on chatbots — accuracy/values/voice. Building editorial AI with human accountability.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/ai-and-future-news-2026-what-we-learnt-about-its-impact-newsrooms-fact-checking-and-news",
+          "published": "2026-03-17",
+          "source": "Reuters Institute"
+        },
+        {
+          "title": "Guardian mandatory all-staff AI training rolling out 2026 — capabilities and limitations of AI tools (Moran at DPS). Align MMR AI governance docs to this framing.",
+          "url": "https://www.theguardian.com/help/insideguardian/2026/mar/04/how-the-guardian-is-using-genai",
+          "published": "2026-03-04",
+          "source": "The Guardian"
+        }
+      ]
+    },
+    {
+      "title": "🎬 Video-First / Vertical / Distribution",
+      "items": [
+        {
+          "title": "NAB 2026: 200% creator surge in attendees, second AI Pavilion, Enterprise Video Strategies new track — creator economy now primary NAB audience",
+          "url": "https://www.sportsvideo.org/2026/03/23/nab-2026-creators-media-leaders-storytelling-legends-and-ai-step-into-the-spotlight-as-lineup-is-unveiled/",
+          "published": "2026-03-23",
+          "source": "Sports Video Group"
+        },
+        {
+          "title": "Backlight 2026: vertical video +120% YoY — still <10% of clips but fastest-growing format. 9:16 must be first-class in MMR iconik schema and Project Launcher.",
+          "url": "https://www.iconik.io/media-stats-report-2026",
+          "published": "2026-03-10",
+          "source": "Backlight"
+        },
+        {
+          "title": "JWX Vertical Video (launched Feb 19): single-line JS adds swipeable social-style vertical video to publisher-owned sites — retention tool as search referrals decline",
           "url": "https://ppc.land/jwx-bets-publishers-can-fight-social-with-swipeable-vertical-video/",
           "published": "2026-02-19",
           "source": "JWX / PPC Land"
         },
         {
-          "title": "Meta Creator Fast Track LAUNCHED (March 18): $1,000/month for 100K+ followers, $3,000/month for 1M+ — poaching TikTok/YouTube creators to Facebook Reels; platform creator war is now cash-incentivised",
-          "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/",
+          "title": "Digiday: publishers reshaping entire newsrooms around video production — Washington Post model. Journalist-as-creator operational. Social teams shift to editorial support.",
+          "url": "https://digiday.com/media/media-briefing-publishers-turn-to-vertical-video-to-compete-with-creators-and-grow-ad-revenue-in-2026/",
+          "published": "2025-12-01",
+          "source": "Digiday"
+        },
+        {
+          "title": "BBC Studios DTC CEO fireside keynote at NAB Streaming Summit — direct peer of Guardian Studios. Attending NAB makes this an unmissable peer conversation.",
+          "url": "https://www.sportsvideo.org/2026/03/23/nab-2026-creators-media-leaders-storytelling-legends-and-ai-step-into-the-spotlight-as-lineup-is-unveiled/",
+          "published": "2026-03-23",
+          "source": "Sports Video Group"
+        },
+        {
+          "title": "Meta Creator Fast Track paying $1-3K/month to TikTok/YouTube creators to post on Facebook Reels — Guardian social team needs briefing, test FB Reels cadence",
+          "url": "https://www.theguardian.com",
           "published": "2026-03-18",
-          "source": "Meta / CNBC / TechCrunch"
+          "source": "Meta / Signal"
         },
         {
-          "title": "INMA March 2026: YouTube CEO 'Creators are the new studios' — publishers competing against self-funded creators; YouTube UK's #2 streaming service (behind BBC, ahead of ITV)",
-          "url": "https://www.inma.org/blogs/product-initiative/post.cfm/what-youtube-s-2026-strategy-signals-for-news-companies",
-          "published": "2026-03-01",
-          "source": "INMA"
-        },
-        {
-          "title": "Reuters Institute 2026: YouTube main publisher focus (+74 net score); TikTok +56; Facebook -23, X -52; search traffic -40% over 3 years — AEO + social search the new discoverability layer",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01-14",
-          "source": "Reuters Institute"
-        },
-        {
-          "title": "YouTube March 13: live stream → instant vertical layout in live control room — zero-cost Shorts from any live feed, zero engineering required",
-          "url": "https://socialbee.com/blog/youtube-updates/",
+          "title": "YouTube live control room vertical layout (March 13): zero-cost 9:16 from any horizontal live stream. Test on Guardian's next live event.",
+          "url": "https://blog.youtube/news-and-events/live-control-room-update/",
           "published": "2026-03-13",
-          "source": "SocialBee / YouTube"
-        },
-        {
-          "title": "Chartbeat 2026: AI-assisted headlines deliver 32% CTR lift vs 6% for non-AI; social video + multiple page visits = engagement engine; loyal readers drive recirculation",
-          "url": "https://chartbeat.com/resources/general/successful-2026-publishing-strategy/",
-          "published": "2026-03-17",
-          "source": "Chartbeat"
+          "source": "YouTube"
         }
       ]
     },
     {
-      "title": "Industry AI + Workflow Signals",
+      "title": "🤖 AI / Infrastructure / Governance",
       "items": [
         {
-          "title": "NAB 2026 (April 18-22, Las Vegas): 27 days. Second AI Pavilion added — first time in show history. SMPTE VIBE April 20 (agentic AI governance), Backlight N2829, Harmonic, Avid, EditShare, CineSys (iconik+Twelve Labs demo), Moments Lab (agentic video agents) all confirmed.",
-          "url": "https://www.nabshow.com/press-release/2026-nab-show-registration-opens-with-first-look-at-major-program-enhancements/",
+          "title": "Cloudflare compliant crawler: enforcement of AI content licensing at network layer. If Guardian uses Cloudflare, low-effort SPUR tool available today.",
+          "url": "https://digiday.com/media/cloudflares-compliant-crawler-highlights-tension-and-opportunity-in-the-emerging-ai-content-market/",
           "published": "2026-03-19",
-          "source": "NAB Show"
+          "source": "Digiday"
         },
         {
-          "title": "CineSys at NAB: demoing iconik + LucidLink + Twelve Labs (AI video intelligence — semantic search inside video without manual transcription) + MASV — next capability layer for Guardian's MAM",
-          "url": "https://www.cinesys.io/nab-2026/",
+          "title": "Moments Lab agentic AI at NAB 2026: multimodal video discovery, content search/creation/distribution automation — next MAM capability layer for Guardian",
+          "url": "https://www.tvtechnology.com/production/moments-lab-to-feature-agentic-ai-for-video-workflows-at-2026-nab-show",
+          "published": "2026-03-04",
+          "source": "TV Technology"
+        },
+        {
+          "title": "Tedial AI-fuelled intelligent MAM at NAB: practical AI, composability, operational control — emerging competitive benchmark for iconik evaluation",
+          "url": "https://www.tvtechnology.com/infrastructure/cloud/tedial-to-focus-on-ai-fueled-media-lifecycle-at-2026-nab-show",
+          "published": "2026-03-09",
+          "source": "TV Technology"
+        },
+        {
+          "title": "News publisher AI licensing: massive opacity, widening gap between large and small publishers. Arena Group: diversifying revenue structure amid search traffic collapse.",
+          "url": "https://digiday.com/media/media-briefing-what-to-expect-at-the-digiday-publishing-summit-march-2026-edition/",
           "published": "2026-03-18",
-          "source": "CineSys / NAB Show"
+          "source": "Digiday"
         },
         {
-          "title": "Schibsted open-sources Videofy: AI tool converts text news articles to ready-to-publish video in minutes — free for all media organisations; peer-publisher tested",
-          "url": "https://schibsted.com/news/schibsted-open-sources-ai-tool-that-turns-news-articles-into-videos/",
-          "published": "2026-03-17",
+          "title": "Unauthorized bot traffic surge hitting publishers (People Inc. at DPS): defensive action needed NOW. Cloudflare compliant crawler + Atlantic bot-blocking framework = two tools available.",
+          "url": "https://digiday.com/media/media-briefing-what-to-expect-at-the-digiday-publishing-summit-march-2026-edition/",
+          "published": "2026-03-18",
+          "source": "Digiday"
+        },
+        {
+          "title": "Schibsted Videofy open-sourced: AI converts articles to ready-to-publish news video in minutes. Free, tested by major European publisher.",
+          "url": "https://schibsted.com",
+          "published": "2026-03",
           "source": "Schibsted"
-        },
-        {
-          "title": "NVIDIA GTC 2026: Holoscan for Media — upgraded AI SDKs for live production, post-production, content localization; content-localization blueprint released",
-          "url": "https://www.techrepublic.com/article/news-nvidia-gtc-2026-live-updates/",
-          "published": "2026-03-17",
-          "source": "NVIDIA / TechRepublic"
-        },
-        {
-          "title": "AWS Elemental Inference (GA): AI real-time 9:16 at 6-10s latency from live feeds; Fox Sports cut turnaround from 45-60 min to <15 min; NAB W1701",
-          "url": "https://aws.amazon.com/elemental-inference/",
-          "published": "2026-02",
-          "source": "AWS / Deadline"
-        },
-        {
-          "title": "Reuters Institute 2026: 'liquid content' + AEO (Answer Engine Optimization) + search -40% — MMR iconik metadata schema must support format-agnostic liquid content packaging; RAG readiness = structured metadata at ingest",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01-14",
-          "source": "Reuters Institute"
-        },
-        {
-          "title": "EditShare FLOW AI + MediaSilo AI at NAB 2026: Analytical AI for auto-metadata (speech, faces, scenes, text); new bundles with unlimited AI + forensic watermarking",
-          "url": "https://editshare.com/editshare-advances-analytical-ai-and-nvme-performance-at-nab-2026",
-          "published": "2026-03-11",
-          "source": "EditShare"
         }
       ]
     }
-  ],
-  "changes": {
-    "previousUpdated": "2026-03-21T21:00:00Z",
-    "newCount": 4,
-    "removedCount": 1,
-    "newItems": [
-      {
-        "title": "LucidLink + Frame.io CONFIRMED Technical Preview (not GA) — 9 days left in Q1 window. Waitlist status verified March 22.",
-        "url": "https://www.lucidlink.com/frameio",
-        "published": "2026-03-22",
-        "source": "LucidLink product page (verified)",
-        "section": "Decision Panel 2 — urgent correction/update"
-      },
-      {
-        "title": "RISJ AI Future of News 2026 conference (March 17): Chris Moran explains Guardian's cautious-but-committed AI posture; no chatbot, editorial accountability as differentiator",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/news/ai-and-future-news-2026-what-we-learnt-about-its-impact-newsrooms-fact-checking-and-news",
-        "published": "2026-03-17",
-        "source": "Reuters Institute",
-        "section": "Guardian Strategy + Decision Panel 1 update"
-      },
-      {
-        "title": "JWX Vertical Video (Feb 19): single-line JS swipeable vertical video for publisher-owned sites — owned-channel retention tool as search declines",
-        "url": "https://ppc.land/jwx-bets-publishers-can-fight-social-with-swipeable-vertical-video/",
-        "published": "2026-02-19",
-        "source": "JWX / PPC Land",
-        "section": "Platform Distribution — new"
-      },
-      {
-        "title": "Digiday: publishers reshaping newsrooms around video production as AI-era survival strategy — structural transformation, not distribution experiment",
-        "url": "https://digiday.com/media/media-briefing-publishers-turn-to-vertical-video-to-compete-with-creators-and-grow-ad-revenue-in-2026/",
-        "published": "2025-12",
-        "source": "Digiday",
-        "section": "Decision Panel 4 + Platform Distribution — context update"
-      }
-    ]
-  }
+  ]
 }
