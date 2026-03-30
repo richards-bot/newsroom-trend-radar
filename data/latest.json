@@ -1,106 +1,104 @@
 {
-  "updated": "2026-03-29T21:00:00Z",
+  "updated": "2026-03-30T21:00:00Z",
   "meta": {
-    "totalSources": 51,
-    "totalItems": 51,
+    "totalSources": 53,
+    "totalItems": 53,
     "curatedBy": "Claw overnight run",
-    "note": "March 29 (Sunday) run — KEY SIGNALS: Frame.io Q1 deadline is TOMORROW (Monday March 31) — now a 24-hour window, not 3 days. IABM will make a 'major announcement impacting the future of the MediaTech industry' at NAB April 19 (Room N250, LVCC North Hall) — first teased signal of something significant from the global media tech trade body. Suite Studios S3 Native Streaming coming out of private beta to GA in April — direct LucidLink Connect competitor validating the architecture. Digiday DPS AI analysis still outstanding — 'spoiler: AI was a big topic' per Digiday own trailer, full analysis expected this week. No new iconik or LucidLink releases. NAB now 20 days."
+    "note": "March 30 (Monday) run — KEY SIGNALS: (1) Frame.io Q1 deadline EXPIRES TONIGHT — officially slipped to Q2/NAB with zero GA announcement. (2) MAJOR: Chris Moran RISJ full quote reveals Guardian AI strategy has *pivoted* from building products to mandatory journalist training — 'the really consequential AI tools weren't the experimental ones we were building, but the generic systems any journalist could open in a browser.' This reframes MMR internal-tools positioning. (3) GoPro GP3 NAB debut — most significant camera platform leap in years, multiple new categories — relevant for Guardian field teams. (4) NAB session lineup confirmed with 200% creator registration surge. (5) Digiday DPS AI full analysis still expected this week. No new iconik or LucidLink releases. NAB 19 days."
   },
   "decisionPanels": [
     {
-      "title": "🚨 Frame.io + LucidLink: Q1 DEADLINE IS TOMORROW — 24-Hour Window",
+      "title": "🧠 Guardian AI Strategy PIVOT — From Products to Training (Moran RISJ Quote, March 30)",
       "priority": "urgent",
-      "summary": "March 31 (Monday) is TOMORROW. The Q1 2026 window for the LucidLink + Frame.io integration GA closes in 24 hours. Still no GA announcement found anywhere tonight (March 29). No press release, no blog post from Backlight or LucidLink, no changelog entry, no third-party trade coverage of a GA launch. The integration was announced at Adobe MAX in October 2025 with a 'Q1 2026' target. If GA were shipping before end of month, an announcement would typically land the week before — that window has now passed without a signal. Assessment: Q1 GA is extremely unlikely. Expect a Q2 announcement or a NAB 2026 reveal. NAB is 20 days away (April 18-22). LucidLink booth is N2940 — Frame.io integration status is the top conversation to have there. Note: LucidLink Connect (S3 streaming, GA since March 5) is a completely separate product and is live NOW.",
+      "summary": "NEW TONIGHT. The Reuters Institute published (this week) the full summary of Chris Moran's session at the RISJ AI and Future of News 2026 conference (March 17). The key quote had not previously been captured in full: 'About a year ago I realised the really consequential AI tools weren't the experimental ones we were building, but the generic systems any journalist could open in a browser.' Moran explicitly stated that Guardian *shifted focus from building AI products to providing mandatory AI training* for all journalists — teaching them how probabilistic models work, how they rely on low-quality sources, and why reporters should be sceptical of any output. This is a more significant strategy pivot than previous RISJ summaries indicated. It means: (a) The Guardian is NOT currently building new reader-facing AI products. (b) The internal tools (archive search, transcription, document analysis — per the March 4 GenAI policy page) are the approved path. (c) The political stance tracker may still be live or in pilot, but Moran's frame is now 'training journalists to use AI safely' not 'building AI features for readers.' MMR IMPLICATION: this strengthens the internal-tools positioning. MMR is the data infrastructure that INTERNAL tools (archive chatbot, transcription) depend on. Position it that way to leadership — not as 'AI product data layer' but as 'the foundation for safe, accountable internal AI use of Guardian content.'",
       "actions": [
-        "SEND final message to LucidLink account team TODAY (Sunday) or first thing Monday: 'Frame.io integration — Q1 GA or confirmed Q2? Need to update our planning timeline.' Direct, one question.",
-        "ACCEPT it's Q2: update internal MMR planning accordingly. Camera-to-Cloud workflow for Guardian field teams moves to post-NAB timeline.",
-        "BOOK NAB: LucidLink N2940 is the definitive resolution venue. 20 days. Book now if going.",
-        "DO NOT wait: LucidLink Connect (S3 streaming) is GA and separate. If Guardian has S3 archives, activate this product now — no need to wait for Frame.io."
+        "REFRAME MMR pitch to leadership: not 'AI product data layer' but 'the foundation for Guardian's internal AI tools (archive search, transcription, document analysis).' Moran's framing is now the institutional language.",
+        "READ: theguardian.com/help/insideguardian/2026/mar/04/how-the-guardian-is-using-genai — the approved in-house tools list. Identify which ones need iconik metadata. Archive search is confirmed.",
+        "ASK editorial innovation: does the internal archive search tool index multimedia/video from iconik? (Still the key unresolved question.)",
+        "USE in leadership: 'Guardian's AI strategy is now training journalists to use generic tools responsibly + building safe internal tools. MMR ensures that when internal tools query the archive, the multimedia metadata is complete, structured, and AI-retrievable.'"
       ]
     },
     {
-      "title": "📣 IABM 'Major Announcement' at NAB April 19 — Industry-Wide Signal",
+      "title": "🚨 Frame.io + LucidLink: Q1 OFFICIALLY EXPIRED — Now Confirmed Q2/NAB",
+      "priority": "urgent",
+      "summary": "March 31 is tomorrow and zero GA announcement exists anywhere. The Q1 2026 window for the LucidLink + Frame.io integration GA is now effectively closed. No press release, no blog post, no changelog entry, no trade coverage. The integration was announced at Adobe MAX in October 2025 with a 'Q1 2026' target. Multiple nightly sweeps going back three weeks found no signal. Assessment: confirmed Q2 slip. Next resolution venue is NAB 2026 (April 19-22, LucidLink Booth N2940 — 19 days). Note: LucidLink Connect (S3 streaming, GA since March 5) is a completely separate, active product and is available now. LucidLink Upgrade Tool (March 2) also active for Classic→New upgrade. Suite Studios S3 competitor going GA in April — competition will be live by NAB.",
+      "actions": [
+        "CLOSE the Q1 expectation: update MMR planning. Camera-to-Cloud workflow for Guardian field teams moves to post-NAB (May+) timeline.",
+        "SEND a message to LucidLink account team this week: 'Frame.io integration — is this NAB announcement, Q2 GA, or later? Need to update our planning.' One direct question.",
+        "BOOK NAB if going: LucidLink N2940 on April 19 is the resolution venue. Projective joint Happy Hour there too.",
+        "ACTIVATE instead: LucidLink Connect (S3, GA NOW) and LucidLink Upgrade Tool (Classic→New, GA March 2) — both available without waiting for Frame.io."
+      ]
+    },
+    {
+      "title": "🎥 GoPro GP3 Cameras at NAB April 19 — Biggest Upgrade in Years",
       "priority": "high",
-      "summary": "NEW TONIGHT. IABM (the global media technology industry trade association) announced it will host a breakfast event at NAB 2026 on Sunday April 19 (Room N250, LVCC North Hall) at which it will make 'a major announcement impacting the future of the MediaTech industry.' It will also release its 'State of the MediaTech' report. IABM does not use language like 'major announcement impacting the future of the industry' lightly — this body sets technical standards, publishes the authoritative industry benchmarks, and represents vendors globally. Possible scenarios: a major standards agreement (IP/IPMX transition), a significant market consolidation signal, a new AI governance framework, or something related to the IP Showcase (IPMX transitions from specification to deployment per their March 26 announcement). The IP Showcase is also returning to NAB 2026 — AIMS, AMWA, and VSF all confirmed. The convergence of IP transition going live AND IABM major announcement at the same show is notable. This is the most significant pre-NAB unknown signal in years.",
+      "summary": "NEW TONIGHT. GoPro announced (March 25) it will unveil multiple new cameras at NAB 2026 (April 19-22, Booth C5519) powered by the next-generation GP3 processor — described by CEO Nicholas Woodman as 'the most significant leap in GoPro's imaging technology to date.' The GP3 processor doubles pixel processing capacity and enables entirely new camera categories beyond GoPro's traditional action-camera lane. T3 notes the NAB announcement 'confirms GoPro will showcase several new cameras, not just one' — this is a platform expansion, not an incremental product refresh. Strategic relevance for Guardian: field journalists and Guardian Studios use action cameras for social-native content. If GP3 opens a new category (likely: higher-quality social-first content camera, possibly vertical-native), this is relevant for MMR workflows and Project Launcher output types. Guardian field teams should be briefed after NAB.",
       "actions": [
-        "WATCH April 19 breakfast: IABM Room N250, LVCC North Hall. If attending NAB, this is Day 1 and is non-negotiable.",
-        "CONTEXT: IPMX (IP Media Experience) is transitioning from specification to deployment — this may be the standards moment IABM is announcing around.",
-        "BRIEF Guardian infrastructure: if IABM announces IP-over-internet broadcast standards going live, this has direct implications for live production workflows at Guardian Studios.",
-        "READ: IABM 'State of the MediaTech 2026' report will drop April 19 — this is the most authoritative market benchmark document for MediaTech every year."
+        "WATCH NAB: GoPro Booth C5519 (April 19-22). Multiple new cameras — understand the new categories, not just the spec sheet.",
+        "POST-NAB: if GP3 opens a 'social-first' camera category, add to Project Launcher roadmap as a supported ingest format.",
+        "CONTEXT: GoPro's NAB move suggests a deliberate upmarket push — this could overlap with Guardian's documentary/field journalism use case, not just extreme sports."
       ]
     },
     {
-      "title": "📰 DPS AI Analysis: Digiday Full Recap Still Outstanding — Expected This Week",
+      "title": "🏭 NAB 2026: 19 Days — Session Lineup + Creator Wave + Journalist Safety",
       "priority": "high",
-      "summary": "The Digiday DPS Overheard recap (published March 26) explicitly flagged: 'Stay tuned in the coming days for more analysis on what was said at DPS Vail 2026 — spoiler: AI was a big topic.' The detailed AI analysis has not yet published. What we have from the overheard quotes is rich on search collapse and subscriptions, but the AI specifics — including what Guardian's Chris Moran shared about the political stance tracker and archive chatbot — have not yet appeared in a dedicated Digiday write-up. That analysis is expected this week (week of March 30). This is the missing piece: what exactly is the Guardian's reader-facing AI product, and does it touch multimedia/video? The RISJ notes (March 17) said political stance tracker + archive chatbot — both text-based. The Digiday full analysis may provide more product detail. Check digiday.com/series/dps/ daily this week.",
+      "summary": "NAB 2026 session lineup confirmed (SVG, March 23). Creator registrations +200% vs 2025. Social media content producers +150%. Creator Lab (Adobe + Blackmagic partnership) expanded. Sessions directly relevant to Guardian: 'The Cost of Bearing Witness: Journalist Safety in a Polarized America' (moderated by CNN's John Berman); 'The Evolving Paradigm of Broadcast News' (Deborah Norville + Perry Sook, Nexstar CEO); 'Who Controls the Pipe? Platform Distribution, Power and the New Deal Economics' (NBCUniversal + Roku) — this is the platform power session. Creator Lab sessions include 'Are We Nervous Yet: A Creator's Guide to AI.' IABM major announcement April 19 (Room N250). GoPro GP3 debut. IP Showcase (IPMX live). FOR-A AI-powered broadcast workflows. SMPTE VIBE AI session April 20. LucidLink N2940, Backlight/iconik N2829, CineSys demo.",
       "actions": [
-        "CHECK digiday.com/series/dps/ daily this week (March 30-April 3) for the full AI analysis from DPS Vail 2026.",
-        "PRIORITY QUESTION: does the Guardian's reader-facing AI product touch multimedia/video metadata? The RISJ notes suggest text-only — but Digiday may have more detail.",
-        "SECONDARY: what AI governance frameworks did other publishers present at DPS? Atlantic's 3-tier AI bot framework is the only confirmed one so far.",
-        "IF multimedia is in scope: immediately surface to Guardian product/editorial that MMR iconik schema = AI product quality."
+        "BOOK: 19 days. April 19-20 minimum. Arrive April 18 for SMPTE VIBE pre-show content.",
+        "APRIL 19 MORNING: IABM breakfast Room N250 — major announcement + State of MediaTech 2026.",
+        "APRIL 19: LucidLink N2940 — Frame.io Q2 roadmap + Connect. GoPro C5519 — new camera categories.",
+        "APRIL 20: CineSys N2829 — iconik + Twelve Labs demo. SMPTE VIBE AI session 1:30pm. 'Who Controls the Pipe?' session for platform distribution intelligence."
       ]
     },
     {
-      "title": "🏭 NAB 2026: 20 Days — IABM Announcement + IP Showcase + Vendor Wave",
-      "priority": "high",
-      "summary": "NAB 2026 is 20 days away (April 18-22, Las Vegas). New tonight: IABM making a 'major announcement impacting the future of the MediaTech industry' on April 19 (Room N250). IP Showcase returns as IPMX transitions from specification to deployment (AIMS, AMWA, VSF all confirmed). NAB session lineup unveiled (March 23): creators, media leaders, storytelling legends, AI. FOR-A showcasing AI-powered broadcast workflows (C4920). All confirmed: Backlight/iconik at N2829, LucidLink at N2940, CineSys iconik+Twelve Labs demo, SMPTE VIBE AI-Driven Live Production (April 20), Moments Lab agentic AI, Projective+LucidLink joint Happy Hour (N2940 April 19). Creator registrations +200% vs 2025. BBC Studios DTC CEO keynote. Two AI Pavilions. This is the year's most concentrated intelligence-gathering event.",
-      "actions": [
-        "BOOK now if attending — 20 days. Minimum: April 19-20. Arrive April 18 for SMPTE VIBE pre-show.",
-        "APRIL 19 MORNING: IABM breakfast Room N250 — major announcement + State of MediaTech 2026 report.",
-        "APRIL 19: LucidLink N2940 — Frame.io GA status + Connect roadmap. Projective joint happy hour.",
-        "APRIL 20: CineSys N2829 — iconik + Twelve Labs semantic video search demo. SMPTE VIBE AI session 1:30pm."
-      ]
-    },
-    {
-      "title": "☁️ Suite Studios S3 Native GA in April — LucidLink Connect Competitor Validates Architecture",
+      "title": "📰 DPS AI Analysis + Digiday Full Recap — Expected This Week",
       "priority": "medium",
-      "summary": "NEW TONIGHT. Suite Studios (cloud-native storage platform) announced their S3 Native File Streaming product — currently in private beta with a waitlist — is expected to reach general availability in April 2026 (per Blocks & Files, Feb 17). This is a direct architectural competitor to LucidLink Connect: stream from existing S3 buckets without proprietary client software, volume-based pricing for petabyte-scale deployments. The strategic read is two-directional: (1) Suite Studios GA validates that S3-native streaming is a real and deployable architecture — not just LucidLink's play. Guardian's infrastructure team should know multiple options exist. (2) Competition is good: LucidLink Connect pricing and feature pace will be influenced by Suite entering the market. (3) The April timing means both Suite GA and NAB 2026 announcements will collide — expect pricing competition and comparison coverage. LucidLink's Connect advantage: already Emmy-awarded, 100K users, proven at scale. Suite's advantage: no proprietary client software required at all.",
+      "summary": "Digiday flagged detailed AI analysis from DPS Vail 2026 (March 23-25) is imminent — 'spoiler: AI was a big topic.' With tonight's RISJ clarity on Moran's actual strategy (training-first, not products), the Digiday full analysis will likely confirm or expand this positioning. Still open: the Atlantic 3-tier AI bot framework details, what other publishers said about AI governance, and any product specifics not in the RISJ notes. Now that we know Moran's framing is 'mandatory training over experimental products,' the interesting Digiday question becomes: how many other publishers are making the same pivot? If the answer is 'most of them,' then internal tooling quality (which iconik metadata supports) is the field of competition, not consumer AI products.",
       "actions": [
-        "FLAG to Guardian infrastructure team: two S3-native streaming products will be available by May — LucidLink Connect (GA now) and Suite Studios (GA April). Ask for a comparison evaluation.",
-        "LucidLink's differentiator: established at scale, Emmy-awarded, full Filespace integration. Suite: no proprietary client required, petabyte pricing model.",
-        "DO NOT conflate with LucidLink's core Filespace product — both products stream S3, but LucidLink's full ecosystem (Connect + Filespaces + Guest Access + Directory API) is broader.",
-        "WATCH NAB: expect LucidLink to respond to Suite competition with pricing or feature announcements at the show."
+        "CHECK digiday.com/series/dps/ this week (March 30-April 3) for full AI analysis.",
+        "LOOK FOR: which publishers are training-first vs product-building? If training-first is the dominant 2026 posture, Guardian is ahead.",
+        "LOOK FOR: Atlantic 3-tier AI bot framework full detail. Guardian needs an equivalent for SPUR governance.",
+        "CROSS-REFERENCE with RISJ Moran quote: does Digiday add any product specifics that contradict or complement the 'no new reader-facing products' positioning?"
       ]
     },
     {
-      "title": "🔓 Guardian AI + MMR: Archive Chatbot Integration Point — Investigation Still Pending",
+      "title": "☁️ Suite Studios S3 GA in April — Validate LucidLink Strategy",
       "priority": "medium",
-      "summary": "The most important MMR strategic framing from this week's intelligence run remains unresolved: does the Guardian's internal archive chatbot (confirmed by Chris Moran at RISJ March 17) index multimedia/video metadata from iconik? If yes, MMR schema quality = Guardian AI product quality. The RISJ notes suggest the political stance tracker and archive chatbot are both text-based — but 'archive' is ambiguous. Guardian Studios video content is growing rapidly. The OpenAI deal gives Guardian the technology to build on. The question for this week (before Ricky raises it in any leadership conversation): has anyone in product/editorial innovation confirmed or denied multimedia scope? This should be a 15-minute conversation with the editorial innovation team. The answer changes the investment case for MMR.",
+      "summary": "Suite Studios S3 Native File Streaming goes GA in April 2026 (per Blocks & Files Feb 17). Direct LucidLink Connect competitor — streams S3 buckets without proprietary client software, volume-based petabyte pricing. LucidLink Connect is GA now (Emmy-awarded, 100K users, proven scale). By NAB, both options will exist. This is the moment to get LucidLink pricing commitments before Suite becomes a negotiating alternative. LucidLink advantages: full Filespace ecosystem (Connect + Guest Access + Directory API), Emmy award, established customer base. Suite advantage: zero proprietary client required.",
       "actions": [
-        "ASK editorial innovation / digital product this week: does Guardian's internal archive chatbot search multimedia/video metadata? Yes or no.",
-        "If YES: treat iconik metadata completeness as an AI product requirement. Raise with Head of Technology.",
-        "If NO: build the case for inclusion. Guardian Studios video is growing — it should be searchable. Frame as 'completing the archive.'",
-        "HOLD: do not raise in leadership conversations until the scope question is answered. Raising it too early without the answer weakens the case."
+        "FLAG to Guardian infrastructure: two S3-streaming options available by May. LucidLink NOW (GA, proven) vs Suite Studios (GA April). Competition = negotiate LucidLink pricing now.",
+        "LucidLink Connect is the recommended choice: depth of ecosystem, proven scale. But flag the competition exists.",
+        "WATCH NAB: expect LucidLink pricing/feature response to Suite at the show."
       ]
     }
   ],
   "sections": [
     {
-      "title": "🎯 New This Run (March 29)",
+      "title": "🎯 New This Run (March 30)",
       "items": [
         {
-          "title": "IABM 'major announcement impacting the future of the MediaTech industry' — NAB April 19, Room N250, LVCC North Hall. State of MediaTech 2026 report also drops. Biggest pre-NAB unknown signal in years.",
-          "url": "https://www.tvtechnology.com/events/iabm-to-host-breakfast-event-at-2026-nab-show",
+          "title": "Chris Moran RISJ full quote confirmed: 'About a year ago I realised the really consequential AI tools weren't the experimental ones we were building, but the generic systems any journalist could open in a browser.' Guardian pivoted from building AI products to mandatory journalist training. Internal tools only. Reframes MMR positioning.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/ai-and-future-news-2026-what-we-learnt-about-its-impact-newsrooms-fact-checking-and-news",
           "published": "2026-03-25",
-          "source": "TV Technology"
+          "source": "Reuters Institute"
         },
         {
-          "title": "Suite Studios S3 Native File Streaming GA in April 2026 — direct LucidLink Connect competitor. Private beta now, GA April. Volume-based pricing for petabyte scale. No proprietary client software.",
-          "url": "https://www.blocksandfiles.com/file/2026/02/17/suite-studios-cuts-out-client-software-with-s3-native-streaming/4091388",
-          "published": "2026-02-17",
-          "source": "Blocks & Files"
+          "title": "GoPro GP3 cameras debut at NAB April 19-22 (Booth C5519) — CEO says 'most significant leap in GoPro imaging technology to date.' Multiple new camera categories beyond action-cam lane. Relevant for Guardian field teams and social-native content.",
+          "url": "https://gopro.com/en/us/news/gopro-unveils-new-generation-gp3-cameras-nab-2026",
+          "published": "2026-03-25",
+          "source": "GoPro"
         },
         {
-          "title": "IP Showcase returns to NAB 2026 as IPMX transitions from specification to deployment — AIMS, AMWA, VSF all confirmed. March 26 announcement. IP-over-internet broadcast going live.",
-          "url": "https://www.nordicmedia.news/the-ip-showcase-returns-to-the-2026-nab-show-as-ipmx-transitions-from-specification-to-deployment/",
-          "published": "2026-03-26",
-          "source": "Nordic Media News / AIMS"
+          "title": "NAB 2026 session lineup confirmed (SVG, March 23): creator registrations +200%, journalist safety session (CNN Berman), 'Who Controls the Pipe?' platform distribution session (NBCUniversal + Roku), Creator Lab expanded with Adobe + Blackmagic.",
+          "url": "https://www.sportsvideo.org/2026/03/23/nab-2026-creators-media-leaders-storytelling-legends-and-ai-step-into-the-spotlight-as-lineup-is-unveiled/",
+          "published": "2026-03-23",
+          "source": "Sports Video Group"
         },
         {
-          "title": "Digiday DPS AI analysis still outstanding — 'spoiler: AI was a big topic' (Digiday own trailer). Full Guardian AI product details + publisher AI frameworks expected this week (March 30+).",
-          "url": "https://digiday.com/media/media-briefing-overheard-at-the-digiday-publishing-summit-march-2026-edition/",
-          "published": "2026-03-26",
-          "source": "Digiday"
+          "title": "NAB preview article TODAY (March 30, newscaststudio.com): 'From handoffs to continuous flow in the modern media supply chain.' Media supply chain automation is the dominant vendor narrative going into NAB — relevant for MMR Project Launcher positioning.",
+          "url": "https://www.newscaststudio.com/2026/03/30/nab-show-preview-from-handoffs-to-continuous-flow-in-the-modern-media-supply-chain/",
+          "published": "2026-03-30",
+          "source": "NewscastStudio"
         }
       ]
     },
@@ -108,28 +106,28 @@
       "title": "🏗️ MMR / Iconik / LucidLink Stack",
       "items": [
         {
-          "title": "Frame.io + LucidLink: Q1 deadline TOMORROW (March 31). No GA found. 24-hour window. Expect Q2 slip — book LucidLink N2940 at NAB as the resolution venue.",
+          "title": "Frame.io + LucidLink: Q1 deadline passes tonight (March 31). Zero GA announcement. Confirmed Q2 slip. Book LucidLink N2940 at NAB as resolution venue.",
           "url": "https://www.lucidlink.com/frameio",
-          "published": "2026-03-29",
-          "source": "LucidLink (verified tonight — still no GA announcement)"
+          "published": "2026-03-30",
+          "source": "LucidLink (verified — still no GA announcement)"
         },
         {
-          "title": "LucidLink Connect GA (Enterprise): instant S3 streaming, no migration, Emmy-winning. Activate Guardian S3 archives without touching the data. Suite Studios competitor GA April.",
+          "title": "LucidLink Connect GA (Enterprise): instant S3 streaming, no migration, Emmy-winning. Activate Guardian S3 archives without touching the data. Available NOW.",
           "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
           "published": "2026-03-06",
           "source": "LucidLink"
         },
         {
-          "title": "Suite Studios S3 Native Streaming GA April 2026: LucidLink Connect direct competitor. Multiple S3-streaming options will exist by NAB. Competition = better pricing for Guardian.",
+          "title": "LucidLink Upgrade Tool (March 2): in-place upgrade from Classic Filespaces to new LucidLink. No data copying. Unlocks Connect + Guest Access + Directory API.",
+          "url": "https://support.lucidlink.com/hc/en-us/articles/40136893598733-Step-by-step-upgrade-guide",
+          "published": "2026-03-02",
+          "source": "LucidLink Support"
+        },
+        {
+          "title": "Suite Studios S3 Native GA April 2026: LucidLink Connect competitor. No proprietary client required. Competition = negotiate LucidLink pricing now before NAB.",
           "url": "https://www.blocksandfiles.com/file/2026/02/17/suite-studios-cuts-out-client-software-with-s3-native-streaming/4091388",
           "published": "2026-02-17",
           "source": "Blocks & Files"
-        },
-        {
-          "title": "Iconik Web 26.03 (latest): UI overhaul live — grey background, new nav, Upload button removed. No 26.04 found. Next release expected Q2 2026.",
-          "url": "https://app.iconik.io/help/pages/release_notes/",
-          "published": "2026-03-05",
-          "source": "iconik (changelog verified)"
         },
         {
           "title": "CineSys at NAB N2829: iconik + Twelve Labs + LucidLink + MASV demo — semantic AI video search inside video without manual transcription. Book conversation ahead of NAB.",
@@ -138,10 +136,10 @@
           "source": "CineSys"
         },
         {
-          "title": "Backlight 2026 Stats: video 64% of storage, audio +45%, vertical +120%, 11.4M AI uses. Use for MMR storage cost models and leadership investment case.",
-          "url": "https://www.iconik.io/media-stats-report-2026",
-          "published": "2026-03-10",
-          "source": "Backlight"
+          "title": "Iconik Web 26.03 (latest): UI overhaul live — grey background, new nav, Upload button removed. No 26.04 found. Next release expected Q2 2026.",
+          "url": "https://app.iconik.io/help/pages/release_notes/",
+          "published": "2026-03-05",
+          "source": "iconik (changelog verified)"
         }
       ]
     },
@@ -149,28 +147,22 @@
       "title": "📡 Guardian Strategy / Peer Publishers",
       "items": [
         {
-          "title": "DPS Overheard (March 26): search collapse existential. 'Every instinct tuned to Google is wrong for subscriptions. Becoming a subscription business is 2-3 years, no quick win.' Guardian structurally protected — member-supported model is what every other publisher is trying to become.",
+          "title": "Chris Moran RISJ pivot (NEW): Guardian shifted from building AI products to mandatory journalist training. Internal tools only (archive search, transcription, doc analysis). MMR = foundation for safe internal AI use.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/ai-and-future-news-2026-what-we-learnt-about-its-impact-newsrooms-fact-checking-and-news",
+          "published": "2026-03-25",
+          "source": "Reuters Institute"
+        },
+        {
+          "title": "DPS Overheard (March 26): search collapse existential. 'Every instinct tuned to Google is wrong for subscriptions. 2-3 year rebuild, no quick win.' Guardian structurally protected — member model is the destination every other publisher is trying to reach.",
           "url": "https://digiday.com/media/media-briefing-overheard-at-the-digiday-publishing-summit-march-2026-edition/",
           "published": "2026-03-26",
           "source": "Digiday"
         },
         {
-          "title": "DPS AI full analysis COMING THIS WEEK — Guardian AI product specifics, publisher AI governance frameworks, Atlantic 3-tier AI bot model. Check digiday.com/series/dps/ daily March 30+.",
+          "title": "DPS AI full analysis expected this week (March 30-April 3) — Atlantic 3-tier AI bot framework, full publisher AI governance picture, Guardian product specifics. Check digiday.com/series/dps/ daily.",
           "url": "https://digiday.com/series/dps/",
           "published": "2026-03-26",
           "source": "Digiday (trailer)"
-        },
-        {
-          "title": "Guardian + OpenAI deal active: Guardian gets to USE OpenAI tech to build products. Internal archive chatbot (confirmed RISJ) may be built on this — iconik metadata is the retrieval layer if multimedia in scope.",
-          "url": "https://digiday.com/media/a-timeline-of-the-major-deals-between-publishers-and-ai-tech-companies-in-2025/",
-          "published": "2026-01-01",
-          "source": "Digiday deal timeline"
-        },
-        {
-          "title": "News Corp Meta AI deal: US$50M/year benchmark. Guardian's SPUR position should command comparable terms. IABM State of MediaTech 2026 (NAB April 19) will benchmark the full market.",
-          "url": "https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m",
-          "published": "2026-03-04",
-          "source": "The Guardian"
         },
         {
           "title": "BuzzFeed $57M loss — may not fund 2026. HuffPost spinoff possible. Ad-SEO model collapse in live play. Guardian's contrast: subscriber-funded, video-invested, member-direct.",
@@ -184,16 +176,10 @@
       "title": "🎬 Video-First / Vertical / Distribution",
       "items": [
         {
-          "title": "Indonesia under-16 ban LIVE (March 28): TikTok, YouTube, Instagram, Facebook, Threads, X deactivating under-16 accounts. 277M population. Platform risk register now an operational variable.",
-          "url": "https://thediplomat.com/2026/03/indonesia-announces-social-media-ban-for-children-under-16/",
-          "published": "2026-03-28",
-          "source": "The Diplomat"
-        },
-        {
-          "title": "NewFronts 2026: Google Gemini deeply integrated into DV360 — AI Ads Advisor translates media plans into campaigns from a single prompt. Privacy tool Confidential Publisher Match links first-party data with streaming signals. Ad infrastructure is changing.",
-          "url": "https://www.theaimarketers.ai/news032626/",
-          "published": "2026-03-26",
-          "source": "The AI Marketers"
+          "title": "GoPro GP3 cameras at NAB April 19 (C5519): CEO says 'most significant leap in imaging technology.' Multiple new camera categories. Platform expansion, not incremental. Watch for vertical-native and social-first categories.",
+          "url": "https://gopro.com/en/us/news/gopro-unveils-new-generation-gp3-cameras-nab-2026",
+          "published": "2026-03-25",
+          "source": "GoPro"
         },
         {
           "title": "Sprout Social Q1 2026: social overtakes TV for breaking news. 88% say AI video erodes trust. 51% Gen Z want more journalist social presence. Trust bifurcating — credible sources rise, AI slop falls.",
@@ -202,16 +188,22 @@
           "source": "Sprout Social"
         },
         {
-          "title": "X bans creator revenue for unlabelled AI war videos (March 4): 90-day suspension, permanent if repeated. War coverage AI governance is now platform policy.",
-          "url": "https://www.theguardian.com/technology/2026/mar/04/x-ban-users-earning-revenue-post-unlabelled-ai-generated-war-videos",
-          "published": "2026-03-04",
-          "source": "The Guardian"
+          "title": "Indonesia under-16 ban LIVE (March 28): TikTok, YouTube, Instagram, Facebook, Threads, X deactivating under-16 accounts. 277M population. Platform risk register now an operational variable.",
+          "url": "https://thediplomat.com/2026/03/indonesia-announces-social-media-ban-for-children-under-16/",
+          "published": "2026-03-28",
+          "source": "The Diplomat"
         },
         {
           "title": "YouTube live control room: zero-cost 9:16 vertical from horizontal live (March 13). Test on Guardian's next live event. Free, no engineering required.",
           "url": "https://blog.youtube/news-and-events/live-control-room-update/",
           "published": "2026-03-13",
           "source": "YouTube"
+        },
+        {
+          "title": "NAB Creator wave: registrations +200% vs 2025. Social media content producers +150%. NAB 2026 is the first year creators are peer registrants with broadcasters. Creator Lab (Adobe + Blackmagic) expanded.",
+          "url": "https://www.sportsvideo.org/2026/03/23/nab-2026-creators-media-leaders-storytelling-legends-and-ai-step-into-the-spotlight-as-lineup-is-unveiled/",
+          "published": "2026-03-23",
+          "source": "Sports Video Group"
         }
       ]
     },
@@ -219,7 +211,7 @@
       "title": "🤖 AI / Infrastructure / Governance",
       "items": [
         {
-          "title": "IABM major announcement + State of MediaTech 2026 at NAB April 19 — most significant industry trade body signal in years. IP transition live + major announcement = watch closely.",
+          "title": "IABM major announcement + State of MediaTech 2026 at NAB April 19 (Room N250, LVCC North Hall) — most significant industry trade body signal in years. IPMX goes from specification to deployment at same show.",
           "url": "https://www.tvtechnology.com/events/iabm-to-host-breakfast-event-at-2026-nab-show",
           "published": "2026-03-25",
           "source": "TV Technology"
@@ -231,22 +223,22 @@
           "source": "Reuters Institute"
         },
         {
-          "title": "NMA + Bria AI: 2,200 publishers opt in to RAG revenue licensing (50/50 split per attribution model). Better iconik metadata = higher RAG licensing value. SPUR US equivalent live now.",
+          "title": "NMA + Bria AI: 2,200 publishers opt in to RAG revenue licensing (50/50 split). Better iconik metadata = higher RAG licensing value. SPUR US equivalent live now.",
           "url": "https://digiday.com/media/news-media-alliance-signs-ai-licensing-deal-to-unlock-recurring-rag-revenue-for-small-and-mid-sized-publishers/",
           "published": "2026-03-23",
           "source": "Digiday"
-        },
-        {
-          "title": "Moments Lab agentic AI at NAB 2026: multimodal video discovery + automated search/creation/distribution agents. Benchmark against iconik at the show.",
-          "url": "https://www.tvtechnology.com/production/moments-lab-to-feature-agentic-ai-for-video-workflows-at-2026-nab-show",
-          "published": "2026-03-04",
-          "source": "TV Technology"
         },
         {
           "title": "OpenAI Sora shutdown (March 24): commercial AI video market validated failure. Editorial human-accountable workflows win. Guardian's approach is commercially correct, not just principled.",
           "url": "https://www.theguardian.com/technology/2026/mar/24/openai-ai-video-sora",
           "published": "2026-03-24",
           "source": "The Guardian"
+        },
+        {
+          "title": "Media supply chain automation narrative dominant at NAB 2026 (newscaststudio.com, March 30): 'From handoffs to continuous flow.' Project Launcher fits this exactly — single trigger, multiple workflow outputs.",
+          "url": "https://www.newscaststudio.com/2026/03/30/nab-show-preview-from-handoffs-to-continuous-flow-in-the-modern-media-supply-chain/",
+          "published": "2026-03-30",
+          "source": "NewscastStudio"
         }
       ]
     }
