@@ -1,150 +1,140 @@
 {
-  "updated": "2026-04-01T21:00:00Z",
+  "updated": "2026-04-02T21:00:00Z",
   "meta": {
     "totalSources": 57,
     "totalItems": 57,
     "curatedBy": "Claw overnight run",
-    "note": "April 1 run \u2014 decisive shift tonight is not a vendor release burst; it is that Guardian's AI product pattern is now concrete. Digiday confirms Storylines: a tightly-constrained, AI-labelled curation module built from headlines only, tested by 20 senior editors, and deliberately not a chatbot. That matters more than another generic AI launch because it shows Guardian's institutional rule: use AI to organise and surface Guardian journalism, not to impersonate it. Mandatory source check complete: iconik changelog hub checked (no new public 26.04 signal extracted tonight), LucidLink release-notes hub checked (no new April public release signal surfaced; latest visible search-indexed new-client build remains Jan 21), Backlight blog checked (new NAB + supply-chain automation emphasis). Additional high-signal sources: Digiday, Reuters Institute, NewscastStudio, Sports Video Group."
+    "note": "April 2 run — mandatory source check complete. No meaningful new public iconik or LucidLink release-note delta surfaced tonight; Backlight still foregrounds NAB 2026 + media-supply-chain orchestration. The fresh strategic shift is publisher operating-model convergence: Guardian's constrained Storylines launch now has companion evidence from Digiday that creator-led formats and partnership-based AI economics are becoming structural, while NewscastStudio keeps landing on metadata/archive value. Decision call: for Guardian/MMR, the next advantage is not a flashy AI feature but a creator-ready, metadata-disciplined workflow stack that can feed constrained editorial AI, archive retrieval, and platform-native video products."
   },
   "decisionPanels": [
     {
-      "title": "\ud83e\udde0 Guardian finally showed its hand: AI for curation, not imitation",
+      "title": "🧠 The signal tonight: creator-led operating models are hardening, not just trending",
       "priority": "urgent",
-      "summary": "Most important change tonight. Digiday's March 31 piece turns Guardian's AI strategy from inference into evidence. The first reader-facing product is Storylines, not a chatbot: an AI-labelled curation box on tag pages that groups the latest 200 stories into three narrative threads. Crucially, the model only sees headlines, not article body text; Guardian intentionally constrains context to what human editors already decided matters. Twenty senior editors reviewed outputs over two weeks before model updates, rollout is limited to 10 tag pages, and there is a 'large red button' to kill it. This is the institutional pattern Ricky should notice: Guardian will use AI to organise and surface journalism, but not to speak in the paper's voice or generate synthetic Guardian authority.",
+      "summary": "The strongest new signal is the shape of publisher execution. Digiday's latest coverage shows major publishers are no longer merely discussing creator formats; they are building operating models around them. DMG has put 24+ creators on payroll producing 10-20 long- and short-form videos a day, with creator-led channels outperforming traditional social averages. The Washington Post is taking the lighter-capex route: creator partnerships where talent keeps IP and the publisher sells sponsorship around the series. Pair that with Guardian's Storylines launch and the real pattern becomes clear: publishers are moving away from anonymous institutional output toward personality-led distribution, while keeping editorial control where it matters.",
       "actions": [
-        "Reframe MMR internally: the value is not 'powering AI features' in the abstract; it is supplying clean, structured metadata so constrained editorial AI can surface the right assets without hallucinating.",
-        "Ask one sharp question of editorial innovation/product: if Storylines works on headlines now, what is the multimedia equivalent later \u2014 tags, cutlines, transcripts, shot descriptions, rights windows, or all of them?",
-        "Treat metadata discipline as product quality. If Guardian expands from article tag curation into archive or multimedia discovery, poor iconik metadata becomes user-facing failure immediately."
+        "Treat creator-ready workflow as a core MMR requirement, not a Guardian Studios side project.",
+        "Pressure-test whether Project Launcher should include a 'creator-led / personality-led' output mode with destination, aspect ratio, sponsorship/commercial flags, and social-first metadata.",
+        "Use this line internally: audiences are not only shifting platform; they are shifting toward human-shaped formats. Workflow needs to make that cheap to produce without becoming chaotic."
       ]
     },
     {
-      "title": "\ud83d\udeab Why this matters more than 'Guardian launched AI' headlines",
+      "title": "🎯 Guardian's AI pattern is now clearer: constrained curation on top of trusted signals",
       "priority": "urgent",
-      "summary": "The non-obvious point: Storylines is not important because it is flashy. It is important because it reveals Guardian's risk model. They avoided a reader-facing chatbot, restricted inputs to headlines, clearly labelled the feature as AI-generated, used senior-editor evaluation, limited rollout, and kept a shutdown switch. That is a governance blueprint. For MMR, the implication is that the winning architecture is not broad generative capability but reliable retrieval and controlled context. In other words: better metadata beats bigger models.",
+      "summary": "Storylines still matters most as a governance reveal. Guardian's first reader-facing AI feature is a tightly bounded curation layer: headlines-only input, editorial review, visible AI labelling, narrow rollout, kill switch. Tonight's additional Digiday AI-licensing discussion sharpens the commercial side: publishers do not expect AI answer engines to send meaningful traffic back. The strategic value is partnerships, controlled access, and leverage. Put together, Guardian's likely winning path is not 'build chatbot magic' but maintain trusted content structures that can support constrained AI products, archive retrieval, and licensing leverage.",
       "actions": [
-        "Use this line with leadership: 'Guardian's emerging AI pattern is constrained curation on top of trusted editorial signals. MMR is the structured signal layer for multimedia.'",
-        "Prioritise fields that support controlled retrieval: topic, people, location, event, rights, platform intent, vertical/horizontal format, transcript availability, and publish status.",
-        "Do not oversell 'AI products'. Sell accountable editorial infrastructure. That is much closer to what the organisation is actually doing."
+        "Reframe MMR as metadata infrastructure for accountable retrieval, curation and licensing — not generic AI enablement.",
+        "Prioritise fields that support constrained reuse: topics, entities, rights, platform intent, transcript availability, creator/talent, and cut-down format.",
+        "Ask product/editorial innovation whether the multimedia analogue of Storylines is archive discovery, explainer assembly, or social packaging — because each demands slightly different metadata discipline."
       ]
     },
     {
-      "title": "\ud83d\udea8 LucidLink + Frame.io: Q1 is dead, stop planning around it",
-      "priority": "urgent",
-      "summary": "No public GA announcement surfaced by April 1 despite repeated sweeps and the Q1 target having now passed. That moves the Frame.io integration out of 'imminent' and into 'post-NAB until proven otherwise'. The trap now would be continuing to plan Guardian field workflows around a roadmap promise that has already missed its window. LucidLink Connect remains real and available now; Frame.io does not.",
-      "actions": [
-        "Close the Q1 assumption in MMR planning. Treat Frame.io integration as post-NAB / Q2+ until LucidLink says otherwise directly.",
-        "If Ricky speaks to LucidLink, ask a binary question: 'Was the GA missed, and what is the new date?' Avoid vague roadmap chat.",
-        "Focus nearer-term workflow leverage on LucidLink Connect, upgrade-path clarity, and folder/permission automation rather than waiting on Camera-to-Cloud magic."
-      ]
-    },
-    {
-      "title": "\ud83c\udfed Backlight's current signal: supply-chain orchestration is the product story",
+      "title": "🚨 No meaningful vendor delta: stop waiting for a release to tell you what matters",
       "priority": "high",
-      "summary": "Backlight's April-facing material is not shouting a surprise feature release; it is shouting workflow convergence. The blog/resources page now foregrounds NAB 2026, the 2026 Iconik Media Stats report, and 'media supply chain optimization requires strategic automation and cloud infrastructure'. NewscastStudio lands in the same place: NAB's real question is no longer whether systems connect, but whether those connections reduce friction and generate value. That is exactly the language Project Launcher should borrow. The strongest framing for Ricky is not 'a tool that creates folders and collections'; it is 'workflow orchestration that removes handoffs from the media supply chain.'",
+      "summary": "Mandatory vendor check complete: no meaningful new public iconik release-note delta surfaced tonight, no fresh LucidLink April release signal appeared, and Backlight's live messaging still emphasises NAB + supply-chain orchestration. That matters because it means the constraint is no longer 'waiting for the next feature drop'. The advantage now comes from how well Guardian uses the stack it already has, especially around metadata quality, creator-friendly output paths, and archive retrieval design. Frame.io remains post-Q1 absent a direct LucidLink correction.",
       "actions": [
-        "Rephrase Project Launcher in supply-chain language for leadership: one trigger, fewer handoffs, lower metadata loss, faster publish readiness.",
-        "Use Backlight's own stats to support schema decisions: video dominates storage, audio is growing fast, and vertical is a first-class format not a sidecar.",
-        "At NAB, optimise for workflow conversations over feature tours. Ask vendors how they remove handoffs, not how many AI checkboxes they have."
+        "Assume existing stack + workflow design is the main leverage point for April, not vendor rescue.",
+        "Keep Frame.io planning on a post-NAB/Q2+ basis until LucidLink gives a hard date.",
+        "Use Backlight's supply-chain framing when talking to leadership: the goal is fewer handoffs, less metadata loss, faster publish readiness."
       ]
     },
     {
-      "title": "\ud83d\udcc8 Publisher economics keep pointing in the same direction: video + events + reader revenue",
+      "title": "🗄️ Archive value is becoming operational, not theoretical",
       "priority": "high",
-      "summary": "Digiday's April 1 publisher revenue research reinforces the business shape Ricky should optimise for. Direct-sold ads, branded content, events and video remain core, and events have overtaken subscriptions as a growth focus in Digiday's 2026 survey set. Dow Jones says video is the fastest-growing part of its digital ad business and is pushing vertical video inside its app. Guardian U.S. expects ad growth and nearly 20% reader-revenue growth this year. The strategic point: audience growth is not just about reach; it is about formats and products that create durable direct relationships. Video-first workflows matter because they now sit inside several revenue lines at once.",
+      "summary": "NewscastStudio's archive analysis is blunt: once content is properly indexed, archives become fuel for new productions, social distribution, rights-aware licensing and platform-specific versioning. That's exactly the practical bridge between Storylines-style constrained AI and MMR's day job. The non-obvious point is that archive retrieval is no longer just a library problem; it is a production-speed problem and a future-revenue problem. If Guardian ever wants multimedia discovery, archive explainers, or rights-aware repackaging to work at speed, iconik metadata quality becomes front-line product quality.",
       "actions": [
-        "Keep pushing 9:16 and social-native outputs as business infrastructure, not just editorial preference.",
-        "Consider how MMR workflows can support events and branded-content reuse, not only newsroom publishing.",
-        "When justifying investment, connect video workflow quality to ad, branded, and reader revenue simultaneously."
+        "Run a small retrieval audit on recent multimedia assets: people, topic, location, event, rights, transcript, vertical/horizontal intent.",
+        "Frame archive metadata work as reuse speed + licensing readiness, not admin overhead.",
+        "Use this as the sharpest case for structured multimedia metadata: you cannot plug AI into chaos, and you cannot retrieve what you never described."
       ]
     },
     {
-      "title": "\ud83e\udded GEO is becoming a publisher product category, not just an SEO talking point",
+      "title": "📈 Audience growth now looks more like loyalty systems + platform-native personalities",
       "priority": "medium",
-      "summary": "Time is now selling GEO insight as a brand product: measuring how AI systems describe a brand, then creating Time text/video content to shift that narrative. Whether this exact offer becomes durable is still unproven, but the signal is real: publishers are trying to monetise their understanding of answer engines, not just defend against them. The useful implication for Guardian is not 'copy Time tomorrow'; it is that metadata, authority, and distribution objects are becoming inputs to AI visibility economics. Better archive structure increases future optionality.",
+      "summary": "Press Gazette's audience-engagement strategy piece lands on the same business truth as Digiday's summit coverage: discovery is volatile, loyalty has to be designed, and publishers need product systems that turn attention into repeat use. The point for Guardian video is that loyalty won't come from generic clips alone. It will come from recurring formats, recognisable voices, useful product surfaces, and metadata that helps package the same journalism across app, social, onsite and archive contexts.",
       "actions": [
-        "Track GEO as an adjacent revenue/governance frontier, especially for SPUR and commercial strategy.",
-        "Treat clean metadata and durable URLs as AI visibility infrastructure, not just archive hygiene.",
-        "Do not chase GEO productisation prematurely, but note that publishers are already converting AI visibility knowledge into sellable services."
+        "Think one layer beyond 'publish the clip': what repeat format, follow, save, alert, or topic habit should the workflow support?",
+        "Tie MMR output decisions to direct relationship products, not just reach metrics.",
+        "Keep testing the creator + loyalty synthesis: personality-led formats that still route back into Guardian-owned value."
       ]
     }
   ],
   "changes": {
-    "summary": "Compared with March 30: major new item is Digiday's concrete description of Guardian Storylines; Frame.io moved from likely slip to functionally missed; Backlight/NAB narrative sharpened around supply-chain orchestration; revenue data adds more evidence for video + events + reader-revenue convergence.",
-    "previousUpdated": "2026-03-30T21:00:00Z",
+    "summary": "Compared with April 1: no major vendor release movement. The meaningful update is strategic: Digiday's fresh reporting makes creator-led publisher operating models look structural, AI licensing/GEO still looks more defensive-partnership economics than traffic engine, and archive-value framing continues to converge on metadata quality as the decisive constraint.",
+    "previousUpdated": "2026-04-01T21:00:00Z",
     "newItems": [
       {
-        "title": "Digiday: Guardian's first reader-facing AI product is Storylines, not a chatbot",
-        "url": "https://digiday.com/media/why-the-guardians-first-reader-facing-ai-product-isnt-a-chatbot/",
-        "published": "2026-03-31",
-        "source": "Digiday",
-        "section": "Guardian Strategy / AI"
-      },
-      {
-        "title": "Digiday research: publisher revenue mix in 2026 keeps moving toward video, events and reader revenue",
-        "url": "https://digiday.com/media/digiday-research-how-dow-jones-forbes-the-guardian-and-other-publisher-revenue-streams-are-shifting-in-2026/",
+        "title": "Digiday: publishers debate the value of AI licensing and GEO — traffic upside looks weak; partnerships and protection matter more",
+        "url": "https://digiday.com/media/media-briefing-publishers-debate-the-value-of-ai-licensing-and-geo/",
         "published": "2026-04-01",
         "source": "Digiday",
-        "section": "Publisher Economics"
+        "section": "AI / Publisher Economics"
       },
       {
-        "title": "Time pitches GEO insights into a new brand offering",
-        "url": "https://digiday.com/media/time-pitches-geo-insights-into-a-new-brand-offering/",
+        "title": "Digiday: DMG Media's creator-led content playbook is already scaled — 24+ creators, 10-20 videos daily",
+        "url": "https://digiday.com/media/inside-the-daily-mails-creator-led-content-playbook/",
         "published": "2026-03-31",
         "source": "Digiday",
-        "section": "AI / GEO"
+        "section": "Creator Strategy"
       },
       {
-        "title": "NewscastStudio: AI's real place in broadcast workflows is deeper automation across ingest, metadata, distribution and archive",
-        "url": "https://www.newscaststudio.com/2026/03/31/analysis-artificial-intelligence-finds-its-place-in-broadcast-workflows/",
-        "published": "2026-03-31",
+        "title": "Digiday: Washington Post turns to creator-led video deals with lower-capex, IP-retained partnerships",
+        "url": "https://digiday.com/media/after-newsroom-cuts-the-washington-post-turns-to-creator-led-video-deals/",
+        "published": "2026-03-30",
+        "source": "Digiday",
+        "section": "Creator Strategy"
+      },
+      {
+        "title": "NewscastStudio: broadcasters are using AI and indexing to unlock archive value for reuse, licensing and versioning",
+        "url": "https://www.newscaststudio.com/2026/03/30/broadcasters-look-to-ai-to-unlock-value-from-content-archives/",
+        "published": "2026-03-30",
         "source": "NewscastStudio",
-        "section": "Workflow Automation"
+        "section": "Archive / Metadata"
       }
     ]
   },
   "sections": [
     {
-      "title": "\ud83c\udfaf New This Run (April 1)",
+      "title": "🎯 New This Run (April 2)",
       "items": [
         {
-          "title": "Why The Guardian's first reader-facing AI product isn't a chatbot \u2014 Storylines groups recent tag-page coverage into three AI-labelled narratives, using headlines only and a tightly constrained rollout.",
-          "url": "https://digiday.com/media/why-the-guardians-first-reader-facing-ai-product-isnt-a-chatbot/",
-          "published": "2026-03-31",
-          "source": "Digiday"
-        },
-        {
-          "title": "Digiday research: publishers' 2026 revenue mix points toward direct-sold ads, branded content, events and video; Guardian U.S. expects ad growth and nearly 20% reader-revenue growth.",
-          "url": "https://digiday.com/media/digiday-research-how-dow-jones-forbes-the-guardian-and-other-publisher-revenue-streams-are-shifting-in-2026/",
+          "title": "Digiday: publishers at DPS see AI answer-engine visibility as weak for traffic; partnerships and protection matter more than click expectations.",
+          "url": "https://digiday.com/media/media-briefing-publishers-debate-the-value-of-ai-licensing-and-geo/",
           "published": "2026-04-01",
           "source": "Digiday"
         },
         {
-          "title": "Time is productising GEO insight \u2014 using AI visibility analysis plus Time-branded text/video to help brands shape how answer engines describe them.",
-          "url": "https://digiday.com/media/time-pitches-geo-insights-into-a-new-brand-offering/",
+          "title": "DMG Media has hired 24+ creators and is producing 10-20 creator-led videos daily — a sign that creator operations are becoming a publisher core capability.",
+          "url": "https://digiday.com/media/inside-the-daily-mails-creator-led-content-playbook/",
           "published": "2026-03-31",
           "source": "Digiday"
         },
         {
-          "title": "NewscastStudio: AI is finding its place in broadcast workflows via deeper automation across ingest, metadata generation, distribution and archive management.",
-          "url": "https://www.newscaststudio.com/2026/03/31/analysis-artificial-intelligence-finds-its-place-in-broadcast-workflows/",
-          "published": "2026-03-31",
+          "title": "Washington Post is using creator-led sponsorship series where creators retain IP — lower capex, faster experimentation, different economics.",
+          "url": "https://digiday.com/media/after-newsroom-cuts-the-washington-post-turns-to-creator-led-video-deals/",
+          "published": "2026-03-30",
+          "source": "Digiday"
+        },
+        {
+          "title": "NewscastStudio: once archives are properly indexed, they become fuel for social distribution, new productions, rights-aware licensing and versioned outputs.",
+          "url": "https://www.newscaststudio.com/2026/03/30/broadcasters-look-to-ai-to-unlock-value-from-content-archives/",
+          "published": "2026-03-30",
           "source": "NewscastStudio"
         }
       ]
     },
     {
-      "title": "\ud83c\udfd7\ufe0f MMR / Iconik / LucidLink Stack",
+      "title": "🏗️ MMR / Iconik / LucidLink Stack",
       "items": [
         {
           "title": "iconik public changelog hub checked; no new public 26.04 web-release signal extracted tonight. Last known broad web signal remains 26.03 UI changes. Manual daylight verification still worthwhile because anti-bot friction limits exact parsing.",
           "url": "https://app.iconik.io/help/pages/release_notes/",
-          "published": "2026-04-01",
+          "published": "2026-04-02",
           "source": "iconik changelog hub"
         },
         {
           "title": "LucidLink release-notes hub checked; no new April release signal surfaced publicly tonight. Search-indexed latest visible new-client release remains Jan. 21, 2026 with FQDN proxy support.",
           "url": "https://support.lucidlink.com/hc/en-us/sections/31125638256269-Release-notes",
-          "published": "2026-04-01",
+          "published": "2026-04-02",
           "source": "LucidLink release notes hub"
         },
         {
@@ -162,16 +152,16 @@
         {
           "title": "Backlight resources now foreground NAB 2026, the 2026 Iconik Media Stats Report, and media-supply-chain optimization through automation + cloud infrastructure.",
           "url": "https://www.backlight.co/resources?resource_type=Blog",
-          "published": "2026-04-01",
+          "published": "2026-04-02",
           "source": "Backlight"
         }
       ]
     },
     {
-      "title": "\ud83d\udce1 Guardian Strategy / Peer Publishers",
+      "title": "📡 Guardian Strategy / Peer Publishers",
       "items": [
         {
-          "title": "Guardian Storylines shows the paper's governing AI instinct: constrained curation, explicit labelling, editorial review, limited rollout, and kill-switch governance \u2014 not chatbot bravado.",
+          "title": "Guardian Storylines shows the paper's governing AI instinct: constrained curation, explicit labelling, editorial review, limited rollout, and kill-switch governance — not chatbot bravado.",
           "url": "https://digiday.com/media/why-the-guardians-first-reader-facing-ai-product-isnt-a-chatbot/",
           "published": "2026-03-31",
           "source": "Digiday"
@@ -197,7 +187,7 @@
       ]
     },
     {
-      "title": "\ud83c\udfac Video-First / Distribution / Growth",
+      "title": "🎬 Video-First / Distribution / Growth",
       "items": [
         {
           "title": "Publisher revenue data now reinforces video as business infrastructure, not garnish: Dow Jones says video is the fastest-growing slice of digital ad growth and is expanding vertical video in-app.",
@@ -206,7 +196,7 @@
           "source": "Digiday"
         },
         {
-          "title": "Sprout Social Q1 2026 still stands: social is now the top source for breaking news, but AI slop is destroying trust \u2014 good for credible journalist-led video brands.",
+          "title": "Sprout Social Q1 2026 still stands: social is now the top source for breaking news, but AI slop is destroying trust — good for credible journalist-led video brands.",
           "url": "https://www.stocktitan.net/news/SPT/social-media-is-now-the-top-source-for-breaking-news-new-sprout-otcky07ce556.html",
           "published": "2026-03-25",
           "source": "Sprout Social"
@@ -226,7 +216,7 @@
       ]
     },
     {
-      "title": "\ud83e\udd16 AI / Infrastructure / Governance",
+      "title": "🤖 AI / Infrastructure / Governance",
       "items": [
         {
           "title": "Time's GEO service is an early sign that publishers are monetising AI visibility knowledge, not just defending against AI scraping.",
@@ -235,7 +225,7 @@
           "source": "Digiday"
         },
         {
-          "title": "NewscastStudio: the meaningful AI broadcast use case is deeper automation across media supply chains \u2014 ingest, metadata, distribution, archive \u2014 which is exactly where Project Launcher lives.",
+          "title": "NewscastStudio: the meaningful AI broadcast use case is deeper automation across media supply chains — ingest, metadata, distribution, archive — which is exactly where Project Launcher lives.",
           "url": "https://www.newscaststudio.com/2026/03/31/analysis-artificial-intelligence-finds-its-place-in-broadcast-workflows/",
           "published": "2026-03-31",
           "source": "NewscastStudio"
