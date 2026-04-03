@@ -1,90 +1,90 @@
 {
-  "updated": "2026-04-02T21:00:00Z",
+  "updated": "2026-04-03T21:00:00Z",
   "meta": {
-    "totalSources": 57,
-    "totalItems": 57,
+    "totalSources": 61,
+    "totalItems": 61,
     "curatedBy": "Claw overnight run",
-    "note": "April 2 run — mandatory source check complete. No meaningful new public iconik or LucidLink release-note delta surfaced tonight; Backlight still foregrounds NAB 2026 + media-supply-chain orchestration. The fresh strategic shift is publisher operating-model convergence: Guardian's constrained Storylines launch now has companion evidence from Digiday that creator-led formats and partnership-based AI economics are becoming structural, while NewscastStudio keeps landing on metadata/archive value. Decision call: for Guardian/MMR, the next advantage is not a flashy AI feature but a creator-ready, metadata-disciplined workflow stack that can feed constrained editorial AI, archive retrieval, and platform-native video products."
+    "note": "April 3 run — mandatory source check complete. No meaningful new public iconik or LucidLink release-note delta surfaced again tonight; Backlight still leads with NAB 2026 and media-supply-chain orchestration. The fresh strategic addition is that NAB pre-briefing has hardened around an intelligence-layer model: Avid is now explicitly pitching Content Core as the metadata/orchestration layer for modern media operations, while NewscastStudio and TV Tech continue to converge on the same practical truth — value comes from fewer handoffs, better indexing, and AI applied to retrieval, logging, rights and packaging, not generic generation. Decision call: Guardian/MMR should treat metadata discipline + creator-ready workflow design as the near-term advantage, and view vendor marketing as validation of that direction rather than a reason to wait."
   },
   "decisionPanels": [
     {
-      "title": "🧠 The signal tonight: creator-led operating models are hardening, not just trending",
+      "title": "🧠 Tonight's strongest new signal: the industry is standardising around an intelligence layer",
       "priority": "urgent",
-      "summary": "The strongest new signal is the shape of publisher execution. Digiday's latest coverage shows major publishers are no longer merely discussing creator formats; they are building operating models around them. DMG has put 24+ creators on payroll producing 10-20 long- and short-form videos a day, with creator-led channels outperforming traditional social averages. The Washington Post is taking the lighter-capex route: creator partnerships where talent keeps IP and the publisher sells sponsorship around the series. Pair that with Guardian's Storylines launch and the real pattern becomes clear: publishers are moving away from anonymous institutional output toward personality-led distribution, while keeping editorial control where it matters.",
+      "summary": "Avid's new NAB messaging is unusually explicit: Content Core is being sold as the layer that unifies asset identity, ingest, storage, metadata, orchestration and rights across hybrid workflows. That matters because it validates the same architecture Ricky is already circling in MMR: not one more shiny tool, but a cleaner signal layer that lets production, social, archive and future AI systems operate on the same trusted context. The non-obvious point is that vendor rhetoric is converging on metadata/orchestration as the real operating system of modern media, not on generative novelty.",
       "actions": [
-        "Treat creator-ready workflow as a core MMR requirement, not a Guardian Studios side project.",
-        "Pressure-test whether Project Launcher should include a 'creator-led / personality-led' output mode with destination, aspect ratio, sponsorship/commercial flags, and social-first metadata.",
-        "Use this line internally: audiences are not only shifting platform; they are shifting toward human-shaped formats. Workflow needs to make that cheap to produce without becoming chaotic."
+        "Use the phrase intelligence layer or signal layer in MMR conversations — it is now market-native language, not internal jargon.",
+        "Keep pushing structured metadata, rights clarity, transcript availability and reusable asset identity as first-class concerns.",
+        "Treat Project Launcher as handoff-removal infrastructure feeding that layer."
       ]
     },
     {
-      "title": "🎯 Guardian's AI pattern is now clearer: constrained curation on top of trusted signals",
+      "title": "🎯 Creator-ready workflow still looks like the practical edge",
       "priority": "urgent",
-      "summary": "Storylines still matters most as a governance reveal. Guardian's first reader-facing AI feature is a tightly bounded curation layer: headlines-only input, editorial review, visible AI labelling, narrow rollout, kill switch. Tonight's additional Digiday AI-licensing discussion sharpens the commercial side: publishers do not expect AI answer engines to send meaningful traffic back. The strategic value is partnerships, controlled access, and leverage. Put together, Guardian's likely winning path is not 'build chatbot magic' but maintain trusted content structures that can support constrained AI products, archive retrieval, and licensing leverage.",
+      "summary": "Nothing in tonight's mandatory vendor sweep changes the bigger call from earlier this week: publishers are still moving toward personality-led, platform-native formats, and the workflow bottleneck is making those outputs structured instead of chaotic. If Guardian wants recurring explainers, named talent, vertical cuts, sponsorship-safe packaging and future archive retrieval, the answer is not a future release note. It is a workflow that captures the right intent at creation time.",
       "actions": [
-        "Reframe MMR as metadata infrastructure for accountable retrieval, curation and licensing — not generic AI enablement.",
-        "Prioritise fields that support constrained reuse: topics, entities, rights, platform intent, transcript availability, creator/talent, and cut-down format.",
-        "Ask product/editorial innovation whether the multimedia analogue of Storylines is archive discovery, explainer assembly, or social packaging — because each demands slightly different metadata discipline."
+        "Advance a lightweight creator-mode metadata sketch for Launcher and iconik templates.",
+        "Make destination platform, aspect ratio, talent, sponsor/commercial flag and transcript/cut-down intent easy to capture.",
+        "Avoid overbuilding: the win is one cheap, repeatable path for creator/social output."
       ]
     },
     {
-      "title": "🚨 No meaningful vendor delta: stop waiting for a release to tell you what matters",
+      "title": "🚨 Mandatory-source verdict: still no vendor rescue coming this week",
       "priority": "high",
-      "summary": "Mandatory vendor check complete: no meaningful new public iconik release-note delta surfaced tonight, no fresh LucidLink April release signal appeared, and Backlight's live messaging still emphasises NAB + supply-chain orchestration. That matters because it means the constraint is no longer 'waiting for the next feature drop'. The advantage now comes from how well Guardian uses the stack it already has, especially around metadata quality, creator-friendly output paths, and archive retrieval design. Frame.io remains post-Q1 absent a direct LucidLink correction.",
+      "summary": "iconik public changelog hub: checked, no meaningful public April delta extracted tonight. LucidLink release notes: checked, no fresh April public release signal surfaced. Backlight resources: still foregrounding NAB 2026, the Iconik Media Stats report, and supply-chain optimisation. This is useful because it removes the comforting fiction that an imminent vendor drop will solve Guardian's near-term workflow problems. The leverage is in operating-model choices now.",
       "actions": [
-        "Assume existing stack + workflow design is the main leverage point for April, not vendor rescue.",
-        "Keep Frame.io planning on a post-NAB/Q2+ basis until LucidLink gives a hard date.",
-        "Use Backlight's supply-chain framing when talking to leadership: the goal is fewer handoffs, less metadata loss, faster publish readiness."
+        "Keep Frame.io planning off the critical path until LucidLink gives a hard date.",
+        "Use April for retrieval audits, metadata tightening and workflow simplification instead of roadmap-watching.",
+        "Translate Backlight's supply-chain story into Guardian language: fewer handoffs, less context loss, faster publish readiness."
       ]
     },
     {
-      "title": "🗄️ Archive value is becoming operational, not theoretical",
+      "title": "🗄️ Archive value is now explicitly tied to cost, speed and revenue",
       "priority": "high",
-      "summary": "NewscastStudio's archive analysis is blunt: once content is properly indexed, archives become fuel for new productions, social distribution, rights-aware licensing and platform-specific versioning. That's exactly the practical bridge between Storylines-style constrained AI and MMR's day job. The non-obvious point is that archive retrieval is no longer just a library problem; it is a production-speed problem and a future-revenue problem. If Guardian ever wants multimedia discovery, archive explainers, or rights-aware repackaging to work at speed, iconik metadata quality becomes front-line product quality.",
+      "summary": "NewscastStudio's latest archive and AI coverage keeps landing on the same business logic: once content is indexed properly, reuse cost collapses, social output scales, and rights-aware packaging gets easier. One cited benchmark claims clip cost falling from about $800 to $10 with AI-assisted archive exploitation and a path to 100x social output. Whether or not that exact ratio generalises, the directional point is sound: archive structure is no longer library admin, it is production economics.",
       "actions": [
-        "Run a small retrieval audit on recent multimedia assets: people, topic, location, event, rights, transcript, vertical/horizontal intent.",
-        "Frame archive metadata work as reuse speed + licensing readiness, not admin overhead.",
-        "Use this as the sharpest case for structured multimedia metadata: you cannot plug AI into chaos, and you cannot retrieve what you never described."
+        "Run the 10-asset metadata retrieval audit on recent Guardian multimedia work.",
+        "Frame metadata improvements as reuse-speed and monetisation-readiness, not admin overhead.",
+        "Ask the sharp question: what would it take to turn archive into a social packaging engine, not just a storehouse?"
       ]
     },
     {
-      "title": "📈 Audience growth now looks more like loyalty systems + platform-native personalities",
+      "title": "📈 Loyalty systems matter more than discovery spikes",
       "priority": "medium",
-      "summary": "Press Gazette's audience-engagement strategy piece lands on the same business truth as Digiday's summit coverage: discovery is volatile, loyalty has to be designed, and publishers need product systems that turn attention into repeat use. The point for Guardian video is that loyalty won't come from generic clips alone. It will come from recurring formats, recognisable voices, useful product surfaces, and metadata that helps package the same journalism across app, social, onsite and archive contexts.",
+      "summary": "Press Gazette's latest engagement framing is a useful corrective: pageviews are events, return habits are assets. That is the right lens for Guardian video too. Reach still matters, but the more durable advantage comes from repeatable formats, follows, saves, alerts, app habits and recognisable talent. Workflow should support those loops instead of treating every clip as a one-off publish action.",
       "actions": [
-        "Think one layer beyond 'publish the clip': what repeat format, follow, save, alert, or topic habit should the workflow support?",
-        "Tie MMR output decisions to direct relationship products, not just reach metrics.",
-        "Keep testing the creator + loyalty synthesis: personality-led formats that still route back into Guardian-owned value."
+        "Tie video workflow decisions to repeat-use surfaces: follows, recurring series, topic habits and owned-platform return paths.",
+        "Think beyond clip publish to what the user can do next: save, follow, return, watch next.",
+        "Use loyalty language when explaining why creator-led formats matter commercially."
       ]
     }
   ],
   "changes": {
-    "summary": "Compared with April 1: no major vendor release movement. The meaningful update is strategic: Digiday's fresh reporting makes creator-led publisher operating models look structural, AI licensing/GEO still looks more defensive-partnership economics than traffic engine, and archive-value framing continues to converge on metadata quality as the decisive constraint.",
-    "previousUpdated": "2026-04-01T21:00:00Z",
+    "summary": "Compared with April 2: still no meaningful public iconik/LucidLink release-note movement. The new strategic addition is stronger NAB-era validation for metadata/orchestration as the intelligence layer of media operations, especially via Avid's Content Core positioning and ongoing trade-press convergence around archive indexing, media-supply-chain automation and rights-aware reuse.",
+    "previousUpdated": "2026-04-02T21:00:00Z",
     "newItems": [
       {
-        "title": "Digiday: publishers debate the value of AI licensing and GEO — traffic upside looks weak; partnerships and protection matter more",
-        "url": "https://digiday.com/media/media-briefing-publishers-debate-the-value-of-ai-licensing-and-geo/",
-        "published": "2026-04-01",
-        "source": "Digiday",
-        "section": "AI / Publisher Economics"
+        "title": "Sports Video Group: Avid pitches Content Core and AI workflow innovations for NAB 2026 — unifying ingest, metadata, orchestration and rights",
+        "url": "https://www.sportsvideo.org/2026/04/03/nab-2026-avid-to-showcase-content-core-and-ai-workflow-innovations/",
+        "published": "2026-04-03",
+        "source": "Sports Video Group",
+        "section": "NAB / Workflow Infrastructure"
       },
       {
-        "title": "Digiday: DMG Media's creator-led content playbook is already scaled — 24+ creators, 10-20 videos daily",
-        "url": "https://digiday.com/media/inside-the-daily-mails-creator-led-content-playbook/",
-        "published": "2026-03-31",
-        "source": "Digiday",
-        "section": "Creator Strategy"
-      },
-      {
-        "title": "Digiday: Washington Post turns to creator-led video deals with lower-capex, IP-retained partnerships",
-        "url": "https://digiday.com/media/after-newsroom-cuts-the-washington-post-turns-to-creator-led-video-deals/",
+        "title": "TV Tech: SDVI will emphasise media-supply-chain management enhancements aimed at higher-volume processing and faster time-to-market at NAB 2026",
+        "url": "https://www.tvtechnology.com/production/sdvi-to-feature-new-rally-media-supply-chain-management-enhancements",
         "published": "2026-03-30",
-        "source": "Digiday",
-        "section": "Creator Strategy"
+        "source": "TV Tech",
+        "section": "NAB / Supply Chain"
       },
       {
-        "title": "NewscastStudio: broadcasters are using AI and indexing to unlock archive value for reuse, licensing and versioning",
+        "title": "Press Gazette: publisher audience strategy for 2026 argues that follows, saves, alerts and repeat habits matter more than isolated pageviews",
+        "url": "https://pressgazette.co.uk/publishers/publisher-audience-engagement-strategy/",
+        "published": "2026-03-27",
+        "source": "Press Gazette",
+        "section": "Audience / Loyalty"
+      },
+      {
+        "title": "NewscastStudio: archive exploitation and AI indexing can radically lower clip-production cost and increase social output",
         "url": "https://www.newscaststudio.com/2026/03/30/broadcasters-look-to-ai-to-unlock-value-from-content-archives/",
         "published": "2026-03-30",
         "source": "NewscastStudio",
@@ -94,28 +94,28 @@
   },
   "sections": [
     {
-      "title": "🎯 New This Run (April 2)",
+      "title": "🎯 New This Run (April 3)",
       "items": [
         {
-          "title": "Digiday: publishers at DPS see AI answer-engine visibility as weak for traffic; partnerships and protection matter more than click expectations.",
-          "url": "https://digiday.com/media/media-briefing-publishers-debate-the-value-of-ai-licensing-and-geo/",
-          "published": "2026-04-01",
-          "source": "Digiday"
+          "title": "Avid's NAB 2026 pitch for Content Core is the clearest public articulation yet of metadata/orchestration as the intelligence layer for modern media operations.",
+          "url": "https://www.sportsvideo.org/2026/04/03/nab-2026-avid-to-showcase-content-core-and-ai-workflow-innovations/",
+          "published": "2026-04-03",
+          "source": "Sports Video Group"
         },
         {
-          "title": "DMG Media has hired 24+ creators and is producing 10-20 creator-led videos daily — a sign that creator operations are becoming a publisher core capability.",
-          "url": "https://digiday.com/media/inside-the-daily-mails-creator-led-content-playbook/",
-          "published": "2026-03-31",
-          "source": "Digiday"
-        },
-        {
-          "title": "Washington Post is using creator-led sponsorship series where creators retain IP — lower capex, faster experimentation, different economics.",
-          "url": "https://digiday.com/media/after-newsroom-cuts-the-washington-post-turns-to-creator-led-video-deals/",
+          "title": "TV Tech: SDVI is doubling down on media-supply-chain management for faster time-to-market and higher-volume processing at NAB 2026.",
+          "url": "https://www.tvtechnology.com/production/sdvi-to-feature-new-rally-media-supply-chain-management-enhancements",
           "published": "2026-03-30",
-          "source": "Digiday"
+          "source": "TV Tech"
         },
         {
-          "title": "NewscastStudio: once archives are properly indexed, they become fuel for social distribution, new productions, rights-aware licensing and versioned outputs.",
+          "title": "Press Gazette: publishers should optimise for follows, saves, alerts and repeat habits — not confuse pageviews with loyalty.",
+          "url": "https://pressgazette.co.uk/publishers/publisher-audience-engagement-strategy/",
+          "published": "2026-03-27",
+          "source": "Press Gazette"
+        },
+        {
+          "title": "NewscastStudio: once archives are richly indexed, clip costs can collapse and social output can scale dramatically.",
           "url": "https://www.newscaststudio.com/2026/03/30/broadcasters-look-to-ai-to-unlock-value-from-content-archives/",
           "published": "2026-03-30",
           "source": "NewscastStudio"
