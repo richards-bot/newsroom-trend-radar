@@ -1,222 +1,147 @@
 {
-  "updated": "2026-04-04T21:00:00Z",
+  "updated": "2026-04-04T21:30:00Z",
   "meta": {
-    "totalSources": 63,
-    "totalItems": 63,
-    "curatedBy": "Claw overnight run",
-    "note": "April 4 run — mandatory source check complete. No meaningful new public iconik or LucidLink release-note delta surfaced again tonight. Backlight still foregrounds NAB 2026, the 2026 Iconik Media Stats Report, and supply-chain optimization. The more important strategic shift is stronger market convergence around an intelligence-layer model: Avid is explicitly positioning Content Core as the layer unifying asset identity, metadata, orchestration and rights; Press Gazette and Chartbeat are sharpening the loyalty-system argument; and IAB's agentic-AI framing reinforces that bounded automation will reward disciplined metadata and workflow context, not chaos. Decision call: Guardian/MMR should keep treating metadata + orchestration as the near-term edge, but now with a second lens as well — better signal quality supports both retrieval and repeat-use audience habits."
+    "totalSources": 8,
+    "totalItems": 7,
+    "curatedBy": "Claw twice-weekly media/workflow intelligence job",
+    "note": "Quiet but non-trivial week. The strongest fresh signals were LucidLink Connect reframing object storage as immediately usable workflow substrate, Frame.io tightening planning-to-review continuity through Workfront, AWS publishing a production-oriented live localization/accessibility reference, and the wider market continuing to converge on metadata automation plus continuous-flow supply chains as the operating model. The practical Guardian/MMR conclusion is unchanged but sharper: workflow continuity, metadata discipline, and reusable automation matter more than waiting for a single vendor roadmap event."
   },
   "decisionPanels": [
     {
-      "title": "Tonight's strongest signal: metadata is becoming the intelligence layer, not admin",
+      "title": "Storage is being reframed as active workflow substrate",
       "priority": "urgent",
-      "summary": "Avid's Content Core messaging is now explicit enough to matter strategically: asset identity, ingest, metadata, orchestration and rights are being sold as the operating layer of modern media. That validates the same architecture Ricky is already moving toward in MMR. The useful conclusion is that context leakage is now the real enemy — not lack of one more feature.",
+      "summary": "LucidLink Connect matters because it pushes object storage closer to an active media-library layer rather than passive archive. For Guardian, that strengthens the case for treating storage and access architecture as workflow design, not just infrastructure plumbing.",
       "actions": [
-        "Use intelligence layer or signal layer language in MMR conversations; the market is now saying the same thing out loud.",
-        "Keep prioritising structured metadata, rights clarity, transcripts and reusable asset identity over roadmap-watching.",
-        "Frame Project Launcher as handoff-removal infrastructure feeding that intelligence layer."
+        "Evaluate where existing object storage could be activated directly for production use rather than copied into separate working silos.",
+        "Use storage-as-workflow-substrate language in MMR planning, not just storage-as-archive language.",
+        "Keep asking which parts of the media path can work in place rather than through duplication and handoff."
       ]
     },
     {
-      "title": "Audience growth call: video workflow should support loyalty loops, not just publish events",
-      "priority": "urgent",
-      "summary": "Press Gazette and Chartbeat sharpen the same point from two angles: discovery is brittle, and the second page / repeat habit matters more than a one-off click. For Guardian video, that means workflow needs to make recurring series, recognisable talent, follows, saves and next-step recirculation easier. Metadata is not just for retrieval now; it is part of loyalty design.",
-      "actions": [
-        "Add a loyalty lens to the 10-asset retrieval audit: can assets support series/talent/topic recirculation, not just search?",
-        "Make series/franchise, talent and destination intent cheap to capture at creation time.",
-        "Treat each video as a potential return-path node, not just a publish action."
-      ]
-    },
-    {
-      "title": "Agentic AI verdict: bounded automation will reward disciplined operations",
+      "title": "Workflow continuity is becoming a product expectation",
       "priority": "high",
-      "summary": "IAB's new video framing matters less for hype than for what it implies operationally: systems that can plan and act will only be trustworthy where goals, metadata and guardrails are explicit. Guardian is unlikely to want theatrical autonomy; it is much more likely to want constrained, auditable automation. That makes MMR's structured-signal role more strategic, not less.",
+      "summary": "Frame.io's Workfront integration is a useful competitive warning: the bar is shifting from isolated review tooling toward continuous planning-to-review-to-approval flow. Low-friction collaboration is increasingly the thing users experience as product quality.",
       "actions": [
-        "Talk about bounded automation on trusted metadata, not generic AI capability.",
-        "Identify which workflow steps could safely become agent-assisted if metadata quality improves.",
-        "Keep governance language close: human oversight, auditability, reversibility."
+        "Treat continuity across planning, review, metadata, and publish steps as a first-class MMR design concern.",
+        "Identify where producers still hit avoidable handoffs or context loss in the current Guardian workflow.",
+        "Prefer changes that remove coordination friction over changes that add optional complexity."
       ]
     },
     {
-      "title": "Mandatory-source verdict: still no vendor rescue coming this week",
+      "title": "Metadata automation is now normal category behaviour",
       "priority": "high",
-      "summary": "iconik public changelog hub checked: no meaningful new public April delta extracted tonight. LucidLink release notes checked: no fresh April public signal surfaced. Backlight resources still foreground NAB, media stats and supply-chain optimization. Useful conclusion: stop assuming an imminent vendor drop will materially change Guardian's near-term workflow constraints.",
+      "summary": "Backlight/Iconik's current market framing is blunt enough to matter: automated metadata enrichment and continuous-flow operations are no longer premium extras, they are the expected architecture pattern. Manual handoff-heavy workflows are now what the category is competing against.",
       "actions": [
-        "Keep Frame.io planning off the critical path until LucidLink gives a hard date.",
-        "Use April for retrieval audits, metadata tightening and workflow simplification instead of roadmap hope.",
-        "Translate Backlight's supply-chain story into Guardian language: fewer handoffs, less context loss, faster publish readiness."
+        "Keep pushing metadata, transcription, and event-driven automation as core operating infrastructure.",
+        "Frame MMR improvements as throughput and reuse gains, not admin cleanup.",
+        "Assume future differentiation comes from better signal quality and lower-friction automation, not vendor theatrics."
       ]
     },
     {
-      "title": "Archive/reuse economics remain the hidden lever",
+      "title": "Audience interaction is getting less public, not less video-driven",
       "priority": "medium",
-      "summary": "NewscastStudio and the wider NAB-era workflow coverage keep landing on the same business truth: once content is richly indexed and operationally coherent, clip-finding gets faster, reuse gets safer and social repackaging gets cheaper. Archive structure is now production economics, not library housekeeping.",
+      "summary": "UK audience behaviour appears to be shifting away from visible posting and toward passive video consumption plus smaller private spaces. That means short-form video still matters, but public posting metrics alone are a worse proxy for engagement value.",
       "actions": [
-        "Run the 10-asset metadata retrieval audit on recent Guardian multimedia work.",
-        "Frame metadata improvements as reuse-speed and output-economics gains, not admin overhead.",
-        "Ask the sharp question: what would it take to turn archive into a social packaging engine, not just a storehouse?"
+        "Avoid over-reading public posting or comment volume as the main success signal for video distribution.",
+        "Design reporting and workflow expectations around watch, reuse, packaging, and downstream retention signals too.",
+        "Keep testing where audience behaviour is moving, not just where platform dashboards are easiest to read."
       ]
     }
   ],
   "changes": {
-    "summary": "Compared with April 3: still no meaningful public iconik/LucidLink release-note movement. The new strategic addition is sharper convergence between media-operations infrastructure and audience-growth thinking: metadata/orchestration is becoming the intelligence layer, while loyalty-system framing makes it clearer that structured video context also supports return habits, not just retrieval.",
-    "previousUpdated": "2026-04-03T21:00:00Z",
+    "summary": "Compared with the earlier April 4 radar update, the sharper fresh signal is workflow continuity: storage, metadata, review, accessibility, and repurposing are converging into one operating layer. The near-term call for Guardian/MMR is to keep strengthening metadata and automation discipline rather than waiting for a single dramatic vendor release.",
+    "previousUpdated": "2026-04-04T21:00:00Z",
     "newItems": [
       {
-        "title": "Chartbeat / INMA: one extra pageview drives a disproportionate jump in return visits, and social video remains a real publisher growth surface",
-        "url": "https://chartbeat.com/resources/general/successful-2026-publishing-strategy/",
-        "published": "2026-03-14",
-        "source": "Chartbeat / INMA",
-        "section": "Audience / Loyalty"
+        "title": "LucidLink Connect lets Enterprise customers expose existing object stores as streamable working libraries without migration",
+        "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
+        "published": "2026-03-31",
+        "source": "LucidLink",
+        "section": "Strategic"
       },
       {
-        "title": "IAB: agentic AI is moving video operations from recommendation toward bounded autonomous execution with human guardrails",
-        "url": "https://www.iab.com/guidelines/ai-powered-video-outcomes-march-2026/",
-        "published": "2026-03-30",
-        "source": "IAB",
-        "section": "AI / Operations"
+        "title": "Frame.io is using Adobe Workfront as its primary review surface with multi-stage approvals and lower-friction collaboration",
+        "url": "https://blog.frame.io/2026/03/31/new-in-frame-io-workfront-integration-improvements-for-share-builder-pdfs-and-zoom-pan/",
+        "published": "2026-03-31",
+        "source": "Frame.io",
+        "section": "Strategic"
       },
       {
-        "title": "Backlight resources still foreground NAB 2026, Iconik Media Stats, and media-supply-chain optimization rather than a single new flagship feature",
-        "url": "https://www.backlight.co/resources",
-        "published": "2026-04-04",
-        "source": "Backlight",
-        "section": "MAM / Supply Chain"
+        "title": "AWS published a live localization and accessibility workflow using AWS Media Services and Amazon Nova",
+        "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
+        "published": "2026-04-02",
+        "source": "AWS Media Blog",
+        "section": "Technical"
       },
       {
-        "title": "Press Gazette: publishers need loyalty systems that connect discovery, repeat use, richer audience signal and monetisation",
-        "url": "https://pressgazette.co.uk/publishing-services-content/publisher-audience-engagement-strategy/",
-        "published": "2026-03-27",
-        "source": "Press Gazette",
-        "section": "Audience / Product"
+        "title": "StreamingMedia's latest AI coverage shows repurposing infrastructure moving from point tools into integrated newsroom workflow",
+        "url": "https://www.streamingmedia.com/Articles/Editorial/Featured-Articles/The-State-of-AI-in-On-Demand-Streaming-in-2026-173868.aspx",
+        "published": "2026-04-01",
+        "source": "StreamingMedia",
+        "section": "Technical"
       }
     ]
   },
   "sections": [
     {
-      "title": "New This Run (April 4)",
+      "title": "Strategic",
       "items": [
         {
-          "title": "Chartbeat's 2026 publishing analysis says the biggest relative return-rate gain comes from getting a first-time visitor to view just one additional page.",
-          "url": "https://chartbeat.com/resources/general/successful-2026-publishing-strategy/",
-          "published": "2026-03-14",
-          "source": "Chartbeat / INMA"
+          "title": "LucidLink launched Connect to turn existing object stores into streamable working libraries without migration.",
+          "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
+          "published": "2026-03-31",
+          "source": "LucidLink"
         },
         {
-          "title": "IAB's latest video guidance says agentic AI is becoming the new frame for video operations — but only with human oversight and guardrails.",
-          "url": "https://www.iab.com/guidelines/ai-powered-video-outcomes-march-2026/",
+          "title": "Frame.io is consolidating review and approval around Adobe Workfront rather than behaving as a standalone review tool.",
+          "url": "https://blog.frame.io/2026/03/31/new-in-frame-io-workfront-integration-improvements-for-share-builder-pdfs-and-zoom-pan/",
+          "published": "2026-03-31",
+          "source": "Frame.io"
+        },
+        {
+          "title": "Backlight/Iconik is now talking openly in continuous-flow and automation-at-scale terms, including hundreds of millions of jobs and majority-automated metadata operations.",
+          "url": "https://www.newscaststudio.com/2026/03/30/nab-show-preview-from-handoffs-to-continuous-flow-in-the-modern-media-supply-chain/",
           "published": "2026-03-30",
-          "source": "IAB"
-        },
-        {
-          "title": "Backlight's live resources still foreground NAB 2026, the 2026 Iconik Media Stats report, and media-supply-chain optimization through automation + cloud infrastructure.",
-          "url": "https://www.backlight.co/resources",
-          "published": "2026-04-04",
-          "source": "Backlight"
-        },
-        {
-          "title": "Press Gazette sharpens the loyalty thesis: discovery is unreliable, and publishers need systems that turn attention into repeat use and richer signal.",
-          "url": "https://pressgazette.co.uk/publishing-services-content/publisher-audience-engagement-strategy/",
-          "published": "2026-03-27",
-          "source": "Press Gazette"
+          "source": "NewscastStudio / Backlight"
         }
       ]
     },
     {
-      "title": "MMR / Iconik / LucidLink Stack",
+      "title": "Technical",
       "items": [
         {
-          "title": "iconik public changelog hub checked; no meaningful new public April web-release signal extracted tonight. Freshest clearly surfaced broad web note still points to 2026-03-05.",
-          "url": "https://app.iconik.io/help/pages/release_notes/",
-          "published": "2026-04-04",
-          "source": "iconik changelog hub"
+          "title": "AWS published a production-oriented reference for live multilingual captioning and accessibility workflows using AWS Media Services and Amazon Nova.",
+          "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
+          "published": "2026-04-02",
+          "source": "AWS Media Blog"
         },
         {
-          "title": "LucidLink release-notes hub checked; anti-bot friction still limits exact overnight extraction, but no fresh April public release signal surfaced tonight.",
-          "url": "https://support.lucidlink.com/hc/en-us/sections/31125638256269-Release-notes",
-          "published": "2026-04-04",
-          "source": "LucidLink release notes hub"
-        },
-        {
-          "title": "Frame.io + LucidLink GA target has effectively slipped past Q1 with no public announcement. Stop assuming imminence.",
-          "url": "https://www.lucidlink.com/frameio",
+          "title": "AI in broadcast operations keeps shifting from pilot tools to integrated repurposing infrastructure across transcription, translation, subtitles, and social outputs.",
+          "url": "https://www.streamingmedia.com/Articles/Editorial/Featured-Articles/The-State-of-AI-in-On-Demand-Streaming-in-2026-173868.aspx",
           "published": "2026-04-01",
-          "source": "LucidLink / public web verification"
-        },
-        {
-          "title": "Backlight's live materials continue to foreground media-supply-chain optimization, not a sudden new silver-bullet product release.",
-          "url": "https://www.backlight.co/resources",
-          "published": "2026-04-04",
-          "source": "Backlight"
+          "source": "StreamingMedia"
         }
       ]
     },
     {
-      "title": "Audience / Loyalty / Product",
+      "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Press Gazette: a pageview is an event; a return habit is an asset. Publishers need loyalty systems that connect discovery, onboarding, registration and retention.",
-          "url": "https://pressgazette.co.uk/publishing-services-content/publisher-audience-engagement-strategy/",
-          "published": "2026-03-27",
-          "source": "Press Gazette"
-        },
-        {
-          "title": "Chartbeat / INMA: first-time visitors who view one extra page are far more likely to return, making recirculation design a major growth lever.",
-          "url": "https://chartbeat.com/resources/general/successful-2026-publishing-strategy/",
-          "published": "2026-03-14",
-          "source": "Chartbeat / INMA"
-        },
-        {
-          "title": "Publisher strategy is increasingly about turning social and discovery traffic into repeat-use systems, not treating them as isolated spikes.",
-          "url": "https://www.inma.org/blogs/main/post.cfm/innovation-ai-and-audience-growth-lead-inma-s-2026-global-media-awards-shortlist",
-          "published": "2026-03-04",
-          "source": "INMA"
-        }
-      ]
-    },
-    {
-      "title": "Workflow / Archive / Supply Chain",
-      "items": [
-        {
-          "title": "Avid's NAB 2026 pitch for Content Core is the clearest public articulation yet of metadata/orchestration as the intelligence layer for modern media operations.",
-          "url": "https://www.sportsvideo.org/2026/04/03/nab-2026-avid-to-showcase-content-core-and-ai-workflow-innovations/",
+          "title": "UK social behaviour appears to be shifting from active posting toward passive video consumption and smaller private spaces.",
+          "url": "https://www.bbc.com/news/articles/cgqk718l4neo",
           "published": "2026-04-03",
-          "source": "Sports Video Group"
-        },
-        {
-          "title": "TV Tech: SDVI is doubling down on media-supply-chain management for higher-volume processing and faster time-to-market at NAB 2026.",
-          "url": "https://www.tvtechnology.com/production/sdvi-to-feature-new-rally-media-supply-chain-management-enhancements",
-          "published": "2026-03-30",
-          "source": "TV Tech"
-        },
-        {
-          "title": "NewscastStudio: practical AI value in broadcast workflows increasingly means faster editing, better newsroom operations and better archive reuse — not abstract novelty.",
-          "url": "https://www.newscaststudio.com/2026/03/31/analysis-artificial-intelligence-finds-its-place-in-broadcast-workflows/",
-          "published": "2026-03-31",
-          "source": "NewscastStudio"
+          "source": "BBC / Ofcom coverage"
         }
       ]
     },
     {
-      "title": "AI / Governance / Operations",
+      "title": "Watching",
       "items": [
         {
-          "title": "IAB: agentic AI is the new video-operations frame, moving processes toward AI-driven execution with human oversight and guardrails.",
-          "url": "https://www.iab.com/guidelines/ai-powered-video-outcomes-march-2026/",
-          "published": "2026-03-30",
-          "source": "IAB"
-        },
-        {
-          "title": "NewscastStudio: AI's practical place in media operations is deeper workflow automation, indexing and archive exploitation rather than generic generation.",
-          "url": "https://www.newscaststudio.com/2026/03/13/broadcast-ai-workflows-automation-roundtable/",
-          "published": "2026-03-13",
-          "source": "NewscastStudio"
-        },
-        {
-          "title": "Guardian Storylines still matters as the governing institutional pattern: constrained curation, editorial review, limited rollout and a kill switch.",
-          "url": "https://digiday.com/media/why-the-guardians-first-reader-facing-ai-product-isnt-a-chatbot/",
-          "published": "2026-03-31",
-          "source": "Digiday"
+          "title": "The recurring pattern still points to metadata, automation, and downstream reuse converging into one control plane for media operations.",
+          "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
+          "published": "2026-04-04",
+          "source": "Claw synthesis from weekly sources"
         }
       ]
     }
