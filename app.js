@@ -10,9 +10,11 @@ function render(data) {
   const template = document.getElementById('section-template');
 
   // Decision panels
+  const priorityIcon = { urgent: '🚨', high: '🔴', medium: '🟡', low: '🔵' };
   for (const panel of (data.decisionPanels || [])) {
     const node = template.content.cloneNode(true);
-    node.querySelector('h2').textContent = `${panel.priority === 'high' ? '🔴' : '🟡'} ${panel.title}`;
+    const icon = priorityIcon[panel.priority] || '🟡';
+    node.querySelector('h2').textContent = `${icon} ${panel.title}`;
     const ul = node.querySelector('ul');
 
     const summary = document.createElement('li');
