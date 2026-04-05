@@ -1,84 +1,84 @@
 {
-  "updated": "2026-04-04T21:30:00Z",
+  "updated": "2026-04-05T21:00:00Z",
   "meta": {
-    "totalSources": 8,
+    "totalSources": 6,
     "totalItems": 7,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "Quiet but non-trivial week. The strongest fresh signals were LucidLink Connect reframing object storage as immediately usable workflow substrate, Frame.io tightening planning-to-review continuity through Workfront, AWS publishing a production-oriented live localization/accessibility reference, and the wider market continuing to converge on metadata automation plus continuous-flow supply chains as the operating model. The practical Guardian/MMR conclusion is unchanged but sharper: workflow continuity, metadata discipline, and reusable automation matter more than waiting for a single vendor roadmap event."
+    "note": "This cycle was quieter on flashy launches and stronger on operating-model signals. The practical movement is toward deployable open-IP interconnection, explicit service-lifecycle pressure from cloud vendors, and tighter emphasis on storage/metadata efficiency at scale. For MMR, the decision focus remains architecture discipline: metadata quality, packaging throughput, and secure distributed control planes."
   },
   "decisionPanels": [
     {
-      "title": "Storage is being reframed as active workflow substrate",
+      "title": "Treat AWS lifecycle changes as active architecture constraints",
       "priority": "urgent",
-      "summary": "LucidLink Connect matters because it pushes object storage closer to an active media-library layer rather than passive archive. For Guardian, that strengthens the case for treating storage and access architecture as workflow design, not just infrastructure plumbing.",
+      "summary": "AWS has published service availability changes that include Rekognition streaming events moving to maintenance for new customers on 2026-04-30. This is no longer a theoretical risk for future live/event-detection decisions.",
       "actions": [
-        "Evaluate where existing object storage could be activated directly for production use rather than copied into separate working silos.",
-        "Use storage-as-workflow-substrate language in MMR planning, not just storage-as-archive language.",
-        "Keep asking which parts of the media path can work in place rather than through duplication and handoff."
+        "Explicitly decide whether any near-term MMR workflows depend on managed Rekognition streaming events.",
+        "If yes, decide now between enrollment before cutoff vs. alternate pipeline patterns.",
+        "Track adjacent AWS lifecycle updates as part of platform risk management, not ad-hoc discovery."
       ]
     },
     {
-      "title": "Workflow continuity is becoming a product expectation",
+      "title": "Design for vertical + audio growth, not just landscape video masters",
       "priority": "high",
-      "summary": "Frame.io's Workfront integration is a useful competitive warning: the bar is shifting from isolated review tooling toward continuous planning-to-review-to-approval flow. Low-friction collaboration is increasingly the thing users experience as product quality.",
+      "summary": "Backlight's latest Iconik statistics point to strong vertical publishing growth and rising audio volume alongside storage pressure. Throughput is increasingly constrained by packaging and metadata quality, not just editing speed.",
       "actions": [
-        "Treat continuity across planning, review, metadata, and publish steps as a first-class MMR design concern.",
-        "Identify where producers still hit avoidable handoffs or context loss in the current Guardian workflow.",
-        "Prefer changes that remove coordination friction over changes that add optional complexity."
+        "Prioritise reusable metadata/transcription pipelines that feed both social clips and podcast/video derivatives.",
+        "Bake multi-format publishing assumptions into Phase 2 workflow design now.",
+        "Measure cost and turnaround impact by output format, not only by project count."
       ]
     },
     {
-      "title": "Metadata automation is now normal category behaviour",
+      "title": "Open-IP readiness signal is shifting from roadmap to execution",
       "priority": "high",
-      "summary": "Backlight/Iconik's current market framing is blunt enough to matter: automated metadata enrichment and continuous-flow operations are no longer premium extras, they are the expected architecture pattern. Manual handoff-heavy workflows are now what the category is competing against.",
+      "summary": "IPMX messaging now emphasizes finalized standard + operational certification + training paths. The blocker profile is moving from standard maturity to implementation quality.",
       "actions": [
-        "Keep pushing metadata, transcription, and event-driven automation as core operating infrastructure.",
-        "Frame MMR improvements as throughput and reuse gains, not admin cleanup.",
-        "Assume future differentiation comes from better signal quality and lower-friction automation, not vendor theatrics."
+        "Keep monitoring deployability signals and vendor interop evidence across NAB announcements.",
+        "Map where C2C/live ingest paths might benefit from open-IP compatibility assumptions.",
+        "Treat standards progress as an integration planning input, not an immediate migration mandate."
       ]
     },
     {
-      "title": "Audience interaction is getting less public, not less video-driven",
+      "title": "Security/control is moving into the media interconnect fabric",
       "priority": "medium",
-      "summary": "UK audience behaviour appears to be shifting away from visible posting and toward passive video consumption plus smaller private spaces. That means short-form video still matters, but public posting metrics alone are a worse proxy for engagement value.",
+      "summary": "Trust-boundary narratives in distributed production are converging around deterministic, policy-controlled interconnection across sites/partners/cloud. Security posture is becoming part of transport architecture itself.",
       "actions": [
-        "Avoid over-reading public posting or comment volume as the main success signal for video distribution.",
-        "Design reporting and workflow expectations around watch, reuse, packaging, and downstream retention signals too.",
-        "Keep testing where audience behaviour is moving, not just where platform dashboards are easiest to read."
+        "Pressure-test MMR assumptions around cross-domain media flows, trust boundaries, and controllability.",
+        "Prefer architectures that preserve observability and policy control across distributed handoffs.",
+        "Track vendor claims for real standards/open-API evidence before commitment."
       ]
     }
   ],
   "changes": {
-    "summary": "Compared with the earlier April 4 radar update, the sharper fresh signal is workflow continuity: storage, metadata, review, accessibility, and repurposing are converging into one operating layer. The near-term call for Guardian/MMR is to keep strengthening metadata and automation discipline rather than waiting for a single dramatic vendor release.",
-    "previousUpdated": "2026-04-04T21:00:00Z",
+    "summary": "Compared with the prior radar, this update adds stronger operational hardening signals (AWS lifecycle pressure, IPMX deployment posture, and trust-boundary patterns) and less emphasis on net-new product features.",
+    "previousUpdated": "2026-04-04T21:30:00Z",
     "newItems": [
       {
-        "title": "LucidLink Connect lets Enterprise customers expose existing object stores as streamable working libraries without migration",
-        "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
+        "title": "AWS announced service availability changes including Rekognition streaming events moving to maintenance for new customers from 2026-04-30",
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
         "published": "2026-03-31",
-        "source": "LucidLink",
+        "source": "AWS",
         "section": "Strategic"
       },
       {
-        "title": "Frame.io is using Adobe Workfront as its primary review surface with multi-stage approvals and lower-friction collaboration",
-        "url": "https://blog.frame.io/2026/03/31/new-in-frame-io-workfront-integration-improvements-for-share-builder-pdfs-and-zoom-pan/",
-        "published": "2026-03-31",
-        "source": "Frame.io",
-        "section": "Strategic"
-      },
-      {
-        "title": "AWS published a live localization and accessibility workflow using AWS Media Services and Amazon Nova",
-        "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
-        "published": "2026-04-02",
-        "source": "AWS Media Blog",
+        "title": "IPMX is being presented as deployment-ready with certification and training entering NAB 2026",
+        "url": "https://www.sportsvideo.org/2026/03/30/nab-2026-ip-showcase-returns-as-ipmx-moves-to-deployment/",
+        "published": "2026-03-30",
+        "source": "Sports Video Group",
         "section": "Technical"
       },
       {
-        "title": "StreamingMedia's latest AI coverage shows repurposing infrastructure moving from point tools into integrated newsroom workflow",
-        "url": "https://www.streamingmedia.com/Articles/Editorial/Featured-Articles/The-State-of-AI-in-On-Demand-Streaming-in-2026-173868.aspx",
+        "title": "Net Insight introduced programmable trust boundaries for deterministic interconnection across facilities, networks, and cloud",
+        "url": "https://tvnewscheck.com/tech/article/nab-show-net-insight-introduces-programmable-trust-boundaries-for-predictable-live-media/",
         "published": "2026-04-01",
-        "source": "StreamingMedia",
+        "source": "TVNewsCheck",
         "section": "Technical"
+      },
+      {
+        "title": "Backlight's 2026 media stats report highlights storage pressure, AI-assisted operations, and strong vertical/audio growth",
+        "url": "https://www.advanced-television.com/2026/03/10/report-video-consumes-64-of-storage-needs-for-media-assets/",
+        "published": "2026-03-10",
+        "source": "Advanced Television",
+        "section": "Audience / Distribution"
       }
     ]
   },
@@ -87,22 +87,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "LucidLink launched Connect to turn existing object stores into streamable working libraries without migration.",
-          "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
+          "title": "AWS service lifecycle changes now create a near-term decision point for managed streaming-event detection patterns.",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
           "published": "2026-03-31",
-          "source": "LucidLink"
+          "source": "AWS"
         },
         {
-          "title": "Frame.io is consolidating review and approval around Adobe Workfront rather than behaving as a standalone review tool.",
-          "url": "https://blog.frame.io/2026/03/31/new-in-frame-io-workfront-integration-improvements-for-share-builder-pdfs-and-zoom-pan/",
-          "published": "2026-03-31",
-          "source": "Frame.io"
-        },
-        {
-          "title": "Backlight/Iconik is now talking openly in continuous-flow and automation-at-scale terms, including hundreds of millions of jobs and majority-automated metadata operations.",
-          "url": "https://www.newscaststudio.com/2026/03/30/nab-show-preview-from-handoffs-to-continuous-flow-in-the-modern-media-supply-chain/",
-          "published": "2026-03-30",
-          "source": "NewscastStudio / Backlight"
+          "title": "Storage economics and AI-assisted metadata throughput continue to define operating leverage in media platforms.",
+          "url": "https://www.advanced-television.com/2026/03/10/report-video-consumes-64-of-storage-needs-for-media-assets/",
+          "published": "2026-03-10",
+          "source": "Advanced Television / Backlight report"
         }
       ]
     },
@@ -110,16 +104,16 @@
       "title": "Technical",
       "items": [
         {
-          "title": "AWS published a production-oriented reference for live multilingual captioning and accessibility workflows using AWS Media Services and Amazon Nova.",
-          "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
-          "published": "2026-04-02",
-          "source": "AWS Media Blog"
+          "title": "IPMX narrative has shifted toward deployment execution with certification and formal training in place.",
+          "url": "https://www.sportsvideo.org/2026/03/30/nab-2026-ip-showcase-returns-as-ipmx-moves-to-deployment/",
+          "published": "2026-03-30",
+          "source": "Sports Video Group"
         },
         {
-          "title": "AI in broadcast operations keeps shifting from pilot tools to integrated repurposing infrastructure across transcription, translation, subtitles, and social outputs.",
-          "url": "https://www.streamingmedia.com/Articles/Editorial/Featured-Articles/The-State-of-AI-in-On-Demand-Streaming-in-2026-173868.aspx",
+          "title": "Programmable trust-boundary approaches reflect a broader push for deterministic control across distributed media domains.",
+          "url": "https://tvnewscheck.com/tech/article/nab-show-net-insight-introduces-programmable-trust-boundaries-for-predictable-live-media/",
           "published": "2026-04-01",
-          "source": "StreamingMedia"
+          "source": "TVNewsCheck"
         }
       ]
     },
@@ -127,10 +121,16 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "UK social behaviour appears to be shifting from active posting toward passive video consumption and smaller private spaces.",
-          "url": "https://www.bbc.com/news/articles/cgqk718l4neo",
-          "published": "2026-04-03",
-          "source": "BBC / Ofcom coverage"
+          "title": "Vertical publishing and audio growth continue to support a social-first and multi-format repurposing model.",
+          "url": "https://www.advanced-television.com/2026/03/10/report-video-consumes-64-of-storage-needs-for-media-assets/",
+          "published": "2026-03-10",
+          "source": "Advanced Television / Backlight report"
+        },
+        {
+          "title": "No stronger net-new audience signal this cycle than last week's social-first, AV-heavy youth baseline.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
+          "published": "2026-03-24",
+          "source": "Reuters Institute"
         }
       ]
     },
@@ -138,10 +138,10 @@
       "title": "Watching",
       "items": [
         {
-          "title": "The recurring pattern still points to metadata, automation, and downstream reuse converging into one control plane for media operations.",
-          "url": "https://www.lucidlink.com/blog/introducing-lucidlink-connect",
-          "published": "2026-04-04",
-          "source": "Claw synthesis from weekly sources"
+          "title": "Across sources, the recurring pattern is operational hardening: control, reliability, and integration quality are overtaking feature novelty.",
+          "url": "https://content-technology.com/content-delivery/net-insight-introduces-programmable-trust-boundaries/",
+          "published": "2026-04-01",
+          "source": "Claw synthesis"
         }
       ]
     }
