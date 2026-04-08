@@ -1,83 +1,83 @@
 {
-  "updated": "2026-04-05T21:00:00Z",
+  "updated": "2026-04-08T21:00:00Z",
   "meta": {
-    "totalSources": 6,
+    "totalSources": 5,
     "totalItems": 7,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This cycle was quieter on flashy launches and stronger on operating-model signals. The practical movement is toward deployable open-IP interconnection, explicit service-lifecycle pressure from cloud vendors, and tighter emphasis on storage/metadata efficiency at scale. For MMR, the decision focus remains architecture discipline: metadata quality, packaging throughput, and secure distributed control planes."
+    "note": "This cycle was quieter on vendor launches but stronger on workflow architecture signals. The clearest pattern is that metadata quality, ID discipline, and event-driven orchestration are becoming the actual control plane for multi-platform video operations. For MMR, the practical implication is to design Phase 2 around governed metadata, parallel packaging, and human-approved automation rather than bolt-on AI features."
   },
   "decisionPanels": [
     {
-      "title": "Treat AWS lifecycle changes as active architecture constraints",
+      "title": "Treat metadata orchestration as a Phase 2 product decision, not background plumbing",
       "priority": "urgent",
-      "summary": "AWS has published service availability changes that include Rekognition streaming events moving to maintenance for new customers on 2026-04-30. This is no longer a theoretical risk for future live/event-detection decisions.",
+      "summary": "AWS is now publishing concrete media-supply-chain architectures that combine automated video understanding, agent-driven metadata shaping, and human approval before downstream publishing. That is a strong signal that enrichment and publish prep should be treated as first-class workflow services.",
       "actions": [
-        "Explicitly decide whether any near-term MMR workflows depend on managed Rekognition streaming events.",
-        "If yes, decide now between enrollment before cutoff vs. alternate pipeline patterns.",
-        "Track adjacent AWS lifecycle updates as part of platform risk management, not ad-hoc discovery."
+        "Model metadata generation, compliance shaping, and distribution packaging as event-driven workflow services.",
+        "Keep human approval checkpoints in the loop for publish-bound outputs.",
+        "Avoid burying Phase 2 logic in isolated tool-specific automations."
       ]
     },
     {
-      "title": "Design for vertical + audio growth, not just landscape video masters",
+      "title": "Design for packaging and localization throughput, not just editing throughput",
       "priority": "high",
-      "summary": "Backlight's latest Iconik statistics point to strong vertical publishing growth and rising audio volume alongside storage pressure. Throughput is increasingly constrained by packaging and metadata quality, not just editing speed.",
+      "summary": "AWS's Dramaze case shows that short-form video businesses win by collapsing subtitle translation, poster/frame selection, and output packaging speed with small teams. The bottleneck is often packaging and localization, not primary edit creation.",
       "actions": [
-        "Prioritise reusable metadata/transcription pipelines that feed both social clips and podcast/video derivatives.",
-        "Bake multi-format publishing assumptions into Phase 2 workflow design now.",
-        "Measure cost and turnaround impact by output format, not only by project count."
+        "Pressure-test where Guardian's likely bottlenecks are once clip volume rises: metadata, packaging, approvals, or localization.",
+        "Design derivative-output flows as parallel products from shared source material.",
+        "Track where automation can remove producer admin without degrading editorial control."
       ]
     },
     {
-      "title": "Open-IP readiness signal is shifting from roadmap to execution",
+      "title": "Short-form remains the native young-audience surface",
       "priority": "high",
-      "summary": "IPMX messaging now emphasizes finalized standard + operational certification + training paths. The blocker profile is moving from standard maturity to implementation quality.",
+      "summary": "Reuters Institute's latest work keeps reinforcing that young audiences are consuming news heavily through short-form online video, especially on vertical platforms. This is no longer a side-channel format assumption.",
       "actions": [
-        "Keep monitoring deployability signals and vendor interop evidence across NAB announcements.",
-        "Map where C2C/live ingest paths might benefit from open-IP compatibility assumptions.",
-        "Treat standards progress as an integration planning input, not an immediate migration mandate."
+        "Keep native vertical and social outputs as core workflow targets.",
+        "Avoid treating short-form as an afterthought cut-down from broadcast-first assets.",
+        "Measure workflow success by turnaround into platform-native formats."
       ]
     },
     {
-      "title": "Security/control is moving into the media interconnect fabric",
+      "title": "The durable moat is a multi-source metadata fabric, not a single AI tool",
       "priority": "medium",
-      "summary": "Trust-boundary narratives in distributed production are converging around deterministic, policy-controlled interconnection across sites/partners/cloud. Security posture is becoming part of transport architecture itself.",
+      "summary": "StreamingMedia's metadata discussion underscores that AI usefulness depends on linking internal and external sources with strong IDs, quality control, and management structure. Tool choice matters less than coherence of the data layer.",
       "actions": [
-        "Pressure-test MMR assumptions around cross-domain media flows, trust boundaries, and controllability.",
-        "Prefer architectures that preserve observability and policy control across distributed handoffs.",
-        "Track vendor claims for real standards/open-API evidence before commitment."
+        "Map metadata ownership, IDs, and duplication risks across MMR systems.",
+        "Prefer architectures that preserve cross-system consistency and auditability.",
+        "Treat any new enrichment tooling as a guest of the metadata layer, not the layer itself."
       ]
     }
   ],
   "changes": {
-    "summary": "Compared with the prior radar, this update adds stronger operational hardening signals (AWS lifecycle pressure, IPMX deployment posture, and trust-boundary patterns) and less emphasis on net-new product features.",
-    "previousUpdated": "2026-04-04T21:30:00Z",
+    "summary": "Compared with the prior radar, this update adds stronger evidence that media organizations are converging on governed metadata + orchestration + platform-specific packaging, with less emphasis on standards/newsroom infra posture alone.",
+    "previousUpdated": "2026-04-05T21:00:00Z",
     "newItems": [
       {
-        "title": "AWS announced service availability changes including Rekognition streaming events moving to maintenance for new customers from 2026-04-30",
-        "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
-        "published": "2026-03-31",
+        "title": "AWS published a concrete agentic media-supply-chain pattern using Bedrock AgentCore, Bedrock Data Automation, EventBridge, Rekognition, and human review",
+        "url": "https://aws.amazon.com/blogs/media/building-intelligent-media-supply-chain-automation-using-amazon-bedrock-agentcore/",
+        "published": "2026-03-05",
         "source": "AWS",
-        "section": "Strategic"
-      },
-      {
-        "title": "IPMX is being presented as deployment-ready with certification and training entering NAB 2026",
-        "url": "https://www.sportsvideo.org/2026/03/30/nab-2026-ip-showcase-returns-as-ipmx-moves-to-deployment/",
-        "published": "2026-03-30",
-        "source": "Sports Video Group",
         "section": "Technical"
       },
       {
-        "title": "Net Insight introduced programmable trust boundaries for deterministic interconnection across facilities, networks, and cloud",
-        "url": "https://tvnewscheck.com/tech/article/nab-show-net-insight-introduces-programmable-trust-boundaries-for-predictable-live-media/",
-        "published": "2026-04-01",
-        "source": "TVNewsCheck",
+        "title": "Dramaze launched a short-form streaming workflow on AWS with nine-language subtitle automation and AI-guided poster generation",
+        "url": "https://aws.amazon.com/blogs/media/how-aws-powers-dramaze-ai-enhanced-streaming-platform/",
+        "published": "2026-03-06",
+        "source": "AWS",
+        "section": "Audience / Distribution"
+      },
+      {
+        "title": "Streaming operators are framing AI-enriched metadata as a multi-source data-fabric and ID-governance problem",
+        "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/AI-Enriched-Metadata-Drives-Better-CTV-Content-Discovery-174220.aspx",
+        "published": "2026-04-03",
+        "source": "Streaming Media",
         "section": "Technical"
       },
       {
-        "title": "Backlight's 2026 media stats report highlights storage pressure, AI-assisted operations, and strong vertical/audio growth",
-        "url": "https://www.advanced-television.com/2026/03/10/report-video-consumes-64-of-storage-needs-for-media-assets/",
-        "published": "2026-03-10",
-        "source": "Advanced Television",
+        "title": "Reuters Institute reported that 73% of 18-24s watched short-form news video weekly in 2024",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
+        "published": "2026-03-24",
+        "source": "Reuters Institute",
         "section": "Audience / Distribution"
       }
     ]
@@ -87,16 +87,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "AWS service lifecycle changes now create a near-term decision point for managed streaming-event detection patterns.",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
-          "published": "2026-03-31",
+          "title": "Packaging, localization, and derivative-output speed are becoming the real operating constraint in short-form video businesses.",
+          "url": "https://aws.amazon.com/blogs/media/how-aws-powers-dramaze-ai-enhanced-streaming-platform/",
+          "published": "2026-03-06",
           "source": "AWS"
         },
         {
-          "title": "Storage economics and AI-assisted metadata throughput continue to define operating leverage in media platforms.",
-          "url": "https://www.advanced-television.com/2026/03/10/report-video-consumes-64-of-storage-needs-for-media-assets/",
-          "published": "2026-03-10",
-          "source": "Advanced Television / Backlight report"
+          "title": "Story-first, multi-platform production is displacing broadcast-first reuse as the target newsroom operating model.",
+          "url": "https://www.streamingmedia.com/Articles/Post/Blog/The-Story-Centric-Shift-Designing-the-Multi-Platform-Newsroom-for-the-Streaming-Era-174154.aspx",
+          "published": "2026-04-02",
+          "source": "Streaming Media / Avid"
         }
       ]
     },
@@ -104,16 +104,16 @@
       "title": "Technical",
       "items": [
         {
-          "title": "IPMX narrative has shifted toward deployment execution with certification and formal training in place.",
-          "url": "https://www.sportsvideo.org/2026/03/30/nab-2026-ip-showcase-returns-as-ipmx-moves-to-deployment/",
-          "published": "2026-03-30",
-          "source": "Sports Video Group"
+          "title": "AWS's media reference pattern now explicitly joins automated video understanding, agent orchestration, and human approval in one event-driven pipeline.",
+          "url": "https://aws.amazon.com/blogs/media/building-intelligent-media-supply-chain-automation-using-amazon-bedrock-agentcore/",
+          "published": "2026-03-05",
+          "source": "AWS"
         },
         {
-          "title": "Programmable trust-boundary approaches reflect a broader push for deterministic control across distributed media domains.",
-          "url": "https://tvnewscheck.com/tech/article/nab-show-net-insight-introduces-programmable-trust-boundaries-for-predictable-live-media/",
-          "published": "2026-04-01",
-          "source": "TVNewsCheck"
+          "title": "AI-enriched metadata is increasingly being treated as a data-fabric, quality-control, and ID-management problem rather than a single tagging feature.",
+          "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/AI-Enriched-Metadata-Drives-Better-CTV-Content-Discovery-174220.aspx",
+          "published": "2026-04-03",
+          "source": "Streaming Media"
         }
       ]
     },
@@ -121,16 +121,16 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Vertical publishing and audio growth continue to support a social-first and multi-format repurposing model.",
-          "url": "https://www.advanced-television.com/2026/03/10/report-video-consumes-64-of-storage-needs-for-media-assets/",
-          "published": "2026-03-10",
-          "source": "Advanced Television / Backlight report"
-        },
-        {
-          "title": "No stronger net-new audience signal this cycle than last week's social-first, AV-heavy youth baseline.",
+          "title": "Young audiences continue to over-index on short-form news video consumption, reinforcing vertical-native workflow assumptions.",
           "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
           "published": "2026-03-24",
           "source": "Reuters Institute"
+        },
+        {
+          "title": "Localization speed and derivative packaging are now core distribution capabilities rather than optional polish in video operations.",
+          "url": "https://aws.amazon.com/blogs/media/how-aws-powers-dramaze-ai-enhanced-streaming-platform/",
+          "published": "2026-03-06",
+          "source": "AWS"
         }
       ]
     },
@@ -138,9 +138,9 @@
       "title": "Watching",
       "items": [
         {
-          "title": "Across sources, the recurring pattern is operational hardening: control, reliability, and integration quality are overtaking feature novelty.",
-          "url": "https://content-technology.com/content-delivery/net-insight-introduces-programmable-trust-boundaries/",
-          "published": "2026-04-01",
+          "title": "Across sources, the stable pattern is that metadata governance and orchestration quality are becoming more strategically important than generic AI feature count.",
+          "url": "https://aws.amazon.com/blogs/media/building-intelligent-media-supply-chain-automation-using-amazon-bedrock-agentcore/",
+          "published": "2026-04-08",
           "source": "Claw synthesis"
         }
       ]
