@@ -1,84 +1,91 @@
 {
-  "updated": "2026-04-08T21:00:00Z",
+  "updated": "2026-04-12T21:00:00Z",
   "meta": {
     "totalSources": 5,
     "totalItems": 7,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This cycle was quieter on vendor launches but stronger on workflow architecture signals. The clearest pattern is that metadata quality, ID discipline, and event-driven orchestration are becoming the actual control plane for multi-platform video operations. For MMR, the practical implication is to design Phase 2 around governed metadata, parallel packaging, and human-approved automation rather than bolt-on AI features."
+    "note": "This cycle's strongest signal is not shiny AI tooling but distribution pressure and orchestration collapse. Reuters warns publishers expect major search referral decline as AI answer engines grow, while Amagi and Telestream show vendors pushing ingest-to-publish and edit-to-delivery workflows into tighter single-surface flows. For MMR, that reinforces a Phase 2 architecture built around governed metadata, fast packaging, and reduced producer handoff friction."
   },
   "decisionPanels": [
     {
-      "title": "Treat metadata orchestration as a Phase 2 product decision, not background plumbing",
+      "title": "Treat search-referral decline as an architectural input, not just a commercial worry",
       "priority": "urgent",
-      "summary": "AWS is now publishing concrete media-supply-chain architectures that combine automated video understanding, agent-driven metadata shaping, and human approval before downstream publishing. That is a strong signal that enrichment and publish prep should be treated as first-class workflow services.",
+      "summary": "Reuters Institute reports publishers expect search traffic to fall by more than 40% over the next three years as AI answer engines change discovery. Video systems should assume more value must be captured through owned surfaces and platform-native distribution rather than passive referral.",
       "actions": [
-        "Model metadata generation, compliance shaping, and distribution packaging as event-driven workflow services.",
-        "Keep human approval checkpoints in the loop for publish-bound outputs.",
-        "Avoid burying Phase 2 logic in isolated tool-specific automations."
+        "Prioritise metadata and packaging that improve on-platform discoverability and reuse.",
+        "Design success metrics beyond referral-driven consumption.",
+        "Pressure-test which MMR outputs need stronger owned-surface and native-social presentation."
       ]
     },
     {
-      "title": "Design for packaging and localization throughput, not just editing throughput",
+      "title": "Compete on workflow continuity from ingest to publish",
       "priority": "high",
-      "summary": "AWS's Dramaze case shows that short-form video businesses win by collapsing subtitle translation, poster/frame selection, and output packaging speed with small teams. The bottleneck is often packaging and localization, not primary edit creation.",
+      "summary": "Amagi's Newspulse is another sign that the market is selling unified clipping, repurposing, and digital publishing rather than separate tools. Fragmented handoffs are becoming commercially ugly.",
       "actions": [
-        "Pressure-test where Guardian's likely bottlenecks are once clip volume rises: metadata, packaging, approvals, or localization.",
-        "Design derivative-output flows as parallel products from shared source material.",
-        "Track where automation can remove producer admin without degrading editorial control."
+        "Map current Guardian producer handoffs from ingest to social/video outputs.",
+        "Identify where orchestration can remove admin without reducing editorial control.",
+        "Position MMR UX around fewer context switches and faster derivative creation."
       ]
     },
     {
-      "title": "Short-form remains the native young-audience surface",
+      "title": "Embed orchestration where producers already work",
       "priority": "high",
-      "summary": "Reuters Institute's latest work keeps reinforcing that young audiences are consuming news heavily through short-form online video, especially on vertical platforms. This is no longer a side-channel format assumption.",
+      "summary": "Telestream's expanded Vantage integration pushes rendering, metadata, and delivery logic into the Premiere-to-review path. Users increasingly expect workflow systems to disappear into the tools they already inhabit.",
       "actions": [
-        "Keep native vertical and social outputs as core workflow targets.",
-        "Avoid treating short-form as an afterthought cut-down from broadcast-first assets.",
-        "Measure workflow success by turnaround into platform-native formats."
+        "Avoid designs that force producers into separate operations surfaces for routine publish prep.",
+        "Model orchestration hooks around existing edit/review contexts.",
+        "Use metadata automation to shorten the path from edit completion to distributable outputs."
       ]
     },
     {
-      "title": "The durable moat is a multi-source metadata fabric, not a single AI tool",
+      "title": "Favour fast preflight metadata and reliable ingest edge-case handling",
       "priority": "medium",
-      "summary": "StreamingMedia's metadata discussion underscores that AI usefulness depends on linking internal and external sources with strong IDs, quality control, and management structure. Tool choice matters less than coherence of the data layer.",
+      "summary": "AWS Probe and iconik ISG ingest changes both point to the same truth: small metadata and ingest controls drive reliability at scale. Sexy features do not matter if intake and routing are flaky.",
       "actions": [
-        "Map metadata ownership, IDs, and duplication risks across MMR systems.",
-        "Prefer architectures that preserve cross-system consistency and auditability.",
-        "Treat any new enrichment tooling as a guest of the metadata layer, not the layer itself."
+        "Add fast file-inspection steps early in ingest workflows.",
+        "Track sidecar, rename, and folder-scan edge cases explicitly.",
+        "Treat ingest robustness as a product feature, not hidden plumbing."
       ]
     }
   ],
   "changes": {
-    "summary": "Compared with the prior radar, this update adds stronger evidence that media organizations are converging on governed metadata + orchestration + platform-specific packaging, with less emphasis on standards/newsroom infra posture alone.",
-    "previousUpdated": "2026-04-05T21:00:00Z",
+    "summary": "Since the previous radar, the new signal is stronger pressure from audience/discovery economics alongside tighter repurposing and edit-to-delivery integrations. The market story shifted from metadata theory to more concrete workflow continuity and distribution risk.",
+    "previousUpdated": "2026-04-08T21:00:00Z",
     "newItems": [
       {
-        "title": "AWS published a concrete agentic media-supply-chain pattern using Bedrock AgentCore, Bedrock Data Automation, EventBridge, Rekognition, and human review",
-        "url": "https://aws.amazon.com/blogs/media/building-intelligent-media-supply-chain-automation-using-amazon-bedrock-agentcore/",
-        "published": "2026-03-05",
-        "source": "AWS",
-        "section": "Technical"
-      },
-      {
-        "title": "Dramaze launched a short-form streaming workflow on AWS with nine-language subtitle automation and AI-guided poster generation",
-        "url": "https://aws.amazon.com/blogs/media/how-aws-powers-dramaze-ai-enhanced-streaming-platform/",
-        "published": "2026-03-06",
-        "source": "AWS",
-        "section": "Audience / Distribution"
-      },
-      {
-        "title": "Streaming operators are framing AI-enriched metadata as a multi-source data-fabric and ID-governance problem",
-        "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/AI-Enriched-Metadata-Drives-Better-CTV-Content-Discovery-174220.aspx",
-        "published": "2026-04-03",
-        "source": "Streaming Media",
-        "section": "Technical"
-      },
-      {
-        "title": "Reuters Institute reported that 73% of 18-24s watched short-form news video weekly in 2024",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
-        "published": "2026-03-24",
+        "title": "Reuters Institute says publishers expect search traffic to fall by more than 40% over three years as AI answer engines reshape discovery",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+        "published": "2026-01-13",
         "source": "Reuters Institute",
         "section": "Audience / Distribution"
+      },
+      {
+        "title": "Amagi launched Newspulse to take news inputs through repurposing and digital/social publishing in one platform",
+        "url": "https://www.newscaststudio.com/2026/04/07/amagi-introduces-newspulse-platform-for-automated-news-content-repurposing/",
+        "published": "2026-04-07",
+        "source": "NewscastStudio",
+        "section": "Strategic"
+      },
+      {
+        "title": "Telestream expanded Vantage integration with Premiere Pro and Frame.io for in-tool submission, metadata, and delivery routing",
+        "url": "https://www.newscaststudio.com/2026/04/02/telestream-expands-vantage-integration-with-adobe-premiere-and-frame-io/",
+        "published": "2026-04-02",
+        "source": "NewscastStudio",
+        "section": "Technical"
+      },
+      {
+        "title": "AWS MediaConvert added a Probe API/UI for fast header-level media inspection before full processing",
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
+        "published": "2026-02-24",
+        "source": "AWS",
+        "section": "Technical"
+      },
+      {
+        "title": "iconik ISG/Edge Transcoder changelog added standalone sidecar ingestion as ORIGINAL plus scan timeout and title-update controls",
+        "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304675738135-ISG-And-Edge-Transcoder-Changelog",
+        "published": "2026-04-12",
+        "source": "iconik Help",
+        "section": "Technical"
       }
     ]
   },
@@ -87,16 +94,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Packaging, localization, and derivative-output speed are becoming the real operating constraint in short-form video businesses.",
-          "url": "https://aws.amazon.com/blogs/media/how-aws-powers-dramaze-ai-enhanced-streaming-platform/",
-          "published": "2026-03-06",
-          "source": "AWS"
+          "title": "Unified repurposing and publish control planes are becoming a product expectation in digital news workflows.",
+          "url": "https://www.newscaststudio.com/2026/04/07/amagi-introduces-newspulse-platform-for-automated-news-content-repurposing/",
+          "published": "2026-04-07",
+          "source": "NewscastStudio"
         },
         {
-          "title": "Story-first, multi-platform production is displacing broadcast-first reuse as the target newsroom operating model.",
-          "url": "https://www.streamingmedia.com/Articles/Post/Blog/The-Story-Centric-Shift-Designing-the-Multi-Platform-Newsroom-for-the-Streaming-Era-174154.aspx",
-          "published": "2026-04-02",
-          "source": "Streaming Media / Avid"
+          "title": "Publishers are investing in more liquid, reformatable content structures rather than article-first output models.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01-13",
+          "source": "Reuters Institute"
         }
       ]
     },
@@ -104,16 +111,22 @@
       "title": "Technical",
       "items": [
         {
-          "title": "AWS's media reference pattern now explicitly joins automated video understanding, agent orchestration, and human approval in one event-driven pipeline.",
-          "url": "https://aws.amazon.com/blogs/media/building-intelligent-media-supply-chain-automation-using-amazon-bedrock-agentcore/",
-          "published": "2026-03-05",
+          "title": "Workflow orchestration is being embedded directly into edit and review surfaces via Premiere Pro, Vantage, and Frame.io integrations.",
+          "url": "https://www.newscaststudio.com/2026/04/02/telestream-expands-vantage-integration-with-adobe-premiere-and-frame-io/",
+          "published": "2026-04-02",
+          "source": "NewscastStudio"
+        },
+        {
+          "title": "Fast header-level media probing is becoming a practical preflight step for ingest routing and QC automation.",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
+          "published": "2026-02-24",
           "source": "AWS"
         },
         {
-          "title": "AI-enriched metadata is increasingly being treated as a data-fabric, quality-control, and ID-management problem rather than a single tagging feature.",
-          "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/AI-Enriched-Metadata-Drives-Better-CTV-Content-Discovery-174220.aspx",
-          "published": "2026-04-03",
-          "source": "Streaming Media"
+          "title": "Small ingest controls around sidecars, renames, and scan behaviour remain decisive for MAM reliability at scale.",
+          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304675738135-ISG-And-Edge-Transcoder-Changelog",
+          "published": "2026-04-12",
+          "source": "iconik Help"
         }
       ]
     },
@@ -121,16 +134,16 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Young audiences continue to over-index on short-form news video consumption, reinforcing vertical-native workflow assumptions.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
-          "published": "2026-03-24",
+          "title": "Search discovery for publishers is under serious pressure from AI answer engines, increasing the importance of owned and native-platform distribution.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01-13",
           "source": "Reuters Institute"
         },
         {
-          "title": "Localization speed and derivative packaging are now core distribution capabilities rather than optional polish in video operations.",
-          "url": "https://aws.amazon.com/blogs/media/how-aws-powers-dramaze-ai-enhanced-streaming-platform/",
-          "published": "2026-03-06",
-          "source": "AWS"
+          "title": "Creator-led and personality-led news formats continue to pull younger audiences toward more native-feeling video experiences.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01-13",
+          "source": "Reuters Institute"
         }
       ]
     },
@@ -138,9 +151,9 @@
       "title": "Watching",
       "items": [
         {
-          "title": "Across sources, the stable pattern is that metadata governance and orchestration quality are becoming more strategically important than generic AI feature count.",
-          "url": "https://aws.amazon.com/blogs/media/building-intelligent-media-supply-chain-automation-using-amazon-bedrock-agentcore/",
-          "published": "2026-04-08",
+          "title": "Across sources, the consistent shift is away from isolated AI helpers toward tighter ingest-to-package-to-publish continuity inside everyday production tools.",
+          "url": "https://www.newscaststudio.com/2026/04/07/amagi-introduces-newspulse-platform-for-automated-news-content-repurposing/",
+          "published": "2026-04-12",
           "source": "Claw synthesis"
         }
       ]
