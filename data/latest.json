@@ -1,90 +1,90 @@
 {
-  "updated": "2026-04-12T21:00:00Z",
+  "updated": "2026-04-15T21:00:00Z",
   "meta": {
-    "totalSources": 5,
-    "totalItems": 7,
+    "totalSources": 4,
+    "totalItems": 5,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This cycle's strongest signal is not shiny AI tooling but distribution pressure and orchestration collapse. Reuters warns publishers expect major search referral decline as AI answer engines grow, while Amagi and Telestream show vendors pushing ingest-to-publish and edit-to-delivery workflows into tighter single-surface flows. For MMR, that reinforces a Phase 2 architecture built around governed metadata, fast packaging, and reduced producer handoff friction."
+    "note": "This cycle was quieter than the last one, but the useful signal is still sharp. Reuters points to more video-native product behavior among publishers serving younger audiences, AWS is pushing near-real-time vertical packaging directly into media infrastructure, and workflow commentary from NewscastStudio keeps landing on the same theme: metadata has to write back into core systems to matter. For MMR, that means mobile derivatives, governed metadata, and boring ingest reliability remain the real architecture work."
   },
   "decisionPanels": [
     {
-      "title": "Treat search-referral decline as an architectural input, not just a commercial worry",
+      "title": "Treat vertical/mobile output as infrastructure, not an edit-room afterthought",
       "priority": "urgent",
-      "summary": "Reuters Institute reports publishers expect search traffic to fall by more than 40% over the next three years as AI answer engines change discovery. Video systems should assume more value must be captured through owned surfaces and platform-native distribution rather than passive referral.",
+      "summary": "Reuters' young-audience research and AWS's NAB positioning both point the same way: video-native and mobile-native consumption habits are now shaping product and workflow design. Publishers are building dedicated video surfaces, while AWS is productising rapid vertical derivation inside core media pipelines.",
       "actions": [
-        "Prioritise metadata and packaging that improve on-platform discoverability and reuse.",
-        "Design success metrics beyond referral-driven consumption.",
-        "Pressure-test which MMR outputs need stronger owned-surface and native-social presentation."
+        "Pressure-test MMR Phase 2 flows against a mobile-first output assumption.",
+        "Reduce reliance on manual horizontal-to-vertical handoffs.",
+        "Treat derivative packaging speed as a core system metric."
       ]
     },
     {
-      "title": "Compete on workflow continuity from ingest to publish",
+      "title": "Keep AI inside the control plane by writing metadata back into the systems producers already use",
       "priority": "high",
-      "summary": "Amagi's Newspulse is another sign that the market is selling unified clipping, repurposing, and digital publishing rather than separate tools. Fragmented handoffs are becoming commercially ugly.",
+      "summary": "The strongest practical workflow signal this cycle is that successful AI deployments enrich MAM/NRCS/asset systems directly rather than creating separate interfaces. Sidecar AI tools are friction; system-native metadata is leverage.",
       "actions": [
-        "Map current Guardian producer handoffs from ingest to social/video outputs.",
-        "Identify where orchestration can remove admin without reducing editorial control.",
-        "Position MMR UX around fewer context switches and faster derivative creation."
+        "Design AI outputs as governed metadata events, not standalone experiences.",
+        "Favour integrations that update core asset records and routing logic.",
+        "Avoid any Phase 2 feature that depends on producers babysitting a separate AI surface."
       ]
     },
     {
-      "title": "Embed orchestration where producers already work",
+      "title": "LucidLink is becoming more operationally embedded in customer workflow management",
       "priority": "high",
-      "summary": "Telestream's expanded Vantage integration pushes rendering, metadata, and delivery logic into the Premiere-to-review path. Users increasingly expect workflow systems to disappear into the tools they already inhabit.",
+      "summary": "The LucidLink Management Platform adds upgrade, client-health, renewal, and provisioning control across partner workflows. That is a maturation signal: LucidLink wants to sit closer to the operational centre of workflow delivery, not just the storage edge.",
       "actions": [
-        "Avoid designs that force producers into separate operations surfaces for routine publish prep.",
-        "Model orchestration hooks around existing edit/review contexts.",
-        "Use metadata automation to shorten the path from edit completion to distributable outputs."
+        "Track how much operational dependency Guardian is accumulating around LucidLink.",
+        "Recheck whether partner/control-plane evolution changes support or architecture assumptions.",
+        "Factor operational visibility and upgrade paths into LucidLink-related risk thinking."
       ]
     },
     {
-      "title": "Favour fast preflight metadata and reliable ingest edge-case handling",
+      "title": "Do not let boring ingest and metadata integrity work get displaced by shinier AI demos",
       "priority": "medium",
-      "summary": "AWS Probe and iconik ISG ingest changes both point to the same truth: small metadata and ingest controls drive reliability at scale. Sexy features do not matter if intake and routing are flaky.",
+      "summary": "Workflow commentary continues to stress ingest QC, loudness compliance, and metadata preservation as the real scale constraints. The glamorous failure mode is obvious; the expensive one is flaky intake and inconsistent metadata.",
       "actions": [
-        "Add fast file-inspection steps early in ingest workflows.",
-        "Track sidecar, rename, and folder-scan edge cases explicitly.",
-        "Treat ingest robustness as a product feature, not hidden plumbing."
+        "Keep preflight inspection, metadata preservation, and ingest edge cases on the architecture checklist.",
+        "Treat workflow reliability as a user-facing feature.",
+        "Use AI only where the underlying intake and metadata discipline are already sound."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the new signal is stronger pressure from audience/discovery economics alongside tighter repurposing and edit-to-delivery integrations. The market story shifted from metadata theory to more concrete workflow continuity and distribution risk.",
-    "previousUpdated": "2026-04-08T21:00:00Z",
+    "summary": "Since the previous radar, the signal shifted from broad distribution pressure toward a more practical convergence around mobile derivatives, system-native AI metadata, and operational workflow control. It was a quieter cycle, but the market direction is getting less vague and more implementation-shaped.",
+    "previousUpdated": "2026-04-12T21:00:00Z",
     "newItems": [
       {
-        "title": "Reuters Institute says publishers expect search traffic to fall by more than 40% over three years as AI answer engines reshape discovery",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-        "published": "2026-01-13",
+        "title": "Reuters Institute says publishers are building dedicated video surfaces and vertical-video tooling as younger audience habits become more video-native",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
+        "published": "2026-03-24",
         "source": "Reuters Institute",
         "section": "Audience / Distribution"
       },
       {
-        "title": "Amagi launched Newspulse to take news inputs through repurposing and digital/social publishing in one platform",
-        "url": "https://www.newscaststudio.com/2026/04/07/amagi-introduces-newspulse-platform-for-automated-news-content-repurposing/",
-        "published": "2026-04-07",
-        "source": "NewscastStudio",
+        "title": "LucidLink launched the LucidLink Management Platform for partner-side upgrades, client management, renewals, and health visibility",
+        "url": "https://www.lucidlink.com/blog/lucidlink-management-platform",
+        "published": "2026-04-02",
+        "source": "LucidLink",
         "section": "Strategic"
       },
       {
-        "title": "Telestream expanded Vantage integration with Premiere Pro and Frame.io for in-tool submission, metadata, and delivery routing",
-        "url": "https://www.newscaststudio.com/2026/04/02/telestream-expands-vantage-integration-with-adobe-premiere-and-frame-io/",
-        "published": "2026-04-02",
-        "source": "NewscastStudio",
-        "section": "Technical"
-      },
-      {
-        "title": "AWS MediaConvert added a Probe API/UI for fast header-level media inspection before full processing",
-        "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
-        "published": "2026-02-24",
+        "title": "AWS showcased near-real-time 16:9-to-vertical video creation in existing MediaLive and MediaConvert workflows via AWS Elemental Inference",
+        "url": "https://aws.amazon.com/blogs/media/aws-brings-ai-powered-scale-to-storytellers-at-nab-2026/",
+        "published": "2026-04-06",
         "source": "AWS",
         "section": "Technical"
       },
       {
-        "title": "iconik ISG/Edge Transcoder changelog added standalone sidecar ingestion as ORIGINAL plus scan timeout and title-update controls",
-        "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304675738135-ISG-And-Edge-Transcoder-Changelog",
-        "published": "2026-04-12",
-        "source": "iconik Help",
+        "title": "NewscastStudio says AI deployments that stick write system-native metadata back into MAM, NRCS, and asset databases rather than forcing separate interfaces",
+        "url": "https://www.newscaststudio.com/2026/03/31/analysis-artificial-intelligence-finds-its-place-in-broadcast-workflows/",
+        "published": "2026-03-31",
+        "source": "NewscastStudio",
+        "section": "Strategic"
+      },
+      {
+        "title": "NewscastStudio says the next FAST/OTT workflow battleground is ingest QC, loudness compliance, and metadata preservation",
+        "url": "https://www.newscaststudio.com/2026/04/06/why-loudness-and-metadata-will-define-the-next-phase-of-fast-and-ott/",
+        "published": "2026-04-06",
+        "source": "NewscastStudio",
         "section": "Technical"
       }
     ]
@@ -94,16 +94,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Unified repurposing and publish control planes are becoming a product expectation in digital news workflows.",
-          "url": "https://www.newscaststudio.com/2026/04/07/amagi-introduces-newspulse-platform-for-automated-news-content-repurposing/",
-          "published": "2026-04-07",
-          "source": "NewscastStudio"
+          "title": "LucidLink is moving deeper into workflow operations with a formal partner/client management control layer.",
+          "url": "https://www.lucidlink.com/blog/lucidlink-management-platform",
+          "published": "2026-04-02",
+          "source": "LucidLink"
         },
         {
-          "title": "Publishers are investing in more liquid, reformatable content structures rather than article-first output models.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01-13",
-          "source": "Reuters Institute"
+          "title": "The AI workflow designs that survive newsroom reality are the ones that enrich existing MAM/NRCS systems with governed metadata.",
+          "url": "https://www.newscaststudio.com/2026/03/31/analysis-artificial-intelligence-finds-its-place-in-broadcast-workflows/",
+          "published": "2026-03-31",
+          "source": "NewscastStudio"
         }
       ]
     },
@@ -111,22 +111,16 @@
       "title": "Technical",
       "items": [
         {
-          "title": "Workflow orchestration is being embedded directly into edit and review surfaces via Premiere Pro, Vantage, and Frame.io integrations.",
-          "url": "https://www.newscaststudio.com/2026/04/02/telestream-expands-vantage-integration-with-adobe-premiere-and-frame-io/",
-          "published": "2026-04-02",
-          "source": "NewscastStudio"
-        },
-        {
-          "title": "Fast header-level media probing is becoming a practical preflight step for ingest routing and QC automation.",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
-          "published": "2026-02-24",
+          "title": "Near-real-time vertical derivation is being pushed into core media infrastructure rather than left as a manual edit chore.",
+          "url": "https://aws.amazon.com/blogs/media/aws-brings-ai-powered-scale-to-storytellers-at-nab-2026/",
+          "published": "2026-04-06",
           "source": "AWS"
         },
         {
-          "title": "Small ingest controls around sidecars, renames, and scan behaviour remain decisive for MAM reliability at scale.",
-          "url": "https://help.iconik.backlight.co/hc/en-us/articles/25304675738135-ISG-And-Edge-Transcoder-Changelog",
-          "published": "2026-04-12",
-          "source": "iconik Help"
+          "title": "Ingest QC, loudness compliance, and metadata preservation remain decisive technical constraints for scalable media workflows.",
+          "url": "https://www.newscaststudio.com/2026/04/06/why-loudness-and-metadata-will-define-the-next-phase-of-fast-and-ott/",
+          "published": "2026-04-06",
+          "source": "NewscastStudio"
         }
       ]
     },
@@ -134,16 +128,16 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Search discovery for publishers is under serious pressure from AI answer engines, increasing the importance of owned and native-platform distribution.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01-13",
+          "title": "Younger-audience publishing strategy is becoming more explicitly video-native, including dedicated app surfaces and vertical-video tooling.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
+          "published": "2026-03-24",
           "source": "Reuters Institute"
         },
         {
-          "title": "Creator-led and personality-led news formats continue to pull younger audiences toward more native-feeling video experiences.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01-13",
-          "source": "Reuters Institute"
+          "title": "Mobile-first distribution assumptions are now being reflected directly in workflow tooling for rapid derivative creation.",
+          "url": "https://aws.amazon.com/blogs/media/aws-brings-ai-powered-scale-to-storytellers-at-nab-2026/",
+          "published": "2026-04-06",
+          "source": "AWS"
         }
       ]
     },
@@ -151,9 +145,9 @@
       "title": "Watching",
       "items": [
         {
-          "title": "Across sources, the consistent shift is away from isolated AI helpers toward tighter ingest-to-package-to-publish continuity inside everyday production tools.",
-          "url": "https://www.newscaststudio.com/2026/04/07/amagi-introduces-newspulse-platform-for-automated-news-content-repurposing/",
-          "published": "2026-04-12",
+          "title": "The recurring pattern is a more opinionated workflow control plane: system-native metadata, built-in derivative packaging, and stronger operational visibility around core infrastructure.",
+          "url": "https://www.lucidlink.com/blog/lucidlink-management-platform",
+          "published": "2026-04-15",
           "source": "Claw synthesis"
         }
       ]
