@@ -1,98 +1,91 @@
 {
-  "updated": "2026-04-19T21:00:00Z",
+  "updated": "2026-04-22T21:00:00Z",
   "meta": {
-    "totalSources": 4,
-    "totalItems": 6,
+    "totalSources": 5,
+    "totalItems": 5,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This cycle sharpened around workflow convergence rather than a single flashy launch. Backlight is pulling publishing, clipping, governance, and ingest resilience directly into the Iconik orbit, LucidLink is reframing storage as a programmable workflow surface, and AWS continues to publish concrete multimodal metadata/search patterns instead of generic AI theatre. For MMR, that means the real architecture fight is still the control plane: reliable ingest, governed metadata, and native multi-platform publishing from one operational surface."
+    "note": "This cycle was quieter than the prior convergence-heavy brief, but the useful signal tightened around continuity across the chain. Provenance metadata is being pushed into camera-originated assets, file-based camera workflows are being tied more tightly into cloud ecosystems, and live video platforms are moving AI metadata and clipping earlier into ingest. For MMR, the implication is straightforward: preserve trust and metadata from capture onward, then use that continuity to make fast multi-platform packaging cheaper."
   },
   "decisionPanels": [
     {
-      "title": "Treat integrated manage-to-publish workflow as the new competitive baseline",
+      "title": "Treat authenticity metadata as an ingest concern, not a downstream patch",
       "priority": "urgent",
-      "summary": "Backlight’s NAB package extends Iconik from media management and review into direct multi-platform publishing, with Wildmoka capabilities, AI-assisted clipping, and stronger governance controls in the same operating surface.",
+      "summary": "Sony’s new camera workflow posture suggests provenance metadata will increasingly originate at capture, with C2PA-compliant signatures becoming part of operational video workflows rather than an optional later-stage add-on.",
       "actions": [
-        "Pressure-test Phase 2 against a future where users expect clipping and publishing to happen inside the core asset workflow.",
-        "Avoid architectures that preserve hard boundaries between MAM, social packaging, and archive reuse.",
-        "Keep governance and metadata continuity attached to publishing, not bolted on later."
+        "Check whether current ingest and transcode paths preserve provenance metadata end to end.",
+        "Avoid workflow designs that strip or flatten authenticity data before archive or publish stages.",
+        "Track where C2PA-style provenance could matter for editorial trust and platform distribution."
       ]
     },
     {
-      "title": "Design for cross-system streaming, not copy-heavy handoffs",
+      "title": "Design Camera to Cloud around metadata continuity, not just transport",
       "priority": "high",
-      "summary": "LucidLink Connect GA is a direct bet that teams want workflow access across cloud drives, review tools, and storage systems without migration or duplication. The market is rewarding fewer copies and fewer manual moves.",
+      "summary": "LiveU’s expanded support for Sony file-based workflows is another reminder that the winning C2C stack is the one that carries usable metadata and workflow context straight into downstream systems.",
       "actions": [
-        "Map where MMR still relies on manual duplication or re-ingest between systems.",
-        "Prefer access-layer and orchestration solutions over additional copy steps.",
-        "Treat time-to-usable-content as a system metric."
+        "Map the metadata handoff points between acquisition, ingest, MAM, and publish stages.",
+        "Prioritise workflows where field-originated assets are immediately usable without manual rewrapping.",
+        "Treat C2C interoperability as a workflow-speed issue, not just a contribution-tech issue."
       ]
     },
     {
-      "title": "Use multimodal retrieval as an archive and clipping primitive, not just a search nice-to-have",
+      "title": "Move clip extraction and enrichment closer to live ingest",
       "priority": "high",
-      "summary": "AWS’s latest reference architecture shows a practical path to segment-level video search across visual, audio, transcript, and metadata signals using services already adjacent to the likely Phase 2 stack.",
+      "summary": "Wowza’s new framework pushes metadata generation, event detection, and clip creation into the live capture stage, which is where fast-turnaround social and highlights workflows increasingly want those capabilities.",
       "actions": [
-        "Evaluate multimodal search as a foundation for archive reuse, transcript-aware clipping, and faster producer retrieval.",
-        "Keep temporal metadata and segment structure in the design, not just flat transcripts.",
-        "Avoid text-only search assumptions for video-heavy workflows."
+        "Evaluate which MMR use cases benefit from metadata and clipping during ingest rather than after archive write.",
+        "Keep event-driven downstream routing in scope for live and near-live workflows.",
+        "Prefer structured output paths over manual highlight extraction loops."
       ]
     },
     {
-      "title": "Harden ingest edge infrastructure before chasing more AI garnish",
+      "title": "Keep creator-native output packaging on the critical path",
       "priority": "medium",
-      "summary": "ISG Pro’s distributed multi-node posture is a reminder that gateway throughput and failover are becoming product-level concerns, not backroom plumbing details.",
+      "summary": "Younger-audience distribution still points toward TikTok, Instagram, and creator-like news formats, reinforcing the need for platform-native derivatives rather than polished-master-first publishing.",
       "actions": [
-        "Keep ingest throughput, failover, and edge reliability on the Phase 2 checklist.",
-        "Model gateway architecture under higher clip/podcast volume assumptions.",
-        "Treat operational resilience as user-visible workflow quality."
+        "Pressure-test producer workflows for how quickly they can generate vertical and creator-native variants.",
+        "Keep transcript, caption, and formatting automation tied to publish workflows.",
+        "Treat personality-led packaging as a workflow requirement, not just an editorial preference."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the signal moved from mobile-first derivative pressure into a more concrete convergence of MAM, publishing, access-layer streaming, and multimodal retrieval. Vendors are getting less abstract and more workflow-complete.",
-    "previousUpdated": "2026-04-15T21:00:00Z",
+    "summary": "Since the previous radar, the strongest new signal has shifted from broad workflow convergence to chain continuity: provenance at capture, tighter camera-file ecosystem links, and earlier live-stage enrichment for downstream clipping and publishing.",
+    "previousUpdated": "2026-04-19T21:00:00Z",
     "newItems": [
       {
-        "title": "Backlight is bringing Wildmoka publishing, clipping, governance, and AI-assisted derivative creation directly into Iconik at NAB 2026",
-        "url": "https://www.sportsvideo.org/2026/04/09/nab-2026-backlight-to-showcase-iconik-and-wildmoka-integration/",
-        "published": "2026-04-09",
-        "source": "Sports Video Group",
+        "title": "Sony is pushing C2PA-compliant authenticity signatures directly into camera-originated MP4 workflows",
+        "url": "https://www.newscaststudio.com/2026/04/06/nab-show-perspectives-why-content-authenticity-matters-now-and-how-to-build-trust-into-every-frame/",
+        "published": "2026-04-06",
+        "source": "NewscastStudio",
         "section": "Strategic"
       },
       {
-        "title": "LucidLink Connect integrations are now GA across cloud drives, Frame.io, and workflow systems without migration or duplication",
-        "url": "https://www.lucidlink.com/blog/lucidlink-connect-integrations",
-        "published": "2026-04-16",
-        "source": "LucidLink",
+        "title": "NAB 2026 workflow coverage is increasingly framing metadata, localization, captioning, and formatting as AI-native chained services",
+        "url": "https://www.newscaststudio.com/2026/04/13/the-trends-and-topics-driving-the-conversation-at-the-2026-nab-show/",
+        "published": "2026-04-13",
+        "source": "NewscastStudio",
         "section": "Strategic"
       },
       {
-        "title": "LucidLink’s NAB 2026 positioning reframes storage as a programmable workflow starting point rather than passive infrastructure",
-        "url": "https://www.lucidlink.com/blog/nab-2026",
-        "published": "2026-04-16",
-        "source": "LucidLink",
+        "title": "TAMS has appointed its initial Technical Steering Committee as it continues its transition toward fuller open-source governance",
+        "url": "https://timeaddressablemediastore.org/",
+        "published": "2026-04-22",
+        "source": "TAMS",
         "section": "Strategic"
       },
       {
-        "title": "AWS published a multimodal video semantic search architecture using Nova embeddings, OpenSearch, Transcribe, Rekognition, and segment-level metadata fusion",
-        "url": "https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/",
-        "published": "2026-04-17",
-        "source": "AWS",
+        "title": "LiveU expanded support for Sony file-based workflows across its ecosystem",
+        "url": "https://www.newscaststudio.com/2026/04/14/liveu-expands-support-for-sony-file-based-workflows-across-its-ecosystem/",
+        "published": "2026-04-14",
+        "source": "NewscastStudio",
         "section": "Technical"
       },
       {
-        "title": "Backlight introduced ISG Pro with distributed multi-node ingest scaling and automatic failover",
-        "url": "https://www.sportsvideo.org/2026/04/09/nab-2026-backlight-to-showcase-iconik-and-wildmoka-integration/",
-        "published": "2026-04-09",
-        "source": "Sports Video Group",
+        "title": "Wowza launched a Video Intelligence Framework for real-time metadata, event detection, overlays, and clip generation during live capture",
+        "url": "https://www.provideocoalition.com/nab-show-2026-day-1-breakthroughs-in-virtual-production-and-workflow-integration/",
+        "published": "2026-04-20",
+        "source": "ProVideo Coalition",
         "section": "Technical"
-      },
-      {
-        "title": "Wildmoka’s new editor adds AI points of interest, transcript editing, multilingual captions, and one-click vertical reformats",
-        "url": "https://www.sportsvideo.org/2026/04/09/nab-2026-backlight-to-showcase-iconik-and-wildmoka-integration/",
-        "published": "2026-04-09",
-        "source": "Sports Video Group",
-        "section": "Audience / Distribution"
       }
     ]
   },
@@ -101,22 +94,22 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Backlight is collapsing media management, review, and multi-platform publishing into a single Iconik-centered workflow.",
-          "url": "https://www.sportsvideo.org/2026/04/09/nab-2026-backlight-to-showcase-iconik-and-wildmoka-integration/",
-          "published": "2026-04-09",
-          "source": "Sports Video Group"
+          "title": "Authenticity metadata is moving to the camera edge, not staying a downstream verification step.",
+          "url": "https://www.newscaststudio.com/2026/04/06/nab-show-perspectives-why-content-authenticity-matters-now-and-how-to-build-trust-into-every-frame/",
+          "published": "2026-04-06",
+          "source": "NewscastStudio"
         },
         {
-          "title": "LucidLink Connect GA turns external cloud drives and workflow tools into one accessible filespace without migrations.",
-          "url": "https://www.lucidlink.com/blog/lucidlink-connect-integrations",
-          "published": "2026-04-16",
-          "source": "LucidLink"
+          "title": "NAB workflow messaging is hardening around AI-native service chains for metadata, localization, captioning, and formatting.",
+          "url": "https://www.newscaststudio.com/2026/04/13/the-trends-and-topics-driving-the-conversation-at-the-2026-nab-show/",
+          "published": "2026-04-13",
+          "source": "NewscastStudio"
         },
         {
-          "title": "LucidLink is explicitly positioning storage as the programmable start of workflow rather than passive capacity.",
-          "url": "https://www.lucidlink.com/blog/nab-2026",
-          "published": "2026-04-16",
-          "source": "LucidLink"
+          "title": "TAMS still deserves watch-list attention as an open, edit-by-reference alternative to file-copy-heavy workflows.",
+          "url": "https://timeaddressablemediastore.org/",
+          "published": "2026-04-22",
+          "source": "TAMS"
         }
       ]
     },
@@ -124,16 +117,16 @@
       "title": "Technical",
       "items": [
         {
-          "title": "AWS’s multimodal video search reference architecture shows a concrete path to segment-level retrieval across visual, audio, transcript, and metadata signals.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/",
-          "published": "2026-04-17",
-          "source": "AWS"
+          "title": "LiveU and Sony’s tighter file-based integration reinforces that C2C value comes from usable downstream assets and metadata continuity.",
+          "url": "https://www.newscaststudio.com/2026/04/14/liveu-expands-support-for-sony-file-based-workflows-across-its-ecosystem/",
+          "published": "2026-04-14",
+          "source": "NewscastStudio"
         },
         {
-          "title": "ISG Pro signals that distributed ingest throughput and failover are becoming first-class workflow product concerns.",
-          "url": "https://www.sportsvideo.org/2026/04/09/nab-2026-backlight-to-showcase-iconik-and-wildmoka-integration/",
-          "published": "2026-04-09",
-          "source": "Sports Video Group"
+          "title": "Wowza’s live-stage video intelligence points toward earlier metadata extraction and clip generation inside ingest pipelines.",
+          "url": "https://www.provideocoalition.com/nab-show-2026-day-1-breakthroughs-in-virtual-production-and-workflow-integration/",
+          "published": "2026-04-20",
+          "source": "ProVideo Coalition"
         }
       ]
     },
@@ -141,10 +134,10 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Platform-native derivative publishing is being built into the primary workflow through AI clipping, transcript editing, multilingual captions, and vertical reformats.",
-          "url": "https://www.sportsvideo.org/2026/04/09/nab-2026-backlight-to-showcase-iconik-and-wildmoka-integration/",
-          "published": "2026-04-09",
-          "source": "Sports Video Group"
+          "title": "Younger-audience reach still favours TikTok, Instagram, and creator-like video formats, keeping platform-native packaging pressure high.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01-20",
+          "source": "Reuters Institute"
         }
       ]
     },
@@ -152,9 +145,9 @@
       "title": "Watching",
       "items": [
         {
-          "title": "The recurring pattern is an integrated newsroom control plane where storage, metadata, clipping, publishing, and governance are expected to coexist in one operational layer.",
-          "url": "https://www.lucidlink.com/blog/nab-2026",
-          "published": "2026-04-19",
+          "title": "The current pattern is edge-to-output continuity: provenance, metadata, live enrichment, and publish formatting are being pulled closer into one governed chain.",
+          "url": "https://www.newscaststudio.com/2026/04/06/nab-show-perspectives-why-content-authenticity-matters-now-and-how-to-build-trust-into-every-frame/",
+          "published": "2026-04-22",
           "source": "Claw synthesis"
         }
       ]
