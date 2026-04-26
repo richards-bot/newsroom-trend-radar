@@ -1,91 +1,91 @@
 {
-  "updated": "2026-04-22T21:00:00Z",
+  "updated": "2026-04-26T21:00:00Z",
   "meta": {
     "totalSources": 5,
-    "totalItems": 5,
+    "totalItems": 6,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This cycle was quieter than the prior convergence-heavy brief, but the useful signal tightened around continuity across the chain. Provenance metadata is being pushed into camera-originated assets, file-based camera workflows are being tied more tightly into cloud ecosystems, and live video platforms are moving AI metadata and clipping earlier into ingest. For MMR, the implication is straightforward: preserve trust and metadata from capture onward, then use that continuity to make fast multi-platform packaging cheaper."
+    "note": "This was a quieter post-NAB cycle, but the useful signal sharpened rather than vanished. Workflow vendors are thickening the control plane: Frame.io is pushing mounted cloud workspaces, AWS is normalising orchestration between asset systems and AI services, and localization is being designed directly into live pipelines instead of left as a downstream patch. For MMR, the implication is still discipline over gimmicks: preserve metadata continuity, make derivatives cheap, and build a governed workflow layer that can route assets cleanly into platform-native outputs."
   },
   "decisionPanels": [
     {
-      "title": "Treat authenticity metadata as an ingest concern, not a downstream patch",
+      "title": "Assume platform-native distribution is now the default, not a secondary export path",
       "priority": "urgent",
-      "summary": "Sony’s new camera workflow posture suggests provenance metadata will increasingly originate at capture, with C2PA-compliant signatures becoming part of operational video workflows rather than an optional later-stage add-on.",
+      "summary": "Reuters Institute says publishers expect search traffic to fall sharply while prioritising YouTube, TikTok, Instagram, and AI platforms, which means packaging and metadata need to serve distributed surfaces rather than a single owned destination.",
       "actions": [
-        "Check whether current ingest and transcode paths preserve provenance metadata end to end.",
-        "Avoid workflow designs that strip or flatten authenticity data before archive or publish stages.",
-        "Track where C2PA-style provenance could matter for editorial trust and platform distribution."
+        "Pressure-test MMR workflows against a world where discovery is increasingly off-platform.",
+        "Keep vertical, short-form, and reformatted derivative generation on the critical path.",
+        "Treat publish metadata and caption packaging as distribution infrastructure, not editorial cleanup."
       ]
     },
     {
-      "title": "Design Camera to Cloud around metadata continuity, not just transport",
+      "title": "Design the MMR control plane around mounted or streamed access, not file-copy rituals",
       "priority": "high",
-      "summary": "LiveU’s expanded support for Sony file-based workflows is another reminder that the winning C2C stack is the one that carries usable metadata and workflow context straight into downstream systems.",
+      "summary": "Frame.io Drive is another strong signal that competitive workflow stacks are moving toward direct, mounted access to shared media with metadata and permissions attached, reducing the role of duplicate copies and manual sync.",
       "actions": [
-        "Map the metadata handoff points between acquisition, ingest, MAM, and publish stages.",
-        "Prioritise workflows where field-originated assets are immediately usable without manual rewrapping.",
-        "Treat C2C interoperability as a workflow-speed issue, not just a contribution-tech issue."
+        "Keep copy-heavy handoffs under suspicion when designing Phase 2 workflows.",
+        "Map where Guardian still relies on transfer, local staging, or duplicate storage to begin work.",
+        "Prefer architectures that keep access, metadata, and permissions joined to the source asset."
       ]
     },
     {
-      "title": "Move clip extraction and enrichment closer to live ingest",
+      "title": "Treat orchestration between systems as first-class architecture",
       "priority": "high",
-      "summary": "Wowza’s new framework pushes metadata generation, event detection, and clip creation into the live capture stage, which is where fast-turnaround social and highlights workflows increasingly want those capabilities.",
+      "summary": "The qibb + AWS pattern matters because it places workflow orchestration between storage, AI enrichment, MAM, editorial tooling, and distribution rather than burying that logic in bespoke glue code.",
       "actions": [
-        "Evaluate which MMR use cases benefit from metadata and clipping during ingest rather than after archive write.",
-        "Keep event-driven downstream routing in scope for live and near-live workflows.",
-        "Prefer structured output paths over manual highlight extraction loops."
+        "Identify which current MMR joins are still implicit, manual, or hidden inside one-off scripts.",
+        "Prefer event-driven orchestration with observable state over brittle linear handoffs.",
+        "Keep system boundaries explicit so metadata and publish decisions remain auditable."
       ]
     },
     {
-      "title": "Keep creator-native output packaging on the critical path",
+      "title": "Move localization and accessibility decisions into the pipeline definition",
       "priority": "medium",
-      "summary": "Younger-audience distribution still points toward TikTok, Instagram, and creator-like news formats, reinforcing the need for platform-native derivatives rather than polished-master-first publishing.",
+      "summary": "AWS is framing live subtitles, translation, dubbing, and standards choices as modular pipeline components, which is a better posture than bolting them on after the fact.",
       "actions": [
-        "Pressure-test producer workflows for how quickly they can generate vertical and creator-native variants.",
-        "Keep transcript, caption, and formatting automation tied to publish workflows.",
-        "Treat personality-led packaging as a workflow requirement, not just an editorial preference."
+        "Decide where captions, translations, and accessibility metadata belong in MMR’s event flow.",
+        "Record latency and quality trade-offs explicitly for live versus near-live output.",
+        "Avoid workflow designs that make multilingual output a separate manual branch."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the strongest new signal has shifted from broad workflow convergence to chain continuity: provenance at capture, tighter camera-file ecosystem links, and earlier live-stage enrichment for downstream clipping and publishing.",
-    "previousUpdated": "2026-04-19T21:00:00Z",
+    "summary": "Since the previous radar, the strongest new signal has shifted from workflow convergence headlines to implementation texture: mounted access, orchestration layers, live-pipeline localization, and metadata-rich audio are all pushing more editorial capability into infrastructure.",
+    "previousUpdated": "2026-04-22T21:00:00Z",
     "newItems": [
       {
-        "title": "Sony is pushing C2PA-compliant authenticity signatures directly into camera-originated MP4 workflows",
-        "url": "https://www.newscaststudio.com/2026/04/06/nab-show-perspectives-why-content-authenticity-matters-now-and-how-to-build-trust-into-every-frame/",
-        "published": "2026-04-06",
-        "source": "NewscastStudio",
+        "title": "Frame.io Drive mounts cloud projects directly into desktop creative tools, reducing download and duplicate-copy friction",
+        "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
+        "published": "2026-04-15",
+        "source": "Frame.io",
         "section": "Strategic"
       },
       {
-        "title": "NAB 2026 workflow coverage is increasingly framing metadata, localization, captioning, and formatting as AI-native chained services",
-        "url": "https://www.newscaststudio.com/2026/04/13/the-trends-and-topics-driving-the-conversation-at-the-2026-nab-show/",
-        "published": "2026-04-13",
-        "source": "NewscastStudio",
+        "title": "qibb and AWS are positioning low-code orchestration as the workflow layer between storage, AI enrichment, MAM, and distribution",
+        "url": "https://aws.amazon.com/blogs/media/qibb-and-aws-redefine-media-workflows/",
+        "published": "2026-02-20",
+        "source": "AWS",
         "section": "Strategic"
       },
       {
-        "title": "TAMS has appointed its initial Technical Steering Committee as it continues its transition toward fuller open-source governance",
-        "url": "https://timeaddressablemediastore.org/",
-        "published": "2026-04-22",
-        "source": "TAMS",
-        "section": "Strategic"
-      },
-      {
-        "title": "LiveU expanded support for Sony file-based workflows across its ecosystem",
-        "url": "https://www.newscaststudio.com/2026/04/14/liveu-expands-support-for-sony-file-based-workflows-across-its-ecosystem/",
-        "published": "2026-04-14",
-        "source": "NewscastStudio",
+        "title": "AWS published a live-stream localization and accessibility architecture built around modular pipeline integration points",
+        "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
+        "published": "2026-03-31",
+        "source": "AWS",
         "section": "Technical"
       },
       {
-        "title": "Wowza launched a Video Intelligence Framework for real-time metadata, event detection, overlays, and clip generation during live capture",
-        "url": "https://www.provideocoalition.com/nab-show-2026-day-1-breakthroughs-in-virtual-production-and-workflow-integration/",
-        "published": "2026-04-20",
-        "source": "ProVideo Coalition",
+        "title": "AWS and partners are demonstrating cloud-native MPEG-H production that keeps audio objects and metadata active through delivery",
+        "url": "https://aws.amazon.com/blogs/media/unlocking-next-generation-audio-production-with-mpeg-h-on-aws/",
+        "published": "2026-04-10",
+        "source": "AWS",
         "section": "Technical"
+      },
+      {
+        "title": "Reuters Institute says publishers expect sharper search decline and stronger investment in YouTube, TikTok, Instagram, watch tabs, and AI-platform distribution",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+        "published": "2026-01-20",
+        "source": "Reuters Institute",
+        "section": "Audience / Distribution"
       }
     ]
   },
@@ -94,22 +94,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Authenticity metadata is moving to the camera edge, not staying a downstream verification step.",
-          "url": "https://www.newscaststudio.com/2026/04/06/nab-show-perspectives-why-content-authenticity-matters-now-and-how-to-build-trust-into-every-frame/",
-          "published": "2026-04-06",
-          "source": "NewscastStudio"
+          "title": "Mounted cloud workspaces are becoming part of the production surface, not just a review or delivery layer.",
+          "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
+          "published": "2026-04-15",
+          "source": "Frame.io"
         },
         {
-          "title": "NAB workflow messaging is hardening around AI-native service chains for metadata, localization, captioning, and formatting.",
-          "url": "https://www.newscaststudio.com/2026/04/13/the-trends-and-topics-driving-the-conversation-at-the-2026-nab-show/",
-          "published": "2026-04-13",
-          "source": "NewscastStudio"
-        },
-        {
-          "title": "TAMS still deserves watch-list attention as an open, edit-by-reference alternative to file-copy-heavy workflows.",
-          "url": "https://timeaddressablemediastore.org/",
-          "published": "2026-04-22",
-          "source": "TAMS"
+          "title": "Workflow orchestration is emerging as its own control layer between storage, AI services, MAMs, and distribution.",
+          "url": "https://aws.amazon.com/blogs/media/qibb-and-aws-redefine-media-workflows/",
+          "published": "2026-02-20",
+          "source": "AWS"
         }
       ]
     },
@@ -117,16 +111,16 @@
       "title": "Technical",
       "items": [
         {
-          "title": "LiveU and Sony’s tighter file-based integration reinforces that C2C value comes from usable downstream assets and metadata continuity.",
-          "url": "https://www.newscaststudio.com/2026/04/14/liveu-expands-support-for-sony-file-based-workflows-across-its-ecosystem/",
-          "published": "2026-04-14",
-          "source": "NewscastStudio"
+          "title": "Localization is being designed as modular pipeline infrastructure inside live media stacks rather than an external post-process.",
+          "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
+          "published": "2026-03-31",
+          "source": "AWS"
         },
         {
-          "title": "Wowza’s live-stage video intelligence points toward earlier metadata extraction and clip generation inside ingest pipelines.",
-          "url": "https://www.provideocoalition.com/nab-show-2026-day-1-breakthroughs-in-virtual-production-and-workflow-integration/",
-          "published": "2026-04-20",
-          "source": "ProVideo Coalition"
+          "title": "Metadata-rich audio workflows are reaching cloud production too, extending the 'keep the object active' pattern beyond captions and transcripts.",
+          "url": "https://aws.amazon.com/blogs/media/unlocking-next-generation-audio-production-with-mpeg-h-on-aws/",
+          "published": "2026-04-10",
+          "source": "AWS"
         }
       ]
     },
@@ -134,7 +128,7 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Younger-audience reach still favours TikTok, Instagram, and creator-like video formats, keeping platform-native packaging pressure high.",
+          "title": "Publishers are investing harder in YouTube, TikTok, Instagram, watch tabs, and creator-like formats as search and legacy social weaken.",
           "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
           "published": "2026-01-20",
           "source": "Reuters Institute"
@@ -145,9 +139,9 @@
       "title": "Watching",
       "items": [
         {
-          "title": "The current pattern is edge-to-output continuity: provenance, metadata, live enrichment, and publish formatting are being pulled closer into one governed chain.",
-          "url": "https://www.newscaststudio.com/2026/04/06/nab-show-perspectives-why-content-authenticity-matters-now-and-how-to-build-trust-into-every-frame/",
-          "published": "2026-04-22",
+          "title": "The post-NAB implementation pattern is clearer than the headlines: more editorial capability is being pulled upstream into the workflow control plane itself.",
+          "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
+          "published": "2026-04-26",
           "source": "Claw synthesis"
         }
       ]
