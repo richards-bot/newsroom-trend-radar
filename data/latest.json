@@ -1,91 +1,91 @@
 {
-  "updated": "2026-04-26T21:00:00Z",
+  "updated": "2026-04-29T21:00:00Z",
   "meta": {
     "totalSources": 5,
     "totalItems": 6,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This was a quieter post-NAB cycle, but the useful signal sharpened rather than vanished. Workflow vendors are thickening the control plane: Frame.io is pushing mounted cloud workspaces, AWS is normalising orchestration between asset systems and AI services, and localization is being designed directly into live pipelines instead of left as a downstream patch. For MMR, the implication is still discipline over gimmicks: preserve metadata continuity, make derivatives cheap, and build a governed workflow layer that can route assets cleanly into platform-native outputs."
+    "note": "This was a quieter follow-through cycle after the main NAB burst, but the implementation signal got clearer. Avid is embedding AI directly inside editorial surfaces, LucidLink is explicitly framing files and streamed storage access as the substrate for workflow and AI agents, TAMS is showing demonstrable newsroom flows rather than just governance talk, and AWS keeps publishing concrete multimodal video-analysis patterns instead of empty hype. For MMR, the practical answer stays the same: preserve metadata continuity, keep orchestration explicit, and make distribution readiness emerge upstream in the workflow rather than as downstream heroics."
   },
   "decisionPanels": [
     {
-      "title": "Assume platform-native distribution is now the default, not a secondary export path",
+      "title": "Keep workflow-native AI ahead of sidecar AI",
       "priority": "urgent",
-      "summary": "Reuters Institute says publishers expect search traffic to fall sharply while prioritising YouTube, TikTok, Instagram, and AI platforms, which means packaging and metadata need to serve distributed surfaces rather than a single owned destination.",
+      "summary": "Avid and Google are pushing agentic search, metadata enrichment, and AI-assisted asset generation directly into Media Composer and Content Core, which raises the market expectation that intelligence should live inside editorial tools rather than in separate helper apps.",
       "actions": [
-        "Pressure-test MMR workflows against a world where discovery is increasingly off-platform.",
-        "Keep vertical, short-form, and reformatted derivative generation on the critical path.",
-        "Treat publish metadata and caption packaging as distribution infrastructure, not editorial cleanup."
+        "Bias Phase 2 automation toward system-native metadata and in-tool surfaces.",
+        "Avoid AI features that require producers to leave the main workflow just to gain value.",
+        "Treat embedded search, transcript, and metadata actions as the minimum bar for useful AI."
       ]
     },
     {
-      "title": "Design the MMR control plane around mounted or streamed access, not file-copy rituals",
+      "title": "Treat files plus permissions plus streamed access as the real workflow substrate",
       "priority": "high",
-      "summary": "Frame.io Drive is another strong signal that competitive workflow stacks are moving toward direct, mounted access to shared media with metadata and permissions attached, reducing the role of duplicate copies and manual sync.",
+      "summary": "LucidLink is now saying the quiet part out loud: storage is becoming where workflows start, and file systems are emerging as the common interface for humans, tools, and AI agents.",
       "actions": [
-        "Keep copy-heavy handoffs under suspicion when designing Phase 2 workflows.",
-        "Map where Guardian still relies on transfer, local staging, or duplicate storage to begin work.",
-        "Prefer architectures that keep access, metadata, and permissions joined to the source asset."
+        "Keep copy-heavy handoffs under active suspicion in Phase 2 design.",
+        "Map where MMR still breaks metadata and permissions away from the source asset.",
+        "Prefer architectures that let orchestration act on source-adjacent media rather than staged duplicates."
       ]
     },
     {
-      "title": "Treat orchestration between systems as first-class architecture",
+      "title": "Keep TAMS on the serious-watch list until proven otherwise",
       "priority": "high",
-      "summary": "The qibb + AWS pattern matters because it places workflow orchestration between storage, AI enrichment, MAM, editorial tooling, and distribution rather than burying that logic in bespoke glue code.",
+      "summary": "New AWS walkthroughs for fast-turnaround and live-video-intelligence TAMS demos push the signal beyond standards theatre toward actual newsroom workflow demonstration.",
       "actions": [
-        "Identify which current MMR joins are still implicit, manual, or hidden inside one-off scripts.",
-        "Prefer event-driven orchestration with observable state over brittle linear handoffs.",
-        "Keep system boundaries explicit so metadata and publish decisions remain auditable."
+        "Track whether TAMS demos keep expanding from proof-of-concept into operational patterns relevant to newsroom clipping and distribution.",
+        "Use it as a benchmark for what edit-by-reference and time-addressable workflows could unlock versus file-copy flows.",
+        "Watch which vendors start aligning products or APIs around the same model."
       ]
     },
     {
-      "title": "Move localization and accessibility decisions into the pipeline definition",
+      "title": "Use AWS reference architectures as design pattern input, not vendor wallpaper",
       "priority": "medium",
-      "summary": "AWS is framing live subtitles, translation, dubbing, and standards choices as modular pipeline components, which is a better posture than bolting them on after the fact.",
+      "summary": "AWS’s Bedrock video-understanding post is useful because it exposes explicit trade-offs between frame-, clip-, and multimodal-analysis paths instead of pretending one generic AI step does everything.",
       "actions": [
-        "Decide where captions, translations, and accessibility metadata belong in MMR’s event flow.",
-        "Record latency and quality trade-offs explicitly for live versus near-live output.",
-        "Avoid workflow designs that make multilingual output a separate manual branch."
+        "Borrow the architecture patterns for search, QA, clip intelligence, and metadata pipelines where they fit.",
+        "Keep latency, cost, and accuracy trade-offs explicit in any Phase 2 AI design work.",
+        "Prefer composable analysis stages over monolithic 'AI magic' workflow steps."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the strongest new signal has shifted from workflow convergence headlines to implementation texture: mounted access, orchestration layers, live-pipeline localization, and metadata-rich audio are all pushing more editorial capability into infrastructure.",
-    "previousUpdated": "2026-04-22T21:00:00Z",
+    "summary": "Since the previous radar, the main change is a move from broad convergence narratives to more concrete implementation evidence: embedded editorial AI, demonstrable TAMS newsroom flows, explicit Bedrock video-analysis architectures, and more practical hybrid-IP bridge tooling.",
+    "previousUpdated": "2026-04-26T21:00:00Z",
     "newItems": [
       {
-        "title": "Frame.io Drive mounts cloud projects directly into desktop creative tools, reducing download and duplicate-copy friction",
-        "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
-        "published": "2026-04-15",
-        "source": "Frame.io",
+        "title": "Avid and Google are embedding agentic AI, semantic search, and metadata workflows directly into Media Composer and Content Core",
+        "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/NAB-2026-AI-Powered-Video-Creation-with-Avid-and-Google-174570.aspx",
+        "published": "2026-04-28",
+        "source": "Streaming Media",
         "section": "Strategic"
       },
       {
-        "title": "qibb and AWS are positioning low-code orchestration as the workflow layer between storage, AI enrichment, MAM, and distribution",
-        "url": "https://aws.amazon.com/blogs/media/qibb-and-aws-redefine-media-workflows/",
-        "published": "2026-02-20",
-        "source": "AWS",
+        "title": "LucidLink’s NAB 2026 recap sharpens its position that storage is where workflows start and files are the common interface for humans, tools, and AI agents",
+        "url": "https://www.lucidlink.com/blog/nab-2026-highlights",
+        "published": "2026-04-27",
+        "source": "LucidLink",
         "section": "Strategic"
       },
       {
-        "title": "AWS published a live-stream localization and accessibility architecture built around modular pipeline integration points",
-        "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
-        "published": "2026-03-31",
+        "title": "TAMS published AWS walkthroughs for fast-turnaround newsroom workflows and live video intelligence with agentic AI",
+        "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
+        "published": "2026-04-29",
+        "source": "TAMS",
+        "section": "Technical"
+      },
+      {
+        "title": "AWS published a multi-architecture Bedrock reference for scalable video understanding with explicit cost and latency trade-offs",
+        "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-video-insights-at-scale-with-amazon-bedrock-multimodal-models/",
+        "published": "2026-03-25",
         "source": "AWS",
         "section": "Technical"
       },
       {
-        "title": "AWS and partners are demonstrating cloud-native MPEG-H production that keeps audio objects and metadata active through delivery",
-        "url": "https://aws.amazon.com/blogs/media/unlocking-next-generation-audio-production-with-mpeg-h-on-aws/",
-        "published": "2026-04-10",
-        "source": "AWS",
-        "section": "Technical"
-      },
-      {
-        "title": "Reuters Institute says publishers expect sharper search decline and stronger investment in YouTube, TikTok, Instagram, watch tabs, and AI-platform distribution",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-        "published": "2026-01-20",
-        "source": "Reuters Institute",
-        "section": "Audience / Distribution"
+        "title": "AJA BRIDGE LIVE IP is being highlighted as practical transitional infrastructure between ST 2110 and real-world streaming delivery",
+        "url": "https://www.provideocoalition.com/best-in-show-awards-at-nab-2026/",
+        "published": "2026-04-24",
+        "source": "ProVideo Coalition",
+        "section": "Watching"
       }
     ]
   },
@@ -94,16 +94,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Mounted cloud workspaces are becoming part of the production surface, not just a review or delivery layer.",
-          "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
-          "published": "2026-04-15",
-          "source": "Frame.io"
+          "title": "Workflow-native AI inside editorial tools is becoming the market expectation, not a differentiating extra.",
+          "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/NAB-2026-AI-Powered-Video-Creation-with-Avid-and-Google-174570.aspx",
+          "published": "2026-04-28",
+          "source": "Streaming Media"
         },
         {
-          "title": "Workflow orchestration is emerging as its own control layer between storage, AI services, MAMs, and distribution.",
-          "url": "https://aws.amazon.com/blogs/media/qibb-and-aws-redefine-media-workflows/",
-          "published": "2026-02-20",
-          "source": "AWS"
+          "title": "Files, permissions, and streamed access are increasingly being treated as the substrate for workflow orchestration and AI agents.",
+          "url": "https://www.lucidlink.com/blog/nab-2026-highlights",
+          "published": "2026-04-27",
+          "source": "LucidLink"
         }
       ]
     },
@@ -111,15 +111,15 @@
       "title": "Technical",
       "items": [
         {
-          "title": "Localization is being designed as modular pipeline infrastructure inside live media stacks rather than an external post-process.",
-          "url": "https://aws.amazon.com/blogs/media/live-streaming-localization-and-accessibility-using-aws-media-services/",
-          "published": "2026-03-31",
-          "source": "AWS"
+          "title": "TAMS now has fresh public walkthroughs for fast-turnaround workflows and live video intelligence, giving the concept more operational substance.",
+          "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
+          "published": "2026-04-29",
+          "source": "TAMS"
         },
         {
-          "title": "Metadata-rich audio workflows are reaching cloud production too, extending the 'keep the object active' pattern beyond captions and transcripts.",
-          "url": "https://aws.amazon.com/blogs/media/unlocking-next-generation-audio-production-with-mpeg-h-on-aws/",
-          "published": "2026-04-10",
+          "title": "AWS is publishing composable multimodal video-analysis patterns with explicit architecture trade-offs instead of hand-wavy AI claims.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-video-insights-at-scale-with-amazon-bedrock-multimodal-models/",
+          "published": "2026-03-25",
           "source": "AWS"
         }
       ]
@@ -128,10 +128,10 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Publishers are investing harder in YouTube, TikTok, Instagram, watch tabs, and creator-like formats as search and legacy social weaken.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-          "published": "2026-01-20",
-          "source": "Reuters Institute"
+          "title": "Distribution readiness is being pulled upstream into ingest and edit through semantic search, metadata logging, and AI-assisted asset creation.",
+          "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/NAB-2026-AI-Powered-Video-Creation-with-Avid-and-Google-174570.aspx",
+          "published": "2026-04-28",
+          "source": "Streaming Media"
         }
       ]
     },
@@ -139,10 +139,10 @@
       "title": "Watching",
       "items": [
         {
-          "title": "The post-NAB implementation pattern is clearer than the headlines: more editorial capability is being pulled upstream into the workflow control plane itself.",
-          "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
-          "published": "2026-04-26",
-          "source": "Claw synthesis"
+          "title": "Hybrid IP-to-stream bridge tooling is worth watching because standards pressure only matters once it becomes practical newsroom infrastructure.",
+          "url": "https://www.provideocoalition.com/best-in-show-awards-at-nab-2026/",
+          "published": "2026-04-24",
+          "source": "ProVideo Coalition"
         }
       ]
     }
