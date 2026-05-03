@@ -1,90 +1,90 @@
 {
-  "updated": "2026-04-29T21:00:00Z",
+  "updated": "2026-05-03T21:00:00Z",
   "meta": {
     "totalSources": 5,
     "totalItems": 6,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This was a quieter follow-through cycle after the main NAB burst, but the implementation signal got clearer. Avid is embedding AI directly inside editorial surfaces, LucidLink is explicitly framing files and streamed storage access as the substrate for workflow and AI agents, TAMS is showing demonstrable newsroom flows rather than just governance talk, and AWS keeps publishing concrete multimodal video-analysis patterns instead of empty hype. For MMR, the practical answer stays the same: preserve metadata continuity, keep orchestration explicit, and make distribution readiness emerge upstream in the workflow rather than as downstream heroics."
+    "note": "This was a quieter post-NAB cycle, but the useful signal got sharper. The strongest pattern is governed workflow intelligence rather than shiny feature theatre: studio-owned AI boundaries on AWS, source-of-truth storage with thin multimodal overlays, and growing emphasis on platform-native packaging from the same source assets. For MMR, the practical direction still looks like one control plane around source media, metadata, and fast derivatives, with operational simplicity and security doing more work than flashy demos."
   },
   "decisionPanels": [
     {
-      "title": "Keep workflow-native AI ahead of sidecar AI",
+      "title": "Keep AI inside controlled infrastructure, not random workflow sidecars",
       "priority": "urgent",
-      "summary": "Avid and Google are pushing agentic search, metadata enrichment, and AI-assisted asset generation directly into Media Composer and Content Core, which raises the market expectation that intelligence should live inside editorial tools rather than in separate helper apps.",
+      "summary": "EngineLab’s AWS pattern is notable because it treats generative AI adoption as a security, IP, and operational-governance problem first, deploying tools inside the customer’s own AWS boundary instead of pushing sensitive media into generic third-party services.",
       "actions": [
-        "Bias Phase 2 automation toward system-native metadata and in-tool surfaces.",
-        "Avoid AI features that require producers to leave the main workflow just to gain value.",
-        "Treat embedded search, transcript, and metadata actions as the minimum bar for useful AI."
+        "Bias any Phase 2 AI experimentation toward in-account or tightly governed deployment models.",
+        "Treat provenance, IP isolation, and operational controls as table stakes for production-facing AI.",
+        "Avoid workflow designs that require sensitive media to leak into loosely controlled helper tools."
       ]
     },
     {
-      "title": "Treat files plus permissions plus streamed access as the real workflow substrate",
+      "title": "A thin workflow overlay may beat a grand platform reset",
       "priority": "high",
-      "summary": "LucidLink is now saying the quiet part out loud: storage is becoming where workflows start, and file systems are emerging as the common interface for humans, tools, and AI agents.",
+      "summary": "AMC Global Media’s PRISM architecture suggests real leverage can come from keeping S3 as a source-of-truth layer and adding multimodal search, generated metadata, and pointers into downstream systems instead of waiting for full estate consolidation.",
       "actions": [
-        "Keep copy-heavy handoffs under active suspicion in Phase 2 design.",
-        "Map where MMR still breaks metadata and permissions away from the source asset.",
-        "Prefer architectures that let orchestration act on source-adjacent media rather than staged duplicates."
+        "Look for Phase 2 opportunities where orchestration and search can sit above the existing stack instead of replacing it.",
+        "Map which MMR pain points are actually discovery, metadata, and routing problems rather than platform problems.",
+        "Prefer pointer-based and source-adjacent patterns over copy-heavy synchronization where possible."
       ]
     },
     {
-      "title": "Keep TAMS on the serious-watch list until proven otherwise",
+      "title": "Configuration labour is still the tax to kill",
       "priority": "high",
-      "summary": "New AWS walkthroughs for fast-turnaround and live-video-intelligence TAMS demos push the signal beyond standards theatre toward actual newsroom workflow demonstration.",
+      "summary": "AWS’s MXL argument is that compute is getting cheap while setup complexity remains expensive, which mirrors the broader workflow problem across cloud and file-based media systems.",
       "actions": [
-        "Track whether TAMS demos keep expanding from proof-of-concept into operational patterns relevant to newsroom clipping and distribution.",
-        "Use it as a benchmark for what edit-by-reference and time-addressable workflows could unlock versus file-copy flows.",
-        "Watch which vendors start aligning products or APIs around the same model."
+        "Prioritize reducing setup friction, routing complexity, and producer/admin overhead in Phase 2 design.",
+        "Judge workflow changes by how much operational toil they remove, not just by infrastructure elegance.",
+        "Keep orchestration, defaults, and automation close to the real user path."
       ]
     },
     {
-      "title": "Use AWS reference architectures as design pattern input, not vendor wallpaper",
+      "title": "Keep TAMS under active watch as demos become more operational",
       "priority": "medium",
-      "summary": "AWS’s Bedrock video-understanding post is useful because it exposes explicit trade-offs between frame-, clip-, and multimodal-analysis paths instead of pretending one generic AI step does everything.",
+      "summary": "Fresh AWS walkthroughs for fast-turnaround and live-video-intelligence TAMS demos keep edit-by-reference in the serious-watch bucket because the story is inching closer to recognisable newsroom use cases.",
       "actions": [
-        "Borrow the architecture patterns for search, QA, clip intelligence, and metadata pipelines where they fit.",
-        "Keep latency, cost, and accuracy trade-offs explicit in any Phase 2 AI design work.",
-        "Prefer composable analysis stages over monolithic 'AI magic' workflow steps."
+        "Track whether TAMS examples keep moving from standards demos to repeatable newsroom workflow patterns.",
+        "Use TAMS as a benchmark for what copy-light workflows could unlock versus current file handoff patterns.",
+        "Watch for vendor/API alignment that would make practical adoption less theoretical."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the main change is a move from broad convergence narratives to more concrete implementation evidence: embedded editorial AI, demonstrable TAMS newsroom flows, explicit Bedrock video-analysis architectures, and more practical hybrid-IP bridge tooling.",
-    "previousUpdated": "2026-04-26T21:00:00Z",
+    "summary": "Since the previous radar, the main change is not a flood of new launches but a clearer operating pattern: governed AI inside owned infrastructure, overlay-style multimodal workflow layers, continued pressure toward platform-native derivatives, and more explicit focus on setup toil as the real enemy.",
+    "previousUpdated": "2026-04-29T21:00:00Z",
     "newItems": [
       {
-        "title": "Avid and Google are embedding agentic AI, semantic search, and metadata workflows directly into Media Composer and Content Core",
-        "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/NAB-2026-AI-Powered-Video-Creation-with-Avid-and-Google-174570.aspx",
-        "published": "2026-04-28",
-        "source": "Streaming Media",
+        "title": "EngineLab is packaging production-grade generative AI inside studio-owned AWS environments with explicit security and IP controls",
+        "url": "https://aws.amazon.com/blogs/media/enginelab-ai-production-ready-ai-for-studios-and-creators-on-aws/",
+        "published": "2026-04-17",
+        "source": "AWS",
         "section": "Strategic"
       },
       {
-        "title": "LucidLink’s NAB 2026 recap sharpens its position that storage is where workflows start and files are the common interface for humans, tools, and AI agents",
-        "url": "https://www.lucidlink.com/blog/nab-2026-highlights",
+        "title": "AWS partner interviews sharpen the industry consensus around speed, personalization, semantic reuse, and source-adjacent content access",
+        "url": "https://aws.amazon.com/blogs/media/aws-partners-driving-ai-adoption-and-bringing-the-future-to-life-for-media-and-entertainment-customers-worldwide/",
         "published": "2026-04-27",
-        "source": "LucidLink",
+        "source": "AWS",
         "section": "Strategic"
       },
       {
-        "title": "TAMS published AWS walkthroughs for fast-turnaround newsroom workflows and live video intelligence with agentic AI",
-        "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
-        "published": "2026-04-29",
-        "source": "TAMS",
+        "title": "AMC Global Media’s PRISM stack shows a practical multimodal MAM-overlay pattern using S3, TwelveLabs, and Bedrock",
+        "url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=174529",
+        "published": "2026-04-26",
+        "source": "Streaming Media",
         "section": "Technical"
       },
       {
-        "title": "AWS published a multi-architecture Bedrock reference for scalable video understanding with explicit cost and latency trade-offs",
-        "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-video-insights-at-scale-with-amazon-bedrock-multimodal-models/",
-        "published": "2026-03-25",
+        "title": "AWS’s MXL piece argues that configuration labour, not compute cost, is the real blocker to cloud live production",
+        "url": "https://aws.amazon.com/blogs/media/mxl-is-the-foundation-heres-what-it-takes-to-build-the-house/",
+        "published": "2026-04-18",
         "source": "AWS",
         "section": "Technical"
       },
       {
-        "title": "AJA BRIDGE LIVE IP is being highlighted as practical transitional infrastructure between ST 2110 and real-world streaming delivery",
-        "url": "https://www.provideocoalition.com/best-in-show-awards-at-nab-2026/",
-        "published": "2026-04-24",
-        "source": "ProVideo Coalition",
+        "title": "TAMS published AWS walkthroughs for fast-turnaround workflows and live video intelligence with agentic AI",
+        "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
+        "published": "2026-04-29",
+        "source": "TAMS",
         "section": "Watching"
       }
     ]
@@ -94,16 +94,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Workflow-native AI inside editorial tools is becoming the market expectation, not a differentiating extra.",
-          "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/NAB-2026-AI-Powered-Video-Creation-with-Avid-and-Google-174570.aspx",
-          "published": "2026-04-28",
-          "source": "Streaming Media"
+          "title": "Production-facing AI is being reframed as a governance and infrastructure problem, not just a feature race.",
+          "url": "https://aws.amazon.com/blogs/media/enginelab-ai-production-ready-ai-for-studios-and-creators-on-aws/",
+          "published": "2026-04-17",
+          "source": "AWS"
         },
         {
-          "title": "Files, permissions, and streamed access are increasingly being treated as the substrate for workflow orchestration and AI agents.",
-          "url": "https://www.lucidlink.com/blog/nab-2026-highlights",
+          "title": "Speed, personalization, and semantic reuse are hardening into shared workflow assumptions across the AWS partner ecosystem.",
+          "url": "https://aws.amazon.com/blogs/media/aws-partners-driving-ai-adoption-and-bringing-the-future-to-life-for-media-and-entertainment-customers-worldwide/",
           "published": "2026-04-27",
-          "source": "LucidLink"
+          "source": "AWS"
         }
       ]
     },
@@ -111,15 +111,15 @@
       "title": "Technical",
       "items": [
         {
-          "title": "TAMS now has fresh public walkthroughs for fast-turnaround workflows and live video intelligence, giving the concept more operational substance.",
-          "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
-          "published": "2026-04-29",
-          "source": "TAMS"
+          "title": "A source-of-truth storage layer plus multimodal overlay is emerging as a plausible path through fragmented media estates.",
+          "url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=174529",
+          "published": "2026-04-26",
+          "source": "Streaming Media"
         },
         {
-          "title": "AWS is publishing composable multimodal video-analysis patterns with explicit architecture trade-offs instead of hand-wavy AI claims.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-video-insights-at-scale-with-amazon-bedrock-multimodal-models/",
-          "published": "2026-03-25",
+          "title": "Configuration toil is still the economic brake on cloud-native media operations, even when raw compute is cheap.",
+          "url": "https://aws.amazon.com/blogs/media/mxl-is-the-foundation-heres-what-it-takes-to-build-the-house/",
+          "published": "2026-04-18",
           "source": "AWS"
         }
       ]
@@ -128,9 +128,9 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Distribution readiness is being pulled upstream into ingest and edit through semantic search, metadata logging, and AI-assisted asset creation.",
-          "url": "https://www.streamingmedia.com/Articles/News/Online-Video-News/NAB-2026-AI-Powered-Video-Creation-with-Avid-and-Google-174570.aspx",
-          "published": "2026-04-28",
+          "title": "Semantic understanding is increasingly being valued for faster platform-specific packaging from the same source assets, not just archive retrieval.",
+          "url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=174529",
+          "published": "2026-04-26",
           "source": "Streaming Media"
         }
       ]
@@ -139,10 +139,10 @@
       "title": "Watching",
       "items": [
         {
-          "title": "Hybrid IP-to-stream bridge tooling is worth watching because standards pressure only matters once it becomes practical newsroom infrastructure.",
-          "url": "https://www.provideocoalition.com/best-in-show-awards-at-nab-2026/",
-          "published": "2026-04-24",
-          "source": "ProVideo Coalition"
+          "title": "TAMS remains worth watching because public demos are getting closer to real newsroom operations rather than standards abstraction.",
+          "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
+          "published": "2026-04-29",
+          "source": "TAMS"
         }
       ]
     }
