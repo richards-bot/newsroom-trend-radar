@@ -1,87 +1,108 @@
 {
-  "updated": "2026-05-03T21:00:00Z",
+  "updated": "2026-05-06T21:00:00Z",
   "meta": {
-    "totalSources": 5,
-    "totalItems": 6,
+    "totalSources": 7,
+    "totalItems": 8,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This was a quieter post-NAB cycle, but the useful signal got sharper. The strongest pattern is governed workflow intelligence rather than shiny feature theatre: studio-owned AI boundaries on AWS, source-of-truth storage with thin multimodal overlays, and growing emphasis on platform-native packaging from the same source assets. For MMR, the practical direction still looks like one control plane around source media, metadata, and fast derivatives, with operational simplicity and security doing more work than flashy demos."
+    "note": "This cycle’s clearest signal is structural rather than flashy: fewer copies, richer metadata, and more platform-native derivatives. Reuters is effectively calling time on old referral assumptions, while LucidLink, Frame.io, and AWS are all pushing source-adjacent access and semantic enrichment as the new operating model. For MMR, the direction is a tighter control plane around source media, metadata, and rapid repackaging, with AI kept useful but away from latency-critical choke points."
   },
   "decisionPanels": [
     {
-      "title": "Keep AI inside controlled infrastructure, not random workflow sidecars",
+      "title": "Design for platform-native video distribution, not search-era referral recovery",
       "priority": "urgent",
-      "summary": "EngineLab’s AWS pattern is notable because it treats generative AI adoption as a security, IP, and operational-governance problem first, deploying tools inside the customer’s own AWS boundary instead of pushing sensitive media into generic third-party services.",
+      "summary": "Reuters Institute’s 2026 outlook says publishers expect search traffic to drop by more than 40% over three years while investing harder in video, watch tabs, YouTube, TikTok, Instagram, and AI-platform distribution.",
       "actions": [
-        "Bias any Phase 2 AI experimentation toward in-account or tightly governed deployment models.",
-        "Treat provenance, IP isolation, and operational controls as table stakes for production-facing AI.",
-        "Avoid workflow designs that require sensitive media to leak into loosely controlled helper tools."
+        "Assume Phase 2 value comes from faster video packaging and reuse across owned and platform surfaces.",
+        "Treat AI-answer surfaces and native video tabs as real distribution targets, not edge cases.",
+        "Deprioritize workflow bets that mainly optimize classic SEO-era referral patterns."
       ]
     },
     {
-      "title": "A thin workflow overlay may beat a grand platform reset",
+      "title": "Prefer source-adjacent access over copy-heavy workflow plumbing",
       "priority": "high",
-      "summary": "AMC Global Media’s PRISM architecture suggests real leverage can come from keeping S3 as a source-of-truth layer and adding multimodal search, generated metadata, and pointers into downstream systems instead of waiting for full estate consolidation.",
+      "summary": "LucidLink Connect and Frame.io Drive both reinforce the same architectural move: teams want desktop-ready access to media that stays in place, rather than endless download, sync, duplicate, and re-ingest loops.",
       "actions": [
-        "Look for Phase 2 opportunities where orchestration and search can sit above the existing stack instead of replacing it.",
-        "Map which MMR pain points are actually discovery, metadata, and routing problems rather than platform problems.",
-        "Prefer pointer-based and source-adjacent patterns over copy-heavy synchronization where possible."
+        "Bias MMR Phase 2 toward pointer-based and mounted-access patterns where practical.",
+        "Audit where today’s workflow still duplicates assets purely to cross tool boundaries.",
+        "Keep the control plane close to source media and permissions rather than proliferating copies."
       ]
     },
     {
-      "title": "Configuration labour is still the tax to kill",
+      "title": "Use explicit video-understanding tiers instead of one vague AI blob",
       "priority": "high",
-      "summary": "AWS’s MXL argument is that compute is getting cheap while setup complexity remains expensive, which mirrors the broader workflow problem across cloud and file-based media systems.",
+      "summary": "AWS’s multimodal video-insights reference is useful because it separates frame-based, shot-based, and embedding-based analysis, each with distinct cost, latency, and retrieval characteristics.",
       "actions": [
-        "Prioritize reducing setup friction, routing complexity, and producer/admin overhead in Phase 2 design.",
-        "Judge workflow changes by how much operational toil they remove, not just by infrastructure elegance.",
-        "Keep orchestration, defaults, and automation close to the real user path."
+        "Map MMR AI use cases to separate tiers such as transcription/tagging, highlighting, and semantic retrieval.",
+        "Use cost/latency trade-offs explicitly when choosing where to enrich media.",
+        "Treat metadata, search, and retrieval as first-class architecture concerns, not bolt-ons."
       ]
     },
     {
-      "title": "Keep TAMS under active watch as demos become more operational",
+      "title": "Keep AI off the critical path unless it can fail safely",
       "priority": "medium",
-      "summary": "Fresh AWS walkthroughs for fast-turnaround and live-video-intelligence TAMS demos keep edit-by-reference in the serious-watch bucket because the story is inching closer to recognisable newsroom use cases.",
+      "summary": "Streaming workflow guidance is getting more mature: inference workloads should be isolated from deterministic delivery paths, with clear fallback logic when models slow down or disappear.",
       "actions": [
-        "Track whether TAMS examples keep moving from standards demos to repeatable newsroom workflow patterns.",
-        "Use TAMS as a benchmark for what copy-light workflows could unlock versus current file handoff patterns.",
-        "Watch for vendor/API alignment that would make practical adoption less theoretical."
+        "Keep ingest, search, packaging, and enrichment AI decoupled from hard real-time bottlenecks.",
+        "Require graceful fallback paths for any producer-facing or delivery-adjacent AI function.",
+        "Measure operational stability, not just model cleverness, when evaluating workflow AI."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the main change is not a flood of new launches but a clearer operating pattern: governed AI inside owned infrastructure, overlay-style multimodal workflow layers, continued pressure toward platform-native derivatives, and more explicit focus on setup toil as the real enemy.",
-    "previousUpdated": "2026-04-29T21:00:00Z",
+    "summary": "Since the previous radar, the main change is a stronger convergence around copy-light access, semantic workflow enrichment, and platform-native distribution. The strongest new pressure is on audience/distribution assumptions: publishers are openly planning for weaker search referrals and heavier video/platform dependence.",
+    "previousUpdated": "2026-05-03T21:00:00Z",
     "newItems": [
       {
-        "title": "EngineLab is packaging production-grade generative AI inside studio-owned AWS environments with explicit security and IP controls",
-        "url": "https://aws.amazon.com/blogs/media/enginelab-ai-production-ready-ai-for-studios-and-creators-on-aws/",
-        "published": "2026-04-17",
-        "source": "AWS",
+        "title": "Reuters says publishers expect search traffic to fall more than 40% while investing more in video, watch tabs, and AI-platform distribution",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+        "published": "2026-01-20",
+        "source": "Reuters Institute",
         "section": "Strategic"
       },
       {
-        "title": "AWS partner interviews sharpen the industry consensus around speed, personalization, semantic reuse, and source-adjacent content access",
-        "url": "https://aws.amazon.com/blogs/media/aws-partners-driving-ai-adoption-and-bringing-the-future-to-life-for-media-and-entertainment-customers-worldwide/",
-        "published": "2026-04-27",
-        "source": "AWS",
+        "title": "LucidLink Connect is being positioned as a no-migration way to expose S3, cloud drives, and workflow-tool data inside one filespace",
+        "url": "https://www.lucidlink.com/blog/nab-2026-highlights",
+        "published": "2026-05-01",
+        "source": "LucidLink",
         "section": "Strategic"
       },
       {
-        "title": "AMC Global Media’s PRISM stack shows a practical multimodal MAM-overlay pattern using S3, TwelveLabs, and Bedrock",
-        "url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=174529",
-        "published": "2026-04-26",
+        "title": "Frame.io Drive mounts project media to the desktop and streams files on demand instead of forcing sync and download loops",
+        "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
+        "published": "2026-04-15",
+        "source": "Frame.io",
+        "section": "Strategic"
+      },
+      {
+        "title": "AWS published a serverless reference architecture for frame-based, shot-based, and embedding-based multimodal video understanding",
+        "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-video-insights-at-scale-with-amazon-bedrock-multimodal-models/",
+        "published": "2026-03-25",
+        "source": "AWS",
+        "section": "Technical"
+      },
+      {
+        "title": "AWS MediaConnect now supports NDI sources in VPCs and converts them into transport-stream outputs for downstream services",
+        "url": "https://aws.amazon.com/blogs/media/distribute-ndi-content-from-aws-with-aws-elemental-mediaconnect/",
+        "published": "2026-04-02",
+        "source": "AWS",
+        "section": "Technical"
+      },
+      {
+        "title": "Streaming workflow guidance now explicitly recommends isolating AI inference from latency-critical delivery paths and designing deterministic fallback behaviour",
+        "url": "https://www.streamingmedia.com/Articles/Post/Blog/How-Streaming-Platforms-Can-Operationalize-AI-Without-Compromising-Performance-174642.aspx",
+        "published": "2026-04-29",
         "source": "Streaming Media",
         "section": "Technical"
       },
       {
-        "title": "AWS’s MXL piece argues that configuration labour, not compute cost, is the real blocker to cloud live production",
-        "url": "https://aws.amazon.com/blogs/media/mxl-is-the-foundation-heres-what-it-takes-to-build-the-house/",
-        "published": "2026-04-18",
-        "source": "AWS",
-        "section": "Technical"
+        "title": "Reuters Institute says publishers are adding dedicated video tabs and creator-style formats to reach younger audiences on owned and platform surfaces",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
+        "published": "2026-03-24",
+        "source": "Reuters Institute",
+        "section": "Audience / Distribution"
       },
       {
-        "title": "TAMS published AWS walkthroughs for fast-turnaround workflows and live video intelligence with agentic AI",
+        "title": "TAMS continues to frame edit-by-reference and segment-level access as practical workflow acceleration rather than abstract standards work",
         "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
         "published": "2026-04-29",
         "source": "TAMS",
@@ -94,16 +115,22 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Production-facing AI is being reframed as a governance and infrastructure problem, not just a feature race.",
-          "url": "https://aws.amazon.com/blogs/media/enginelab-ai-production-ready-ai-for-studios-and-creators-on-aws/",
-          "published": "2026-04-17",
-          "source": "AWS"
+          "title": "Publishers are planning for weaker search referrals and heavier dependence on video, watch tabs, and AI/platform distribution.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+          "published": "2026-01-20",
+          "source": "Reuters Institute"
         },
         {
-          "title": "Speed, personalization, and semantic reuse are hardening into shared workflow assumptions across the AWS partner ecosystem.",
-          "url": "https://aws.amazon.com/blogs/media/aws-partners-driving-ai-adoption-and-bringing-the-future-to-life-for-media-and-entertainment-customers-worldwide/",
-          "published": "2026-04-27",
-          "source": "AWS"
+          "title": "LucidLink is pushing a source-in-place workflow model where storage becomes the operational starting point for collaboration and automation.",
+          "url": "https://www.lucidlink.com/blog/nab-2026-highlights",
+          "published": "2026-05-01",
+          "source": "LucidLink"
+        },
+        {
+          "title": "Frame.io Drive extends review infrastructure upstream into working storage by mounting cloud media directly on creative desktops.",
+          "url": "https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/",
+          "published": "2026-04-15",
+          "source": "Frame.io"
         }
       ]
     },
@@ -111,16 +138,22 @@
       "title": "Technical",
       "items": [
         {
-          "title": "A source-of-truth storage layer plus multimodal overlay is emerging as a plausible path through fragmented media estates.",
-          "url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=174529",
-          "published": "2026-04-26",
-          "source": "Streaming Media"
+          "title": "AWS’s multimodal video reference cleanly separates frame, shot, and embedding workflows for different retrieval and metadata jobs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-video-insights-at-scale-with-amazon-bedrock-multimodal-models/",
+          "published": "2026-03-25",
+          "source": "AWS"
         },
         {
-          "title": "Configuration toil is still the economic brake on cloud-native media operations, even when raw compute is cheap.",
-          "url": "https://aws.amazon.com/blogs/media/mxl-is-the-foundation-heres-what-it-takes-to-build-the-house/",
-          "published": "2026-04-18",
+          "title": "NDI-to-cloud conversion via MediaConnect gives a clearer bridge from IP-native acquisition into managed AWS video pipelines.",
+          "url": "https://aws.amazon.com/blogs/media/distribute-ndi-content-from-aws-with-aws-elemental-mediaconnect/",
+          "published": "2026-04-02",
           "source": "AWS"
+        },
+        {
+          "title": "Production AI guidance is maturing toward isolation, fallback, and workload-tiering instead of spraying inference into every critical path.",
+          "url": "https://www.streamingmedia.com/Articles/Post/Blog/How-Streaming-Platforms-Can-Operationalize-AI-Without-Compromising-Performance-174642.aspx",
+          "published": "2026-04-29",
+          "source": "Streaming Media"
         }
       ]
     },
@@ -128,10 +161,10 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Semantic understanding is increasingly being valued for faster platform-specific packaging from the same source assets, not just archive retrieval.",
-          "url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=174529",
-          "published": "2026-04-26",
-          "source": "Streaming Media"
+          "title": "Dedicated video tabs, creator-style packaging, and platform-native news experiences are moving closer to the core publisher product.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/understanding-young-news-audiences-time-rapid-change",
+          "published": "2026-03-24",
+          "source": "Reuters Institute"
         }
       ]
     },
@@ -139,7 +172,7 @@
       "title": "Watching",
       "items": [
         {
-          "title": "TAMS remains worth watching because public demos are getting closer to real newsroom operations rather than standards abstraction.",
+          "title": "TAMS remains a serious benchmark for segment-level, edit-by-reference workflow design if current demos keep turning into repeatable operations.",
           "url": "https://timeaddressablemediastore.org/2026/04/29/NAB2026-videos.html",
           "published": "2026-04-29",
           "source": "TAMS"
