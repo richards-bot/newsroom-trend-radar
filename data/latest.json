@@ -1,105 +1,98 @@
 {
-  "updated": "2026-05-13T21:00:00Z",
+  "updated": "2026-05-17T21:00:00Z",
   "meta": {
-    "totalSources": 6,
-    "totalItems": 7,
+    "totalSources": 5,
+    "totalItems": 6,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This cycle’s strongest signal is practical, not theoretical: vertical derivatives, storage pressure, and AI metadata are collapsing into the same workflow design problem. The clearest new examples are AWS/Fox turning live moments into 9:16 clips in 20–30 seconds, LucidLink pushing copy-light access across external systems, and Backlight publishing hard numbers on storage, audio growth, and vertical output. For MMR, the implication is to build around reusable source media, structured context, and rapid repackaging rather than manual export chains. Standards motion matters too: IPMX now looks more like an ecosystem to track than a future promise."
+    "note": "This cycle is quieter, but the signal is cleaner. AI-mediated consumption, younger audiences following platform-native audio/video brands, and tighter provenance-plus-metadata workflows are all pointing at the same design pressure: context and packaging matter more than destination pages. The most useful concrete references this week are AWS/S4C’s standards-compliant Freely pipeline, Reuters’ reporting on video-first podcast and no-website audience models, and Blackmagic/Sony pushing semantic search, slate metadata, cloud collaboration, and capture-edge authenticity further upstream. For MMR, the implication is to keep building around reusable source media, durable metadata, and cheap multi-format derivatives rather than brittle handoff chains."
   },
   "decisionPanels": [
     {
-      "title": "Design Phase 2 for vertical-first derivative production, not occasional social export",
+      "title": "Assume AI and platforms increasingly sit between the newsroom and the audience",
       "priority": "urgent",
-      "summary": "Backlight’s 2026 stats and AWS’s Fox Sports workflow both point the same way: vertical output demand is rising fast, and the winning operating model is rapid automated repackaging from source media rather than manual clip creation.",
+      "summary": "Reuters’ Newsrewired signals that publisher value is shifting from click capture toward trust, context, attribution, and provenance as AI becomes a primary interface layer.",
       "actions": [
-        "Treat 9:16 output as a core workflow path in MMR Phase 2, not a bolt-on export preset.",
-        "Model live and near-live clipping flows around fast reviewable derivatives from source footage.",
-        "Plan storage, metadata, and publishing steps as one pipeline instead of separate handoffs."
+        "Prioritise citation-ready metadata and provenance in Phase 2 workflows.",
+        "Design content packaging for AI-mediated and platform-mediated discovery, not just owned-site traffic.",
+        "Treat structured context as a product requirement, not editorial garnish."
       ]
     },
     {
-      "title": "Keep external systems in place and make access copy-light",
+      "title": "Build for cross-platform audio/video brands, not website-first audience journeys",
       "priority": "high",
-      "summary": "LucidLink Connect’s GA integrations reinforce that media workflows are moving toward one operational filespace over many underlying systems rather than endless download, duplicate, and re-upload loops.",
+      "summary": "Reuters’ Be Water and podcasting coverage both point to younger audiences being won through native audio/video formats, personalities, and repeatable platform packaging rather than homepage loyalty.",
       "actions": [
-        "Audit where MMR still duplicates media just to cross tool boundaries.",
-        "Prefer pointer-based or mounted-access patterns over migration-heavy integration where practical.",
-        "Keep permissions and source-of-truth logic close to origin systems."
+        "Model 3× video podcast output as a core repeatable workflow.",
+        "Optimise capture, edit, and publishing for dual audio/video outputs plus short-form derivatives.",
+        "Support format-native packaging and retention loops across YouTube, TikTok, Instagram, and messaging surfaces."
       ]
     },
     {
-      "title": "Build AI around context, retrieval, and structure — not just model calls",
+      "title": "Use standards-aware cloud pipelines as the default reference model for connected-TV and premium video delivery",
       "priority": "high",
-      "summary": "Reuters’ AI forecasts and TwelveLabs’ context-engineering framing both suggest the durable edge is structured context, verification, and reusable metadata rather than simply adding a bigger model to the workflow.",
+      "summary": "AWS and S4C show a lean team can ship a compliant OTT pipeline with adaptive streaming, subtitle standards, accessibility metadata, multilingual support, monetisation, and audience measurement on managed media services.",
       "actions": [
-        "Treat metadata schemas, retrieval paths, and citation-ready outputs as first-class architecture.",
-        "Separate context writing, selection, compression, and isolation in AI workflow design.",
-        "Assume answer-economy distribution will reward well-structured media more than page-shaped content alone."
+        "Keep standards compliance and accessibility metadata in the architecture from the start.",
+        "Use managed pipeline components where they reduce operational drag without hiding critical workflow logic.",
+        "Map which Guardian outputs need similar metadata and delivery guarantees."
       ]
     },
     {
-      "title": "Track IP/video standards by deployable ecosystem, not conference rhetoric",
+      "title": "Move provenance and semantic metadata closer to acquisition and edit",
       "priority": "medium",
-      "summary": "IPMX moving into certified products, demos, and training is a better signal than general standards chatter because it suggests an ecosystem that can actually influence facility-to-cloud design choices.",
+      "summary": "Blackmagic and Sony are both tightening the loop between capture, metadata extraction, semantic search, collaboration, and authenticity signals inside production tooling.",
       "actions": [
-        "Watch where IPMX products and certifications show up in real newsroom or production deployments.",
-        "Use deployability as the filter for future ST 2110/IP ingest bets.",
-        "Map which standards moves could materially affect Blackmagic/C2C or future live ingest paths."
+        "Design ingest so slate/context metadata lands cleanly and early.",
+        "Preserve provenance/authenticity fields through downstream transforms where possible.",
+        "Avoid sidecar logging flows that depend on manual re-entry or late-stage patching."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the signal got more operational and less conceptual. The new weight is on vertical-first publishing, hard evidence of storage and audio growth, stronger copy-light integration patterns, and a sharper view that AI value depends on context engineering and structured workflow design rather than generic model adoption.",
-    "previousUpdated": "2026-05-06T21:00:00Z",
+    "summary": "Since the previous radar, the signal has shifted from vertical-video throughput and copy-light access toward a slightly broader workflow picture: AI as the audience interface, youth reach via no-website audio/video brands, standards-compliant OTT delivery, and provenance/semantic metadata moving closer to acquisition and editorial tools.",
+    "previousUpdated": "2026-05-13T21:00:00Z",
     "newItems": [
       {
-        "title": "Backlight’s 2026 Iconik Media Stats Report says video consumes 64% of storage, vertical publishing rose 120%, audio assets grew 45%, and AI features were used 11.4M times in 2025",
-        "url": "https://www.backlight.co/resource/2026-iconik-media-stats-report",
-        "published": "2026-02-03",
-        "source": "Backlight",
-        "section": "Strategic"
-      },
-      {
-        "title": "AWS and Fox Sports published a live workflow that turns detected moments into reviewable 9:16 clips within 20–30 seconds",
-        "url": "https://aws.amazon.com/blogs/media/how-aws-built-a-live-ai-powered-vertical-video-capability-for-fox-sports-with-aws-elemental-inference/",
-        "published": "2026-02-23",
-        "source": "AWS",
-        "section": "Strategic"
-      },
-      {
-        "title": "LucidLink Connect integrations are now GA across major cloud drives and workflow tools without migration or duplication",
-        "url": "https://www.lucidlink.com/blog/lucidlink-connect-integrations",
-        "published": "2026-05-12",
-        "source": "LucidLink",
-        "section": "Strategic"
-      },
-      {
-        "title": "Reuters Institute’s 2026 AI forecasts say audiences will increasingly access news through AI while newsrooms invest in automation, verification, and AI infrastructure",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/news/how-will-ai-reshape-news-2026-forecasts-17-experts-around-world",
-        "published": "2026-01-06",
+        "title": "Newsrewired 2026 argues AI is becoming the primary interface for media consumption, pushing publisher value toward trust, context, attribution, and provenance",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/news/five-things-we-learned-newsrewired-2026-about-future-news",
+        "published": "2026-05-15",
         "source": "Reuters Institute",
         "section": "Strategic"
       },
       {
-        "title": "IPMX is shifting from specification to deployment with certified products, training, and demos bridging AV-over-IP and ST 2110-class environments",
-        "url": "https://www.nordicmedia.news/the-ip-showcase-returns-to-the-2026-nab-show-as-ipmx-transitions-from-specification-to-deployment/",
-        "published": "2026-03-26",
-        "source": "Nordic Media News / AIMS",
+        "title": "AWS and S4C published a real-world Freely delivery architecture covering DVB-DASH, EBU-TT-D subtitles, accessibility metadata, multilingual support, monetisation, and measurement",
+        "url": "https://aws.amazon.com/blogs/media/s4c-on-freely-how-a-local-broadcaster-delivered-a-complex-live-tv-workflow-with-aws-elemental-media-services/",
+        "published": "2026-05-14",
+        "source": "AWS",
+        "section": "Strategic"
+      },
+      {
+        "title": "Reuters profiled Be Water’s profitable no-website audio/video media model reaching younger audiences across podcasts, social explainers, and video shows",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/news/audio-video-and-no-news-site-young-company-rewiring-italys-ageing-media-landscape",
+        "published": "2026-04-30",
+        "source": "Reuters Institute",
+        "section": "Audience / Distribution"
+      },
+      {
+        "title": "DaVinci Resolve 21 adds AI IntelliSearch, AI Slate ID, and deeper Blackmagic Cloud collaboration inside the core editorial workflow",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+        "published": "2026-05-15",
+        "source": "Blackmagic Design",
         "section": "Technical"
       },
       {
-        "title": "TwelveLabs frames reliable video AI as a context-engineering problem built on writing, selecting, compressing, and isolating context",
-        "url": "https://www.twelvelabs.io/blog/context-engineering-for-video-understanding",
-        "published": "2026-05-13",
-        "source": "TwelveLabs",
+        "title": "Sony’s NAB 2026 direction pairs cloud media processing with C2PA-enabled capture and metadata-driven verification workflows",
+        "url": "https://www.provideocoalition.com/nab-show-2026-day-3-gear-glass-gimbals-best-in-show/",
+        "published": "2026-04-22",
+        "source": "ProVideo Coalition / Sony",
         "section": "Technical"
       },
       {
-        "title": "TAMS continues to position object-storage-native, segment-addressable, edit-by-reference workflows as a practical shared-store model across broadcast, post, social, and VOD",
-        "url": "https://timeaddressablemediastore.org/",
-        "published": "2026-05-13",
-        "source": "TAMS",
-        "section": "Watching"
+        "title": "Reuters says news podcasting growth is concentrating in video/hybrid and conversational show formats with younger, loyal, and more monetisable audiences",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/news/our-podcast-whats-changing-world-news-podcasts",
+        "published": "2026-05-15",
+        "source": "Reuters Institute",
+        "section": "Audience / Distribution"
       }
     ]
   },
@@ -108,28 +101,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "Backlight’s 2026 stats make the workflow pressure visible: video dominates storage, audio is growing fast, vertical output is surging, and AI metadata usage is no longer niche.",
-          "url": "https://www.backlight.co/resource/2026-iconik-media-stats-report",
-          "published": "2026-02-03",
-          "source": "Backlight"
-        },
-        {
-          "title": "AWS’s Fox Sports example is the clearest recent reference for near-live vertical clip automation inside a unified review and distribution workflow.",
-          "url": "https://aws.amazon.com/blogs/media/how-aws-built-a-live-ai-powered-vertical-video-capability-for-fox-sports-with-aws-elemental-inference/",
-          "published": "2026-02-23",
-          "source": "AWS"
-        },
-        {
-          "title": "LucidLink Connect GA strengthens the one-filespace, source-in-place model across external cloud drives and workflow tools.",
-          "url": "https://www.lucidlink.com/blog/lucidlink-connect-integrations",
-          "published": "2026-05-12",
-          "source": "LucidLink"
-        },
-        {
-          "title": "Reuters’ AI forecast suggests media products and workflows must be shaped for AI-mediated discovery and answer-economy consumption, not just page views.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/news/how-will-ai-reshape-news-2026-forecasts-17-experts-around-world",
-          "published": "2026-01-06",
+          "title": "AI is becoming the primary interface for media consumption, which makes trust, context, attribution, and provenance more strategic than raw click volume.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/five-things-we-learned-newsrewired-2026-about-future-news",
+          "published": "2026-05-15",
           "source": "Reuters Institute"
+        },
+        {
+          "title": "S4C’s Freely delivery stack is a good real-world reference for a lean, standards-aware connected-TV pipeline built on managed cloud media services.",
+          "url": "https://aws.amazon.com/blogs/media/s4c-on-freely-how-a-local-broadcaster-delivered-a-complex-live-tv-workflow-with-aws-elemental-media-services/",
+          "published": "2026-05-14",
+          "source": "AWS"
         }
       ]
     },
@@ -137,16 +118,16 @@
       "title": "Technical",
       "items": [
         {
-          "title": "IPMX now looks more like a deployable standards path than an abstract roadmap, especially at the bridge between AV-over-IP, ST 2110-class environments, and cloud-shaped architectures.",
-          "url": "https://www.nordicmedia.news/the-ip-showcase-returns-to-the-2026-nab-show-as-ipmx-transitions-from-specification-to-deployment/",
-          "published": "2026-03-26",
-          "source": "Nordic Media News / AIMS"
+          "title": "Blackmagic is tightening semantic search, slate metadata extraction, and cloud collaboration inside the core editorial surface rather than leaving them to side systems.",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+          "published": "2026-05-15",
+          "source": "Blackmagic Design"
         },
         {
-          "title": "TwelveLabs’ context-engineering model is a good shorthand for designing AI metadata and retrieval systems that stay grounded instead of becoming prompt-hack spaghetti.",
-          "url": "https://www.twelvelabs.io/blog/context-engineering-for-video-understanding",
-          "published": "2026-05-13",
-          "source": "TwelveLabs"
+          "title": "Sony’s direction keeps reinforcing capture-edge provenance and metadata-driven verification as part of the production ecosystem.",
+          "url": "https://www.provideocoalition.com/nab-show-2026-day-3-gear-glass-gimbals-best-in-show/",
+          "published": "2026-04-22",
+          "source": "ProVideo Coalition / Sony"
         }
       ]
     },
@@ -154,10 +135,16 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Vertical output is growing far faster than legacy aspect-ratio workflows, which makes short-form derivatives a central publishing need rather than a side-export.",
-          "url": "https://www.backlight.co/resource/2026-iconik-media-stats-report",
-          "published": "2026-02-03",
-          "source": "Backlight"
+          "title": "Be Water’s no-website model is another strong sign that younger audiences can be aggregated profitably through platform-native audio/video brands rather than destination sites.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/audio-video-and-no-news-site-young-company-rewiring-italys-ageing-media-landscape",
+          "published": "2026-04-30",
+          "source": "Reuters Institute"
+        },
+        {
+          "title": "News podcasting is shifting toward video/hybrid, personality-led, and conversational show formats with stronger retention and monetisation logic.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/our-podcast-whats-changing-world-news-podcasts",
+          "published": "2026-05-15",
+          "source": "Reuters Institute"
         }
       ]
     },
@@ -165,10 +152,10 @@
       "title": "Watching",
       "items": [
         {
-          "title": "TAMS remains one of the clearest benchmarks for segment-level, edit-by-reference workflow thinking over commodity object storage.",
-          "url": "https://timeaddressablemediastore.org/",
-          "published": "2026-05-13",
-          "source": "TAMS"
+          "title": "The pattern to recheck next cycle is whether provenance, semantic metadata, and platform-native packaging start appearing as one joined workflow story across MAM, cloud storage, and editorial vendors rather than as separate features.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/five-things-we-learned-newsrewired-2026-about-future-news",
+          "published": "2026-05-15",
+          "source": "Claw synthesis"
         }
       ]
     }
