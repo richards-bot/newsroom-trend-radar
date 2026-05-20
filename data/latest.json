@@ -1,98 +1,91 @@
 {
-  "updated": "2026-05-17T21:00:00Z",
+  "updated": "2026-05-20T21:00:00Z",
   "meta": {
     "totalSources": 5,
-    "totalItems": 6,
+    "totalItems": 5,
     "curatedBy": "Claw twice-weekly media/workflow intelligence job",
-    "note": "This cycle is quieter, but the signal is cleaner. AI-mediated consumption, younger audiences following platform-native audio/video brands, and tighter provenance-plus-metadata workflows are all pointing at the same design pressure: context and packaging matter more than destination pages. The most useful concrete references this week are AWS/S4C’s standards-compliant Freely pipeline, Reuters’ reporting on video-first podcast and no-website audience models, and Blackmagic/Sony pushing semantic search, slate metadata, cloud collaboration, and capture-edge authenticity further upstream. For MMR, the implication is to keep building around reusable source media, durable metadata, and cheap multi-format derivatives rather than brittle handoff chains."
+    "note": "This was a quieter cycle, but the strategic signal sharpened. The fresh pressure is that rights metadata, provenance/authenticity metadata, and workflow metadata are starting to collapse into one control-plane problem instead of living in separate legal, editorial, and technical silos. The most useful concrete references this week are Reuters on collective AI-rights action, AWS on cloud-native MPEG-H audio metadata, LucidLink on file-streaming-first access, and Blackmagic/Sony continuing to push metadata and authenticity closer to acquisition and edit. For MMR, the implication is to keep designing around governed source media plus durable metadata, not around downstream patching and copy-heavy handoffs."
   },
   "decisionPanels": [
     {
-      "title": "Assume AI and platforms increasingly sit between the newsroom and the audience",
+      "title": "Treat rights and provenance metadata as workflow infrastructure, not legal aftercare",
       "priority": "urgent",
-      "summary": "Reuters’ Newsrewired signals that publisher value is shifting from click capture toward trust, context, attribution, and provenance as AI becomes a primary interface layer.",
+      "summary": "Reuters’ reporting on SPUR and related coalition activity suggests publishers are moving toward shared standards and licensing frameworks for AI-era content use rather than relying only on isolated bilateral deals.",
       "actions": [
-        "Prioritise citation-ready metadata and provenance in Phase 2 workflows.",
-        "Design content packaging for AI-mediated and platform-mediated discovery, not just owned-site traffic.",
-        "Treat structured context as a product requirement, not editorial garnish."
+        "Assume attribution, usage-rights, and provenance fields need cleaner structured handling in Phase 2.",
+        "Design metadata models so rights and origin signals survive ingest and downstream transforms.",
+        "Avoid architectures that make critical context reconstructive or manual."
       ]
     },
     {
-      "title": "Build for cross-platform audio/video brands, not website-first audience journeys",
+      "title": "Keep copy-light access as the default workflow bias",
       "priority": "high",
-      "summary": "Reuters’ Be Water and podcasting coverage both point to younger audiences being won through native audio/video formats, personalities, and repeatable platform packaging rather than homepage loyalty.",
+      "summary": "LucidLink’s latest positioning doubles down on file streaming as the primary access model, reframing the problem as access latency and duplicate movement rather than storage location alone.",
       "actions": [
-        "Model 3× video podcast output as a core repeatable workflow.",
-        "Optimise capture, edit, and publishing for dual audio/video outputs plus short-form derivatives.",
-        "Support format-native packaging and retention loops across YouTube, TikTok, Instagram, and messaging surfaces."
+        "Continue biasing MMR toward shared source media with instant access by reference.",
+        "Treat sync-heavy file handoffs as a cost to justify, not a default habit.",
+        "Prioritise producer workflows that reduce waiting, duplication, and version drift."
       ]
     },
     {
-      "title": "Use standards-aware cloud pipelines as the default reference model for connected-TV and premium video delivery",
+      "title": "Expect editorial tools to absorb semantic search, slate extraction, and authenticity context",
       "priority": "high",
-      "summary": "AWS and S4C show a lean team can ship a compliant OTT pipeline with adaptive streaming, subtitle standards, accessibility metadata, multilingual support, monetisation, and audience measurement on managed media services.",
+      "summary": "Blackmagic and Sony both keep pushing metadata capture, semantic retrieval, and authenticity signals closer to the acquisition/edit surface instead of leaving them to specialist side systems.",
       "actions": [
-        "Keep standards compliance and accessibility metadata in the architecture from the start.",
-        "Use managed pipeline components where they reduce operational drag without hiding critical workflow logic.",
-        "Map which Guardian outputs need similar metadata and delivery guarantees."
+        "Make ingest metadata cleaner and earlier.",
+        "Preserve authenticity/provenance where available instead of dropping it at workflow boundaries.",
+        "Avoid manual sidecar logging patterns that editors will bypass under pressure."
       ]
     },
     {
-      "title": "Move provenance and semantic metadata closer to acquisition and edit",
+      "title": "Audio metadata and accessibility may need to become first-class workflow concerns",
       "priority": "medium",
-      "summary": "Blackmagic and Sony are both tightening the loop between capture, metadata extraction, semantic search, collaboration, and authenticity signals inside production tooling.",
+      "summary": "AWS’s MPEG-H-on-AWS workflow shows cloud pipelines can carry object-based audio, accessibility controls, alternate commentary, and personalized playback metadata as part of the main production path.",
       "actions": [
-        "Design ingest so slate/context metadata lands cleanly and early.",
-        "Preserve provenance/authenticity fields through downstream transforms where possible.",
-        "Avoid sidecar logging flows that depend on manual re-entry or late-stage patching."
+        "Track whether Guardian premium video or video-podcast outputs need richer audio options over time.",
+        "Keep accessibility metadata in scope when evaluating future cloud media patterns.",
+        "Avoid assuming audio remains a fixed final-master problem."
       ]
     }
   ],
   "changes": {
-    "summary": "Since the previous radar, the signal has shifted from vertical-video throughput and copy-light access toward a slightly broader workflow picture: AI as the audience interface, youth reach via no-website audio/video brands, standards-compliant OTT delivery, and provenance/semantic metadata moving closer to acquisition and editorial tools.",
-    "previousUpdated": "2026-05-13T21:00:00Z",
+    "summary": "Since the previous radar, the picture has shifted from audience-interface and video-brand strategy toward a tighter workflow-governance signal: collective AI-rights action, richer audio/provenance metadata in cloud and editorial pipelines, and continued pressure toward copy-light source access.",
+    "previousUpdated": "2026-05-17T21:00:00Z",
     "newItems": [
       {
-        "title": "Newsrewired 2026 argues AI is becoming the primary interface for media consumption, pushing publisher value toward trust, context, attribution, and provenance",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/news/five-things-we-learned-newsrewired-2026-about-future-news",
-        "published": "2026-05-15",
+        "title": "Publishers are increasingly joining shared standards and licensing efforts such as SPUR to defend and monetize journalism in AI-era distribution",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/news/inside-news-industrys-efforts-join-forces-defend-its-journalism-ai-companies",
+        "published": "2026-05-19",
         "source": "Reuters Institute",
         "section": "Strategic"
       },
       {
-        "title": "AWS and S4C published a real-world Freely delivery architecture covering DVB-DASH, EBU-TT-D subtitles, accessibility metadata, multilingual support, monetisation, and measurement",
-        "url": "https://aws.amazon.com/blogs/media/s4c-on-freely-how-a-local-broadcaster-delivered-a-complex-live-tv-workflow-with-aws-elemental-media-services/",
+        "title": "AWS published a cloud-native MPEG-H workflow for object-based audio, accessibility metadata, alternate commentary, and personalized playback",
+        "url": "https://aws.amazon.com/blogs/media/unlocking-next-generation-audio-production-with-mpeg-h-on-aws/",
         "published": "2026-05-14",
         "source": "AWS",
+        "section": "Technical"
+      },
+      {
+        "title": "LucidLink is reframing large-file workflow design around file streaming and instant access instead of download-first file movement",
+        "url": "https://www.lucidlink.com/blog/file-streaming",
+        "published": "2026-05-13",
+        "source": "LucidLink",
         "section": "Strategic"
       },
       {
-        "title": "Reuters profiled Be Water’s profitable no-website audio/video media model reaching younger audiences across podcasts, social explainers, and video shows",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/news/audio-video-and-no-news-site-young-company-rewiring-italys-ageing-media-landscape",
-        "published": "2026-04-30",
-        "source": "Reuters Institute",
-        "section": "Audience / Distribution"
-      },
-      {
-        "title": "DaVinci Resolve 21 adds AI IntelliSearch, AI Slate ID, and deeper Blackmagic Cloud collaboration inside the core editorial workflow",
+        "title": "DaVinci Resolve 21 deepens AI semantic search, slate metadata extraction, and cloud-shared tags inside the editorial surface",
         "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
-        "published": "2026-05-15",
+        "published": "2026-05-20",
         "source": "Blackmagic Design",
         "section": "Technical"
       },
       {
-        "title": "Sony’s NAB 2026 direction pairs cloud media processing with C2PA-enabled capture and metadata-driven verification workflows",
-        "url": "https://www.provideocoalition.com/nab-show-2026-day-3-gear-glass-gimbals-best-in-show/",
-        "published": "2026-04-22",
+        "title": "Sony’s NAB 2026 workflow messaging keeps pushing camera-originated authenticity files and metadata through production and edit",
+        "url": "https://www.provideocoalition.com/sony-at-the-2026-nab-show-the-power-behind-your-story/",
+        "published": "2026-05-13",
         "source": "ProVideo Coalition / Sony",
         "section": "Technical"
-      },
-      {
-        "title": "Reuters says news podcasting growth is concentrating in video/hybrid and conversational show formats with younger, loyal, and more monetisable audiences",
-        "url": "https://reutersinstitute.politics.ox.ac.uk/news/our-podcast-whats-changing-world-news-podcasts",
-        "published": "2026-05-15",
-        "source": "Reuters Institute",
-        "section": "Audience / Distribution"
       }
     ]
   },
@@ -101,16 +94,16 @@
       "title": "Strategic",
       "items": [
         {
-          "title": "AI is becoming the primary interface for media consumption, which makes trust, context, attribution, and provenance more strategic than raw click volume.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/news/five-things-we-learned-newsrewired-2026-about-future-news",
-          "published": "2026-05-15",
+          "title": "Collective AI-rights and licensing frameworks are becoming a serious publisher response, which makes machine-readable rights and attribution metadata more operationally important.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/inside-news-industrys-efforts-join-forces-defend-its-journalism-ai-companies",
+          "published": "2026-05-19",
           "source": "Reuters Institute"
         },
         {
-          "title": "S4C’s Freely delivery stack is a good real-world reference for a lean, standards-aware connected-TV pipeline built on managed cloud media services.",
-          "url": "https://aws.amazon.com/blogs/media/s4c-on-freely-how-a-local-broadcaster-delivered-a-complex-live-tv-workflow-with-aws-elemental-media-services/",
-          "published": "2026-05-14",
-          "source": "AWS"
+          "title": "LucidLink is pushing file streaming as the primary access model for large-file teams, strengthening the copy-light workflow case.",
+          "url": "https://www.lucidlink.com/blog/file-streaming",
+          "published": "2026-05-13",
+          "source": "LucidLink"
         }
       ]
     },
@@ -118,15 +111,21 @@
       "title": "Technical",
       "items": [
         {
-          "title": "Blackmagic is tightening semantic search, slate metadata extraction, and cloud collaboration inside the core editorial surface rather than leaving them to side systems.",
+          "title": "AWS’s MPEG-H workflow shows cloud media pipelines can carry richer audio metadata, accessibility options, and personalized playback controls as part of the main production path.",
+          "url": "https://aws.amazon.com/blogs/media/unlocking-next-generation-audio-production-with-mpeg-h-on-aws/",
+          "published": "2026-05-14",
+          "source": "AWS"
+        },
+        {
+          "title": "Blackmagic is embedding semantic search, slate extraction, and collaboration-ready metadata directly into the editorial surface.",
           "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
-          "published": "2026-05-15",
+          "published": "2026-05-20",
           "source": "Blackmagic Design"
         },
         {
-          "title": "Sony’s direction keeps reinforcing capture-edge provenance and metadata-driven verification as part of the production ecosystem.",
-          "url": "https://www.provideocoalition.com/nab-show-2026-day-3-gear-glass-gimbals-best-in-show/",
-          "published": "2026-04-22",
+          "title": "Sony continues to push capture-edge authenticity and provenance through downstream workflow stages rather than treating them as post-hoc verification.",
+          "url": "https://www.provideocoalition.com/sony-at-the-2026-nab-show-the-power-behind-your-story/",
+          "published": "2026-05-13",
           "source": "ProVideo Coalition / Sony"
         }
       ]
@@ -135,13 +134,7 @@
       "title": "Audience / Distribution",
       "items": [
         {
-          "title": "Be Water’s no-website model is another strong sign that younger audiences can be aggregated profitably through platform-native audio/video brands rather than destination sites.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/news/audio-video-and-no-news-site-young-company-rewiring-italys-ageing-media-landscape",
-          "published": "2026-04-30",
-          "source": "Reuters Institute"
-        },
-        {
-          "title": "News podcasting is shifting toward video/hybrid, personality-led, and conversational show formats with stronger retention and monetisation logic.",
+          "title": "No materially stronger fresh audience/distribution datapoint emerged than the prior Reuters signals around video podcasts, platform-native brands, and AI-mediated discovery.",
           "url": "https://reutersinstitute.politics.ox.ac.uk/news/our-podcast-whats-changing-world-news-podcasts",
           "published": "2026-05-15",
           "source": "Reuters Institute"
@@ -152,9 +145,9 @@
       "title": "Watching",
       "items": [
         {
-          "title": "The pattern to recheck next cycle is whether provenance, semantic metadata, and platform-native packaging start appearing as one joined workflow story across MAM, cloud storage, and editorial vendors rather than as separate features.",
-          "url": "https://reutersinstitute.politics.ox.ac.uk/news/five-things-we-learned-newsrewired-2026-about-future-news",
-          "published": "2026-05-15",
+          "title": "Recheck whether rights metadata, provenance metadata, and workflow metadata start appearing as one explicit newsroom product story across MAM, storage, and editorial vendors.",
+          "url": "https://reutersinstitute.politics.ox.ac.uk/news/inside-news-industrys-efforts-join-forces-defend-its-journalism-ai-companies",
+          "published": "2026-05-19",
           "source": "Claw synthesis"
         }
       ]
